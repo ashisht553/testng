@@ -1,0 +1,59 @@
+﻿{"frames": {
+
+"tile_bonus_brown":
+{
+	"frame": {"x":10,"y":10,"w":200,"h":261},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":200,"h":261},
+	"sourceSize": {"w":200,"h":261}
+},
+"tile_bonus_green":
+{
+	"frame": {"x":220,"y":10,"w":216,"h":277},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":216,"h":277},
+	"sourceSize": {"w":216,"h":277}
+},
+"tile_bonus_red":
+{
+	"frame": {"x":10,"y":297,"w":216,"h":277},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":216,"h":277},
+	"sourceSize": {"w":216,"h":277}
+},
+"tile_brown":
+{
+	"frame": {"x":236,"y":297,"w":200,"h":200},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":200,"h":200},
+	"sourceSize": {"w":200,"h":200}
+},
+"tile_green":
+{
+	"frame": {"x":10,"y":584,"w":216,"h":216},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":216,"h":216},
+	"sourceSize": {"w":216,"h":216}
+},
+"tile_red":
+{
+	"frame": {"x":236,"y":584,"w":216,"h":216},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":216,"h":216},
+	"sourceSize": {"w":216,"h":216}
+}},
+"meta": {
+	"app": "Adobe Animate",
+	"version": "15.2.1.95",
+	"image": "tiles3x3.png",
+	"format": "RGBA8888",
+	"size": {"w":512,"h":1024},
+	"scale": "1"
+}
+}

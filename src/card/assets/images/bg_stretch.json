@@ -1,0 +1,51 @@
+﻿{"frames": {
+
+"bg_stretch0000":
+{
+	"frame": {"x":10,"y":10,"w":171,"h":80},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":44,"w":171,"h":124},
+	"sourceSize": {"w":171,"h":124}
+},
+"bg_stretch0001":
+{
+	"frame": {"x":191,"y":10,"w":153,"h":99},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":25,"w":171,"h":124},
+	"sourceSize": {"w":171,"h":124}
+},
+"bg_stretch0002":
+{
+	"frame": {"x":354,"y":10,"w":139,"h":113},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":11,"w":171,"h":124},
+	"sourceSize": {"w":171,"h":124}
+},
+"bg_stretch0003":
+{
+	"frame": {"x":10,"y":133,"w":131,"h":121},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":20,"y":3,"w":171,"h":124},
+	"sourceSize": {"w":171,"h":124}
+},
+"bg_stretch0004":
+{
+	"frame": {"x":151,"y":133,"w":129,"h":124},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":21,"y":0,"w":171,"h":124},
+	"sourceSize": {"w":171,"h":124}
+}},
+"meta": {
+	"app": "Adobe Animate",
+	"version": "15.2.1.95",
+	"image": "bg_stretch.png",
+	"format": "RGBA8888",
+	"size": {"w":512,"h":512},
+	"scale": "1"
+}
+}

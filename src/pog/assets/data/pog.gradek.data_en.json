@@ -1,0 +1,1031 @@
+{
+    "gameName":"POG",
+    "isbn":"PO-K-9781328795496",
+    "GameGuid":"4410305337",
+    "grade":"gk",
+    "gradeLabel":"Grade K",
+    "levelData":[
+        {
+            "id":"POGK-01",
+            "parentId":"",
+            "title":"Introducing Addition (Tutorial)",
+            "iterations":"1",
+            "members":[
+                [1, 1]
+            ],
+            "unknown":[1, 1],
+            "operation":{
+                "gameType":"Objects",
+                "operationType":"",
+                "factors":[
+                    [0],
+                    [null]
+                ]
+            },
+            "goodGuyTypes":[0],
+            "badGuyTypes":[0],
+            "bench":{
+                "possibleValues":[1, 1, 1, 1],
+                "isInfinite":false
+            },
+            "money":"",
+            "tutorial":{
+                "T1":false,
+                "T2":true,
+                "T3":true
+            }
+        },
+        {
+            "id":"POGK-01-01",
+            "parentId":"POGK-01",
+            "title":"Add 1-3",
+            "iterations":"1",
+            "members":[
+                [2, 2],
+                [1, 1]
+            ],
+            "unknown":[3, 3],
+            "operation":{
+                "gameType":"Objects",
+                "operationType":"",
+                "factors":[
+                    [0, 1],
+                    [null]
+                ]
+            },
+            "goodGuyTypes":[0],
+            "badGuyTypes":[0],
+            "bench":{
+                "possibleValues":[1, 1, 1, 1],
+                "isInfinite":false
+            },
+            "money":"",
+            "tutorial":{
+                "T1":"Object_MissingSum.mp4",
+                "T2":false,
+                "T3":false
+            }
+        },
+        {
+            "id":"POGK-02",
+            "parentId":"POGK-01-01",
+            "title":"Add 1-5",
+            "iterations":"3",
+            "members":[
+                [1, 4],
+                [1, 4]
+            ],
+            "unknown":[2, 5],
+            "operation":{
+                "gameType":"Objects",
+                "operationType":"",
+                "factors":[
+                    [0, 1],
+                    [null]
+                ]
+            },
+            "goodGuyTypes":[0],
+            "badGuyTypes":[0],
+            "bench":{
+                "possibleValues":[1, 1, 1, 1, 1],
+                "isInfinite":false
+            },
+            "money":"",
+            "tutorial":{
+                "T1":false,
+                "T2":false,
+                "T3":false
+            }
+        },
+        {
+            "id":"POGK-03",
+            "parentId":"POGK-02",
+            "title":"Add 1-9",
+            "iterations":"3",
+            "members":[
+                [1, 8],
+                [1, 8]
+            ],
+            "unknown":[2, 9],
+            "operation":{
+                "gameType":"Objects",
+                "operationType":"",
+                "factors":[
+                    [0, 1],
+                    [null]
+                ]
+            },
+            "goodGuyTypes":[0],
+            "badGuyTypes":[0],
+            "bench":{
+                "possibleValues":[1, 1, 1, 1, 1, 1, 1, 1, 1],
+                "isInfinite":false
+            },
+            "money":"",
+            "tutorial":{
+                "T1":false,
+                "T2":false,
+                "T3":false
+            }
+        },
+        {
+            "id":"POGK-05",
+            "parentId":"POGK-03",
+            "title":"Endless Bench",
+            "iterations":"3",
+            "members":[
+                [1, 8],
+                [1, 8]
+            ],
+            "unknown":[2, 9],
+            "operation":{
+                "gameType":"Objects",
+                "operationType":"",
+                "factors":[
+                    [0, 1],
+                    [null]
+                ]
+            },
+            "goodGuyTypes":[0],
+            "badGuyTypes":[0],
+            "bench":{
+                "possibleValues":[1],
+                "isInfinite":true
+            },
+            "money":"",
+            "tutorial":{
+                "T1":false,
+                "T2":false,
+                "T3":false
+            }
+        },
+        {
+            "id":"POGK-06",
+            "parentId":"POGK-05",
+            "title":"Add to 5",
+            "iterations":"3",
+            "members":[
+                [5, 5],
+                [1, 5]
+            ],
+            "unknown":[6, 10],
+            "operation":{
+                "gameType":"Objects",
+                "operationType":"",
+                "factors":[
+                    [0, 1],
+                    [null]
+                ]
+            },
+            "goodGuyTypes":[0],
+            "badGuyTypes":[0],
+            "bench":{
+                "possibleValues":[1],
+                "isInfinite":true
+            },
+            "money":"",
+            "tutorial":{
+                "T1":false,
+                "T2":false,
+                "T3":false
+            }
+        },
+        {
+            "id":"POGK-07",
+            "parentId":"POGK-06",
+            "title":"5-Groups (Tutorial)",
+            "iterations":"1",
+            "members":[
+                [2, 2],
+                [3, 3]
+            ],
+            "unknown":[5, 5],
+            "operation":{
+                "gameType":"Objects",
+                "operationType":"addition",
+                "factors":[
+                    [0, 1],
+                    [null]
+                ]
+            },
+            "goodGuyTypes":[1, 5],
+            "badGuyTypes":[1],
+            "bench":{
+                "possibleValues":[1, 5],
+                "isInfinite":true
+            },
+            "money":"",
+            "tutorial":{
+                "T1":"Object_5Guy.mp4",
+                "T2":false,
+                "T3":false
+            }
+        },
+        {
+            "id":"POGK-08",
+            "parentId":"POGK-07",
+            "title":"5-Groups",
+            "iterations":"3",
+            "members":[
+                [5, 5],
+                [1, 5]
+            ],
+            "unknown":[6, 10],
+            "operation":{
+                "gameType":"Objects",
+                "operationType":"addition",
+                "factors":[
+                    [0, 1],
+                    [null]
+                ]
+            },
+            "goodGuyTypes":[1, 5],
+            "badGuyTypes":[1, 5],
+            "bench":{
+                "possibleValues":[1, 5],
+                "isInfinite":true
+            },
+            "money":"",
+            "tutorial":{
+                "T1":false,
+                "T2":false,
+                "T3":false
+            }
+        },
+        {
+            "id":"POGK-09",
+            "parentId":"POGK-08",
+            "title":"The +1 Pattern",
+            "iterations":"3",
+            "members":[
+                [1, 9],
+                [1, 1]
+            ],
+            "unknown":[2, 10],
+            "operation":{
+                "gameType":"Objects",
+                "operationType":"addition",
+                "factors":[
+                    [0, 1],
+                    [null]
+                ]
+            },
+            "goodGuyTypes":[1, 5],
+            "badGuyTypes":[0],
+            "bench":{
+                "possibleValues":[1, 5],
+                "isInfinite":true
+            },
+            "money":"",
+            "tutorial":{
+                "T1":false,
+                "T2":false,
+                "T3":false
+            }
+        },
+        {
+            "id":"POGK-09-01",
+            "parentId":"POGK-09",
+            "title":"Reading Numerals (Tutorial)",
+            "iterations":"1",
+            "members":[
+                [3, 3],
+                [2, 2]
+            ],
+            "unknown":[5, 5],
+            "operation":{
+                "gameType":"Objects",
+                "operationType":"addition",
+                "factors":[
+                    [0, 1],
+                    [null]
+                ]
+            },
+            "goodGuyTypes":[1, 5, 10],
+            "badGuyTypes":[2],
+            "bench":{
+                "possibleValues":[1, 5, 10],
+                "isInfinite":false
+            },
+            "money":"",
+            "tutorial":{
+                "T1":"Object_GuysWthShirts.mp4",
+                "T2":false,
+                "T3":false
+            }
+        },
+        {
+            "id":"POGK-10",
+            "parentId":"POGK-09",
+            "title":"Partners Through 6",
+            "iterations":"3",
+            "members":[
+                [1, 5],
+                [1, 5]
+            ],
+            "unknown":[2, 6],
+            "operation":{
+                "gameType":"Objects",
+                "operationType":"addition",
+                "factors":[
+                    [0, 1],
+                    [null]
+                ]
+            },
+            "goodGuyTypes":[2],
+            "badGuyTypes":[0],
+            "bench":{
+                "possibleValues":[2, 3, 4, 5, 6],
+                "isInfinite":false
+            },
+            "money":"",
+            "tutorial":{
+                "T1":false,
+                "T2":false,
+                "T3":false
+            }
+        },
+        {
+            "id":"POGK-10-01",
+            "parentId":"POGK-10",
+            "title":"Ten Groups (Tutorial)",
+            "iterations":"1",
+            "members":[
+                [5, 5],
+                [5, 5]
+            ],
+            "unknown":[10, 10],
+            "operation":{
+                "gameType":"Objects",
+                "operationType":"addition",
+                "factors":[
+                    [0, 1],
+                    [null]
+                ]
+            },
+            "goodGuyTypes":[5, 10],
+            "badGuyTypes":[5],
+            "bench":{
+                "possibleValues":[1, 5, 10],
+                "isInfinite":false
+            },
+            "money":"",
+            "tutorial":{
+                "T1":"Object_10Guy.mp4",
+                "T2":false,
+                "T3":false
+            }
+        },
+        {
+            "id":"POGK-10-03",
+            "parentId":"POGK-10-01",
+            "title":"Tens in Teens",
+            "iterations":"3",
+            "members":[
+                [10, 10],
+                [1, 6]
+            ],
+            "unknown":[11, 16],
+            "operation":{
+                "gameType":"Objects",
+                "operationType":"addition",
+                "factors":[
+                    [0, 1],
+                    [null]
+                ]
+            },
+            "goodGuyTypes":[1, 10],
+            "badGuyTypes":[2],
+            "bench":{
+                "possibleValues":[1, 10],
+                "isInfinite":true
+            },
+            "money":"",
+            "tutorial":{
+                "T1":false,
+                "T2":false,
+                "T3":false
+            }
+        },
+        {
+            "id":"POGK-11",
+            "parentId":"POGK-10-03",
+            "title":"Teens Through 15",
+            "iterations":"3",
+            "members":[
+                [10, 10],
+                [1, 5]
+            ],
+            "unknown":[11, 15],
+            "operation":{
+                "gameType":"Objects",
+                "operationType":"addition",
+                "factors":[
+                    [0, 1],
+                    [null]
+                ]
+            },
+            "goodGuyTypes":[2],
+            "badGuyTypes":[2],
+            "bench":{
+                "possibleValues":[11, 12, 13, 14, 15],
+                "isInfinite":false
+            },
+            "money":"",
+            "tutorial":{
+                "T1":false,
+                "T2":false,
+                "T3":false
+            }
+        },
+        {
+            "id":"POGK-12",
+            "parentId":"POGK-11",
+            "title":"Teens Through 16",
+            "iterations":"3",
+            "members":[
+                [10, 10],
+                [1, 6]
+            ],
+            "unknown":[11, 16],
+            "operation":{
+                "gameType":"Objects",
+                "operationType":"addition",
+                "factors":[
+                    [0, 1],
+                    [null]
+                ]
+            },
+            "goodGuyTypes":[2],
+            "badGuyTypes":[2],
+            "bench":{
+                "possibleValues":[11, 12, 13, 14, 15, 16], 
+                "isInfinite":false
+            },
+            "money":"",
+            "tutorial":{
+                "T1":false,
+                "T2":false,
+                "T3":false
+            }
+        },
+        {
+            "id":"POGK-13",
+            "parentId":"POGK-12",
+            "title":"Partners Through 5",
+            "iterations":"3",
+            "members":[
+                [1, 4],
+                [1, 4]
+            ],
+            "unknown":[2, 5],
+            "operation":{
+                "gameType":"Objects",
+                "operationType":"addition",
+                "factors":[
+                    [0, 1],
+                    [null]
+                ]
+            },
+            "goodGuyTypes":[2],
+            "badGuyTypes":[2],
+            "bench":{
+                "possibleValues":[2, 3, 4, 5],
+                "isInfinite":false
+            },
+            "money":"",
+            "tutorial":{
+                "T1":false,
+                "T2":false,
+                "T3":false
+            }
+        },
+        {
+            "id":"POGK-15",
+            "parentId":"POGK-13",
+            "title":"Add Within 5",
+            "iterations":"3",
+            "members":[
+                [0, 5],
+                [0, 5]
+            ],
+            "unknown":[0, 5],
+            "operation":{
+                "gameType":"Objects",
+                "operationType":"addition",
+                "factors":[
+                    [0, 1],
+                    [null]
+                ]
+            },
+            "goodGuyTypes":[2],
+            "badGuyTypes":[2],
+            "bench":{
+                "possibleValues":[0, 1, 2, 3, 4, 5],
+                "isInfinite":false
+            },
+            "money":"",
+            "tutorial":{
+                "T1":false,
+                "T2":false,
+                "T3":false
+            }
+        },
+        {
+            "id":"POGK-17",
+            "parentId":"POGK-15",
+            "title":"Partners Through 9",
+            "iterations":"3",
+            "members":[
+                [1, 8],
+                [1, 8]
+            ],
+            "unknown":[2, 9],
+            "operation":{
+                "gameType":"Objects",
+                "operationType":"addition",
+                "factors":[
+                    [0, 1],
+                    [null]
+                ]
+            },
+            "goodGuyTypes":[2],
+            "badGuyTypes":[2],
+            "bench":{
+                "possibleValues":[2, 3, 4, 5, 6, 7, 8, 9],
+                "isInfinite":false
+            },
+            "money":"",
+            "tutorial":{
+                "T1":false,
+                "T2":false,
+                "T3":false
+            }
+        },
+        {
+            "id":"POGK-18",
+            "parentId":"POGK-17",
+            "title":"Finding Partners (Tutorial)",
+            "iterations":"1",
+            "members":[
+                [5, 5],
+                [2, 2]
+            ],
+            "unknown":[3, 3],
+            "operation":{
+                "gameType":"Objects",
+                "operationType":"addition",
+                "factors":[
+                    [0],
+                    [1, null]
+                ]
+            },
+            "goodGuyTypes":[0],
+            "badGuyTypes":[0],
+            "bench":{
+                "possibleValues":[1, 1, 1, 1],
+                "isInfinite":false
+            },
+            "money":"",
+            "tutorial":{
+                "T1":"Object_MissingAddend.mp4",
+                "T2":false,
+                "T3":false
+            }
+        },
+        {
+            "id":"POGK-19",
+            "parentId":"POGK-18",
+            "title":"Finding Partners Through 7",
+            "iterations":"3",
+            "members":[
+                [2, 7],
+                [1, 6]
+            ],
+            "unknown":[1, 6],
+            "operation":{
+                "gameType":"Objects",
+                "operationType":"addition",
+                "factors":[
+                    [0],
+                    [1, null]
+                ]
+            },
+            "goodGuyTypes":[0],
+            "badGuyTypes":[0],
+            "bench":{
+                "possibleValues":[1, 1, 1, 1, 1, 1],
+                "isInfinite":false
+            },
+            "money":"",
+            "tutorial":{
+                "T1":false,
+                "T2":false,
+                "T3":false
+            }
+        },
+        {
+            "id":"POGK-20",
+            "parentId":"POGK-19",
+            "title":"Finding Partners for 6 and 7",
+            "iterations":"3",
+            "members":[
+                [6, 7],
+                [1, 6]
+            ],
+            "unknown":[1, 6],
+            "operation":{
+                "gameType":"Objects",
+                "operationType":"addition",
+                "factors":[
+                    [0],
+                    [1, null]
+                ]
+            },
+            "goodGuyTypes":[0],
+            "badGuyTypes":[0],
+            "bench":{
+                "possibleValues":[1, 1, 1, 1, 1, 1],
+                "isInfinite":false
+            },
+            "money":"",
+            "tutorial":{
+                "T1":false,
+                "T2":false,
+                "T3":false
+            }
+        },
+        {
+            "id":"POGK-24",
+            "parentId":"POGK-23",
+            "title":"Partners of 10",
+            "iterations":"3",
+            "members":[
+                [10, 10],
+                [5, 9]
+            ],
+            "unknown":[1, 5],
+            "operation":{
+                "gameType":"Objects",
+                "operationType":"addition",
+                "factors":[
+                    [0],
+                    [1, null]
+                ]
+            },
+            "goodGuyTypes":[1, 5],
+            "badGuyTypes":[2],
+            "bench":{
+                "possibleValues":[1, 5],
+                "isInfinite":true
+            },
+            "money":"",
+            "tutorial":{
+                "T1":false,
+                "T2":false,
+                "T3":false
+            }
+        },
+        {
+            "id":"POGK-25",
+            "parentId":"POGK-24",
+            "title":"Partners of 7-10",
+            "iterations":"3",
+            "members":[
+                [7, 10],
+                [5, 9]
+            ],
+            "unknown":[1, 5],
+            "operation":{
+                "gameType":"Objects",
+                "operationType":"addition",
+                "factors":[
+                    [0],
+                    [1, null]
+                ]
+            },
+            "goodGuyTypes":[1, 5],
+            "badGuyTypes":[2],
+            "bench":{
+                "possibleValues":[1, 5],
+                "isInfinite":true
+            },
+            "money":"",
+            "tutorial":{
+                "T1":false,
+                "T2":false,
+                "T3":false
+            }
+        },
+        {
+            "id":"POGK-26",
+            "parentId":"POGK-25",
+            "title":"Tens + Ones",
+            "iterations":"3",
+            "members":[
+                [11, 19],
+                [10, 10]
+            ],
+            "unknown":[1, 9],
+            "operation":{
+                "gameType":"Objects",
+                "operationType":"addition",
+                "factors":[
+                    [0],
+                    [1, null]
+                ]
+            },
+            "goodGuyTypes":[2],
+            "badGuyTypes":[2],
+            "bench":{
+                "possibleValues":[1, 2, 3, 4, 5, 6, 7, 8, 9],
+                "isInfinite":false
+            },
+            "money":"",
+            "tutorial":{
+                "T1":false,
+                "T2":false,
+                "T3":false
+            }
+        },
+        {
+            "id":"POGK-28",
+            "parentId":"POGK-27",
+            "title":"Introduce Subtracting (Tutorial)",
+            "iterations":"1",
+            "members":[
+                [4, 4],
+                [3, 3]
+            ],
+            "unknown":[1, 1],
+            "operation":{
+                "gameType":"Numerals",
+                "operationType":"subtraction",
+                "factors":[
+                    [0, 1],
+                    [null]
+                ]
+            },
+            "goodGuyTypes":[2],
+            "badGuyTypes":[2],
+            "bench":{
+                "possibleValues":[1, 2, 3, 4],
+                "isInfinite":false
+            },
+            "money":"",
+            "tutorial":{
+                "T1":"Numerals_Subraction.mp4",
+                "T2":true,
+                "T3":false
+            }
+        },
+        {
+            "id":"POGK-29",
+            "parentId":"POGK-28",
+            "title":"Introduce Subtracting",
+            "iterations":"3",
+            "members":[
+                [2, 5],
+                [1, 4]
+            ],
+            "unknown":[1, 4],
+            "operation":{
+                "gameType":"Numerals",
+                "operationType":"subtraction",
+                "factors":[
+                    [0, 1],
+                    [null]
+                ]
+            },
+            "goodGuyTypes":[2],
+            "badGuyTypes":[2],
+            "bench":{
+                "possibleValues":[1, 2, 3, 4],
+                "isInfinite":false
+            },
+            "money":"",
+            "tutorial":{
+                "T1":false,
+                "T2":false,
+                "T3":false
+            }
+        },
+        {
+            "id":"POGK-30",
+            "parentId":"POGK-29",
+            "title":"Subtract Within 10",
+            "iterations":"3",
+            "members":[
+                [2, 10],
+                [1, 9]
+            ],
+            "unknown":[1, 9],
+            "operation":{
+                "gameType":"Numerals",
+                "operationType":"subtraction",
+                "factors":[
+                    [0, 1],
+                    [null]
+                ]
+            },
+            "goodGuyTypes":[2],
+            "badGuyTypes":[2],
+            "bench":{
+                "possibleValues":[1, 2, 3, 4, 5, 6, 7, 8, 9],
+                "isInfinite":false
+            },
+            "money":"",
+            "tutorial":{
+                "T1":false,
+                "T2":false,
+                "T3":false
+            }
+        },
+        {
+            "id":"POGK-31",
+            "parentId":"POGK-30",
+            "title":"Subtract 1",
+            "iterations":"3",
+            "members":[
+                [1, 9],
+                [1, 1]
+            ],
+            "unknown":[0, 8],
+            "operation":{
+                "gameType":"Numerals",
+                "operationType":"subtraction",
+                "factors":[
+                    [0, 1],
+                    [null]
+                ]
+            },
+            "goodGuyTypes":[2],
+            "badGuyTypes":[2],
+            "bench":{
+                "possibleValues":[0, 1, 2, 3, 4, 5, 6, 7, 8],
+                "isInfinite":false
+            },
+            "money":"",
+            "tutorial":{
+                "T1":false,
+                "T2":false,
+                "T3":false
+            }
+        },
+        {
+            "id":"POGK-32",
+            "parentId":"POGK-31",
+            "title":"Bonus Level 1",
+            "iterations":"3",
+            "members":[
+                [6, 18, {"multiple": 2}]
+            ],
+            "unknown":[6, 18, {"multiple": 2}],
+            "operation":{
+                "gameType":"Objects",
+                "operationType":"addition",
+                "factors":[
+                    [0],
+                    [null]
+                ]
+            },
+            "goodGuyTypes":[2],
+            "badGuyTypes":[2],
+            "bench":{
+                "possibleValues":[2],
+                "isInfinite":true
+            },
+            "money":"",
+            "tutorial":{
+                "T1":false,
+                "T2":false,
+                "T3":false
+            }
+        },
+        {
+            "id":"POGK-33",
+            "parentId":"POGK-32",
+            "title":"Bonus Level 2",
+            "iterations":"3",
+            "members":[
+                [3, 15]
+            ],
+            "unknown":[3, 15],
+            "operation":{
+                "gameType":"Objects",
+                "operationType":"addition",
+                "factors":[
+                    [0],
+                    [null]
+                ]
+            },
+            "goodGuyTypes":[2],
+            "badGuyTypes":[2],
+            "bench":{
+                "possibleValues":[1, 2, 4, 8],
+                "isInfinite":false
+            },
+            "money":"",
+            "tutorial":{
+                "T1":false,
+                "T2":false,
+                "T3":false
+            }
+        },
+        {
+            "id":"POGK-34",
+            "parentId":"POGK-33",
+            "title":"Bonus Level 3",
+            "iterations":"3",
+            "members":[
+                [4, 12]
+            ],
+            "unknown":[4, 12],
+            "operation":{
+                "gameType":"Objects",
+                "operationType":"addition",
+                "factors":[
+                    [0],
+                    [null]
+                ]
+            },
+            "goodGuyTypes":[2],
+            "badGuyTypes":[2],
+            "bench":{
+                "possibleValues":[1, 3, 4, 5, 7],
+                "isInfinite":false
+            },
+            "money":"",
+            "tutorial":{
+                "T1":false,
+                "T2":false,
+                "T3":false
+            }
+        },
+        {
+            "id":"POGK-35",
+            "parentId":"POGK-34",
+            "title":"Bonus Level 4",
+            "iterations":"3",
+            "members":[
+                [0, 5],
+                [0, 5],
+                [0, 5]
+            ],
+            "unknown":[6, 9],
+            "operation":{
+                "gameType":"Objects",
+                "operationType":"addition",
+                "factors":[
+                    [0, 1, 2],
+                    [null]
+                ]
+            },
+            "goodGuyTypes":[2],
+            "badGuyTypes":[2],
+            "bench":{
+                "possibleValues":[6, 7, 8, 9],
+                "isInfinite":false
+            },
+            "money":"",
+            "tutorial":{
+                "T1":false,
+                "T2":false,
+                "T3":false
+            }
+        },
+        {
+            "id":"POGK-36",
+            "parentId":"POGK-35",
+            "title":"Bonus Level 5",
+            "iterations":"3",
+            "members":[
+                [0, 5],
+                [0, 5],
+                [0, 5],
+                [0, 5]
+            ],
+            "unknown":[5, 9],
+            "operation":{
+                "gameType":"Objects",
+                "operationType":"addition",
+                "factors":[
+                    [0, 1, 2, 3],
+                    [null]
+                ]
+            },
+            "goodGuyTypes":[2],
+            "badGuyTypes":[2],
+            "bench":{
+                "possibleValues":[5, 6, 7, 8, 9],
+                "isInfinite":false
+            },
+            "money":"",
+            "tutorial":{
+                "T1":false,
+                "T2":false,
+                "T3":false
+            }        
+        }
+    ]
+}

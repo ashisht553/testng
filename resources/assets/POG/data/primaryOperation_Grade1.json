@@ -1,0 +1,3493 @@
+[
+    {
+        "ID": "ONEPO01", 
+        "grade": "1", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "3", 
+        "members": [
+            {
+                "upper": "4", 
+                "lower": "1"
+            }, 
+            {
+                "upper": "4", 
+                "lower": "1"
+            }
+        ], 
+        "operationType": {
+            "representation": "U = x + y  ", 
+            "id": "0"
+        }, 
+        "unknown": {
+            "position": "0", 
+            "lower": "2", 
+            "upper": "5"
+        }, 
+        "goodGuyTypes": [
+            0
+        ], 
+        "badGuyTypes": [
+            0
+        ], 
+        "bench": {
+            "possibleValues": [], 
+            "isInfinite": false, 
+            "startNumber": "5"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": false, 
+            "variationGoodPercent": "0"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "1"
+                ], 
+                "unit": "1"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "ONEPO02", 
+        "grade": "1", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "5", 
+        "members": [
+            {
+                "upper": "4", 
+                "lower": "1"
+            }, 
+            {
+                "upper": "4", 
+                "lower": "1"
+            }
+        ], 
+        "operationType": {
+            "representation": "U = x + y  ", 
+            "id": "0"
+        }, 
+        "unknown": {
+            "position": "0", 
+            "lower": "2", 
+            "upper": "5"
+        }, 
+        "goodGuyTypes": [
+            0
+        ], 
+        "badGuyTypes": [
+            0
+        ], 
+        "bench": {
+            "possibleValues": [], 
+            "isInfinite": false, 
+            "startNumber": "5"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": false, 
+            "variationGoodPercent": "0"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "1"
+                ], 
+                "unit": "1"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "ONEPO03", 
+        "grade": "1", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "5", 
+        "members": [
+            {
+                "upper": "9", 
+                "lower": "1"
+            }, 
+            {
+                "upper": "9", 
+                "lower": "1"
+            }
+        ], 
+        "operationType": {
+            "representation": "U = x + y  ", 
+            "id": "0"
+        }, 
+        "unknown": {
+            "position": "0", 
+            "lower": "2", 
+            "upper": "10"
+        }, 
+        "goodGuyTypes": [
+            0
+        ], 
+        "badGuyTypes": [
+            0
+        ], 
+        "bench": {
+            "possibleValues": [], 
+            "isInfinite": true, 
+            "startNumber": "9"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": false, 
+            "variationGoodPercent": "0"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "1;1", 
+                    "3", 
+                    "8"
+                ], 
+                "unit": "1;2"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "ONEPO04", 
+        "grade": "1", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "3", 
+        "members": [
+            {
+                "upper": "5", 
+                "lower": "5"
+            }, 
+            {
+                "upper": "5", 
+                "lower": "1"
+            }
+        ], 
+        "operationType": {
+            "representation": "U = x + y  ", 
+            "id": "0"
+        }, 
+        "unknown": {
+            "position": "0", 
+            "lower": "6", 
+            "upper": "10"
+        }, 
+        "goodGuyTypes": [
+            0, 
+            1
+        ], 
+        "badGuyTypes": [
+            0, 
+            1
+        ], 
+        "bench": {
+            "possibleValues": [], 
+            "isInfinite": true, 
+            "startNumber": "2"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": false, 
+            "variationGoodPercent": "0"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "2;3"
+                ], 
+                "unit": "1;2"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "ONEPO05", 
+        "grade": "1", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "5", 
+        "members": [
+            {
+                "upper": "5", 
+                "lower": "5"
+            }, 
+            {
+                "upper": "5", 
+                "lower": "1"
+            }
+        ], 
+        "operationType": {
+            "representation": "U = x + y  ", 
+            "id": "0"
+        }, 
+        "unknown": {
+            "position": "0", 
+            "lower": "6", 
+            "upper": "10"
+        }, 
+        "goodGuyTypes": [
+            0, 
+            1
+        ], 
+        "badGuyTypes": [
+            0, 
+            1
+        ], 
+        "bench": {
+            "possibleValues": [], 
+            "isInfinite": true, 
+            "startNumber": "2"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": false, 
+            "variationGoodPercent": "0"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "2;3"
+                ], 
+                "unit": "1;2"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "ONEPO06", 
+        "grade": "1", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "3", 
+        "members": [
+            {
+                "upper": "4", 
+                "lower": "0"
+            }, 
+            {
+                "upper": "4", 
+                "lower": "4"
+            }
+        ], 
+        "operationType": {
+            "representation": "U = x + y  ", 
+            "id": "0"
+        }, 
+        "unknown": {
+            "position": "2", 
+            "lower": "0", 
+            "upper": "4"
+        }, 
+        "goodGuyTypes": [
+            4
+        ], 
+        "badGuyTypes": [
+            4
+        ], 
+        "bench": {
+            "possibleValues": [
+                "0", 
+                "1", 
+                "2", 
+                "3", 
+                "4"
+            ], 
+            "isInfinite": false, 
+            "startNumber": "5"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": false, 
+            "variationGoodPercent": "0"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "3"
+                ], 
+                "unit": "1"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "ONEPO07", 
+        "grade": "1", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "5", 
+        "members": [
+            {
+                "upper": "4", 
+                "lower": "0"
+            }, 
+            {
+                "upper": "4", 
+                "lower": "4"
+            }
+        ], 
+        "operationType": {
+            "representation": "x = U + y or  x = y + U", 
+            "id": "1"
+        }, 
+        "unknown": {
+            "position": "2", 
+            "lower": "0", 
+            "upper": "4"
+        }, 
+        "goodGuyTypes": [
+            4
+        ], 
+        "badGuyTypes": [
+            4
+        ], 
+        "bench": {
+            "possibleValues": [
+                "0", 
+                "1", 
+                "2", 
+                "3", 
+                "4"
+            ], 
+            "isInfinite": false, 
+            "startNumber": "5"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": false, 
+            "variationGoodPercent": "0"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "3"
+                ], 
+                "unit": "1"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "ONEPO08", 
+        "grade": "1", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "5", 
+        "members": [
+            {
+                "upper": "4", 
+                "lower": "1"
+            }, 
+            {
+                "upper": "5", 
+                "lower": "5"
+            }
+        ], 
+        "operationType": {
+            "representation": "x = U + y or  x = y + U", 
+            "id": "1"
+        }, 
+        "unknown": {
+            "position": "2", 
+            "lower": "1", 
+            "upper": "4"
+        }, 
+        "goodGuyTypes": [
+            4
+        ], 
+        "badGuyTypes": [
+            4
+        ], 
+        "bench": {
+            "possibleValues": [
+                "1", 
+                "2", 
+                "3", 
+                "4"
+            ], 
+            "isInfinite": false, 
+            "startNumber": "4"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": false, 
+            "variationGoodPercent": "20"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "3"
+                ], 
+                "unit": "1"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "ONEPO09", 
+        "grade": "1", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "5", 
+        "members": [
+            {
+                "upper": "5", 
+                "lower": "1"
+            }, 
+            {
+                "upper": "6", 
+                "lower": "6"
+            }
+        ], 
+        "operationType": {
+            "representation": "x = U + y or  x = y + U", 
+            "id": "1"
+        }, 
+        "unknown": {
+            "position": "2", 
+            "lower": "1", 
+            "upper": "5"
+        }, 
+        "goodGuyTypes": [
+            4
+        ], 
+        "badGuyTypes": [
+            4
+        ], 
+        "bench": {
+            "possibleValues": [
+                "1", 
+                "2", 
+                "3", 
+                "4", 
+                "5"
+            ], 
+            "isInfinite": false, 
+            "startNumber": "5"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": false, 
+            "variationGoodPercent": "30"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "4"
+                ], 
+                "unit": "1"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "ONEPO10", 
+        "grade": "1", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "5", 
+        "members": [
+            {
+                "upper": "6", 
+                "lower": "1"
+            }, 
+            {
+                "upper": "7", 
+                "lower": "7"
+            }
+        ], 
+        "operationType": {
+            "representation": "x = U + y or  x = y + U", 
+            "id": "1"
+        }, 
+        "unknown": {
+            "position": "2", 
+            "lower": "1", 
+            "upper": "6"
+        }, 
+        "goodGuyTypes": [
+            4
+        ], 
+        "badGuyTypes": [
+            4
+        ], 
+        "bench": {
+            "possibleValues": [
+                "1", 
+                "2", 
+                "3", 
+                "4", 
+                "5", 
+                "6"
+            ], 
+            "isInfinite": false, 
+            "startNumber": "9"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": false, 
+            "variationGoodPercent": "40"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "5"
+                ], 
+                "unit": "1"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "ONEPO11", 
+        "grade": "1", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "5", 
+        "members": [
+            {
+                "upper": "7", 
+                "lower": "1"
+            }, 
+            {
+                "upper": "8", 
+                "lower": "8"
+            }
+        ], 
+        "operationType": {
+            "representation": "x = U + y or  x = y + U", 
+            "id": "1"
+        }, 
+        "unknown": {
+            "position": "2", 
+            "lower": "1", 
+            "upper": "7"
+        }, 
+        "goodGuyTypes": [
+            4
+        ], 
+        "badGuyTypes": [
+            4
+        ], 
+        "bench": {
+            "possibleValues": [
+                "1", 
+                "2", 
+                "3", 
+                "4", 
+                "5", 
+                "6", 
+                "7"
+            ], 
+            "isInfinite": false, 
+            "startNumber": "9"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": true, 
+            "variationGoodPercent": "50"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "6"
+                ], 
+                "unit": "1"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "ONEPO12", 
+        "grade": "1", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "5", 
+        "members": [
+            {
+                "upper": "8", 
+                "lower": "1"
+            }, 
+            {
+                "upper": "9", 
+                "lower": "9"
+            }
+        ], 
+        "operationType": {
+            "representation": "x = U + y or  x = y + U", 
+            "id": "1"
+        }, 
+        "unknown": {
+            "position": "2", 
+            "lower": "1", 
+            "upper": "8"
+        }, 
+        "goodGuyTypes": [
+            4
+        ], 
+        "badGuyTypes": [
+            4
+        ], 
+        "bench": {
+            "possibleValues": [
+                "1", 
+                "2", 
+                "3", 
+                "4", 
+                "5", 
+                "6", 
+                "7", 
+                "8"
+            ], 
+            "isInfinite": false, 
+            "startNumber": "9"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": true, 
+            "variationGoodPercent": "50"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "7"
+                ], 
+                "unit": "1"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "ONEPO13", 
+        "grade": "1", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "5", 
+        "members": [
+            {
+                "upper": "9", 
+                "lower": "1"
+            }, 
+            {
+                "upper": "10", 
+                "lower": "10"
+            }
+        ], 
+        "operationType": {
+            "representation": "x = U + y or  x = y + U", 
+            "id": "1"
+        }, 
+        "unknown": {
+            "position": "2", 
+            "lower": "1", 
+            "upper": "9"
+        }, 
+        "goodGuyTypes": [
+            4
+        ], 
+        "badGuyTypes": [
+            4
+        ], 
+        "bench": {
+            "possibleValues": [
+                "1", 
+                "2", 
+                "3", 
+                "4", 
+                "5", 
+                "6", 
+                "7", 
+                "8", 
+                "9"
+            ], 
+            "isInfinite": false, 
+            "startNumber": "9"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": true, 
+            "variationGoodPercent": "50"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "8"
+                ], 
+                "unit": "1"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "ONEPO14", 
+        "grade": "1", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "5", 
+        "members": [
+            {
+                "upper": "9", 
+                "lower": "0"
+            }, 
+            {
+                "upper": "10", 
+                "lower": "2"
+            }
+        ], 
+        "operationType": {
+            "representation": "U = x + y  ", 
+            "id": "0"
+        }, 
+        "unknown": {
+            "position": "2", 
+            "lower": "1", 
+            "upper": "3"
+        }, 
+        "goodGuyTypes": [
+            4
+        ], 
+        "badGuyTypes": [
+            4
+        ], 
+        "bench": {
+            "possibleValues": [
+                "2", 
+                "3", 
+                "4", 
+                "5", 
+                "6", 
+                "7", 
+                "8", 
+                "9", 
+                "10"
+            ], 
+            "isInfinite": false, 
+            "startNumber": "9"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": true, 
+            "variationGoodPercent": "0"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "6", 
+                    "7"
+                ], 
+                "unit": "2"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "ONEPO15", 
+        "grade": "1", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "5", 
+        "members": [
+            {
+                "upper": "5", 
+                "lower": "2"
+            }, 
+            {
+                "upper": "4", 
+                "lower": "1"
+            }
+        ], 
+        "operationType": {
+            "representation": "U = x - y", 
+            "id": "2"
+        }, 
+        "unknown": {
+            "position": "0", 
+            "lower": "1", 
+            "upper": "4"
+        }, 
+        "goodGuyTypes": [
+            0
+        ], 
+        "badGuyTypes": [
+            0
+        ], 
+        "bench": {
+            "possibleValues": [], 
+            "isInfinite": false, 
+            "startNumber": "4"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": true, 
+            "variationGoodPercent": "0"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "10"
+                ], 
+                "unit": "2"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "ONEPO16", 
+        "grade": "1", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "5", 
+        "members": [
+            {
+                "upper": "10", 
+                "lower": "2"
+            }, 
+            {
+                "upper": "9", 
+                "lower": "1"
+            }
+        ], 
+        "operationType": {
+            "representation": "U = x - y", 
+            "id": "2"
+        }, 
+        "unknown": {
+            "position": "0", 
+            "lower": "1", 
+            "upper": "9"
+        }, 
+        "goodGuyTypes": [
+            0
+        ], 
+        "badGuyTypes": [
+            0
+        ], 
+        "bench": {
+            "possibleValues": [], 
+            "isInfinite": false, 
+            "startNumber": "9"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": true, 
+            "variationGoodPercent": "0"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "10", 
+                    "11;6", 
+                    "8"
+                ], 
+                "unit": "2;3"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "ONEPO17", 
+        "grade": "1", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "5", 
+        "members": [
+            {
+                "upper": "8", 
+                "lower": "0"
+            }, 
+            {
+                "upper": "8", 
+                "lower": "0"
+            }
+        ], 
+        "operationType": {
+            "representation": "U = x - y", 
+            "id": "2"
+        }, 
+        "unknown": {
+            "position": "0", 
+            "lower": "0", 
+            "upper": "8"
+        }, 
+        "goodGuyTypes": [
+            4
+        ], 
+        "badGuyTypes": [
+            4
+        ], 
+        "bench": {
+            "possibleValues": [
+                "0", 
+                "1", 
+                "2", 
+                "3", 
+                "4", 
+                "5", 
+                "6", 
+                "7", 
+                "8"
+            ], 
+            "isInfinite": false, 
+            "startNumber": "9"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": false, 
+            "variationGoodPercent": "50"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "12"
+                ], 
+                "unit": "2"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "ONEPO18", 
+        "grade": "1", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "5", 
+        "members": [
+            {
+                "upper": "20", 
+                "lower": "2"
+            }, 
+            {
+                "upper": "20", 
+                "lower": "2"
+            }
+        ], 
+        "operationType": {
+            "representation": "U = x - y", 
+            "id": "2"
+        }, 
+        "unknown": {
+            "position": "0", 
+            "lower": "2", 
+            "upper": "18"
+        }, 
+        "goodGuyTypes": [
+            4
+        ], 
+        "badGuyTypes": [
+            4
+        ], 
+        "bench": {
+            "possibleValues": [
+                "2", 
+                "4", 
+                "6", 
+                "8", 
+                "10", 
+                "12", 
+                "14", 
+                "16", 
+                "18"
+            ], 
+            "isInfinite": false, 
+            "startNumber": "9"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": false, 
+            "variationGoodPercent": "50"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [], 
+        "comment": ""
+    }, 
+    {
+        "ID": "ONEPO19", 
+        "grade": "1", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "5", 
+        "members": [
+            {
+                "upper": "4", 
+                "lower": "1"
+            }, 
+            {
+                "upper": "5", 
+                "lower": "2"
+            }
+        ], 
+        "operationType": {
+            "representation": "x = U + y or  x = y + U", 
+            "id": "1"
+        }, 
+        "unknown": {
+            "position": "2", 
+            "lower": "1", 
+            "upper": "4"
+        }, 
+        "goodGuyTypes": [
+            0
+        ], 
+        "badGuyTypes": [
+            0
+        ], 
+        "bench": {
+            "possibleValues": [], 
+            "isInfinite": false, 
+            "startNumber": "4"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": true, 
+            "variationGoodPercent": "0"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "1"
+                ], 
+                "unit": "3"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "ONEPO20", 
+        "grade": "1", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "5", 
+        "members": [
+            {
+                "upper": "9", 
+                "lower": "1"
+            }, 
+            {
+                "upper": "10", 
+                "lower": "2"
+            }
+        ], 
+        "operationType": {
+            "representation": "x = U + y or  x = y + U", 
+            "id": "1"
+        }, 
+        "unknown": {
+            "position": "2", 
+            "lower": "1", 
+            "upper": "9"
+        }, 
+        "goodGuyTypes": [
+            0
+        ], 
+        "badGuyTypes": [
+            0
+        ], 
+        "bench": {
+            "possibleValues": [], 
+            "isInfinite": false, 
+            "startNumber": "9"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": true, 
+            "variationGoodPercent": "20"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "1"
+                ], 
+                "unit": "3"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "ONEPO21", 
+        "grade": "1", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "5", 
+        "members": [
+            {
+                "upper": "8", 
+                "lower": "1"
+            }, 
+            {
+                "upper": "8", 
+                "lower": "8"
+            }
+        ], 
+        "operationType": {
+            "representation": "x = U + y or  x = y + U", 
+            "id": "1"
+        }, 
+        "unknown": {
+            "position": "2", 
+            "lower": "0", 
+            "upper": "7"
+        }, 
+        "goodGuyTypes": [
+            4
+        ], 
+        "badGuyTypes": [
+            4
+        ], 
+        "bench": {
+            "possibleValues": [
+                "0", 
+                "1", 
+                "2", 
+                "3", 
+                "4", 
+                "5", 
+                "6", 
+                "7"
+            ], 
+            "isInfinite": false, 
+            "startNumber": "8"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": true, 
+            "variationGoodPercent": "0"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "1", 
+                    "3"
+                ], 
+                "unit": "3"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "ONEPO22", 
+        "grade": "1", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "5", 
+        "members": [
+            {
+                "upper": "9", 
+                "lower": "1"
+            }, 
+            {
+                "upper": "9", 
+                "lower": "9"
+            }
+        ], 
+        "operationType": {
+            "representation": "x = U + y or  x = y + U", 
+            "id": "1"
+        }, 
+        "unknown": {
+            "position": "2", 
+            "lower": "0", 
+            "upper": "8"
+        }, 
+        "goodGuyTypes": [
+            4
+        ], 
+        "badGuyTypes": [
+            4
+        ], 
+        "bench": {
+            "possibleValues": [
+                "0", 
+                "1", 
+                "2", 
+                "3", 
+                "4", 
+                "5", 
+                "6", 
+                "7", 
+                "8"
+            ], 
+            "isInfinite": false, 
+            "startNumber": "9"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": true, 
+            "variationGoodPercent": "20"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "1", 
+                    "3"
+                ], 
+                "unit": "3"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "ONEPO23", 
+        "grade": "1", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "5", 
+        "members": [
+            {
+                "upper": "9", 
+                "lower": "1"
+            }, 
+            {
+                "upper": "10", 
+                "lower": "10"
+            }
+        ], 
+        "operationType": {
+            "representation": "x = U + y or  x = y + U", 
+            "id": "1"
+        }, 
+        "unknown": {
+            "position": "2", 
+            "lower": "1", 
+            "upper": "9"
+        }, 
+        "goodGuyTypes": [
+            4
+        ], 
+        "badGuyTypes": [
+            4
+        ], 
+        "bench": {
+            "possibleValues": [
+                "1", 
+                "2", 
+                "3", 
+                "4", 
+                "5", 
+                "6", 
+                "7", 
+                "8", 
+                "9"
+            ], 
+            "isInfinite": false, 
+            "startNumber": "9"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": true, 
+            "variationGoodPercent": "50"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "1", 
+                    "3"
+                ], 
+                "unit": "3"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "ONEPO24", 
+        "grade": "1", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "3", 
+        "members": [
+            {
+                "upper": "40", 
+                "lower": "10"
+            }, 
+            {
+                "upper": "40", 
+                "lower": "10"
+            }
+        ], 
+        "operationType": {
+            "representation": "U = x + y  ", 
+            "id": "0"
+        }, 
+        "unknown": {
+            "position": "0", 
+            "lower": "20", 
+            "upper": "50"
+        }, 
+        "goodGuyTypes": [
+            2
+        ], 
+        "badGuyTypes": [
+            2
+        ], 
+        "bench": {
+            "possibleValues": [], 
+            "isInfinite": false, 
+            "startNumber": "5"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": false, 
+            "variationGoodPercent": "0"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "1"
+                ], 
+                "unit": "4"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "ONEPO25", 
+        "grade": "1", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "5", 
+        "members": [
+            {
+                "upper": "40", 
+                "lower": "10"
+            }, 
+            {
+                "upper": "40", 
+                "lower": "10"
+            }
+        ], 
+        "operationType": {
+            "representation": "U = x + y  ", 
+            "id": "0"
+        }, 
+        "unknown": {
+            "position": "0", 
+            "lower": "20", 
+            "upper": "50"
+        }, 
+        "goodGuyTypes": [
+            2
+        ], 
+        "badGuyTypes": [
+            2
+        ], 
+        "bench": {
+            "possibleValues": [], 
+            "isInfinite": false, 
+            "startNumber": "5"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": false, 
+            "variationGoodPercent": "0"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "1"
+                ], 
+                "unit": "4"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "ONEPO26", 
+        "grade": "1", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "5", 
+        "members": [
+            {
+                "upper": "90", 
+                "lower": "10"
+            }, 
+            {
+                "upper": "90", 
+                "lower": "10"
+            }
+        ], 
+        "operationType": {
+            "representation": "U = x + y  ", 
+            "id": "0"
+        }, 
+        "unknown": {
+            "position": "0", 
+            "lower": "20", 
+            "upper": "100"
+        }, 
+        "goodGuyTypes": [
+            2
+        ], 
+        "badGuyTypes": [
+            2
+        ], 
+        "bench": {
+            "possibleValues": [], 
+            "isInfinite": false, 
+            "startNumber": "9"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": false, 
+            "variationGoodPercent": "0"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "1"
+                ], 
+                "unit": "4"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "ONEPO27", 
+        "grade": "1", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "5", 
+        "members": [
+            {
+                "upper": "18", 
+                "lower": "1"
+            }, 
+            {
+                "upper": "18", 
+                "lower": "1"
+            }
+        ], 
+        "operationType": {
+            "representation": "U = x + y  ", 
+            "id": "0"
+        }, 
+        "unknown": {
+            "position": "0", 
+            "lower": "11", 
+            "upper": "19"
+        }, 
+        "goodGuyTypes": [
+            4
+        ], 
+        "badGuyTypes": [
+            4
+        ], 
+        "bench": {
+            "possibleValues": [
+                "11", 
+                "12", 
+                "13", 
+                "14", 
+                "15", 
+                "16", 
+                "17", 
+                "18", 
+                "19"
+            ], 
+            "isInfinite": false, 
+            "startNumber": "9"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": true, 
+            "variationGoodPercent": "30"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "6"
+                ], 
+                "unit": "4;6"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "ONEPO28", 
+        "grade": "1", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "5", 
+        "members": [
+            {
+                "upper": "18", 
+                "lower": "0"
+            }, 
+            {
+                "upper": "18", 
+                "lower": "0"
+            }
+        ], 
+        "operationType": {
+            "representation": "U = x + y  ", 
+            "id": "0"
+        }, 
+        "unknown": {
+            "position": "0", 
+            "lower": "2", 
+            "upper": "20"
+        }, 
+        "goodGuyTypes": [
+            4
+        ], 
+        "badGuyTypes": [
+            4
+        ], 
+        "bench": {
+            "possibleValues": [
+                "2", 
+                "4", 
+                "6", 
+                "8", 
+                "10", 
+                "12", 
+                "14", 
+                "16", 
+                "18", 
+                "20"
+            ], 
+            "isInfinite": false, 
+            "startNumber": "9"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": true, 
+            "variationGoodPercent": "30"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "5"
+                ], 
+                "unit": "4"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "ONEPO29", 
+        "grade": "1", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "5", 
+        "members": [
+            {
+                "upper": "10", 
+                "lower": "4"
+            }, 
+            {
+                "upper": "10", 
+                "lower": "4"
+            }
+        ], 
+        "operationType": {
+            "representation": "U = x + y  ", 
+            "id": "0"
+        }, 
+        "unknown": {
+            "position": "0", 
+            "lower": "8", 
+            "upper": "20"
+        }, 
+        "goodGuyTypes": [
+            4
+        ], 
+        "badGuyTypes": [
+            4
+        ], 
+        "bench": {
+            "possibleValues": [
+                "8", 
+                "10", 
+                "12", 
+                "14", 
+                "16", 
+                "18", 
+                "20"
+            ], 
+            "isInfinite": false, 
+            "startNumber": "7"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": false, 
+            "variationGoodPercent": "0"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "6"
+                ], 
+                "unit": "4"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "ONEPO30", 
+        "grade": "1", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "5", 
+        "members": [
+            {
+                "upper": "9", 
+                "lower": "4"
+            }, 
+            {
+                "upper": "10", 
+                "lower": "5"
+            }
+        ], 
+        "operationType": {
+            "representation": "U = x + y  ", 
+            "id": "0"
+        }, 
+        "unknown": {
+            "position": "0", 
+            "lower": "9", 
+            "upper": "19"
+        }, 
+        "goodGuyTypes": [
+            4
+        ], 
+        "badGuyTypes": [
+            4
+        ], 
+        "bench": {
+            "possibleValues": [
+                "9", 
+                "11", 
+                "13", 
+                "15", 
+                "17", 
+                "19"
+            ], 
+            "isInfinite": false, 
+            "startNumber": "6"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": false, 
+            "variationGoodPercent": "0"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "6"
+                ], 
+                "unit": "4"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "ONEPO31", 
+        "grade": "1", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "5", 
+        "members": [
+            {
+                "upper": "10", 
+                "lower": "4"
+            }, 
+            {
+                "upper": "9", 
+                "lower": "3"
+            }
+        ], 
+        "operationType": {
+            "representation": "U = x + y  ", 
+            "id": "0"
+        }, 
+        "unknown": {
+            "position": "0", 
+            "lower": "7", 
+            "upper": "19"
+        }, 
+        "goodGuyTypes": [
+            4
+        ], 
+        "badGuyTypes": [
+            4
+        ], 
+        "bench": {
+            "possibleValues": [
+                "7", 
+                "9", 
+                "11", 
+                "13", 
+                "15", 
+                "17", 
+                "19"
+            ], 
+            "isInfinite": false, 
+            "startNumber": "7"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": false, 
+            "variationGoodPercent": "0"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "6"
+                ], 
+                "unit": "4"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "ONEPO32", 
+        "grade": "1", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "5", 
+        "members": [
+            {
+                "upper": "8", 
+                "lower": "4"
+            }, 
+            {
+                "upper": "10", 
+                "lower": "6"
+            }
+        ], 
+        "operationType": {
+            "representation": "U = x + y  ", 
+            "id": "0"
+        }, 
+        "unknown": {
+            "position": "0", 
+            "lower": "10", 
+            "upper": "18"
+        }, 
+        "goodGuyTypes": [
+            4
+        ], 
+        "badGuyTypes": [
+            4
+        ], 
+        "bench": {
+            "possibleValues": [
+                "10", 
+                "12", 
+                "14", 
+                "16", 
+                "18"
+            ], 
+            "isInfinite": false, 
+            "startNumber": "5"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": false, 
+            "variationGoodPercent": "0"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "6"
+                ], 
+                "unit": "4"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "ONEPO33", 
+        "grade": "1", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "5", 
+        "members": [
+            {
+                "upper": "10", 
+                "lower": "4"
+            }, 
+            {
+                "upper": "8", 
+                "lower": "2"
+            }
+        ], 
+        "operationType": {
+            "representation": "U = x + y  ", 
+            "id": "0"
+        }, 
+        "unknown": {
+            "position": "0", 
+            "lower": "6", 
+            "upper": "18"
+        }, 
+        "goodGuyTypes": [
+            4
+        ], 
+        "badGuyTypes": [
+            4
+        ], 
+        "bench": {
+            "possibleValues": [
+                "6", 
+                "8", 
+                "10", 
+                "12", 
+                "14", 
+                "16", 
+                "18"
+            ], 
+            "isInfinite": false, 
+            "startNumber": "7"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": false, 
+            "variationGoodPercent": "0"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "6"
+                ], 
+                "unit": "4"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "ONEPO34", 
+        "grade": "1", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "5", 
+        "members": [
+            {
+                "upper": "10", 
+                "lower": "4"
+            }, 
+            {
+                "upper": "10", 
+                "lower": "2"
+            }
+        ], 
+        "operationType": {
+            "representation": "U = x + y  ", 
+            "id": "0"
+        }, 
+        "unknown": {
+            "position": "0", 
+            "lower": "11", 
+            "upper": "19"
+        }, 
+        "goodGuyTypes": [
+            4
+        ], 
+        "badGuyTypes": [
+            4
+        ], 
+        "bench": {
+            "possibleValues": [
+                "11", 
+                "12", 
+                "13", 
+                "14", 
+                "15", 
+                "16", 
+                "17", 
+                "18", 
+                "19"
+            ], 
+            "isInfinite": false, 
+            "startNumber": "9"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": false, 
+            "variationGoodPercent": "0"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "6"
+                ], 
+                "unit": "4"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "ONEPO35", 
+        "grade": "1", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "5", 
+        "members": [
+            {
+                "upper": "50", 
+                "lower": "10"
+            }, 
+            {
+                "upper": "5", 
+                "lower": "1"
+            }
+        ], 
+        "operationType": {
+            "representation": "U = x + y  ", 
+            "id": "0"
+        }, 
+        "unknown": {
+            "position": "0", 
+            "lower": "11", 
+            "upper": "55"
+        }, 
+        "goodGuyTypes": [
+            0, 
+            2
+        ], 
+        "badGuyTypes": [
+            0, 
+            2
+        ], 
+        "bench": {
+            "possibleValues": [], 
+            "isInfinite": true, 
+            "startNumber": "2"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": false, 
+            "variationGoodPercent": "0"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "10"
+                ], 
+                "unit": "4"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "ONEPO36", 
+        "grade": "1", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "5", 
+        "members": [
+            {
+                "upper": "90", 
+                "lower": "10"
+            }, 
+            {
+                "upper": "9", 
+                "lower": "1"
+            }
+        ], 
+        "operationType": {
+            "representation": "U = x + y  ", 
+            "id": "0"
+        }, 
+        "unknown": {
+            "position": "0", 
+            "lower": "11", 
+            "upper": "99"
+        }, 
+        "goodGuyTypes": [
+            0, 
+            2
+        ], 
+        "badGuyTypes": [
+            0, 
+            2
+        ], 
+        "bench": {
+            "possibleValues": [], 
+            "isInfinite": true, 
+            "startNumber": "2"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": false, 
+            "variationGoodPercent": "0"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "10"
+                ], 
+                "unit": "4"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "ONEPO37", 
+        "grade": "1", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "5", 
+        "members": [
+            {
+                "upper": "90", 
+                "lower": "1"
+            }, 
+            {
+                "upper": "9", 
+                "lower": "1"
+            }
+        ], 
+        "operationType": {
+            "representation": "U = x + y  ", 
+            "id": "0"
+        }, 
+        "unknown": {
+            "position": "0", 
+            "lower": "2", 
+            "upper": "99"
+        }, 
+        "goodGuyTypes": [
+            0, 
+            2
+        ], 
+        "badGuyTypes": [
+            0, 
+            2
+        ], 
+        "bench": {
+            "possibleValues": [], 
+            "isInfinite": true, 
+            "startNumber": "2"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": true, 
+            "variationGoodPercent": "0"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "16"
+                ], 
+                "unit": "4"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "ONEPO38", 
+        "grade": "1", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "5", 
+        "members": [
+            {
+                "upper": "90", 
+                "lower": "10"
+            }, 
+            {
+                "upper": "9", 
+                "lower": "1"
+            }
+        ], 
+        "operationType": {
+            "representation": "U = x + y  ", 
+            "id": "0"
+        }, 
+        "unknown": {
+            "position": "0", 
+            "lower": "11", 
+            "upper": "99"
+        }, 
+        "goodGuyTypes": [
+            0, 
+            2
+        ], 
+        "badGuyTypes": [
+            0, 
+            2
+        ], 
+        "bench": {
+            "possibleValues": [], 
+            "isInfinite": true, 
+            "startNumber": "2"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": true, 
+            "variationGoodPercent": "0"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "18"
+                ], 
+                "unit": "4"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "ONEPO39", 
+        "grade": "1", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "5", 
+        "members": [
+            {
+                "upper": "18", 
+                "lower": "11"
+            }, 
+            {
+                "upper": "9", 
+                "lower": "2"
+            }
+        ], 
+        "operationType": {
+            "representation": "U = x - y", 
+            "id": "2"
+        }, 
+        "unknown": {
+            "position": "0", 
+            "lower": "1", 
+            "upper": "9"
+        }, 
+        "goodGuyTypes": [
+            4
+        ], 
+        "badGuyTypes": [
+            4
+        ], 
+        "bench": {
+            "possibleValues": [
+                "1", 
+                "2", 
+                "3", 
+                "4", 
+                "5", 
+                "6", 
+                "7", 
+                "8", 
+                "9"
+            ], 
+            "isInfinite": false, 
+            "startNumber": "9"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": false, 
+            "variationGoodPercent": "0"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "2", 
+                    "4;6"
+                ], 
+                "unit": "5;6"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "ONEPO40", 
+        "grade": "1", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "5", 
+        "members": [
+            {
+                "upper": "9", 
+                "lower": "2"
+            }, 
+            {
+                "upper": "18", 
+                "lower": "11"
+            }
+        ], 
+        "operationType": {
+            "representation": "x = U + y or  x = y + U", 
+            "id": "1"
+        }, 
+        "unknown": {
+            "position": "2", 
+            "lower": "2", 
+            "upper": "9"
+        }, 
+        "goodGuyTypes": [
+            4
+        ], 
+        "badGuyTypes": [
+            4
+        ], 
+        "bench": {
+            "possibleValues": [
+                "2", 
+                "3", 
+                "4", 
+                "5", 
+                "6", 
+                "7", 
+                "8", 
+                "9"
+            ], 
+            "isInfinite": false, 
+            "startNumber": "8"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": false, 
+            "variationGoodPercent": "0"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "4;7"
+                ], 
+                "unit": "5;6"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "ONEPO41", 
+        "grade": "1", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "5", 
+        "members": [
+            {
+                "upper": "10", 
+                "lower": "1"
+            }, 
+            {
+                "upper": "10", 
+                "lower": "1"
+            }, 
+            {
+                "upper": "10", 
+                "lower": "1"
+            }
+        ], 
+        "operationType": {
+            "representation": "U = x + y  ", 
+            "id": "0"
+        }, 
+        "unknown": {
+            "position": "0", 
+            "lower": "11", 
+            "upper": "19"
+        }, 
+        "goodGuyTypes": [
+            4
+        ], 
+        "badGuyTypes": [
+            4
+        ], 
+        "bench": {
+            "possibleValues": [
+                "11", 
+                "12", 
+                "13", 
+                "14", 
+                "15", 
+                "16", 
+                "17", 
+                "18", 
+                "19"
+            ], 
+            "isInfinite": false, 
+            "startNumber": "9"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": false, 
+            "variationGoodPercent": "0"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "6"
+                ], 
+                "unit": "5"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "ONEPO42", 
+        "grade": "1", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "5", 
+        "members": [
+            {
+                "upper": "89", 
+                "lower": "11"
+            }, 
+            {
+                "upper": "10", 
+                "lower": "10"
+            }
+        ], 
+        "operationType": {
+            "representation": "U = x + y  ", 
+            "id": "0"
+        }, 
+        "unknown": {
+            "position": "0", 
+            "lower": "21", 
+            "upper": "99"
+        }, 
+        "goodGuyTypes": [
+            0, 
+            2
+        ], 
+        "badGuyTypes": [
+            0, 
+            2
+        ], 
+        "bench": {
+            "possibleValues": [], 
+            "isInfinite": true, 
+            "startNumber": "2"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": true, 
+            "variationGoodPercent": "30"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "8"
+                ], 
+                "unit": "5"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "ONEPO43", 
+        "grade": "1", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "5", 
+        "members": [
+            {
+                "upper": "89", 
+                "lower": "11"
+            }, 
+            {
+                "upper": "90", 
+                "lower": "10"
+            }
+        ], 
+        "operationType": {
+            "representation": "U = x + y  ", 
+            "id": "0"
+        }, 
+        "unknown": {
+            "position": "0", 
+            "lower": "21", 
+            "upper": "99"
+        }, 
+        "goodGuyTypes": [
+            0, 
+            2
+        ], 
+        "badGuyTypes": [
+            0, 
+            2
+        ], 
+        "bench": {
+            "possibleValues": [], 
+            "isInfinite": true, 
+            "startNumber": "2"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": true, 
+            "variationGoodPercent": "30"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "9"
+                ], 
+                "unit": "5"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "ONEPO44", 
+        "grade": "1", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "5", 
+        "members": [
+            {
+                "upper": "90", 
+                "lower": "10"
+            }, 
+            {
+                "upper": "90", 
+                "lower": "10"
+            }
+        ], 
+        "operationType": {
+            "representation": "U = x - y", 
+            "id": "2"
+        }, 
+        "unknown": {
+            "position": "0", 
+            "lower": "0", 
+            "upper": "80"
+        }, 
+        "goodGuyTypes": [
+            4
+        ], 
+        "badGuyTypes": [
+            4
+        ], 
+        "bench": {
+            "possibleValues": [
+                "0", 
+                "10", 
+                "20", 
+                "30", 
+                "40", 
+                "50", 
+                "60", 
+                "70", 
+                "80"
+            ], 
+            "isInfinite": false, 
+            "startNumber": "9"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": true, 
+            "variationGoodPercent": "30"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "9"
+                ], 
+                "unit": "5"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "ONEPO45", 
+        "grade": "1", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "5", 
+        "members": [
+            {
+                "upper": "80", 
+                "lower": "10"
+            }, 
+            {
+                "upper": "90", 
+                "lower": "20"
+            }
+        ], 
+        "operationType": {
+            "representation": "x = U + y or  x = y + U", 
+            "id": "1"
+        }, 
+        "unknown": {
+            "position": "2", 
+            "lower": "10", 
+            "upper": "80"
+        }, 
+        "goodGuyTypes": [
+            4
+        ], 
+        "badGuyTypes": [
+            4
+        ], 
+        "bench": {
+            "possibleValues": [
+                "10", 
+                "20", 
+                "30", 
+                "40", 
+                "50", 
+                "60", 
+                "70", 
+                "80"
+            ], 
+            "isInfinite": false, 
+            "startNumber": "9"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": true, 
+            "variationGoodPercent": "30"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "10"
+                ], 
+                "unit": "5"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "ONEPO46", 
+        "grade": "1", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "5", 
+        "members": [
+            {
+                "upper": "90", 
+                "lower": "20"
+            }, 
+            {
+                "upper": "80", 
+                "lower": "10"
+            }
+        ], 
+        "operationType": {
+            "representation": "U = x - y", 
+            "id": "2"
+        }, 
+        "unknown": {
+            "position": "0", 
+            "lower": "10", 
+            "upper": "80"
+        }, 
+        "goodGuyTypes": [
+            2
+        ], 
+        "badGuyTypes": [
+            2
+        ], 
+        "bench": {
+            "possibleValues": [], 
+            "isInfinite": true, 
+            "startNumber": "1"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": true, 
+            "variationGoodPercent": "40"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "10"
+                ], 
+                "unit": "5"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "ONEPO47", 
+        "grade": "1", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "5", 
+        "members": [
+            {
+                "upper": "18", 
+                "lower": "11"
+            }, 
+            {
+                "upper": "9", 
+                "lower": "2"
+            }
+        ], 
+        "operationType": {
+            "representation": "x = y - U", 
+            "id": "4"
+        }, 
+        "unknown": {
+            "position": "2", 
+            "lower": "2", 
+            "upper": "9"
+        }, 
+        "goodGuyTypes": [
+            4
+        ], 
+        "badGuyTypes": [
+            4
+        ], 
+        "bench": {
+            "possibleValues": [
+                "2", 
+                "3", 
+                "4", 
+                "5", 
+                "6", 
+                "7", 
+                "8", 
+                "9"
+            ], 
+            "isInfinite": false, 
+            "startNumber": "8"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": true, 
+            "variationGoodPercent": "50"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "7", 
+                    "8"
+                ], 
+                "unit": "6"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "ONEPO48", 
+        "grade": "1", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "5", 
+        "members": [
+            {
+                "upper": "9", 
+                "lower": "2"
+            }, 
+            {
+                "upper": "18", 
+                "lower": "11"
+            }
+        ], 
+        "operationType": {
+            "representation": "x = U + y or  x = y + U", 
+            "id": "1"
+        }, 
+        "unknown": {
+            "position": "2", 
+            "lower": "2", 
+            "upper": "9"
+        }, 
+        "goodGuyTypes": [
+            0, 
+            1, 
+            2
+        ], 
+        "badGuyTypes": [
+            0, 
+            1, 
+            2
+        ], 
+        "bench": {
+            "possibleValues": [], 
+            "isInfinite": true, 
+            "startNumber": "3"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": true, 
+            "variationGoodPercent": "60"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "7", 
+                    "8"
+                ], 
+                "unit": "6"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "ONEPO00", 
+        "grade": "", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "", 
+        "members": [], 
+        "operationType": {
+            "representation": "", 
+            "id": ""
+        }, 
+        "unknown": {
+            "position": "", 
+            "lower": "", 
+            "upper": ""
+        }, 
+        "goodGuyTypes": [], 
+        "badGuyTypes": [], 
+        "bench": {
+            "possibleValues": [], 
+            "isInfinite": false, 
+            "startNumber": ""
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": false, 
+            "variationGoodPercent": ""
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [], 
+        "comment": ""
+    }, 
+    {
+        "ID": "ONEPO00", 
+        "grade": "", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "", 
+        "members": [], 
+        "operationType": {
+            "representation": "", 
+            "id": ""
+        }, 
+        "unknown": {
+            "position": "", 
+            "lower": "", 
+            "upper": ""
+        }, 
+        "goodGuyTypes": [], 
+        "badGuyTypes": [], 
+        "bench": {
+            "possibleValues": [], 
+            "isInfinite": false, 
+            "startNumber": ""
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": false, 
+            "variationGoodPercent": ""
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [], 
+        "comment": ""
+    }, 
+    {
+        "ID": "ONEPO00", 
+        "grade": "", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "", 
+        "members": [], 
+        "operationType": {
+            "representation": "", 
+            "id": ""
+        }, 
+        "unknown": {
+            "position": "", 
+            "lower": "", 
+            "upper": ""
+        }, 
+        "goodGuyTypes": [], 
+        "badGuyTypes": [], 
+        "bench": {
+            "possibleValues": [], 
+            "isInfinite": false, 
+            "startNumber": ""
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": false, 
+            "variationGoodPercent": ""
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [], 
+        "comment": ""
+    }, 
+    {
+        "ID": "ONEPO00", 
+        "grade": "", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "", 
+        "members": [], 
+        "operationType": {
+            "representation": "", 
+            "id": ""
+        }, 
+        "unknown": {
+            "position": "", 
+            "lower": "", 
+            "upper": ""
+        }, 
+        "goodGuyTypes": [], 
+        "badGuyTypes": [], 
+        "bench": {
+            "possibleValues": [], 
+            "isInfinite": false, 
+            "startNumber": ""
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": false, 
+            "variationGoodPercent": ""
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [], 
+        "comment": ""
+    }, 
+    {
+        "ID": "ONEPO00", 
+        "grade": "", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "", 
+        "members": [], 
+        "operationType": {
+            "representation": "", 
+            "id": ""
+        }, 
+        "unknown": {
+            "position": "", 
+            "lower": "", 
+            "upper": ""
+        }, 
+        "goodGuyTypes": [], 
+        "badGuyTypes": [], 
+        "bench": {
+            "possibleValues": [], 
+            "isInfinite": false, 
+            "startNumber": ""
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": false, 
+            "variationGoodPercent": ""
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [], 
+        "comment": ""
+    }, 
+    {
+        "ID": "ONEPO00", 
+        "grade": "", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "", 
+        "members": [], 
+        "operationType": {
+            "representation": "", 
+            "id": ""
+        }, 
+        "unknown": {
+            "position": "", 
+            "lower": "", 
+            "upper": ""
+        }, 
+        "goodGuyTypes": [], 
+        "badGuyTypes": [], 
+        "bench": {
+            "possibleValues": [], 
+            "isInfinite": false, 
+            "startNumber": ""
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": false, 
+            "variationGoodPercent": ""
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [], 
+        "comment": ""
+    }, 
+    {
+        "ID": "ONEPO00", 
+        "grade": "", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "", 
+        "members": [], 
+        "operationType": {
+            "representation": "", 
+            "id": ""
+        }, 
+        "unknown": {
+            "position": "", 
+            "lower": "", 
+            "upper": ""
+        }, 
+        "goodGuyTypes": [], 
+        "badGuyTypes": [], 
+        "bench": {
+            "possibleValues": [], 
+            "isInfinite": false, 
+            "startNumber": ""
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": false, 
+            "variationGoodPercent": ""
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [], 
+        "comment": ""
+    }, 
+    {
+        "ID": "ONEPO00", 
+        "grade": "", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "", 
+        "members": [], 
+        "operationType": {
+            "representation": "", 
+            "id": ""
+        }, 
+        "unknown": {
+            "position": "", 
+            "lower": "", 
+            "upper": ""
+        }, 
+        "goodGuyTypes": [], 
+        "badGuyTypes": [], 
+        "bench": {
+            "possibleValues": [], 
+            "isInfinite": false, 
+            "startNumber": ""
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": false, 
+            "variationGoodPercent": ""
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [], 
+        "comment": ""
+    }, 
+    {
+        "ID": "ONEPO00", 
+        "grade": "", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "", 
+        "members": [], 
+        "operationType": {
+            "representation": "", 
+            "id": ""
+        }, 
+        "unknown": {
+            "position": "", 
+            "lower": "", 
+            "upper": ""
+        }, 
+        "goodGuyTypes": [], 
+        "badGuyTypes": [], 
+        "bench": {
+            "possibleValues": [], 
+            "isInfinite": false, 
+            "startNumber": ""
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": false, 
+            "variationGoodPercent": ""
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [], 
+        "comment": ""
+    }, 
+    {
+        "ID": "ONEPO00", 
+        "grade": "", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "", 
+        "members": [], 
+        "operationType": {
+            "representation": "", 
+            "id": ""
+        }, 
+        "unknown": {
+            "position": "", 
+            "lower": "", 
+            "upper": ""
+        }, 
+        "goodGuyTypes": [], 
+        "badGuyTypes": [], 
+        "bench": {
+            "possibleValues": [], 
+            "isInfinite": false, 
+            "startNumber": ""
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": false, 
+            "variationGoodPercent": ""
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [], 
+        "comment": ""
+    }
+]

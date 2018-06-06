@@ -1,0 +1,683 @@
+{
+    "gameName":"SG",
+    "isbn":"NR-6-9781328524423",
+    "GameGuid":"3210114419",
+    "grade":"g6",
+    "gradeLabel":"Grado 6",
+    "testMode":true,
+    "levelData":
+[
+        {
+            "id":"SG-G6-01",
+            "parentId":"",
+            "title":"Tutorial Nivel 1",
+            "lessons":null,
+            "gridSize":3,
+            "sliderType":"Ratio",
+            "equationType":null,
+            "var0":null,
+            "var1":null,
+            "var2":null,
+            "var3":null,
+             "frequency":
+               {
+                     "goodGuys":0.5,
+                     "badGuys":0,
+                     "comboTiles":0
+                },
+             "slider":
+               {
+                 "height":null,
+                 "total":"D(4)",
+                 "min":"D(1)",
+                 "max":"D(1)",
+                 "interval":null
+                },
+             "grid":
+               {
+                   "values":["D(1)", "D(3)"]
+              },
+             "scoring":
+               {
+                 "starThreshold":1,
+                 "loseThreshold":2
+               },
+             "tutorial":
+               {
+                     "T1":"GoodGuy_Tutorial.mp4"
+               },
+            "keywords":"tutorial",
+            "meaningfulDescription":"los estudiantes aprenden cómo ganarle a un nivel del  juego"
+        },
+        {
+            "id":"SG-G6-02",
+            "parentId":"SG-G6-01",
+            "title":"Tutorial Nivel 2",
+            "lessons":null,
+            "gridSize":3,
+            "sliderType":"Ratio",
+            "equationType":null,
+            "var0":null,
+            "var1":null,
+            "var2":null,
+            "var3":null,
+             "frequency":
+               {
+                     "goodGuys":0.5,
+                     "badGuys":0,
+                     "comboTiles":0
+                },
+             "slider":
+               {
+                 "height":null,
+                 "total":"D(4)",
+                 "min":"D(1)",
+                 "max":"D(3)",
+                 "interval":"D(1)"
+                },
+             "grid":
+               {
+                   "values":["D(1)", "D(2)", "D(3)"]
+              },
+             "scoring":
+               {
+                 "starThreshold":1,
+                 "loseThreshold":3
+               },
+             "tutorial":
+               {
+                     "T1":"Slider_Tutorial.mp4"
+               },
+            "keywords":"tutorial",
+            "meaningfulDescription":"los estudiantes aprenden a usar la mecánica de desplazamiento del juego"
+        },
+        {
+            "id":"SG-G6-03",
+            "parentId":"SG-G6-02",
+            "title":"Tutorial Nivel 3",
+            "lessons":null,
+            "gridSize":3,
+            "sliderType":"Ratio",
+            "equationType":null,
+            "var0":null,
+            "var1":null,
+            "var2":null,
+            "var3":null,
+             "frequency":
+               {
+                     "goodGuys":0.35,
+                     "badGuys":0.25,
+                     "comboTiles":0
+                },
+             "slider":
+               {
+                 "height":null,
+                 "total":"D(4)",
+                 "min":"D(1)",
+                 "max":"D(3)",
+                 "interval":"D(1)"
+                },
+             "grid":
+               {
+                   "values":["D(1)", "D(2)", "D(3)"]
+              },
+             "scoring":
+               {
+                 "starThreshold":2,
+                 "loseThreshold":1
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "keywords":"tutorial",
+            "meaningfulDescription":"los estudiantes aprenden cómo perder un nivel del  juego"
+        },
+        {
+            "id":"SG-G6-03-01",
+            "parentId":"SG-G6-03",
+            "title":"Tutorial Nivel 4",
+            "lessons":null,
+            "gridSize":3,
+            "sliderType":"Ratio",
+            "equationType":"ratioEquals",
+            "var0":null,
+            "var1":null,
+            "var2":null,
+            "var3":null,
+             "frequency":
+               {
+                     "goodGuys":0.35,
+                     "badGuys":0.25,
+                     "comboTiles":0
+                },
+             "slider":
+               {
+                 "height":null,
+                 "total":"D(4)",
+                 "min":"D(1)",
+                 "max":"D(1)",
+                 "interval":null
+                },
+             "grid":
+               {
+                   "values":["D(5)", "D(15)"]
+              },
+             "scoring":
+               {
+                 "starThreshold":2,
+                 "loseThreshold":3
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "keywords":"tutorial",
+            "meaningfulDescription":"los estudiantes aprenden cómo jugar los niveles de razones del juego"
+        },
+        {
+            "id":"SG-G6-04",
+            "parentId":"SG-G6-03-01",
+            "title":"Razones básicas",
+            "lessons":["1-8, 1-9"],
+            "gridSize":3,
+            "sliderType":"Ratio",
+            "equationType":"ratioEquals",
+            "var0":null,
+            "var1":null,
+            "var2":null,
+            "var3":null,
+             "frequency":
+               {
+                     "goodGuys":0.3,
+                     "badGuys":0.1,
+                     "comboTiles":0
+                },
+             "slider":
+               {
+                 "height":null,
+                 "total":"D(5)",
+                 "min":"D(1)",
+                 "max":"D(4)",
+                 "interval":"D(1)"
+                },
+             "grid":
+               {
+                   "values":["D(2)", "D(4)", "D(6)", "D(8)"]
+              },
+             "scoring":
+               {
+                 "starThreshold":2,
+                 "loseThreshold":5
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "keywords":"razones, multiplicación, razones iguales, razones simplificadas, fracciones equivalentes, razones equivalentes, números enteros",
+            "meaningfulDescription":"los estudiantes identifican razones equivalentes básicas"
+        },
+        {
+            "id":"SG-G6-05",
+            "parentId":"SG-G6-04",
+            "title":"Razones equivalentes",
+            "lessons":["1-9"],
+            "gridSize":3,
+            "sliderType":"Ratio",
+            "equationType":"ratioColons",
+            "var0":null,
+            "var1":null,
+            "var2":null,
+            "var3":null,
+             "frequency":
+               {
+                     "goodGuys":0.3,
+                     "badGuys":0.1,
+                     "comboTiles":0.35
+                },
+             "slider":
+               {
+                 "height":null,
+                 "total":"D(3)",
+                 "min":"D(1)",
+                 "max":"D(2)",
+                 "interval":"D(1)"
+                },
+             "grid":
+               {
+                   "values":["D(2)", "D(3)", "D(4)", "D(6)", "D(8)"]
+              },
+             "scoring":
+               {
+                 "starThreshold":2,
+                 "loseThreshold":5
+               },
+             "tutorial":
+               {
+                     "T1":"BonusTiles_Tutorial.mp4"
+               },
+            "keywords":"razones, multiplicación, razones iguales, razones simplificadas, fracciones equivalentes, razones equivalentes, números enteros",
+            "meaningfulDescription":"los estudiantes identifican razones básicas equivalentes a 2:1"
+        },
+        {
+            "id":"SG-G6-06",
+            "parentId":"SG-G6-05",
+            "title":"Ver proporciones",
+            "lessons":["1-10"],
+            "gridSize":4,
+            "sliderType":"Ratio",
+            "equationType":"ratioColons",
+            "var0":null,
+            "var1":null,
+            "var2":null,
+            "var3":null,
+             "frequency":
+               {
+                     "goodGuys":0.35,
+                     "badGuys":0.1,
+                     "comboTiles":0.35
+                },
+             "slider":
+               {
+                 "height":null,
+                 "total":"D(3)",
+                 "min":"D(1)",
+                 "max":"D(2)",
+                 "interval":"D(1)"
+                },
+             "grid":
+               {
+                   "values":["D(2)", "D(4)", "D(5)", "D(10)", "D(20)", "D(50)", "D(100)"]
+              },
+             "scoring":
+               {
+                 "starThreshold":3,
+                 "loseThreshold":4
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "keywords":"razones, multiplicación, razones iguales, razones simplificadas, fracciones equivalentes, razones equivalentes, números enteros, proporciones, proporcionalidad, centena",
+            "meaningfulDescription":"los estudiantes identifican razones equivalentes a 2:1"
+        },
+        {
+            "id":"SG-G6-07",
+            "parentId":"SG-G6-06",
+            "title":"Múltiplos de diez",
+            "lessons":["1-10"],
+            "gridSize":4,
+            "sliderType":"Ratio",
+            "equationType":"ratioColons",
+            "var0":null,
+            "var1":null,
+            "var2":null,
+            "var3":null,
+             "frequency":
+               {
+                     "goodGuys":0.35,
+                     "badGuys":0.1,
+                     "comboTiles":0.2
+                },
+             "slider":
+               {
+                 "height":null,
+                 "total":"D(10)",
+                 "min":"D(2)",
+                 "max":"D(8)",
+                 "interval":"D(2)"
+                },
+             "grid":
+               {
+                   "values":["D(10)", "D(20)", "D(30)", "D(40)", "D(60)", "D(80)"]
+              },
+             "scoring":
+               {
+                 "starThreshold":3,
+                 "loseThreshold":4
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "keywords":"razones, multiplicación, razones iguales, razones simplificadas, fracciones equivalentes, razones equivalentes, números enteros, proporciones, proporcionalidad, múltiplos de 10",
+            "meaningfulDescription":"los estudiantes identifican razones donde cada parte de una razón es un múltiplo de 10"
+        },
+        {
+            "id":"SG-G6-08",
+            "parentId":"SG-G6-07",
+            "title":"Tasas unitarias",
+            "lessons":["7-2"],
+            "gridSize":4,
+            "sliderType":"Ratio",
+            "equationType":"ratioColons",
+            "var0":null,
+            "var1":null,
+            "var2":null,
+            "var3":null,
+             "frequency":
+               {
+                     "goodGuys":0.4,
+                     "badGuys":0.15,
+                     "comboTiles":0.2
+                },
+             "slider":
+               {
+                 "height":null,
+                 "total":"D(6)",
+                 "min":"D(1)",
+                 "max":"D(5)",
+                 "interval":"D(1)"
+                },
+             "grid":
+               {
+                   "values":["F(1, 5)", "F(1, 2)", "D(1)"]
+              },
+             "scoring":
+               {
+                 "starThreshold":3,
+                 "loseThreshold":4
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "keywords":"tasas, tasas unitarias, fracciones, mitades, quintos, razones, multiplicación, razones iguales, razones simplificadas, razones equivalentes, razones fraccionarias",
+            "meaningfulDescription":"los estudiantes identifican razones donde una de las partes de la razón es 1"
+        },
+        {
+            "id":"SG-G6-09",
+            "parentId":"SG-G6-08",
+            "title":"Fracciones equivalentes",
+            "lessons":["7-3"],
+            "gridSize":4,
+            "sliderType":"Ratio",
+            "equationType":"twoEquationsRatio",
+            "var0":null,
+            "var1":null,
+            "var2":null,
+            "var3":null,
+             "frequency":
+               {
+                     "goodGuys":0.35,
+                     "badGuys":0.15,
+                     "comboTiles":0.25
+                },
+             "slider":
+               {
+                 "height":null,
+                 "total":"D(1)",
+                 "min":"F(1, 5)",
+                 "max":"F(4, 5)",
+                 "interval":"F(1, 5)"
+                },
+             "grid":
+               {
+                   "values":["F(2, 10)", "F(4, 10)", "F(6, 10)", "F(8, 10)"]
+              },
+             "scoring":
+               {
+                 "starThreshold":3,
+                 "loseThreshold":4
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "keywords":"fracciones equivalentes, reescribir fracciones, décimos, quintos, fracciones, fracciones menores que uno, simplificar fracciones, reducir fracciones",
+            "meaningfulDescription":"los estudiantes expresan quintos menores que uno en décimos equivalentes"
+        },
+        {
+            "id":"SG-G6-09-01",
+            "parentId":"SG-G6-09",
+            "title":"Fracciones equivalentes con quincuagésimos",
+            "lessons":["7-3"],
+            "gridSize":4,
+            "sliderType":"Ratio",
+            "equationType":"twoEquationsRatio",
+            "var0":null,
+            "var1":null,
+            "var2":null,
+            "var3":null,
+             "frequency":
+               {
+                     "goodGuys":0.35,
+                     "badGuys":0.15,
+                     "comboTiles":0.25
+                },
+             "slider":
+               {
+                 "height":null,
+                 "total":"D(1)",
+                 "min":"F(1, 5)",
+                 "max":"F(4, 5)",
+                 "interval":"F(1, 5)"
+                },
+             "grid":
+               {
+                   "values":["F(10, 50)", "F(20, 50)", "F(30, 50)", "F(40, 50)"]
+              },
+             "scoring":
+               {
+                 "starThreshold":3,
+                 "loseThreshold":4
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "keywords":"fracciones equivalentes, reescribir fracciones, quintos, quincuagésimos, fracciones, fracciones menores que uno, simplificar fracciones, reducir fracciones",
+            "meaningfulDescription":"los estudiantes expresan quintos menores que uno en quincuagésimos equivalentes"
+        },
+        {
+            "id":"SG-G6-10",
+            "parentId":"SG-G6-09-01",
+            "title":"Razones con fracciones",
+            "lessons":["7-3"],
+            "gridSize":4,
+            "sliderType":"Ratio",
+            "equationType":"ratioColons",
+            "var0":null,
+            "var1":null,
+            "var2":null,
+            "var3":null,
+             "frequency":
+               {
+                     "goodGuys":0.35,
+                     "badGuys":0.2,
+                     "comboTiles":0.25
+                },
+             "slider":
+               {
+                 "height":null,
+                 "total":"D(5)",
+                 "min":"D(1)",
+                 "max":"D(4)",
+                 "interval":"D(1)"
+                },
+             "grid":
+               {
+                   "values":["F(1, 5)", "F(2, 5)", "F(3, 5)", "F(4, 5)"]
+              },
+             "scoring":
+               {
+                 "starThreshold":3,
+                 "loseThreshold":4
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "keywords":"fracciones equivalentes, reescribir fracciones, quintos, fracciones, fracciones menores que uno, razones con fracciones, razones fraccionarias, fracciones unitarias",
+            "meaningfulDescription":"los estudiantes crean razones donde ambas partes son fracciones de quintos"
+        },
+        {
+            "id":"SG-G6-11",
+            "parentId":"SG-G6-10",
+            "title":"Leer razones con fracciones",
+            "lessons":["7-3"],
+            "gridSize":4,
+            "sliderType":"Ratio",
+            "equationType":"ratioColons",
+            "var0":null,
+            "var1":null,
+            "var2":null,
+            "var3":null,
+             "frequency":
+               {
+                     "goodGuys":0.35,
+                     "badGuys":0.2,
+                     "comboTiles":0.25
+                },
+             "slider":
+               {
+                 "height":null,
+                 "total":"D(1)",
+                 "min":"F(1, 5)",
+                 "max":"F(4, 5)",
+                 "interval":"F(1, 5)"
+                },
+             "grid":
+               {
+                   "values":["D(1)", "D(2)", "D(3)", "D(4)", "D(6)", "D(8)"]
+              },
+             "scoring":
+               {
+                 "starThreshold":3,
+                 "loseThreshold":4
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "keywords":"fracciones equivalentes, reescribir fracciones, quintos, fracciones, fracciones menores que uno, razones con fracciones, razones fraccionarias, fracciones unitarias",
+            "meaningfulDescription":"los estudiantes interpretan razones donde ambas partes son fracciones de quintos"
+        },
+        {
+            "id":"SG-G6-12",
+            "parentId":"SG-G6-11",
+            "title":"Porcentajes como fracciones",
+            "lessons":["7-8"],
+            "gridSize":4,
+            "sliderType":"Ratio",
+            "equationType":"twoEquationsRatio",
+            "var0":null,
+            "var1":null,
+            "var2":null,
+            "var3":null,
+             "frequency":
+               {
+                     "goodGuys":0.35,
+                     "badGuys":0.2,
+                     "comboTiles":0.3
+                },
+             "slider":
+               {
+                 "height":null,
+                 "total":"P(100)",
+                 "min":"P(0)",
+                 "max":"P(100)",
+                 "interval":"P(25)"
+                },
+             "grid":
+               {
+                   "values":["D(0)", "F(1, 4)", "F(1, 2)", "F(3, 4)", "D(1)"]
+              },
+             "scoring":
+               {
+                 "starThreshold":4,
+                 "loseThreshold":4
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "keywords":"porcentajes como fracciones, por ciento, porcentaje, fracciones, cuartos, simplificar fracciones, reescribir fracciones",
+            "meaningfulDescription":"los estudiantes reescriben porcentajes como fracciones"
+        },
+        {
+            "id":"SG-G6-13",
+            "parentId":"SG-G6-12",
+            "title":"Porcentajes como decimales",
+            "lessons":["7-8"],
+            "gridSize":4,
+            "sliderType":"Ratio",
+            "equationType":"twoEquationsRatio",
+            "var0":null,
+            "var1":null,
+            "var2":null,
+            "var3":null,
+             "frequency":
+               {
+                     "goodGuys":0.35,
+                     "badGuys":0.2,
+                     "comboTiles":0.25
+                },
+             "slider":
+               {
+                 "height":null,
+                 "total":"P(100)",
+                 "min":"P(0)",
+                 "max":"P(100)",
+                 "interval":"P(25)"
+                },
+             "grid":
+               {
+                   "values":["D(0)", "D(0.25)", "D(0.5)", "D(0.75)", "D(1)"]
+              },
+             "scoring":
+               {
+                 "starThreshold":4,
+                 "loseThreshold":4
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "keywords":"porcentajes como decimales, por ciento, porcentaje, decimales, cuartos, reescribir porcentajes como decimales",
+            "meaningfulDescription":"los estudiantes reescriben porcentajes como decimales"
+        },
+        {
+            "id":"SG-G6-14",
+            "parentId":"SG-G6-13",
+            "title":"Porcentaje como fracciones y decimales",
+            "lessons":["7-8"],
+            "gridSize":4,
+            "sliderType":"Ratio",
+            "equationType":"twoEquationsRatio",
+            "var0":null,
+            "var1":null,
+            "var2":null,
+            "var3":null,
+             "frequency":
+               {
+                     "goodGuys":0.35,
+                     "badGuys":0.2,
+                     "comboTiles":0.25
+                },
+             "slider":
+               {
+                 "height":null,
+                 "total":"P(100)",
+                 "min":"P(25)",
+                 "max":"P(75)",
+                 "interval":"P(25)"
+                },
+             "grid":
+               {
+                   "values":["F(1, 4)", "F(1, 2)", "F(3, 4)", "D(0.25)", "D(0.5)", "D(0.75)"]
+              },
+             "scoring":
+               {
+                 "starThreshold":4,
+                 "loseThreshold":4
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "keywords":"porcentajes como fracciones, por ciento, porcentaje, fracciones, cuartos, simplificar fracciones, reescribir fracciones, porcentajes como decimales, decimales, reescribir porcentajes como decimales, fracciones como decimales, decimales como fracciones",
+            "meaningfulDescription":"los estudiantes reescriben porcentajes como fracciones y decimales"
+        }
+    ]
+}

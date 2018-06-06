@@ -1,0 +1,35 @@
+﻿{"frames": {
+
+"boss_idle0000":
+{
+	"frame": {"x":0,"y":0,"w":159,"h":212},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":159,"h":212},
+	"sourceSize": {"w":159,"h":212}
+},
+"boss_happy0000":
+{
+	"frame": {"x":159,"y":0,"w":159,"h":212},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":159,"h":212},
+	"sourceSize": {"w":159,"h":212}
+},
+"boss_sad0000":
+{
+	"frame": {"x":318,"y":0,"w":159,"h":212},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":159,"h":212},
+	"sourceSize": {"w":159,"h":212}
+}},
+"meta": {
+	"app": "Adobe Flash CS6",
+	"version": "12.0.0.481",
+	"image": "BG_boss_long.png",
+	"format": "RGBA8888",
+	"size": {"w":1024,"h":1024},
+	"scale": "1"
+}
+}

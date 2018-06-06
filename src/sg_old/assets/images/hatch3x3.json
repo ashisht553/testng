@@ -1,0 +1,99 @@
+﻿{"frames": {
+
+"hatch3x30000":
+{
+	"frame": {"x":10,"y":10,"w":260,"h":37},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":18,"y":0,"w":297,"h":149},
+	"sourceSize": {"w":297,"h":149}
+},
+"hatch3x30001":
+{
+	"frame": {"x":10,"y":57,"w":279,"h":100},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":3,"w":297,"h":149},
+	"sourceSize": {"w":297,"h":149}
+},
+"hatch3x30002":
+{
+	"frame": {"x":10,"y":167,"w":291,"h":129},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":9,"w":297,"h":149},
+	"sourceSize": {"w":297,"h":149}
+},
+"hatch3x30003":
+{
+	"frame": {"x":10,"y":306,"w":295,"h":135},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":14,"w":297,"h":149},
+	"sourceSize": {"w":297,"h":149}
+},
+"hatch3x30004":
+{
+	"frame": {"x":10,"y":451,"w":297,"h":132},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":17,"w":297,"h":149},
+	"sourceSize": {"w":297,"h":149}
+},
+"hatch3x30005":
+{
+	"frame": {"x":10,"y":593,"w":297,"h":130},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":18,"w":297,"h":149},
+	"sourceSize": {"w":297,"h":149}
+},
+"hatch3x30006":
+{
+	"frame": {"x":10,"y":451,"w":297,"h":132},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":17,"w":297,"h":149},
+	"sourceSize": {"w":297,"h":149}
+},
+"hatch3x30007":
+{
+	"frame": {"x":10,"y":306,"w":295,"h":135},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":14,"w":297,"h":149},
+	"sourceSize": {"w":297,"h":149}
+},
+"hatch3x30008":
+{
+	"frame": {"x":10,"y":167,"w":291,"h":129},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":9,"w":297,"h":149},
+	"sourceSize": {"w":297,"h":149}
+},
+"hatch3x30009":
+{
+	"frame": {"x":10,"y":57,"w":279,"h":100},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":3,"w":297,"h":149},
+	"sourceSize": {"w":297,"h":149}
+},
+"hatch3x30010":
+{
+	"frame": {"x":10,"y":10,"w":260,"h":37},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":18,"y":0,"w":297,"h":149},
+	"sourceSize": {"w":297,"h":149}
+}},
+"meta": {
+	"app": "Adobe Animate",
+	"version": "15.2.1.95",
+	"image": "hatch3x3.png",
+	"format": "RGBA8888",
+	"size": {"w":512,"h":1024},
+	"scale": "1"
+}
+}

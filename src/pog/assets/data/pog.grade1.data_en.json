@@ -1,0 +1,1527 @@
+{
+    "gameName":"POG",
+    "isbn":"PO-1-9781328886644",
+    "GameGuid":"4410317115",
+    "grade":"g1",
+    "gradeLabel":"Grade 1",
+    "levelData":[
+        {
+            "id":"POG1-01",
+            "parentId":"",
+            "title":"Introducing Numbers (Tutorial)",
+            "iterations":"1",
+            "members":[
+                [1, 1]
+            ],
+            "unknown":[1, 1],
+            "operation":{
+                "gameType":"Objects",
+                "operationType":"",
+                "factors":[
+                    [0],
+                    [null]
+                ]
+            },
+            "goodGuyTypes":[0],
+            "badGuyTypes":[0],
+            "bench":{
+                "possibleValues":[1, 1, 1, 1],
+                "isInfinite":false
+            },
+            "money":"",
+            "tutorial":{
+                "T1":false,
+                "T2":true,
+                "T3":true
+            }
+        },
+        {
+            "id":"POG1-01-01",
+            "parentId":"POG1-01",
+            "title":"Numbers 1-3 (Tutorial)",
+            "iterations":"1",
+            "members":[
+                [2, 2],
+                [1, 1]
+            ],
+            "unknown":[3, 3],
+            "operation":{
+                "gameType":"Objects",
+                "operationType":"",
+                "factors":[
+                    [0, 1],
+                    [null]
+                ]
+            },
+            "goodGuyTypes":[0],
+            "badGuyTypes":[0],
+            "bench":{
+                "possibleValues":[1, 1, 1, 1],
+                "isInfinite":false
+            },
+            "money":"",
+            "tutorial":{
+                "T1":"Object_MissingSum.mp4",
+                "T2":false,
+                "T3":false
+            }
+        },
+        {
+            "id":"POG1-02",
+            "parentId":"POG1-01-01",
+            "title":"Numbers 1-4",
+            "iterations":"3",
+            "members":[
+                [1, 4],
+                [1, 4]
+            ],
+            "unknown":[2, 5],
+            "operation":{
+                "gameType":"Objects",
+                "operationType":"",
+                "factors":[
+                    [0, 1],
+                    [null]
+                ]
+            },
+            "goodGuyTypes":[0],
+            "badGuyTypes":[0],
+            "bench":{
+                "possibleValues":[1, 1, 1, 1, 1],
+                "isInfinite":false
+            },
+            "money":"",
+            "tutorial":{
+                "T1":false,
+                "T2":false,
+                "T3":false
+            }
+        },
+        {
+            "id":"POG1-03",
+            "parentId":"POG1-02",
+            "title":"Numbers 1-10",
+            "iterations":"3",
+            "members":[
+                [1, 9],
+                [1, 9]
+            ],
+            "unknown":[2, 10],
+            "operation":{
+                "gameType":"Objects",
+                "operationType":"",
+                "factors":[
+                    [0, 1],
+                    [null]
+                ]
+            },
+            "goodGuyTypes":[0],
+            "badGuyTypes":[0],
+            "bench":{
+                "possibleValues":[1],
+                "isInfinite":true
+            },
+            "money":"",
+            "tutorial":{
+                "T1":false,
+                "T2":false,
+                "T3":false
+            }
+        },
+        {
+            "id":"POG1-04",
+            "parentId":"POG1-03",
+            "title":"5-Groups (Tutorial)",
+            "iterations":"1",
+            "members":[
+                [2, 2],
+                [3, 3]
+            ],
+            "unknown":[5, 5],
+            "operation":{
+                "gameType":"Objects",
+                "operationType":"addition",
+                "factors":[
+                    [0, 1],
+                    [null]
+                ]
+            },
+            "goodGuyTypes":[1, 5],
+            "badGuyTypes":[1, 5],
+            "bench":{
+                "possibleValues":[1, 5],
+                "isInfinite":false
+            },
+            "money":"",
+            "tutorial":{
+                "T1":"Object_5Guy.mp4",
+                "T2":false,
+                "T3":false
+            }
+        },
+        {
+            "id":"POG1-05",
+            "parentId":"POG1-04",
+            "title":"5-Groups",
+            "iterations":"3",
+            "members":[
+                [5, 5],
+                [1, 5]
+            ],
+            "unknown":[6, 10],
+            "operation":{
+                "gameType":"Objects",
+                "operationType":"addition",
+                "factors":[
+                    [0, 1],
+                    [null]
+                ]
+            },
+            "goodGuyTypes":[1, 5],
+            "badGuyTypes":[1, 5],
+            "bench":{
+                "possibleValues":[1, 5],
+                "isInfinite":true
+            },
+            "money":"",
+            "tutorial":{
+                "T1":false,
+                "T2":false,
+                "T3":false
+            }
+        },
+        {
+            "id":"POG1-06",
+            "parentId":"POG1-05",
+            "title":"Partners of 4 (Tutorial)",
+            "iterations":"1",
+            "members":[
+                [4, 4],
+                [3, 3]
+            ],
+            "unknown":[1, 1],
+            "operation":{
+                "gameType":"Objects",
+                "operationType":"addition",
+                "factors":[
+                    [0],
+                    [1, null]
+                ]
+            },
+            "goodGuyTypes":[2],
+            "badGuyTypes":[2],
+            "bench":{
+                "possibleValues":[1, 2, 3, 4],
+                "isInfinite":false
+            },
+            "money":"",
+            "tutorial":{
+                "T1":false,
+                "T2":true,
+                "T3":false
+            }
+        },
+        {
+            "id":"POG1-07",
+            "parentId":"POG1-06",
+            "title":"Partners of 4",
+            "iterations":"3",
+            "members":[
+                [4, 4],
+                [0, 4]
+            ],
+            "unknown":[0, 4],
+            "operation":{
+                "gameType":"Objects",
+                "operationType":"addition",
+                "factors":[
+                    [0],
+                    [1, null]
+                ]
+            },
+            "goodGuyTypes":[2],
+            "badGuyTypes":[2],
+            "bench":{
+                "possibleValues":[0, 1, 2, 3, 4],
+                "isInfinite":false
+            },
+            "money":"",
+            "tutorial":{
+                "T1":false,
+                "T2":false,
+                "T3":false
+            }
+        },
+        {
+            "id":"POG1-08",
+            "parentId":"POG1-07",
+            "title":"Partners of 5",
+            "iterations":"3",
+            "members":[
+                [5, 5],
+                [1, 4]
+            ],
+            "unknown":[1, 4],
+            "operation":{
+                "gameType":"Objects",
+                "operationType":"addition",
+                "factors":[
+                    [0],
+                    [1, null]
+                ]
+            },
+            "goodGuyTypes":[2],
+            "badGuyTypes":[2],
+            "bench":{
+                "possibleValues":[1, 2, 3, 4],
+                "isInfinite":false
+            },
+            "money":"",
+            "tutorial":{
+                "T1":false,
+                "T2":false,
+                "T3":false
+            }
+        },
+        {
+            "id":"POG1-09",
+            "parentId":"POG1-08",
+            "title":"Partners of 6",
+            "iterations":"3",
+            "members":[
+                [6, 6],
+                [1, 5]
+            ],
+            "unknown":[1, 5],
+            "operation":{
+                "gameType":"Objects",
+                "operationType":"addition",
+                "factors":[
+                    [0],
+                    [1, null]
+                ]
+            },
+            "goodGuyTypes":[2],
+            "badGuyTypes":[2],
+            "bench":{
+                "possibleValues":[1, 2, 3, 4, 5],
+                "isInfinite":false
+            },
+            "money":"",
+            "tutorial":{
+                "T1":false,
+                "T2":false,
+                "T3":false
+            }
+        },
+        {
+            "id":"POG1-10",
+            "parentId":"POG1-09",
+            "title":"Partners of 7",
+            "iterations":"3",
+            "members":[
+                [7, 7],
+                [1, 6]
+            ],
+            "unknown":[1, 6],
+            "operation":{
+                "gameType":"Objects",
+                "operationType":"addition",
+                "factors":[
+                    [0],
+                    [1, null]
+                ]
+            },
+            "goodGuyTypes":[2],
+            "badGuyTypes":[2],
+            "bench":{
+                "possibleValues":[1, 2, 3, 4, 5, 6],
+                "isInfinite":false
+            },
+            "money":"",
+            "tutorial":{
+                "T1":false,
+                "T2":false,
+                "T3":false
+            }
+        },
+        {
+            "id":"POG1-11",
+            "parentId":"POG1-10",
+            "title":"Partners of 8",
+            "iterations":"3",
+            "members":[
+                [8, 8],
+                [1, 7]
+            ],
+            "unknown":[1, 7],
+            "operation":{
+                "gameType":"Objects",
+                "operationType":"addition",
+                "factors":[
+                    [0],
+                    [1, null]
+                ]
+            },
+            "goodGuyTypes":[2],
+            "badGuyTypes":[2],
+            "bench":{
+                "possibleValues":[1, 2, 3, 4, 5, 6, 7],
+                "isInfinite":false
+            },
+            "money":"",
+            "tutorial":{
+                "T1":false,
+                "T2":false,
+                "T3":false
+            }
+        },
+        {
+            "id":"POG1-12",
+            "parentId":"POG1-11",
+            "title":"Partners of 9",
+            "iterations":"3",
+            "members":[
+                [9, 9],
+                [1, 8]
+            ],
+            "unknown":[1, 8],
+            "operation":{
+                "gameType":"Objects",
+                "operationType":"addition",
+                "factors":[
+                    [0],
+                    [1, null]
+                ]
+            },
+            "goodGuyTypes":[2],
+            "badGuyTypes":[2],
+            "bench":{
+                "possibleValues":[1, 2, 3, 4, 5, 6, 7, 8],
+                "isInfinite":false
+            },
+            "money":"",
+            "tutorial":{
+                "T1":false,
+                "T2":false,
+                "T3":false
+            }
+        },
+        {
+            "id":"POG1-13",
+            "parentId":"POG1-12",
+            "title":"Partners of 10",
+            "iterations":"3",
+            "members":[
+                [10, 10],
+                [1, 9]
+            ],
+            "unknown":[1, 9],
+            "operation":{
+                "gameType":"Objects",
+                "operationType":"addition",
+                "factors":[
+                    [0],
+                    [1, null]
+                ]
+            },
+            "goodGuyTypes":[2],
+            "badGuyTypes":[2],
+            "bench":{
+                "possibleValues":[1, 2, 3, 4, 5, 6, 7, 8, 9],
+                "isInfinite":false
+            },
+            "money":"",
+            "tutorial":{
+                "T1":false,
+                "T2":false,
+                "T3":false
+            }
+        },
+        {
+            "id":"POG1-14",
+            "parentId":"POG1-13",
+            "title":"Counting On",
+            "iterations":"3",
+            "members":[
+                [0, 9],
+                [1, 3]
+            ],
+            "unknown":[2, 10],
+            "operation":{
+                "gameType":"Objects",
+                "operationType":"addition",
+                "factors":[
+                    [0, 1],
+                    [null]
+                ]
+            },
+            "goodGuyTypes":[2],
+            "badGuyTypes":[2],
+            "bench":{
+                "possibleValues":[2, 3, 4, 5, 6, 7, 8, 9, 10],
+                "isInfinite":false
+            },
+            "money":"",
+            "tutorial":{
+                "T1":false,
+                "T2":false,
+                "T3":false
+            }
+        },
+        {
+            "id":"POG1-14-01",
+            "parentId":"POG1-14",
+            "title":"Introduce Subtraction (Tutorial)",
+            "iterations":"1",
+            "members":[
+                [4, 4],
+                [3, 3]
+            ],
+            "unknown":[1, 1],
+            "operation":{
+                "gameType":"Numerals",
+                "operationType":"subtraction",
+                "factors":[
+                    [0, 1],
+                    [null]
+                ]
+            },
+            "goodGuyTypes":[2],
+            "badGuyTypes":[2],
+            "bench":{
+                "possibleValues":[1, 2, 3, 4],
+                "isInfinite":false
+            },
+            "money":"",
+            "tutorial":{
+                "T1":"Numerals_Subraction.mp4",
+                "T2":false,
+                "T3":false
+            }
+        },
+        {
+            "id":"POG1-15",
+            "parentId":"POG1-14-01",
+            "title":"Introduce Subtraction",
+            "iterations":"3",
+            "members":[
+                [2, 5],
+                [1, 4]
+            ],
+            "unknown":[1, 4],
+            "operation":{
+                "gameType":"Numerals",
+                "operationType":"subtraction",
+                "factors":[
+                    [0, 1],
+                    [null]
+                ]
+            },
+            "goodGuyTypes":[2],
+            "badGuyTypes":[2],
+            "bench":{
+                "possibleValues":[1, 2, 3, 4],
+                "isInfinite":false
+            },
+            "money":"",
+            "tutorial":{
+                "T1":false,
+                "T2":false,
+                "T3":false
+            }
+        },
+        {
+            "id":"POG1-16",
+            "parentId":"POG1-15",
+            "title":"Subtract Within 8",
+            "iterations":"3",
+            "members":[
+                [0, 8],
+                [0, 8]
+            ],
+            "unknown":[0, 8],
+            "operation":{
+                "gameType":"Numerals",
+                "operationType":"subtraction",
+                "factors":[
+                    [0, 1],
+                    [null]
+                ]
+            },
+            "goodGuyTypes":[2],
+            "badGuyTypes":[2],
+            "bench":{
+                "possibleValues":[0, 1, 2, 3, 4, 5, 6, 7, 8],
+                "isInfinite":false
+            },
+            "money":"",
+            "tutorial":{
+                "T1":false,
+                "T2":false,
+                "T3":false
+            }
+        },
+        {
+            "id":"POG1-17",
+            "parentId":"POG1-16",
+            "title":"Subtract Within 10",
+            "iterations":"3",
+            "members":[
+                [2, 10],
+                [1, 9]
+            ],
+            "unknown":[1, 9],
+            "operation":{
+                "gameType":"Numerals",
+                "operationType":"subtraction",
+                "factors":[
+                    [0, 1],
+                    [null]
+                ]
+            },
+            "goodGuyTypes":[2],
+            "badGuyTypes":[2],
+            "bench":{
+                "possibleValues":[1, 2, 3, 4, 5, 6, 7, 8, 9],
+                "isInfinite":false
+            },
+            "money":"",
+            "tutorial":{
+                "T1":false,
+                "T2":false,
+                "T3":false
+            }
+        },
+        {
+            "id":"POG1-18",
+            "parentId":"POG1-17",
+            "title":"Explore Unknowns",
+            "iterations":"3",
+            "members":[
+                [2, 5],
+                [1, 4]
+            ],
+            "unknown":[1, 4],
+            "operation":{
+                "gameType":"Objects",
+                "operationType":"addition",
+                "factors":[
+                    [0],
+                    [1, null]
+                ]
+            },
+            "goodGuyTypes":[0],
+            "badGuyTypes":[0],
+            "bench":{
+                "possibleValues":[1, 1, 1, 1],
+                "isInfinite":false
+            },
+            "money":"",
+            "tutorial":{
+                "T1":false,
+                "T2":false,
+                "T3":false
+            }
+        },
+        {
+            "id":"POG1-19",
+            "parentId":"POG1-18",
+            "title":"Unknown Partners Through 10",
+            "iterations":"3",
+            "members":[
+                [1, 10],
+                [1, 9]
+            ],
+            "unknown":[1, 9],
+            "operation":{
+                "gameType":"Objects",
+                "operationType":"addition",
+                "factors":[
+                    [0],
+                    [1, null]
+                ]
+            },
+            "goodGuyTypes":[0],
+            "badGuyTypes":[0],
+            "bench":{
+                "possibleValues":[1, 1, 1, 1, 1, 1, 1, 1, 1],
+                "isInfinite":false
+            },
+            "money":"",
+            "tutorial":{
+                "T1":false,
+                "T2":false,
+                "T3":false
+            }
+        },
+        {
+            "id":"POG1-20",
+            "parentId":"POG1-19",
+            "title":"Unknown Partners of 8",
+            "iterations":"3",
+            "members":[
+                [8, 8],
+                [1, 8]
+            ],
+            "unknown":[0, 7],
+            "operation":{
+                "gameType":"Objects",
+                "operationType":"addition",
+                "factors":[
+                    [0],
+                    [1, null]
+                ]
+            },
+            "goodGuyTypes":[2],
+            "badGuyTypes":[2],
+            "bench":{
+                "possibleValues":[0, 1, 2, 3, 4, 5, 6, 7],
+                "isInfinite":false
+            },
+            "money":"",
+            "tutorial":{
+                "T1":false,
+                "T2":false,
+                "T3":false
+            }
+        },
+        {
+            "id":"POG1-21",
+            "parentId":"POG1-20",
+            "title":"Unknown Partners of 9",
+            "iterations":"3",
+            "members":[
+                [9, 9],
+                [1, 9]
+            ],
+            "unknown":[0, 8],
+            "operation":{
+                "gameType":"Objects",
+                "operationType":"addition",
+                "factors":[
+                    [0],
+                    [1, null]
+                ]
+            },
+            "goodGuyTypes":[2],
+            "badGuyTypes":[2],
+            "bench":{
+                "possibleValues":[0, 1, 2, 3, 4, 5, 6, 7, 8],
+                "isInfinite":false
+            },
+            "money":"",
+            "tutorial":{
+                "T1":false,
+                "T2":false,
+                "T3":false
+            }
+        },
+        {
+            "id":"POG1-22",
+            "parentId":"POG1-21",
+            "title":"Unknown Partners of 10",
+            "iterations":"3",
+            "members":[
+                [10, 10],
+                [1, 9]
+            ],
+            "unknown":[1, 9],
+            "operation":{
+                "gameType":"Objects",
+                "operationType":"addition",
+                "factors":[
+                    [0],
+                    [1, null]
+                ]
+            },
+            "goodGuyTypes":[2],
+            "badGuyTypes":[2],
+            "bench":{
+                "possibleValues":[1, 2, 3, 4, 5, 6, 7, 8, 9],
+                "isInfinite":false
+            },
+            "money":"",
+            "tutorial":{
+                "T1":false,
+                "T2":false,
+                "T3":false
+            }
+        },
+        {
+            "id":"POG1-23",
+            "parentId":"POG1-22",
+            "title":"Tens Groupings (Tutorial)",
+            "iterations":"1",
+            "members":[
+                [5, 5],
+                [5, 5]
+            ],
+            "unknown":[10, 10],
+            "operation":{
+                "gameType":"Objects",
+                "operationType":"addition",
+                "factors":[
+                    [0, 1],
+                    [null]
+                ]
+            },
+            "goodGuyTypes":[1, 5, 10],
+            "badGuyTypes":[5],
+            "bench":{
+                "possibleValues":[1, 5, 10],
+                "isInfinite":false
+            },
+            "money":"",
+            "tutorial":{
+                "T1":"Object_10Guy.mp4",
+                "T2":false,
+                "T3":false
+            }
+        },
+        {
+            "id":"POG1-24",
+            "parentId":"POG1-23",
+            "title":"Tens Groupings",
+            "iterations":"3",
+            "members":[
+                [10, 40, {"multiple": 10}],
+                [10, 40, {"multiple": 10}]
+            ],
+            "unknown":[20, 50, {"multiple": 10}],
+            "operation":{
+                "gameType":"Objects",
+                "operationType":"addition",
+                "factors":[
+                    [0, 1],
+                    [null]
+                ]
+            },
+            "goodGuyTypes":[1, 5, 10],
+            "badGuyTypes":[2],
+            "bench":{
+                "possibleValues":[1, 5, 10],
+                "isInfinite":true
+            },
+            "money":"",
+            "tutorial":{
+                "T1":false,
+                "T2":false,
+                "T3":false
+            }
+        },
+        {
+            "id":"POG1-25",
+            "parentId":"POG1-24",
+            "title":"Count by Tens",
+            "iterations":"3",
+            "members":[
+                [10, 90, {"multiple": 10}],
+                [10, 90, {"multiple": 10}]
+            ],
+            "unknown":[20, 100, {"multiple": 10}],
+            "operation":{
+                "gameType":"Objects",
+                "operationType":"addition",
+                "factors":[
+                    [0, 1],
+                    [null]
+                ]
+            },
+            "goodGuyTypes":[10, 100],
+            "badGuyTypes":[2],
+            "bench":{
+                "possibleValues":[10, 100],
+                "isInfinite":true
+            },
+            "money":"",
+            "tutorial":{
+                "T1":false,
+                "T2":false,
+                "T3":false
+            }
+        },
+        {
+            "id":"POG1-26",
+            "parentId":"POG1-25",
+            "title":"Teen Addition",
+            "iterations":"3",
+            "members":[
+                [1, 18],
+                [1, 18]
+            ],
+            "unknown":[11, 19],
+            "operation":{
+                "gameType":"Objects",
+                "operationType":"addition",
+                "factors":[
+                    [0, 1],
+                    [null]
+                ]
+            },
+            "goodGuyTypes":[2],
+            "badGuyTypes":[2],
+            "bench":{
+                "possibleValues":[11, 12, 13, 14, 15, 16, 17, 18, 19],
+                "isInfinite":false
+            },
+            "money":"",
+            "tutorial":{
+                "T1":false,
+                "T2":false,
+                "T3":false
+            }
+        },
+        {
+            "id":"POG1-27",
+            "parentId":"POG1-26",
+            "title":"Add Through 20",
+            "iterations":"3",
+            "members":[
+                [0, 18, {"multiple": 2}],
+                [0, 18, {"multiple": 2}]
+            ],
+            "unknown":[2, 20, {"multiple": 2}],
+            "operation":{
+                "gameType":"Objects",
+                "operationType":"addition",
+                "factors":[
+                    [0, 1],
+                    [null]
+                ]
+            },
+            "goodGuyTypes":[2],
+            "badGuyTypes":[2],
+            "bench":{
+                "possibleValues":[2, 4, 6, 8, 10, 12, 14, 16, 18, 20],
+                "isInfinite":false
+            },
+            "money":"",
+            "tutorial":{
+                "T1":false,
+                "T2":false,
+                "T3":false
+            }
+        },
+        {
+            "id":"POG1-28",
+            "parentId":"POG1-27",
+            "title":"Groups of Ten Through 50",
+            "iterations":"3",
+            "members":[
+                [10, 50, {"multiple": 10}],
+                [1, 5]
+            ],
+            "unknown":[11, 55],
+            "operation":{
+                "gameType":"Objects",
+                "operationType":"addition",
+                "factors":[
+                    [0, 1],
+                    [null]
+                ]
+            },
+            "goodGuyTypes":[1, 10],
+            "badGuyTypes":[2],
+            "bench":{
+                "possibleValues":[1, 10],
+                "isInfinite":true
+            },
+            "money":"",
+            "tutorial":{
+                "T1":false,
+                "T2":false,
+                "T3":false
+            }
+        },
+        {
+            "id":"POG1-29",
+            "parentId":"POG1-28",
+            "title":"Groups of Ten Through 100",
+            "iterations":"3",
+            "members":[
+                [10, 90, {"multiple": 10}],
+                [1, 9]
+            ],
+            "unknown":[11, 99],
+            "operation":{
+                "gameType":"Objects",
+                "operationType":"addition",
+                "factors":[
+                    [0, 1],
+                    [null]
+                ]
+            },
+            "goodGuyTypes":[1, 10],
+            "badGuyTypes":[2],
+            "bench":{
+                "possibleValues":[1, 10],
+                "isInfinite":true
+            },
+            "money":"",
+            "tutorial":{
+                "T1":false,
+                "T2":false,
+                "T3":false
+            }
+        },
+        {
+            "id":"POG1-30",
+            "parentId":"POG1-29",
+            "title":"2-Digit Numbers",
+            "iterations":"3",
+            "members":[
+                [10, 90],
+                [1, 9]
+            ],
+            "unknown":[11, 99],
+            "operation":{
+                "gameType":"Objects",
+                "operationType":"addition",
+                "factors":[
+                    [0, 1],
+                    [null]
+                ]
+            },
+            "goodGuyTypes":[1, 10],
+            "badGuyTypes":[2],
+            "bench":{
+                "possibleValues":[1, 10],
+                "isInfinite":true
+            },
+            "money":"",
+            "tutorial":{
+                "T1":false,
+                "T2":false,
+                "T3":false
+            }
+        },
+        {
+            "id":"POG1-31",
+            "parentId":"POG1-30",
+            "title":"Subtract with Teen Numbers",
+            "iterations":"3",
+            "members":[
+                [11, 18],
+                [2, 9]
+            ],
+            "unknown":[1, 9],
+            "operation":{
+                "gameType":"Numerals",
+                "operationType":"subtraction",
+                "factors":[
+                    [0, 1],
+                    [null]
+                ]
+            },
+            "goodGuyTypes":[2],
+            "badGuyTypes":[2],
+            "bench":{
+                "possibleValues":[0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+                "isInfinite":true
+            },
+            "money":"",
+            "tutorial":{
+                "T1":false,
+                "T2":false,
+                "T3":false
+            }
+        },
+        {
+            "id":"POG1-32",
+            "parentId":"POG1-31",
+            "title":"Subtract Within 20",
+            "iterations":"3",
+            "members":[
+                [2, 20, {"multiple": 2}],
+                [2, 18, {"multiple": 2}]
+            ],
+            "unknown":[2, 18, {"multiple": 2}],
+            "operation":{
+                "gameType":"Numerals",
+                "operationType":"subtraction",
+                "factors":[
+                    [0, 1],
+                    [null]
+                ]
+            },
+            "goodGuyTypes":[2],
+            "badGuyTypes":[2],
+            "bench":{
+                "possibleValues":[0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+                "isInfinite":true
+            },
+            "money":"",
+            "tutorial":{
+                "T1":false,
+                "T2":false,
+                "T3":false
+            }
+        },
+        {
+            "id":"POG1-33",
+            "parentId":"POG1-32",
+            "title":"Make a Ten",
+            "iterations":"3",
+            "members":[
+                [11, 18],
+                [2, 9]
+            ],
+            "unknown":[2, 9],
+            "operation":{
+                "gameType":"Objects",
+                "operationType":"addition",
+                "factors":[
+                    [0],
+                    [1, null]
+                ]
+            },
+            "goodGuyTypes":[2],
+            "badGuyTypes":[2],
+            "bench":{
+                "possibleValues":[2, 3, 4, 5, 6, 7, 8, 9],
+                "isInfinite":false
+            },
+            "money":"",
+            "tutorial":{
+                "T1":false,
+                "T2":false,
+                "T3":false
+            }
+        },
+        {
+            "id":"POG1-34",
+            "parentId":"POG1-33",
+            "title":"Three Addends",
+            "iterations":"3",
+            "members":[
+                [1, 10],
+                [1, 10],
+                [1, 10]
+            ],
+            "unknown":[11, 19],
+            "operation":{
+                "gameType":"Objects",
+                "operationType":"addition",
+                "factors":[
+                    [0, 1, 2],
+                    [null]
+                ]
+            },
+            "goodGuyTypes":[2],
+            "badGuyTypes":[2],
+            "bench":{
+                "possibleValues":[11, 12, 13, 14, 15, 16, 17, 18, 19],
+                "isInfinite":false
+            },
+            "money":"",
+            "tutorial":{
+                "T1":false,
+                "T2":false,
+                "T3":false
+            }
+        },
+        {
+            "id":"POG1-35",
+            "parentId":"POG1-34",
+            "title":"Count with Groups of 10",
+            "iterations":"3",
+            "members":[
+                [11, 99]
+            ],
+            "unknown":[11, 99],
+            "operation":{
+                "gameType":"Objects",
+                "operationType":"addition",
+                "factors":[
+                    [0],
+                    [null]
+                ]
+            },
+            "goodGuyTypes":[1, 10],
+            "badGuyTypes":[2],
+            "bench":{
+                "possibleValues":[1, 10],
+                "isInfinite":true
+            },
+            "money":"",
+            "tutorial":{
+                "T1":false,
+                "T2":false,
+                "T3":false
+            }
+        },
+        {
+            "id":"POG1-36",
+            "parentId":"POG1-35",
+            "title":"Add 10",
+            "iterations":"3",
+            "members":[
+                [11, 89],
+                [10, 10]
+            ],
+            "unknown":[21, 99],
+            "operation":{
+                "gameType":"Objects",
+                "operationType":"addition",
+                "factors":[
+                    [0, 1],
+                    [null]
+                ]
+            },
+            "goodGuyTypes":[1, 10],
+            "badGuyTypes":[2],
+            "bench":{
+                "possibleValues":[1, 10],
+                "isInfinite":true
+            },
+            "money":"",
+            "tutorial":{
+                "T1":false,
+                "T2":false,
+                "T3":false
+            }
+        },
+        {
+            "id":"POG1-37",
+            "parentId":"POG1-36",
+            "title":"Add Multiples of 10",
+            "iterations":"3",
+            "members":[
+                [11, 89],
+                [10, 80, {"multiple": 10}]
+            ],
+            "unknown":[21, 99],
+            "operation":{
+                "gameType":"Objects",
+                "operationType":"addition",
+                "factors":[
+                    [0, 1],
+                    [null]
+                ]
+            },
+            "goodGuyTypes":[1, 10],
+            "badGuyTypes":[2],
+            "bench":{
+                "possibleValues":[1, 10],
+                "isInfinite":true
+            },
+            "money":"",
+            "tutorial":{
+                "T1":false,
+                "T2":false,
+                "T3":false
+            }
+        },
+        {
+            "id":"POG1-38",
+            "parentId":"POG1-37",
+            "title":"Subtract Multiples of 10",
+            "iterations":"3",
+            "members":[
+                [10, 90, {"multiple": 10}],
+                [10, 90, {"multiple": 10}]
+            ],
+            "unknown":[0, 80, {"multiple": 10}],
+            "operation":{
+                "gameType":"Numerals",
+                "operationType":"subtraction",
+                "factors":[
+                    [0, 1],
+                    [null]
+                ]
+            },
+            "goodGuyTypes":[2],
+            "badGuyTypes":[2],
+            "bench":{
+                "possibleValues":[0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+                "isInfinite":true
+            },
+            "money":"",
+            "tutorial":{
+                "T1":false,
+                "T2":false,
+                "T3":false
+            }
+        },
+        {
+            "id":"POG1-39",
+            "parentId":"POG1-38",
+            "title":"Partners of Multiples of 10",
+            "iterations":"3",
+            "members":[
+                [20, 90, {"multiple": 10}],
+                [10, 80, {"multiple": 10}]
+            ],
+            "unknown":[10, 80, {"multiple": 10}],
+            "operation":{
+                "gameType":"Objects",
+                "operationType":"addition",
+                "factors":[
+                    [0],
+                    [1, null]
+                ]
+            },
+            "goodGuyTypes":[2],
+            "badGuyTypes":[2],
+            "bench":{
+                "possibleValues":[10, 20, 30, 40, 50, 60, 70, 80],
+                "isInfinite":false
+            },
+            "money":"",
+            "tutorial":{
+                "T1":false,
+                "T2":false,
+                "T3":false
+            }
+        },
+        {
+            "id":"POG1-40",
+            "parentId":"POG1-39",
+            "title":"Compare Multiples of 10",
+            "iterations":"3",
+            "members":[
+                [10, 80, {"multiple": 10}],
+                [20, 90, {"multiple": 10}]
+            ],
+            "unknown":[10, 80, {"multiple": 10}],
+            "operation":{
+                "gameType":"Numerals",
+                "operationType":"subtraction",
+                "factors":[
+                    [0, 1],
+                    [null]
+                ]
+            },
+            "goodGuyTypes":[2],
+            "badGuyTypes":[2],
+            "bench":{
+                "possibleValues":[0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+                "isInfinite":true
+            },
+            "money":"",
+            "tutorial":{
+                "T1":false,
+                "T2":false,
+                "T3":false
+            }
+        },
+        {
+            "id":"POG1-41",
+            "parentId":"POG1-40",
+            "title":"Compare with 5- and 10-Groups",
+            "iterations":"3",
+            "members":[
+                [11, 18],
+                [2, 9]
+            ],
+            "unknown":[2, 9],
+            "operation":{
+                "gameType":"Objects",
+                "operationType":"addition",
+                "factors":[
+                    [0],
+                    [1, null]
+                ]
+            },
+            "goodGuyTypes":[1, 5, 10],
+            "badGuyTypes":[1, 5, 10],
+            "bench":{
+                "possibleValues":[1, 5, 10],
+                "isInfinite":true
+            },
+            "money":"",
+            "tutorial":{
+                "T1":false,
+                "T2":false,
+                "T3":false
+            }
+        },
+        {
+            "id":"POG1-42",
+            "parentId":"POG1-41",
+            "title":"Compare Through 20",
+            "iterations":"3",
+            "members":[
+                [11, 18],
+                [2, 9]
+            ],
+            "unknown":[2, 9],
+            "operation":{
+                "gameType":"Numerals",
+                "operationType":"subtraction",
+                "factors":[
+                    [0, 1],
+                    [null]
+                ]
+            },
+            "goodGuyTypes":[2],
+            "badGuyTypes":[2],
+            "bench":{
+                "possibleValues":[0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+                "isInfinite":true
+            },
+            "money":"",
+            "tutorial":{
+                "T1":false,
+                "T2":false,
+                "T3":false
+            }
+        },
+        {
+            "id":"POG1-43",
+            "parentId":"POG1-42",
+            "title":"Bonus Level 1",
+            "iterations":"3",
+            "members":[
+                [25, 95, {"multiple": 5}]
+            ],
+            "unknown":[25, 95, {"multiple": 5}],
+            "operation":{
+                "gameType":"Objects",
+                "operationType":"addition",
+                "factors":[
+                    [0],
+                    [null]
+                ]
+            },
+            "goodGuyTypes":[2],
+            "badGuyTypes":[2],
+            "bench":{
+                "possibleValues":[7, 8, 10, 20, 30, 40],
+                "isInfinite":false
+            },
+            "money":"",
+            "tutorial":{
+                "T1":false,
+                "T2":false,
+                "T3":false
+            }
+        },
+        {
+            "id":"POG1-44",
+            "parentId":"POG1-43",
+            "title":"Bonus Level 2",
+            "iterations":"3",
+            "members":[
+                [50, 95, {"multiple": 5}],
+                [50, 95, {"multiple": 5}]
+            ],
+            "unknown":[100, 180, {"multiple": 5}],
+            "operation":{
+                "gameType":"Objects",
+                "operationType":"addition",
+                "factors":[
+                    [0, 1],
+                    [null]
+                ]
+            },
+            "goodGuyTypes":[5, 10, 100],
+            "badGuyTypes":[2],
+            "bench":{
+                "possibleValues":[5, 10, 100],
+                "isInfinite":true
+            },
+            "money":"",
+            "tutorial":{
+                "T1":false,
+                "T2":false,
+                "T3":false
+            }
+        },
+        {
+            "id":"POG1-45",
+            "parentId":"POG1-44",
+            "title":"Bonus Level 3",
+            "iterations":"3",
+            "members":[
+                [14, 63, {"multiple": 7}]
+            ],
+            "unknown":[14, 63, {"multiple": 7}],
+            "operation":{
+                "gameType":"Objects",
+                "operationType":"addition",
+                "factors":[
+                    [0],
+                    [null]
+                ]
+            },
+            "goodGuyTypes":[2],
+            "badGuyTypes":[2],
+            "bench":{
+                "possibleValues":[7],
+                "isInfinite":true
+            },
+            "money":"",
+            "tutorial":{
+                "T1":false,
+                "T2":false,
+                "T3":false
+            }
+        },
+        {
+            "id":"POG1-46",
+            "parentId":"POG1-45",
+            "title":"Bonus Level 4",
+            "iterations":"3",
+            "members":[
+                [40, 99],
+                [20, 98]
+            ],
+            "unknown":[20, 89],
+            "operation":{
+                "gameType":"Numerals",
+                "operationType":"subtraction",
+                "factors":[
+                    [0, 1],
+                    [null]
+                ]
+            },
+            "goodGuyTypes":[2],
+            "badGuyTypes":[2],
+            "bench":{
+                "possibleValues":[0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+                "isInfinite":true
+            },
+            "money":"",
+            "tutorial":{
+                "T1":false,
+                "T2":false,
+                "T3":false
+            }
+        },
+        {
+            "id":"POG1-47",
+            "parentId":"POG1-46",
+            "title":"Bonus Level 5",
+            "iterations":"3",
+            "members":[
+                [1, 20],
+                [1, 20],
+                [1, 20],
+                [1, 20]
+            ],
+            "unknown":[40, 49],
+            "operation":{
+                "gameType":"Objects",
+                "operationType":"addition",
+                "factors":[
+                    [0, 1, 2, 3],
+                    [null]
+                ]
+            },
+            "goodGuyTypes":[2],
+            "badGuyTypes":[2],
+            "bench":{
+                "possibleValues":[40, 41, 42, 43, 44, 45, 46, 47, 48, 49],
+                "isInfinite":false
+            },
+            "money":"",
+            "tutorial":{
+                "T1":false,
+                "T2":false,
+                "T3":false
+            }
+        }
+    ]
+}

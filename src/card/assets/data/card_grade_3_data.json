@@ -1,0 +1,1265 @@
+{
+    "gameName":"CG",
+    "isbn":"CGK-1491210472820",
+    "GameGuid":"CG3-3294422283",
+    "grade":"g3",
+    "gradeLabel":"Grade 3",
+    "testMode":true,
+    "levelData":
+[
+        {
+            "id":"CG-G3-01",
+            "parentId":"",
+            "title":"Tutorial Level 1",
+            "lessons":null,
+            "shotClockStart":"10",
+            "variableCards":
+               {
+                     "numOfCards":"1",
+                     "startValues":["D(0)"],
+                     "variations":{
+                         "var0" : null,
+                         "var1" : null,
+                         "var2" : null,
+                         "var3" : null
+                    },
+                     "goal":{
+                         "fractionType" : null,
+                         "values" : null
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["D(1)", "D(2)", "D(3)", "D(4)", "D(5)", "D(6)", "D(7)", "D(8)", "D(9)", "D(10)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : null,
+                            "symbol" : null,
+                            "operation" : null
+                        },
+                        {
+                            "values" : null,
+                            "symbol" : null,
+                            "operation" : null
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[3,7,7],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":"T1_basket_animation.mp4"
+               },
+            "comment":null
+        },
+        {
+            "id":"CG-G3-02",
+            "parentId":"CG-G3-01",
+            "title":"Tutorial Level 2",
+            "lessons":null,
+            "shotClockStart":"10",
+            "variableCards":
+               {
+                     "numOfCards":"2",
+                     "startValues":["D(0)"],
+                     "variations":{
+                         "var0" : null,
+                         "var1" : null,
+                         "var2" : null,
+                         "var3" : null
+                    },
+                     "goal":{
+                         "fractionType" : null,
+                         "values" : null
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["D(1)", "D(2)", "D(3)", "D(4)", "D(5)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["D(1)", "D(2)", "D(3)", "D(4)", "D(5)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : null,
+                            "symbol" : null,
+                            "operation" : null
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[3,7,7],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":"T2_basket_animation.mp4"
+               },
+            "comment":null
+        },{
+            "id":"CG-G3-03",
+            "parentId":"CG-G3-02",
+            "title":"Building Fluency with 2s and 5s",
+            "lessons":["1.5, 1.6"],
+            "shotClockStart":"10",
+            "variableCards":
+               {
+                     "numOfCards":"4",
+                     "startValues":["D(1)", "D(2)", "D(3)", "D(4)", "D(5)", "D(6)", "D(7)", "D(8)", "D(9)", "D(10)"],
+                     "variations":{
+                         "var0" : null,
+                         "var1" : null,
+                         "var2" : null,
+                         "var3" : null
+                    },
+                     "goal":{
+                         "fractionType" : null,
+                         "values" : null
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["D(2)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["D(5)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["D(2)"],
+                            "symbol" : "\\div",
+                            "operation" : "/"
+                        },
+                        {
+                            "values" : ["D(5)"],
+                            "symbol" : "\\div",
+                            "operation" : "/"
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[3,7,7],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "comment":"going back button tutorial"
+        },
+        {
+            "id":"CG-G3-04",
+            "parentId":"CG-G3-03",
+            "title":"Multiply and Divide with 10",
+            "lessons":["1.7"],
+            "shotClockStart":"10",
+            "variableCards":
+               {
+                     "numOfCards":"4",
+                     "startValues":["D(1)", "D(2)", "D(3)", "D(4)", "D(5)", "D(6)", "D(7)", "D(8)", "D(9)", "D(10)"],
+                     "variations":{
+                         "var0" : null,
+                         "var1" : null,
+                         "var2" : null,
+                         "var3" : null
+                    },
+                     "goal":{
+                         "fractionType" : null,
+                         "values" : null
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["D(3)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["D(10)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["D(3)"],
+                            "symbol" : "\\div",
+                            "operation" : "/"
+                        },
+                        {
+                            "values" : ["D(10)"],
+                            "symbol" : "\\div",
+                            "operation" : "/"
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[3,7,7],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "comment":null
+        },
+        {
+            "id":"CG-G3-05",
+            "parentId":"CG-G3-04",
+            "title":"Multiply and Divide with 9",
+            "lessons":["1.8"],
+            "shotClockStart":"10",
+            "variableCards":
+               {
+                     "numOfCards":"4",
+                     "startValues":["D(1)", "D(2)", "D(3)", "D(4)", "D(5)", "D(6)", "D(7)", "D(8)", "D(9)", "D(10)"],
+                     "variations":{
+                         "var0" : null,
+                         "var1" : null,
+                         "var2" : null,
+                         "var3" : null
+                    },
+                     "goal":{
+                         "fractionType" : null,
+                         "values" : null
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["D(10)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["D(9)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["D(10)"],
+                            "symbol" : "\\div",
+                            "operation" : "/"
+                        },
+                        {
+                            "values" : ["D(9)"],
+                            "symbol" : "\\div",
+                            "operation" : "/"
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[3,7,7],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "comment":null
+        },
+        {
+            "id":"CG-G3-06",
+            "parentId":"CG-G3-05",
+            "title":"Building Fluency with 2s, 5s, 9s, and 10s",
+            "lessons":["1.9"],
+            "shotClockStart":"10",
+            "variableCards":
+               {
+                     "numOfCards":"4",
+                     "startValues":["D(1)", "D(2)", "D(3)", "D(4)", "D(5)", "D(6)", "D(7)", "D(8)", "D(9)", "D(10)"],
+                     "variations":{
+                         "var0" : null,
+                         "var1" : null,
+                         "var2" : null,
+                         "var3" : null
+                    },
+                     "goal":{
+                         "fractionType" : null,
+                         "values" : null
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["D(2)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["D(10)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["D(5)"],
+                            "symbol" : "\\div",
+                            "operation" : "/"
+                        },
+                        {
+                            "values" : ["D(9)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[3,7,7],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "comment":null
+        },
+        {
+            "id":"CG-G3-07",
+            "parentId":"CG-G3-06",
+            "title":"Multiply and Divide with 3",
+            "lessons":["1.10"],
+            "shotClockStart":"10",
+            "variableCards":
+               {
+                     "numOfCards":"4",
+                     "startValues":["D(1)", "D(2)", "D(3)", "D(4)", "D(5)", "D(6)", "D(7)", "D(8)", "D(9)", "D(10)"],
+                     "variations":{
+                         "var0" : null,
+                         "var1" : null,
+                         "var2" : null,
+                         "var3" : null
+                    },
+                     "goal":{
+                         "fractionType" : null,
+                         "values" : ["D(2)", "D(4)", "D(6)", "D(8)", "D(9)", "D(10)", "D(12)", "D(14)", "D(16)", "D(18)", "D(20)", "D(27)", "D(36)", "D(45)"]
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["D(2)", "D(3)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["D(2)", "D(3)"],
+                            "symbol" : "\\div",
+                            "operation" : "/"
+                        },
+                        {
+                            "values" : ["D(3)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["D(3)"],
+                            "symbol" : "\\div",
+                            "operation" : "/"
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[3,7,7],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "comment":null
+        },
+        {
+            "id":"CG-G3-08",
+            "parentId":"CG-G3-07",
+            "title":"Multiply and Divide with 4",
+            "lessons":["1.12"],
+            "shotClockStart":"10",
+            "variableCards":
+               {
+                     "numOfCards":"4",
+                     "startValues":["D(1)", "D(2)", "D(3)", "D(4)", "D(5)", "D(6)", "D(7)", "D(8)", "D(9)", "D(10)"],
+                     "variations":{
+                         "var0" : null,
+                         "var1" : null,
+                         "var2" : null,
+                         "var3" : null
+                    },
+                     "goal":{
+                         "fractionType" : null,
+                         "values" : ["D(2)", "D(4)", "D(6)", "D(8)", "D(10)", "D(12)", "D(14)", "D(16)", "D(18)", "D(20)", "D(24)", "D(28)", "D(30)", "D(32)", "D(36)", "D(40)", "D(48)", "D(50)", "D(56)", "D(60)", "D(64)", "D(72)", "D(80)", "D(100)"]
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["D(2)", "D(5)", "D(10)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["D(2)", "D(5)", "D(10)"],
+                            "symbol" : "\\div",
+                            "operation" : "/"
+                        },
+                        {
+                            "values" : ["D(4)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["D(4)"],
+                            "symbol" : "\\div",
+                            "operation" : "/"
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[3,7,7],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "comment":null
+        },
+        {
+            "id":"CG-G3-09",
+            "parentId":"CG-G3-08",
+            "title":"Building Fluency with 2s, 3s, 4s, 5s, 9s, and 10s",
+            "lessons":["1.14"],
+            "shotClockStart":"10",
+            "variableCards":
+               {
+                     "numOfCards":"4",
+                     "startValues":["D(1)", "D(2)", "D(3)", "D(4)", "D(5)", "D(6)", "D(7)", "D(8)", "D(9)", "D(10)"],
+                     "variations":{
+                         "var0" : null,
+                         "var1" : null,
+                         "var2" : null,
+                         "var3" : null
+                    },
+                     "goal":{
+                         "fractionType" : null,
+                         "values" : ["D(6)", "D(12)", "D(15)", "D(18)", "D(24)", "D(30)", "D(36)", "D(42)", "D(45)", "D(48)", "D(54)", "D(60)", "D(72)", "D(75)", "D(90)"]
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["D(10)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["D(3)", "D(9)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["D(2)", "D(5)"],
+                            "symbol" : "\\div",
+                            "operation" : "/"
+                        },
+                        {
+                            "values" : ["D(3)", "D(4)", "D(9)", "D(10)"],
+                            "symbol" : "\\div",
+                            "operation" : "/"
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[3,7,7],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "comment":null
+        },
+        {
+            "id":"CG-G3-10",
+            "parentId":"CG-G3-09",
+            "title":"Multiply and Divide with 1 and 0",
+            "lessons":["1.15"],
+            "shotClockStart":"10",
+            "variableCards":
+               {
+                     "numOfCards":"4",
+                     "startValues":["D(2)", "D(3)", "D(4)", "D(5)", "D(6)", "D(7)", "D(8)", "D(9)", "D(10)"],
+                     "variations":{
+                         "var0" : null,
+                         "var1" : null,
+                         "var2" : null,
+                         "var3" : null
+                    },
+                     "goal":{
+                         "fractionType" : null,
+                         "values" : null
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["D(1)"],
+                            "symbol" : "\\div",
+                            "operation" : "/"
+                        },
+                        {
+                            "values" : ["D(0)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["D(1)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["D(1)", "D(2)", "D(3)", "D(4)", "D(5)", "D(6)", "D(7)", "D(8)", "D(9)", "D(10)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[3,7,7],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "comment":null
+        },
+        {
+            "id":"CG-G3-11",
+            "parentId":"CG-G3-10",
+            "title":"Building Fluency with 0s, 1s, 2s, 3s, 4s, 5s, 9s, and 10s",
+            "lessons":["1.18"],
+            "shotClockStart":"10",
+            "variableCards":
+               {
+                     "numOfCards":"4",
+                     "startValues":["D(1)", "D(2)", "D(3)", "D(4)", "D(5)", "D(6)", "D(7)", "D(8)", "D(9)", "D(10)"],
+                     "variations":{
+                         "var0" : null,
+                         "var1" : null,
+                         "var2" : null,
+                         "var3" : null
+                    },
+                     "goal":{
+                         "fractionType" : null,
+                         "values" : ["D(3)", "D(6)", "D(9)", "D(12)", "D(15)", "D(18)", "D(24)", "D(27)", "D(30)", "D(36)", "D(42)", "D(45)", "D(48)", "D(54)", "D(60)", "D(72)", "D(75)", "D(90)"]
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["D(1)", "D(10)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["D(2)", "D(5)"],
+                            "symbol" : "\\div",
+                            "operation" : "/"
+                        },
+                        {
+                            "values" : ["D(3)", "D(9)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["D(0)", "D(2)", "D(3)", "D(4)", "D(5)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[3,7,7],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "comment":null
+        },
+        {
+            "id":"CG-G3-12",
+            "parentId":"CG-G3-11",
+            "title":"Multiply and Divide with 6",
+            "lessons":["2.1"],
+            "shotClockStart":"10",
+            "variableCards":
+               {
+                     "numOfCards":"4",
+                     "startValues":["D(6)", "D(12)", "D(18)", "D(24)", "D(30)", "D(36)", "D(42)", "D(48)", "D(54)", "D(60)"],
+                     "variations":{
+                         "var0" : null,
+                         "var1" : null,
+                         "var2" : null,
+                         "var3" : null
+                    },
+                     "goal":{
+                         "fractionType" : null,
+                         "values" : ["D(1)", "D(2)", "D(3)", "D(4)", "D(5)", "D(6)", "D(7)", "D(8)", "D(9)", "D(10)", "D(12)", "D(14)", "D(15)", "D(16)", "D(18)", "D(20)", "D(25)", "D(30)"]
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["D(10)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["D(2)", "D(5)", "D(10)"],
+                            "symbol" : "\\div",
+                            "operation" : "/"
+                        },
+                        {
+                            "values" : ["D(6)"],
+                            "symbol" : "\\div",
+                            "operation" : "/"
+                        },
+                        {
+                            "values" : ["D(6)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[3,7,7],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "comment":null
+        },
+        {
+            "id":"CG-G3-13",
+            "parentId":"CG-G3-12",
+            "title":"Multiply and Divide with 8",
+            "lessons":["2.3"],
+            "shotClockStart":"10",
+            "variableCards":
+               {
+                     "numOfCards":"4",
+                     "startValues":["D(8)", "D(16)", "D(24)", "D(32)", "D(40)", "D(48)", "D(56)", "D(64)", "D(72)", "D(80)"],
+                     "variations":{
+                         "var0" : null,
+                         "var1" : null,
+                         "var2" : null,
+                         "var3" : null
+                    },
+                     "goal":{
+                         "fractionType" : null,
+                         "values" : ["D(1)", "D(2)", "D(3)", "D(4)", "D(5)", "D(6)", "D(7)", "D(8)", "D(9)", "D(10)", "D(12)", "D(14)", "D(15)", "D(16)", "D(18)", "D(20)", "D(25)", "D(30)"]
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["D(10)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["D(2)", "D(5)", "D(10)"],
+                            "symbol" : "\\div",
+                            "operation" : "/"
+                        },
+                        {
+                            "values" : ["D(8)"],
+                            "symbol" : "\\div",
+                            "operation" : "/"
+                        },
+                        {
+                            "values" : ["D(8)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[3,7,7],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "comment":null
+        },
+        {
+            "id":"CG-G3-14",
+            "parentId":"CG-G3-13",
+            "title":"Multiply and Divide with 7",
+            "lessons":["2.5"],
+            "shotClockStart":"10",
+            "variableCards":
+               {
+                     "numOfCards":"4",
+                     "startValues":["D(7)", "D(14)", "D(21)", "D(28)", "D(35)", "D(42)", "D(49)", "D(56)", "D(63)", "D(70)"],
+                     "variations":{
+                         "var0" : null,
+                         "var1" : null,
+                         "var2" : null,
+                         "var3" : null
+                    },
+                     "goal":{
+                         "fractionType" : null,
+                         "values" : ["D(1)", "D(2)", "D(3)", "D(4)", "D(5)", "D(6)", "D(7)", "D(8)", "D(9)", "D(10)", "D(12)", "D(14)", "D(15)", "D(16)", "D(18)", "D(20)", "D(25)", "D(30)"]
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["D(10)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["D(2)", "D(5)", "D(10)"],
+                            "symbol" : "\\div",
+                            "operation" : "/"
+                        },
+                        {
+                            "values" : ["D(7)"],
+                            "symbol" : "\\div",
+                            "operation" : "/"
+                        },
+                        {
+                            "values" : ["D(7)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[3,7,7],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "comment":null
+        },
+        {
+            "id":"CG-G3-15",
+            "parentId":"CG-G3-14",
+            "title":"Square Numbers",
+            "lessons":["2.6"],
+            "shotClockStart":"10",
+            "variableCards":
+               {
+                     "numOfCards":"4",
+                     "startValues":["D(1)"],
+                     "variations":{
+                         "var0" : [4, 5, 6, 7, 8],
+                         "var1" : null,
+                         "var2" : null,
+                         "var3" : null
+                    },
+                     "goal":{
+                         "fractionType" : null,
+                         "values" : null
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["D(var0)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["D(var0)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["D(1)", "D(2)", "D(10)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["D(2)", "D(3)", "D(9)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[3,7,7],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "comment":null
+        },
+        {
+            "id":"CG-G3-16",
+            "parentId":"CG-G3-15",
+            "title":"Practice with 6s, 7s, and 8s",
+            "lessons":["2.7"],
+            "shotClockStart":"10",
+            "variableCards":
+               {
+                     "numOfCards":"4",
+                     "startValues":["D(1)", "D(2)", "D(3)", "D(4)", "D(5)", "D(6)", "D(7)", "D(8)", "D(9)", "D(10)"],
+                     "variations":{
+                         "var0" : [6, 7, 8],
+                         "var1" : null,
+                         "var2" : null,
+                         "var3" : null
+                    },
+                     "goal":{
+                         "fractionType" : null,
+                         "values" : null
+                    },
+                    "cards" :
+                      [
+                        {
+                            "values" : ["D(var0)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["D(var0)"],
+                            "symbol" : "\\div",
+                            "operation" : "/"
+                        },
+                        {
+                            "values" : ["D(6)", "D(7)", "D(8)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["D(6)", "D(7)", "D(8)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                    "starthresholds":[3,7,7],
+                    "points":100
+               },
+             "tutorial":
+               {
+                    "T1":null
+               },
+            "comment":null
+        },
+		{
+            "id":"CG-G3-17",
+            "parentId":"CG-G3-16",
+            "title":"Building Fluency with 0-10s",
+            "lessons":["2.8, 2.14"],
+            "shotClockStart":"10",
+            "variableCards":
+               {
+                     "numOfCards":"4",
+                     "startValues":["D(1)", "D(2)", "D(3)", "D(4)", "D(5)"],
+                     "variations":{
+                         "var0" : [2, 3, 4, 5],
+                         "var1" : null,
+                         "var2" : null,
+                         "var3" : null
+                    },
+                     "goal":{
+                         "fractionType" : null,
+                         "values" : null
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["D(2*var0)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["D(var0)"],
+                            "symbol" : "\\div",
+                            "operation" : "/"
+                        },
+                        {
+                            "values" : ["D(2)", "D(3)", "D(4)", "D(5)", "D(6)", "D(7)", "D(8)", "D(9)", "D(10)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["D(2)", "D(3)", "D(4)", "D(5)", "D(6)", "D(7)", "D(8)", "D(9)", "D(10)"],
+                            "symbol" : "\\div",
+                            "operation" : "/"
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[3,7,7],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "comment":null
+        },
+        {
+            "id":"CG-G3-18",
+            "parentId":"CG-G3-17",
+            "title":"Multiply with Multiples of 10",
+            "lessons":["2.12"],
+            "shotClockStart":"10",
+            "variableCards":
+               {
+                     "numOfCards":"4",
+                     "startValues":["D(1)", "D(2)", "D(3)"],
+                     "variations":{
+                         "var0" : null,
+                         "var1" : null,
+                         "var2" : null,
+                         "var3" : null
+                    },
+                     "goal":{
+                         "fractionType" : null,
+                         "values" : null
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["D(4)", "D(5)", "D(6)", "D(7)", "D(8)", "D(9)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["D(2)", "D(3)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["D(10)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["D(2)", "D(3)", "D(4)", "D(5)", "D(6)", "D(7)", "D(8)", "D(9)", "D(10)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[3,7,7],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "comment":null
+        },
+        {
+            "id":"CG-G3-19",
+            "parentId":"CG-G3-18",
+            "title":"Build Numbers",
+            "lessons":["3.2"],
+            "shotClockStart":"10",
+            "variableCards":
+               {
+                     "numOfCards":"4",
+                     "startValues":["D(0)"],
+                     "variations":{
+                         "var0" : null,
+                         "var1" : null,
+                         "var2" : null,
+                         "var3" : null
+                    },
+                     "goal":{
+                         "fractionType" : null,
+                         "values" : null
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["D(100)", "D(200)", "D(300)", "D(400)", "D(500)", "D(600)", "D(700)", "D(800)", "D(900)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["D(10)", "D(20)", "D(30)", "D(40)", "D(50)", "D(60)", "D(70)", "D(80)", "D(90)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["D(1)", "D(2)", "D(3)", "D(4)", "D(5)", "D(6)", "D(7)", "D(8)", "D(9)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["D(1)", "D(2)", "D(3)", "D(4)", "D(5)", "D(6)", "D(7)", "D(8)", "D(9)", "D(10)", "D(20)", "D(30)", "D(40)", "D(50)", "D(60)", "D(70)", "D(80)", "D(90)", "D(100)", "D(200)", "D(300)", "D(400)", "D(500)", "D(600)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[3,7,7],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "comment":null
+        },
+        {
+            "id":"CG-G3-20",
+            "parentId":"CG-G3-19",
+            "title":"Multidigit Addition",
+            "lessons":["3.7"],
+            "shotClockStart":"10",
+            "variableCards":
+               {
+                     "numOfCards":"4",
+                     "startValues":["D(10)", "D(20)", "D(30)", "D(100)", "D(200)", "D(300)"],
+                     "variations":{
+                         "var0" : null,
+                         "var1" : null,
+                         "var2" : null,
+                         "var3" : null
+                    },
+                     "goal":{
+                         "fractionType" : null,
+                         "values" : null
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["D(1)", "D(2)", "D(3)", "D(4)", "D(5)", "D(6)", "D(7)", "D(8)", "D(9)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["D(10)", "D(20)", "D(30)", "D(40)", "D(50)", "D(60)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["D(100)", "D(200)", "D(300)", "D(400)", "D(500)", "D(600)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["D(1)", "D(2)", "D(3)", "D(4)", "D(5)", "D(6)", "D(7)", "D(8)", "D(9)", "D(10)", "D(20)", "D(30)", "D(40)", "D(50)", "D(60)", "D(70)", "D(80)", "D(90)", "D(100)", "D(200)", "D(300)", "D(400)", "D(500)", "D(600)", "D(700)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[3,7,7],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "comment":null
+        },
+        {
+            "id":"CG-G3-21",
+            "parentId":"CG-G3-20",
+            "title":"Subtract Across Zeros",
+            "lessons":["3.12"],
+            "shotClockStart":"10",
+            "variableCards":
+               {
+                     "numOfCards":"4",
+                     "startValues":["D(500)", "D(600)", "D(700)", "D(800)", "D(900)"],
+                     "variations":{
+                         "var0" : null,
+                         "var1" : null,
+                         "var2" : null,
+                         "var3" : null
+                    },
+                     "goal":{
+                         "fractionType" : null,
+                         "values" : null
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["D(100)", "D(200)", "D(300)", "D(400)"],
+                            "symbol" : "-",
+                            "operation" : "-"
+                        },
+                        {
+                            "values" : ["D(10)", "D(20)", "D(30)", "D(40)", "D(50)", "D(60)", "D(70)", "D(80)", "D(90)"],
+                            "symbol" : "-",
+                            "operation" : "-"
+                        },
+                        {
+                            "values" : ["D(1)", "D(2)", "D(3)", "D(4)", "D(5)", "D(6)", "D(7)", "D(8)", "D(9)"],
+                            "symbol" : "-",
+                            "operation" : "-"
+                        },
+                        {
+                            "values" : ["D(1)", "D(2)", "D(3)", "D(4)", "D(5)", "D(6)", "D(7)", "D(8)", "D(9)", "D(10)", "D(20)", "D(30)", "D(40)", "D(50)", "D(60)", "D(70)", "D(80)", "D(90)", "D(100)", "D(200)", "D(300)", "D(400)", "D(500)"],
+                            "symbol" : "-",
+                            "operation" : "-"
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[3,7,7],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "comment":null
+        },
+        {
+            "id":"CG-G3-22",
+            "parentId":"CG-G3-21",
+            "title":"The Commutative Property of Addition",
+            "lessons":["3.17"],
+            "shotClockStart":"10",
+            "variableCards":
+               {
+                     "numOfCards":"4",
+                     "startValues":["D(0)"],
+                     "variations":{
+                         "var0" : [1, 2, 3, 4, 5, 6, 7, 8, 9],
+                         "var1" : null,
+                         "var2" : null,
+                         "var3" : null
+                    },
+                     "goal":{
+                         "fractionType" : null,
+                         "values" : null
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["D(10+var0)", "D(20+var0)", "D(30+var0)", "D(40+var0)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["D(20-var0)", "D(30-var0)", "D(40-var0)", "D(50-var0)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["D(1)", "D(2)", "D(3)", "D(4)", "D(5)", "D(6)", "D(7)", "D(8)", "D(9)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["D(1)", "D(2)", "D(3)", "D(4)", "D(5)", "D(6)", "D(7)", "D(8)", "D(9)", "D(10)", "D(11)", "D(12)", "D(13)", "D(14)", "D(15)", "D(16)", "D(17)", "D(18)", "D(19)", "D(20)", "D(21)", "D(22)", "D(23)", "D(24)", "D(25)", "D(26)", "D(27)", "D(28)", "D(29)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[3,7,7],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "comment":null
+        },
+        {
+            "id":"CG-G3-23",
+            "parentId":"CG-G3-22",
+            "title":"Multistep Problems",
+            "lessons":["6.8"],
+            "shotClockStart":"10",
+            "variableCards":
+               {
+                     "numOfCards":"4",
+                     "startValues":["D(1)", "D(2)", "D(3)", "D(4)", "D(5)", "D(6)", "D(7)", "D(8)", "D(9)"],
+                     "variations":{
+                         "var0" : null,
+                         "var1" : null,
+                         "var2" : null,
+                         "var3" : null
+                    },
+                     "goal":{
+                         "fractionType" : null,
+                         "values" : ["D(0)", "D(1)", "D(2)", "D(3)", "D(4)", "D(5)", "D(6)", "D(7)", "D(8)", "D(9)", "D(10)", "D(11)", "D(12)", "D(13)", "D(14)", "D(15)", "D(16)", "D(17)", "D(18)", "D(19)", "D(20)", "D(21)", "D(22)", "D(23)", "D(24)", "D(25)", "D(26)"]
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["D(1)", "D(2)", "D(3)", "D(4)", "D(5)", "D(6)", "D(7)", "D(8)", "D(9)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["D(11)", "D(12)", "D(13)", "D(14)", "D(15)", "D(16)", "D(17)", "D(18)", "D(19)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["D(11)", "D(12)", "D(13)", "D(14)", "D(15)", "D(16)", "D(17)", "D(18)", "D(19)"],
+                            "symbol" : "-",
+                            "operation" : "-"
+                        },
+                        {
+                            "values" : ["D(1)", "D(2)", "D(3)", "D(4)", "D(5)", "D(6)", "D(7)", "D(8)", "D(9)"],
+                            "symbol" : "-",
+                            "operation" : "-"
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[3,7,7],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "comment":null
+        }
+    ]
+}

@@ -1,0 +1,74 @@
+[
+    {
+        "ID": "TS00", 
+        "grade": "0", 
+        "parentID": "", 
+        "operationType": {
+            "representation": "U = x + y", 
+            "id": "0"
+        }
+    }, 
+    {
+        "ID": "TS01", 
+        "grade": "0", 
+        "parentID": "TS00", 
+        "operationType": {
+            "representation": "U = x + y", 
+            "id": "0"
+        }
+    }, 
+    {
+        "ID": "TS02", 
+        "grade": "0", 
+        "parentID": "TS01", 
+        "operationType": {
+            "representation": "U = x + y", 
+            "id": "0"
+        }
+    }, 
+    {
+        "ID": "TS03", 
+        "grade": "0", 
+        "parentID": "TS02", 
+        "operationType": {
+            "representation": "U = x + y", 
+            "id": "0"
+        }
+    }, 
+    {
+        "ID": "TS04", 
+        "grade": "2", 
+        "parentID": "", 
+        "operationType": {
+            "representation": "U = x - y", 
+            "id": "2"
+        }
+    }, 
+    {
+        "ID": "TS05", 
+        "grade": "2", 
+        "parentID": "TS04", 
+        "operationType": {
+            "representation": "U = x - y", 
+            "id": "2"
+        }
+    }, 
+    {
+        "ID": "TS06", 
+        "grade": "2", 
+        "parentID": "TS05", 
+        "operationType": {
+            "representation": "U = x - y", 
+            "id": "2"
+        }
+    }, 
+    {
+        "ID": "TS07", 
+        "grade": "2", 
+        "parentID": "TS06", 
+        "operationType": {
+            "representation": "U = x - y", 
+            "id": "2"
+        }
+    }
+]

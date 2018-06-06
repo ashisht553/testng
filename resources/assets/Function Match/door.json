@@ -1,0 +1,43 @@
+﻿{"frames": {
+
+"bigdoor0000":
+{
+	"frame": {"x":10,"y":10,"w":240,"h":135},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":240,"h":135},
+	"sourceSize": {"w":240,"h":135}
+},
+"bigdoor_active0000":
+{
+	"frame": {"x":260,"y":10,"w":240,"h":135},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":240,"h":135},
+	"sourceSize": {"w":240,"h":135}
+},
+"door0000":
+{
+	"frame": {"x":10,"y":155,"w":180,"h":134},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":134},
+	"sourceSize": {"w":180,"h":134}
+},
+"door_active0000":
+{
+	"frame": {"x":200,"y":155,"w":180,"h":134},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":134},
+	"sourceSize": {"w":180,"h":134}
+}},
+"meta": {
+	"app": "Adobe Animate",
+	"version": "15.2.1.95",
+	"image": "door.png",
+	"format": "RGBA8888",
+	"size": {"w":512,"h":512},
+	"scale": "1"
+}
+}

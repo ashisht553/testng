@@ -1,0 +1,1088 @@
+{
+    "gameName":"CG",
+    "isbn":"RN-6-9781328886699",
+    "GameGuid":"4410266769",
+    "grade":"g6",
+    "gradeLabel":"Grade 6",
+    "testMode":true,
+    "levelData":
+[
+        {
+            "id":"CG-G6-01",
+            "parentId":"",
+            "title":"Tutorial Level 1",
+            "lessons":["2-2, 2-8"],
+            "shotClockStart":"3",
+            "negativeAllowed":"no",
+            "goalFraction":null,
+            "cardsFraction":null,
+            "gameplayFraction":"decimal",
+            "variableCards":
+               {
+                     "numOfCards":"1",
+                     "startValues":["D(0)"],
+                     "variations":{
+                         "var0" : null,
+                         "var1" : null,
+                         "var2" : null,
+                         "var3" : null
+                    },
+                     "goal":{
+                         "values" : null
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["D(1)", "D(2)", "D(3)", "D(4)", "D(5)", "D(6)", "D(7)", "D(8)", "D(9)", "D(10)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : null,
+                            "symbol" : null,
+                            "operation" : null
+                        },
+                        {
+                            "values" : null,
+                            "symbol" : null,
+                            "operation" : null
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[1,2,2],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":"T1_basket_animation.mp4"
+               },
+            "comment":null
+        },
+        {
+            "id":"CG-G6-02",
+            "parentId":"CG-G6-01",
+            "title":"Tutorial Level 2",
+            "lessons":["2-2, 2-8"],
+            "shotClockStart":"5",
+            "negativeAllowed":"no",
+            "goalFraction":null,
+            "cardsFraction":null,
+            "gameplayFraction":"decimal",
+            "variableCards":
+               {
+                     "numOfCards":"2",
+                     "startValues":["D(0)"],
+                     "variations":{
+                         "var0" : null,
+                         "var1" : null,
+                         "var2" : null,
+                         "var3" : null
+                    },
+                     "goal":{
+                         "values" : null
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["D(1)", "D(2)", "D(3)", "D(4)", "D(5)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["D(1)", "D(2)", "D(3)", "D(4)", "D(5)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : null,
+                            "symbol" : null,
+                            "operation" : null
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[2,4,4],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":"T2_basket_animation.mp4"
+               },
+            "comment":null
+        },
+        {
+            "id":"CG-G6-03",
+            "parentId":"CG-G6-02",
+            "title":"Area of a Polygon",
+            "lessons":["2-2, 2-8"],
+            "shotClockStart":"10",
+            "negativeAllowed":"no",
+            "goalFraction":null,
+            "cardsFraction":null,
+            "gameplayFraction":"decimal",
+            "variableCards":
+               {
+                     "numOfCards":"4",
+                     "startValues":["D(1)", "D(2)", "D(3)", "D(4)", "D(5)", "D(6)", "D(7)", "D(8)", "D(9)", "D(10)"],
+                     "variations":{
+                         "var0" : null,
+                         "var1" : null,
+                         "var2" : null,
+                         "var3" : null
+                    },
+                     "goal":{
+                         "values" : null
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["D(2)", "D(3)", "D(4)", "D(5)", "D(10)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["F(1,2)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["D(2)", "D(4)", "D(6)", "D(8)", "D(10)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["D(2)", "D(3)", "D(4)", "D(5)", "D(6)", "D(7)", "D(8)", "D(9)", "D(10)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[3,7,7],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "comment":null
+        },
+        {
+            "id":"CG-G6-04",
+            "parentId":"CG-G6-03",
+            "title":"Area of a Trapezoid",
+            "lessons":["2-6"],
+            "shotClockStart":"10",
+            "negativeAllowed":"no",
+            "goalFraction":null,
+            "cardsFraction":null,
+            "gameplayFraction":"decimal",
+            "variableCards":
+               {
+                     "numOfCards":"4",
+                     "startValues":["D(1)", "D(2)", "D(3)", "D(4)", "D(5)", "D(6)", "D(7)", "D(8)", "D(9)", "D(10)"],
+                     "variations":{
+                         "var0" : null,
+                         "var1" : null,
+                         "var2" : null,
+                         "var3" : null
+                    },
+                     "goal":{
+                         "values" : null
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["D(1)", "D(2)", "D(3)", "D(4)", "D(5)", "D(10)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["F(1,2)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["D(2)", "D(4)", "D(6)", "D(8)", "D(10)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["D(1)", "D(2)", "D(3)", "D(4)", "D(5)", "D(6)", "D(7)", "D(8)", "D(9)", "D(10)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[3,7,7],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "comment":null
+        },
+        {
+            "id":"CG-G6-05",
+            "parentId":"CG-G6-04",
+            "title":"Multiplying by Tenths",
+            "lessons":["3-3"],
+            "shotClockStart":"10",
+            "negativeAllowed":"no",
+            "goalFraction":null,
+            "cardsFraction":null,
+            "gameplayFraction":"decimal",
+            "variableCards":
+               {
+                     "numOfCards":"3",
+                     "startValues":["D(100)", "D(200)", "D(300)", "D(400)", "D(500)", "D(600)", "D(700)", "D(800)", "D(900)"],
+                     "variations":{
+                         "var0" : null,
+                         "var1" : null,
+                         "var2" : null,
+                         "var3" : null
+                    },
+                     "goal":{
+                         "values" : null
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["D(100)", "D(200)", "D(300)", "D(400)", "D(500)", "D(600)", "D(700)", "D(800)", "D(900)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["D(0.1)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["D(0.1)", "D(0.2)", "D(0.3)", "D(0.4)", "D(0.5)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[3,7,7],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "comment":null
+        },
+        {
+            "id":"CG-G6-06",
+            "parentId":"CG-G6-05",
+            "title":"Multiplying by Hundredths",
+            "lessons":["3-3"],
+            "shotClockStart":"10",
+            "negativeAllowed":"no",
+            "goalFraction":null,
+            "cardsFraction":null,
+            "gameplayFraction":"decimal",
+            "variableCards":
+               {
+                     "numOfCards":"3",
+                     "startValues":["D(1000)", "D(2000)"],
+                     "variations":{
+                         "var0" : null,
+                         "var1" : null,
+                         "var2" : null,
+                         "var3" : null
+                    },
+                     "goal":{
+                         "values" : null
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["D(.01)", "D(.02)", "D(.03)", "D(.04)", "D(.05)", "D(.06)", "D(.07)", "D(.08)", "D(.09)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["D(10)", "D(20)", "D(30)", "D(40)", "D(50)", "D(60)", "D(70)", "D(80)", "D(90)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["D(0.1)", "D(0.2)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[7,7,7],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "comment":null
+        },
+        {
+            "id":"CG-G6-07",
+            "parentId":"CG-G6-06",
+            "title":"Decimal Divisors",
+            "lessons":["3-4"],
+            "shotClockStart":"10",
+            "negativeAllowed":"no",
+            "goalFraction":null,
+            "cardsFraction":null,
+            "gameplayFraction":"decimal",
+            "variableCards":
+               {
+                     "numOfCards":"4",
+                     "startValues":["D(10)", "D(20)", "D(50)"],
+                     "variations":{
+                         "var0" : null,
+                         "var1" : null,
+                         "var2" : null,
+                         "var3" : null
+                    },
+                     "goal":{
+                         "values" : ["D(100)", "D(150)", "D(200)", "D(250)", "D(300)", "D(400)", "D(500)", "D(600)", "D(800)", "D(1000)", "D(1500)", "D(2000)", "D(2500)", "D(3000)", "D(4000)", "D(5000)", "D(6000)", "D(8000)"]
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["D(0.1)", "D(0.2)", "D(0.4)", "D(0.5)"],
+                            "symbol" : "\\div",
+                            "operation" : "/"
+                        },
+                        {
+                            "values" : ["D(2)", "D(3)", "D(4)", "D(5)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["D(0.1)", "D(0.2)", "D(0.4)", "D(0.5)"],
+                            "symbol" : "\\div",
+                            "operation" : "/"
+                        },
+                        {
+                            "values" : ["D(0.1)", "D(0.2)", "D(2)", "D(5)", "D(10)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[7,7,7],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "comment":null
+        },
+        {
+            "id":"CG-G6-08",
+            "parentId":"CG-G6-07",
+            "title":"Decimal Divisors with Subtraction",
+            "lessons":["3-4"],
+            "shotClockStart":"9",
+            "negativeAllowed":"no",
+            "goalFraction":null,
+            "cardsFraction":null,
+            "gameplayFraction":"decimal",
+            "variableCards":
+               {
+                     "numOfCards":"3",
+                     "startValues":["D(3)", "D(4)", "D(5)", "D(6)", "D(7)", "D(8)", "D(9)", "D(10)"],
+                     "variations":{
+                         "var0" : null,
+                         "var1" : null,
+                         "var2" : null,
+                         "var3" : null
+                    },
+                     "goal":{
+                         "values" : ["D(40)", "D(50)", "D(60)", "D(80)", "D(100)", "D(150)", "D(200)", "D(250)", "D(300)", "D(350)", "D(400)", "D(450)"]
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["D(1)", "D(2)", "D(3)", "D(4)", "D(5)", "D(6)", "D(7)", "D(8)", "D(9)"],
+                            "symbol" : "-",
+                            "operation" : "-"
+                        },
+                        {
+                            "values" : ["D(0.01)"],
+                            "symbol" : "\\div",
+                            "operation" : "/"
+                        },
+                        {
+                            "values" : ["D(2)", "D(4)", "D(5)"],
+                            "symbol" : "\\div",
+                            "operation" : "/"
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[3,6,6],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "comment":null
+        },
+        {
+            "id":"CG-G6-09",
+            "parentId":"CG-G6-08",
+            "title":"Decimal Multiplication and Division",
+            "lessons":["3-5"],
+            "shotClockStart":"9",
+            "negativeAllowed":"no",
+            "goalFraction":null,
+            "cardsFraction":null,
+            "gameplayFraction":"decimal",
+            "variableCards":
+               {
+                     "numOfCards":"4",
+                     "startValues":["D(1)", "D(2)", "D(3)", "D(4)", "D(5)", "D(6)", "D(7)", "D(8)", "D(9)", "D(10)"],
+                     "variations":{
+                         "var0" : null,
+                         "var1" : null,
+                         "var2" : null,
+                         "var3" : null
+                    },
+                     "goal":{
+                         "values" : ["D(5)", "D(10)", "D(15)", "D(20)", "D(25)", "D(30)", "D(35)", "D(40)", "D(45)", "D(50)", "D(60)", "D(70)", "D(75)", "D(80)", "D(90)", "D(100)", "D(120)", "D(140)", "D(150)", "D(160)", "D(180)", "D(200)", "D(210)", "D(240)", "D(250)", "D(270)", "D(280)", "D(300)"]
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["D(0.1)", "D(0.2)", "D(0.3)", "D(0.4)", "D(0.5)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["D(0.1)", "D(0.2)", "D(0.3)", "D(0.4)", "D(0.5)"],
+                            "symbol" : "\\div",
+                            "operation" : "/"
+                        },
+                        {
+                            "values" : ["D(10)", "D(20)", "D(30)", "D(40)", "D(50)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["D(0.1)", "D(0.2)", "D(0.3)", "D(0.4)", "D(0.5)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[3,6,6],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "comment":null
+        },
+        {
+            "id":"CG-G6-10",
+            "parentId":"CG-G6-09",
+            "title":"Unit Fractions",
+            "lessons":["3-6"],
+            "shotClockStart":"9",
+            "negativeAllowed":"no",
+            "goalFraction":"unsimplified",
+            "cardsFraction":"unsimplified",
+            "gameplayFraction":"unsimplified",
+            "variableCards":
+               {
+                     "numOfCards":"4",
+                     "startValues":["F(1,var0)", "F(2,var0)", "F(3,var0)", "F(4,var0)", "F(5,var0)"],
+                     "variations":{
+                         "var0" : [8, 9],
+                         "var1" : null,
+                         "var2" : null,
+                         "var3" : null
+                    },
+                     "goal":{
+                         "values" : ["F(1,var0)", "F(2,var0)", "F(3,var0)", "F(4,var0)", "F(5,var0)", "F(6,var0)", "F(7,var0)", "F(8,var0)"]
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["F(1,var0)", "F(2,var0)", "F(3,var0)", "F(4,var0)", "F(5,var0)", "F(6,var0)", "F(7,var0)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["F(1,var0)", "F(2,var0)", "F(3,var0)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["F(1,var0)", "F(2,var0)", "F(3,var0)", "F(4,var0)", "F(5,var0)"],
+                            "symbol" : "-",
+                            "operation" : "-"
+                        },
+                        {
+                            "values" : ["F(1,var0)", "F(2,var0)", "F(3,var0)", "F(4,var0)", "F(5,var0)", "F(6,var0)", "F(7,var0)", "F(8,var0)"],
+                            "symbol" : "-",
+                            "operation" : "-"
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[6,6,6],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "comment":null
+        },
+        {
+            "id":"CG-G6-11",
+            "parentId":"CG-G6-10",
+            "title":"Unit Decimals",
+            "lessons":["3-6"],
+            "shotClockStart":"9",
+            "negativeAllowed":"no",
+            "goalFraction":null,
+            "cardsFraction":null,
+            "gameplayFraction":"decimal",
+            "variableCards":
+               {
+                     "numOfCards":"4",
+                     "startValues":["D(0.1)", "D(0.2)", "D(0.3)", "D(0.4)", "D(0.5)", "D(0.6)", "D(0.7)", "D(0.8)", "D(0.9)"],
+                     "variations":{
+                         "var0" : null,
+                         "var1" : null,
+                         "var2" : null,
+                         "var3" : null
+                    },
+                     "goal":{
+                         "values" : ["D(0.1)", "D(0.2)", "D(0.3)", "D(0.4)", "D(0.5)", "D(0.6)", "D(0.7)", "D(0.8)", "D(0.9)"]
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["D(0.1)", "D(0.2)", "D(0.3)", "D(0.4)", "D(0.5)", "D(0.6)", "D(0.7)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["D(0.1)", "D(0.2)", "D(0.3)", "D(0.4)", "D(0.5)", "D(0.6)", "D(0.7)"],
+                            "symbol" : "-",
+                            "operation" : "-"
+                        },
+                        {
+                            "values" : ["D(0.1)", "D(0.2)", "D(0.3)", "D(0.4)", "D(0.5)", "D(0.6)", "D(0.7)"],
+                            "symbol" : "-",
+                            "operation" : "-"
+                        },
+                        {
+                            "values" : ["D(0.1)", "D(0.2)", "D(0.3)", "D(0.4)", "D(0.5)", "D(0.6)", "D(0.7)", "D(0.8)", "D(0.9)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[6,6,6],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "comment":null
+        },
+        {
+            "id":"CG-G6-12",
+            "parentId":"CG-G6-11",
+            "title":"Common Denominators with Fractions",
+            "lessons":["3-7"],
+            "shotClockStart":"8",
+            "negativeAllowed":"no",
+            "goalFraction":"unsimplified",
+            "cardsFraction":"unsimplified",
+            "gameplayFraction":"unsimplified",
+            "variableCards":
+               {
+                     "numOfCards":"4",
+                     "startValues":["F(1,5)", "F(2,5)", "F(3,5)"],
+                     "variations":{
+                         "var0" : null,
+                         "var1" : null,
+                         "var2" : null,
+                         "var3" : null
+                    },
+                     "goal":{
+                         "values" : ["F(3,10)", "F(4,10)", "F(5,10)", "F(6,10)", "F(7,10)", "F(8,10)", "F(9,10)"]
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["F(1,10)", "F(2,10)", "F(3,10)", "F(4,10)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["F(1,10)", "F(2,10)", "F(3,10)", "F(4,10)", "F(5,10)", "F(6,10)", "F(7,10)", "F(8,10)", "F(9,10)"],
+                            "symbol" : "-",
+                            "operation" : "-"
+                        },
+                        {
+                            "values" : ["F(1,5)", "F(2,5)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["F(1,5)", "F(2,5)", "F(3,5)", "F(4,5)"],
+                            "symbol" : "-",
+                            "operation" : "-"
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[4,5,5],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "comment":null
+        },
+        {
+            "id":"CG-G6-13",
+            "parentId":"CG-G6-12",
+            "title":"Common Denominators with Decimals",
+            "lessons":["3-7"],
+            "shotClockStart":"8",
+            "negativeAllowed":"no",
+            "goalFraction":null,
+            "cardsFraction":null,
+            "gameplayFraction":"decimal",
+            "variableCards":
+               {
+                     "numOfCards":"4",
+                     "startValues":["D(0.1)", "D(0.2)", "D(0.3)", "D(0.4)", "D(0.5)"],
+                     "variations":{
+                         "var0" : null,
+                         "var1" : null,
+                         "var2" : null,
+                         "var3" : null
+                    },
+                     "goal":{
+                         "values" : null
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["D(0.1)", "D(0.2)", "D(0.3)", "D(0.4)", "D(0.5)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["D(0.01)", "D(0.02)", "D(0.03)", "D(0.04)"],
+                            "symbol" : "-",
+                            "operation" : "-"
+                        },
+                        {
+                            "values" : ["D(0.01)", "D(0.02)", "D(0.03)", "D(0.04)", "D(0.05)", "D(0.06)", "D(0.07)", "D(0.08)", "D(0.09)"],
+                            "symbol" : "-",
+                            "operation" : "-"
+                        },
+                        {
+                            "values" : ["D(0.1)", "D(0.2)", "D(0.3)", "D(0.4)", "D(0.5)", "D(0.6)", "D(0.7)", "D(0.8)", "D(0.9)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[4,5,5],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "comment":null
+        },
+        {
+            "id":"CG-G6-14",
+            "parentId":"CG-G6-13",
+            "title":"Adding and Subtracting Mixed Numbers",
+            "lessons":["3-8"],
+            "shotClockStart":"8",
+            "negativeAllowed":"no",
+            "goalFraction":"simplified",
+            "cardsFraction":"simplified",
+            "gameplayFraction":"simplified",
+            "variableCards":
+               {
+                     "numOfCards":"4",
+                     "startValues":["F(1,2)", "F(1,1,2)"],
+                     "variations":{
+                         "var0" : null,
+                         "var1" : null,
+                         "var2" : null,
+                         "var3" : null
+                    },
+                     "goal":{
+                         "values" : null
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["F(1,2)", "F(1,1,2)", "F(2,1,2)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["D(1)", "D(2)", "D(3)", "D(4)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["F(1,4)", "F(1,5)", "F(1,8)", "F(1,10)"],
+                            "symbol" : "-",
+                            "operation" : "-"
+                        },
+                        {
+                            "values" : ["F(1,2)", "F(1,1,2)", "F(2,1,2)", "F(3,1,2)"],
+                            "symbol" : "-",
+                            "operation" : "-"
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[5,5,5],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "comment":null
+        },
+        {
+            "id":"CG-G6-15",
+            "parentId":"CG-G6-14",
+            "title":"Multiplying Fractions",
+            "lessons":["3-10"],
+            "shotClockStart":"8",
+            "negativeAllowed":"no",
+            "goalFraction":null,
+            "cardsFraction":null,
+            "gameplayFraction":"simplified",
+            "variableCards":
+               {
+                     "numOfCards":"4",
+                     "startValues":["D(4)", "D(6)", "D(8)", "D(9)", "D(12)"],
+                     "variations":{
+                         "var0" : null,
+                         "var1" : null,
+                         "var2" : null,
+                         "var3" : null
+                    },
+                     "goal":{
+                         "values" : ["D(2)", "D(3)", "D(4)", "D(6)", "D(8)", "D(9)", "D(12)", "D(16)", "D(18)", "D(24)"]
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["F(1,2)", "F(1,3)", "F(1,4)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["F(1,2)", "F(1,3)", "F(1,4)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["D(2)", "D(3)", "D(4)", "D(6)", "D(8)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["D(2)", "D(3)", "D(4)", "D(6)", "D(8)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[5,5,5],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "comment":null
+        },
+        {
+            "id":"CG-G6-16",
+            "parentId":"CG-G6-15",
+            "title":"Dividing Fractions",
+            "lessons":["3-11, 3-13, 3-14, 3-15"],
+            "shotClockStart":"7",
+            "negativeAllowed":"no",
+            "goalFraction":null,
+            "cardsFraction":null,
+            "gameplayFraction":"simplified",
+            "variableCards":
+               {
+                     "numOfCards":"4",
+                     "startValues":["D(2)", "D(3)", "D(4)", "D(5)", "D(6)"],
+                     "variations":{
+                         "var0" : null,
+                         "var1" : null,
+                         "var2" : null,
+                         "var3" : null
+                    },
+                     "goal":{
+                         "values" : ["D(1)", "D(2)", "D(3)", "D(4)", "D(5)", "D(6)"]
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["F(1,2)", "F(1,3)", "F(1,4)", "F(1,5)"],
+                            "symbol" : "\\div",
+                            "operation" : "/"
+                        },
+                        {
+                            "values" : ["D(2)", "D(3)", "D(4)", "D(5)"],
+                            "symbol" : "\\div",
+                            "operation" : "/"
+                        },
+                        {
+                            "values" : ["D(2)", "D(3)", "D(4)", "D(5)", "D(10)"],
+                            "symbol" : "\\div",
+                            "operation" : "/"
+                        },
+                        {
+                            "values" : ["D(2)", "D(3)", "D(4)", "D(5)"],
+                            "symbol" : "\\div",
+                            "operation" : "/"
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[3,4,4],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "comment":null
+        },
+        {
+            "id":"CG-G6-17",
+            "parentId":"CG-G6-16",
+            "title":"Multiplying and Dividing Fractions",
+            "lessons":["3-12, 3-16"],
+            "shotClockStart":"7",
+            "negativeAllowed":"yes",
+            "goalFraction":null,
+            "cardsFraction":null,
+            "gameplayFraction":"simplified",
+            "variableCards":
+               {
+                     "numOfCards":"4",
+                     "startValues":["D(1)", "D(2)", "D(3)", "D(4)", "D(5)", "D(6)", "D(7)", "D(8)", "D(9)", "D(10)"],
+                     "variations":{
+                         "var0" : null,
+                         "var1" : null,
+                         "var2" : null,
+                         "var3" : null
+                    },
+                     "goal":{
+                         "values" : ["D(2)", "D(4)", "D(5)", "D(6)", "D(8)", "D(9)", "D(10)", "D(12)", "D(14)", "D(15)", "D(16)", "D(18)", "D(20)", "D(21)", "D(24)", "D(25)", "D(27)", "D(28)", "D(30)", "D(32)", "D(35)", "D(36)", "D(40)", "D(45)", "D(50)"]
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["D(2)", "D(3)", "D(4)"],
+                            "symbol" : "\\div",
+                            "operation" : "/"
+                        },
+                        {
+                            "values" : ["F(1,2)", "F(1,3)", "F(1,4)", "F(1,5)"],
+                            "symbol" : "\\div",
+                            "operation" : "/"
+                        },
+                        {
+                            "values" : ["D(2)", "D(3)", "D(4)", "D(5)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["F(1,2)", "F(1,3)", "F(1,4)", "F(1,5)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[3,4,4],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "comment":null
+        },
+        {
+            "id":"CG-G6-18",
+            "parentId":"CG-G6-17",
+            "title":"Operations with Fractions",
+            "lessons":["3-17"],
+            "shotClockStart":"7",
+            "negativeAllowed":"yes",
+            "goalFraction":null,
+            "cardsFraction":null,
+            "gameplayFraction":"simplified",
+            "variableCards":
+               {
+                     "numOfCards":"4",
+                     "startValues":["F(1,var0)", "F(2,var0)"],
+                     "variations":{
+                         "var0" : [3,4],
+                         "var1" : null,
+                         "var2" : null,
+                         "var3" : null
+                    },
+                     "goal":{
+                         "values" : ["F(1,2)", "F(2,3)", "F(3,4)", "F(2,5)", "F(3,5)", "F(4,5)", "D(1)", "D(2)", "F(1,1,2)", "F(1,1,3)"]
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["F(1,var0)", "F(2,var0)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["D(var0)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["D(2)", "D(3)", "D(4)", "D(5)"],
+                            "symbol" : "\\div",
+                            "operation" : "/"
+                        },
+                        {
+                            "values" : ["F(1,var0)", "F(2,var0)"],
+                            "symbol" : "-",
+                            "operation" : "-"
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[4,4,4],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "comment":null
+        },
+        {
+            "id":"CG-G6-19",
+            "parentId":"CG-G6-18",
+            "title":"Operations with Decimals",
+            "lessons":["3-17"],
+            "shotClockStart":"7",
+            "negativeAllowed":"yes",
+            "goalFraction":null,
+            "cardsFraction":null,
+            "gameplayFraction":"decimal",
+            "variableCards":
+               {
+                     "numOfCards":"4",
+                     "startValues":["D(1.1)", "D(1.3)", "D(1.5)", "D(1.7)", "D(1.9)", "D(2.1)", "D(2.3)", "D(2.5)", "D(2.7)", "D(2.9)"],
+                     "variations":{
+                         "var0" : null,
+                         "var1" : null,
+                         "var2" : null,
+                         "var3" : null
+                    },
+                     "goal":{
+                         "values" : ["D(0)", "D(0.1)", "D(0.2)", "D(0.3)", "D(0.4)", "D(0.5)", "D(0.6)", "D(0.7)", "D(0.8)", "D(0.9)", "D(1)", "D(1.1)", "D(1.2)", "D(1.3)", "D(1.4)", "D(1.5)", "D(1.6)", "D(1.7)", "D(1.8)", "D(1.9)", "D(2)", "D(2.1)", "D(2.2)", "D(2.3)"]
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["D(0.1)", "D(0.3)", "D(0.5)", "D(0.7)", "D(0.9)", "D(1.1)", "D(1.3)", "D(1.5)", "D(1.7)", "D(1.9)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["D(2)"],
+                            "symbol" : "\\div",
+                            "operation" : "/"
+                        },
+                        {
+                            "values" : ["D(0.1)", "D(0.2)", "D(0.3)", "D(0.4)", "D(0.5)", "D(0.6)", "D(0.7)", "D(0.8)", "D(0.9)"],
+                            "symbol" : "-",
+                            "operation" : "-"
+                        },
+                        {
+                            "values" : ["D(0.5)", "D(1.5)", "D(2)", "D(3)", "D(4)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[4,4,4],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "comment":null
+        }
+    ]
+}

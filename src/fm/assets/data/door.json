@@ -1,0 +1,59 @@
+﻿{"frames": {
+
+"door_left0000":
+{
+	"frame": {"x":10,"y":10,"w":180,"h":268},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":268},
+	"sourceSize": {"w":180,"h":268}
+},
+"door_left_active0000":
+{
+	"frame": {"x":200,"y":10,"w":180,"h":268},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":268},
+	"sourceSize": {"w":180,"h":268}
+},
+"door_middle0000":
+{
+	"frame": {"x":390,"y":10,"w":20,"h":268},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":20,"h":268},
+	"sourceSize": {"w":20,"h":268}
+},
+"door_middle_active0000":
+{
+	"frame": {"x":420,"y":10,"w":20,"h":268},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":20,"h":268},
+	"sourceSize": {"w":20,"h":268}
+},
+"door_right0000":
+{
+	"frame": {"x":10,"y":288,"w":180,"h":268},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":268},
+	"sourceSize": {"w":180,"h":268}
+},
+"door_right_active0000":
+{
+	"frame": {"x":200,"y":288,"w":180,"h":268},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":268},
+	"sourceSize": {"w":180,"h":268}
+}},
+"meta": {
+	"app": "Adobe Animate",
+	"version": "15.2.1.95",
+	"image": "door.png",
+	"format": "RGBA8888",
+	"size": {"w":512,"h":1024},
+	"scale": "1"
+}
+}

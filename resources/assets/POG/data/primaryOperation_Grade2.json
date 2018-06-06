@@ -1,0 +1,4025 @@
+[
+    {
+        "ID": "TWOPO01", 
+        "grade": "2", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "3", 
+        "members": [
+            {
+                "upper": "9", 
+                "lower": "2"
+            }, 
+            {
+                "upper": "9", 
+                "lower": "2"
+            }
+        ], 
+        "operationType": {
+            "representation": "U = x + y  ", 
+            "id": "0"
+        }, 
+        "unknown": {
+            "position": "0", 
+            "lower": "11", 
+            "upper": "19"
+        }, 
+        "goodGuyTypes": [
+            4
+        ], 
+        "badGuyTypes": [
+            4
+        ], 
+        "bench": {
+            "possibleValues": [
+                "11", 
+                "12", 
+                "13", 
+                "14", 
+                "15", 
+                "16", 
+                "17", 
+                "18", 
+                "19"
+            ], 
+            "isInfinite": false, 
+            "startNumber": "9"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": false, 
+            "variationGoodPercent": "0"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "1", 
+                    "4"
+                ], 
+                "unit": "1"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "TWOPO02", 
+        "grade": "2", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "5", 
+        "members": [
+            {
+                "upper": "9", 
+                "lower": "2"
+            }, 
+            {
+                "upper": "9", 
+                "lower": "2"
+            }
+        ], 
+        "operationType": {
+            "representation": "U = x + y  ", 
+            "id": "0"
+        }, 
+        "unknown": {
+            "position": "0", 
+            "lower": "11", 
+            "upper": "19"
+        }, 
+        "goodGuyTypes": [
+            4
+        ], 
+        "badGuyTypes": [
+            4
+        ], 
+        "bench": {
+            "possibleValues": [
+                "11", 
+                "12", 
+                "13", 
+                "14", 
+                "15", 
+                "16", 
+                "17", 
+                "18", 
+                "19"
+            ], 
+            "isInfinite": false, 
+            "startNumber": "9"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": false, 
+            "variationGoodPercent": "0"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "1", 
+                    "4"
+                ], 
+                "unit": "1"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "TWOPO03", 
+        "grade": "2", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "5", 
+        "members": [
+            {
+                "upper": "10\u00a2", 
+                "lower": "10\u00a2"
+            }, 
+            {
+                "upper": "7\u00a2", 
+                "lower": "1\u00a2"
+            }, 
+            {
+                "upper": "7\u00a2", 
+                "lower": "1\u00a2"
+            }, 
+            {
+                "upper": "7\u00a2", 
+                "lower": "1\u00a2"
+            }
+        ], 
+        "operationType": {
+            "representation": "x = U + y or  x = y + U", 
+            "id": "1"
+        }, 
+        "unknown": {
+            "position": "-1", 
+            "lower": "1\u00a2", 
+            "upper": "7\u00a2"
+        }, 
+        "goodGuyTypes": [
+            4
+        ], 
+        "badGuyTypes": [
+            4
+        ], 
+        "bench": {
+            "possibleValues": [
+                "1", 
+                "2", 
+                "3", 
+                "4", 
+                "5", 
+                "6", 
+                "7"
+            ], 
+            "isInfinite": false, 
+            "startNumber": "7"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": false, 
+            "variationGoodPercent": "0"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "3"
+                ], 
+                "unit": "1"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "TWOPO04", 
+        "grade": "2", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "5", 
+        "members": [
+            {
+                "upper": "48", 
+                "lower": "0"
+            }, 
+            {
+                "upper": "2", 
+                "lower": "2"
+            }
+        ], 
+        "operationType": {
+            "representation": "U = x + y  ", 
+            "id": "0"
+        }, 
+        "unknown": {
+            "position": "0", 
+            "lower": "2", 
+            "upper": "50"
+        }, 
+        "goodGuyTypes": [
+            4
+        ], 
+        "badGuyTypes": [
+            4
+        ], 
+        "bench": {
+            "possibleValues": [
+                "(U-9+z)", 
+                "(U-8+z)", 
+                "(U-7+z)", 
+                "(U-6+z)", 
+                "(U-5+z)", 
+                "(U-4+z)", 
+                "(U-3+z)", 
+                "(U-2+z)", 
+                "(U-1+z)", 
+                "(U-z)"
+            ], 
+            "isInfinite": false, 
+            "startNumber": "10"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": false, 
+            "variationGoodPercent": "0"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "6"
+                ], 
+                "unit": "1"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "TWOPO05", 
+        "grade": "2", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "5", 
+        "members": [
+            {
+                "upper": "10", 
+                "lower": "4"
+            }, 
+            {
+                "upper": "10", 
+                "lower": "4"
+            }
+        ], 
+        "operationType": {
+            "representation": "U = x + y  ", 
+            "id": "0"
+        }, 
+        "unknown": {
+            "position": "0", 
+            "lower": "8", 
+            "upper": "20"
+        }, 
+        "goodGuyTypes": [
+            4
+        ], 
+        "badGuyTypes": [
+            4
+        ], 
+        "bench": {
+            "possibleValues": [
+                "8", 
+                "10", 
+                "12", 
+                "14", 
+                "16", 
+                "18", 
+                "20"
+            ], 
+            "isInfinite": false, 
+            "startNumber": "7"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": false, 
+            "variationGoodPercent": "0"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "6", 
+                    "7"
+                ], 
+                "unit": "1"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "TWOPO06", 
+        "grade": "2", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "5", 
+        "members": [
+            {
+                "upper": "9", 
+                "lower": "4"
+            }, 
+            {
+                "upper": "10", 
+                "lower": "5"
+            }
+        ], 
+        "operationType": {
+            "representation": "U = x + y  ", 
+            "id": "0"
+        }, 
+        "unknown": {
+            "position": "0", 
+            "lower": "9", 
+            "upper": "19"
+        }, 
+        "goodGuyTypes": [
+            4
+        ], 
+        "badGuyTypes": [
+            4
+        ], 
+        "bench": {
+            "possibleValues": [
+                "9", 
+                "11", 
+                "13", 
+                "15", 
+                "17", 
+                "19"
+            ], 
+            "isInfinite": false, 
+            "startNumber": "6"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": false, 
+            "variationGoodPercent": "0"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "7"
+                ], 
+                "unit": "1"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "TWOPO07", 
+        "grade": "2", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "5", 
+        "members": [
+            {
+                "upper": "10", 
+                "lower": "4"
+            }, 
+            {
+                "upper": "9", 
+                "lower": "3"
+            }
+        ], 
+        "operationType": {
+            "representation": "U = x + y  ", 
+            "id": "0"
+        }, 
+        "unknown": {
+            "position": "0", 
+            "lower": "7", 
+            "upper": "19"
+        }, 
+        "goodGuyTypes": [
+            4
+        ], 
+        "badGuyTypes": [
+            4
+        ], 
+        "bench": {
+            "possibleValues": [
+                "7", 
+                "9", 
+                "11", 
+                "13", 
+                "15", 
+                "17", 
+                "19"
+            ], 
+            "isInfinite": false, 
+            "startNumber": "7"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": false, 
+            "variationGoodPercent": "0"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "7"
+                ], 
+                "unit": "1"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "TWOPO08", 
+        "grade": "2", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "5", 
+        "members": [
+            {
+                "upper": "8", 
+                "lower": "4"
+            }, 
+            {
+                "upper": "10", 
+                "lower": "6"
+            }
+        ], 
+        "operationType": {
+            "representation": "U = x + y  ", 
+            "id": "0"
+        }, 
+        "unknown": {
+            "position": "0", 
+            "lower": "10", 
+            "upper": "18"
+        }, 
+        "goodGuyTypes": [
+            4
+        ], 
+        "badGuyTypes": [
+            4
+        ], 
+        "bench": {
+            "possibleValues": [
+                "10", 
+                "12", 
+                "14", 
+                "16", 
+                "18"
+            ], 
+            "isInfinite": false, 
+            "startNumber": "5"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": false, 
+            "variationGoodPercent": "0"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "7"
+                ], 
+                "unit": "1"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "TWOPO09", 
+        "grade": "2", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "5", 
+        "members": [
+            {
+                "upper": "10", 
+                "lower": "4"
+            }, 
+            {
+                "upper": "8", 
+                "lower": "2"
+            }
+        ], 
+        "operationType": {
+            "representation": "U = x + y  ", 
+            "id": "0"
+        }, 
+        "unknown": {
+            "position": "0", 
+            "lower": "6", 
+            "upper": "18"
+        }, 
+        "goodGuyTypes": [
+            4
+        ], 
+        "badGuyTypes": [
+            4
+        ], 
+        "bench": {
+            "possibleValues": [
+                "6", 
+                "8", 
+                "10", 
+                "12", 
+                "14", 
+                "16", 
+                "18"
+            ], 
+            "isInfinite": false, 
+            "startNumber": "7"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": false, 
+            "variationGoodPercent": "10"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "7"
+                ], 
+                "unit": "1"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "TWOPO10", 
+        "grade": "2", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "5", 
+        "members": [
+            {
+                "upper": "10", 
+                "lower": "10"
+            }, 
+            {
+                "upper": "8", 
+                "lower": "1"
+            }, 
+            {
+                "upper": "8", 
+                "lower": "1"
+            }
+        ], 
+        "operationType": {
+            "representation": "x = U + y or  x = y + U", 
+            "id": "1"
+        }, 
+        "unknown": {
+            "position": "-1", 
+            "lower": "1", 
+            "upper": "8"
+        }, 
+        "goodGuyTypes": [
+            4
+        ], 
+        "badGuyTypes": [
+            4
+        ], 
+        "bench": {
+            "possibleValues": [
+                "1", 
+                "2", 
+                "3", 
+                "4", 
+                "5", 
+                "6", 
+                "7", 
+                "8"
+            ], 
+            "isInfinite": false, 
+            "startNumber": "8"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": false, 
+            "variationGoodPercent": "10"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "9"
+                ], 
+                "unit": "1"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "TWOPO11", 
+        "grade": "2", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "5", 
+        "members": [
+            {
+                "upper": "9", 
+                "lower": "1"
+            }, 
+            {
+                "upper": "9", 
+                "lower": "1"
+            }, 
+            {
+                "upper": "9", 
+                "lower": "1"
+            }
+        ], 
+        "operationType": {
+            "representation": "U = x + y  ", 
+            "id": "0"
+        }, 
+        "unknown": {
+            "position": "0", 
+            "lower": "3", 
+            "upper": "27"
+        }, 
+        "goodGuyTypes": [
+            4
+        ], 
+        "badGuyTypes": [
+            4
+        ], 
+        "bench": {
+            "possibleValues": [
+                "(U-9+z)", 
+                "(U-8+z)", 
+                "(U-7+z)", 
+                "(U-6+z)", 
+                "(U-5+z)", 
+                "(U-4+z)", 
+                "(U-3+z)", 
+                "(U-2+z)", 
+                "(U-1+z)", 
+                "(U-z)"
+            ], 
+            "isInfinite": false, 
+            "startNumber": "10"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": false, 
+            "variationGoodPercent": "10"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "9"
+                ], 
+                "unit": "1"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "TWOPO12", 
+        "grade": "2", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "5", 
+        "members": [
+            {
+                "upper": "9", 
+                "lower": "1"
+            }, 
+            {
+                "upper": "9", 
+                "lower": "1"
+            }, 
+            {
+                "upper": "9", 
+                "lower": "1"
+            }, 
+            {
+                "upper": "9", 
+                "lower": "1"
+            }
+        ], 
+        "operationType": {
+            "representation": "U = x + y  ", 
+            "id": "0"
+        }, 
+        "unknown": {
+            "position": "0", 
+            "lower": "4", 
+            "upper": "36"
+        }, 
+        "goodGuyTypes": [
+            4
+        ], 
+        "badGuyTypes": [
+            4
+        ], 
+        "bench": {
+            "possibleValues": [
+                "(U-9+z)", 
+                "(U-8+z)", 
+                "(U-7+z)", 
+                "(U-6+z)", 
+                "(U-5+z)", 
+                "(U-4+z)", 
+                "(U-3+z)", 
+                "(U-2+z)", 
+                "(U-1+z)", 
+                "(U-z)"
+            ], 
+            "isInfinite": false, 
+            "startNumber": "10"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": false, 
+            "variationGoodPercent": "10"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "9"
+                ], 
+                "unit": "1"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "TWOPO13", 
+        "grade": "2", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "5", 
+        "members": [
+            {
+                "upper": "(9*z)", 
+                "lower": "(1*z)"
+            }, 
+            {
+                "upper": "(9*z)", 
+                "lower": "(1*z)"
+            }
+        ], 
+        "operationType": {
+            "representation": "U = x + y  ", 
+            "id": "0"
+        }, 
+        "unknown": {
+            "position": "0", 
+            "lower": "(7*z)", 
+            "upper": "(16*z)"
+        }, 
+        "goodGuyTypes": [
+            4
+        ], 
+        "badGuyTypes": [
+            4
+        ], 
+        "bench": {
+            "possibleValues": [
+                "(6*z)", 
+                "(7*z)", 
+                "(8*z)", 
+                "(9*z)", 
+                "(10*z)", 
+                "(11*z)", 
+                "(12*z)", 
+                "(13*z)", 
+                "(14*z)", 
+                "(15*z)", 
+                "(16*z)"
+            ], 
+            "isInfinite": false, 
+            "startNumber": "10"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": false, 
+            "variationGoodPercent": "10"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "2"
+                ], 
+                "unit": "2"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "TWOPO14", 
+        "grade": "2", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "3", 
+        "members": [
+            {
+                "upper": "90", 
+                "lower": "10"
+            }, 
+            {
+                "upper": "9", 
+                "lower": "1"
+            }
+        ], 
+        "operationType": {
+            "representation": "U = x + y  ", 
+            "id": "0"
+        }, 
+        "unknown": {
+            "position": "0", 
+            "lower": "11", 
+            "upper": "99"
+        }, 
+        "goodGuyTypes": [
+            0, 
+            2
+        ], 
+        "badGuyTypes": [
+            0, 
+            2
+        ], 
+        "bench": {
+            "possibleValues": [], 
+            "isInfinite": true, 
+            "startNumber": "2"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": false, 
+            "variationGoodPercent": "0"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "4"
+                ], 
+                "unit": "2"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "TWOPO15", 
+        "grade": "2", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "5", 
+        "members": [
+            {
+                "upper": "99", 
+                "lower": "11"
+            }, 
+            {
+                "upper": "(9*y)", 
+                "lower": "(1*y)"
+            }
+        ], 
+        "operationType": {
+            "representation": "x = U + y or  x = y + U", 
+            "id": "1"
+        }, 
+        "unknown": {
+            "position": "2", 
+            "lower": "(1*z)", 
+            "upper": "(9*z)"
+        }, 
+        "goodGuyTypes": [
+            0, 
+            2
+        ], 
+        "badGuyTypes": [
+            0, 
+            2
+        ], 
+        "bench": {
+            "possibleValues": [], 
+            "isInfinite": true, 
+            "startNumber": "2"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": false, 
+            "variationGoodPercent": "20"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "4"
+                ], 
+                "unit": "2"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "TWOPO16", 
+        "grade": "2", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "5", 
+        "members": [
+            {
+                "upper": "(99 + (100*d1*d2))", 
+                "lower": "1"
+            }, 
+            {
+                "upper": "z", 
+                "lower": "z"
+            }
+        ], 
+        "operationType": {
+            "representation": "U = x + y  ", 
+            "id": "0"
+        }, 
+        "unknown": {
+            "position": "0", 
+            "lower": "2", 
+            "upper": "999"
+        }, 
+        "goodGuyTypes": [
+            0, 
+            2, 
+            3
+        ], 
+        "badGuyTypes": [
+            0, 
+            2, 
+            3
+        ], 
+        "bench": {
+            "possibleValues": [], 
+            "isInfinite": true, 
+            "startNumber": "3"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": false, 
+            "variationGoodPercent": "20"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "4"
+                ], 
+                "unit": "2"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "TWOPO17", 
+        "grade": "2", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "3", 
+        "members": [
+            {
+                "upper": "88", 
+                "lower": "11"
+            }, 
+            {
+                "upper": "88", 
+                "lower": "11"
+            }
+        ], 
+        "operationType": {
+            "representation": "U = x + y  ", 
+            "id": "0"
+        }, 
+        "unknown": {
+            "position": "0", 
+            "lower": "22", 
+            "upper": "99"
+        }, 
+        "goodGuyTypes": [
+            4
+        ], 
+        "badGuyTypes": [
+            4
+        ], 
+        "bench": {
+            "possibleValues": [
+                "0", 
+                "1", 
+                "2", 
+                "3", 
+                "4", 
+                "5", 
+                "6", 
+                "7", 
+                "8", 
+                "9"
+            ], 
+            "isInfinite": true, 
+            "startNumber": "10"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": false, 
+            "variationGoodPercent": "20"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "6"
+                ], 
+                "unit": "2"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "TWOPO18", 
+        "grade": "2", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "5", 
+        "members": [
+            {
+                "upper": "99", 
+                "lower": "11"
+            }, 
+            {
+                "upper": "99", 
+                "lower": "11"
+            }
+        ], 
+        "operationType": {
+            "representation": "U = x + y  ", 
+            "id": "0"
+        }, 
+        "unknown": {
+            "position": "0", 
+            "lower": "22", 
+            "upper": "198"
+        }, 
+        "goodGuyTypes": [
+            4
+        ], 
+        "badGuyTypes": [
+            4
+        ], 
+        "bench": {
+            "possibleValues": [
+                "0", 
+                "1", 
+                "2", 
+                "3", 
+                "4", 
+                "5", 
+                "6", 
+                "7", 
+                "8", 
+                "9"
+            ], 
+            "isInfinite": true, 
+            "startNumber": "10"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": false, 
+            "variationGoodPercent": "20"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "6", 
+                    "7", 
+                    "8"
+                ], 
+                "unit": "2"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "TWOPO19", 
+        "grade": "2", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "5", 
+        "members": [
+            {
+                "upper": "88", 
+                "lower": "11"
+            }, 
+            {
+                "upper": "88", 
+                "lower": "11"
+            }
+        ], 
+        "operationType": {
+            "representation": "U = x + y  ", 
+            "id": "0"
+        }, 
+        "unknown": {
+            "position": "0", 
+            "lower": "22", 
+            "upper": "99"
+        }, 
+        "goodGuyTypes": [
+            4
+        ], 
+        "badGuyTypes": [
+            4
+        ], 
+        "bench": {
+            "possibleValues": [
+                "0", 
+                "1", 
+                "2", 
+                "3", 
+                "4", 
+                "5", 
+                "6", 
+                "7", 
+                "8", 
+                "9"
+            ], 
+            "isInfinite": true, 
+            "startNumber": "10"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": false, 
+            "variationGoodPercent": "20"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "6", 
+                    "7", 
+                    "8"
+                ], 
+                "unit": "2"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "TWOPO20", 
+        "grade": "2", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "5", 
+        "members": [
+            {
+                "upper": "99", 
+                "lower": "11"
+            }, 
+            {
+                "upper": "99", 
+                "lower": "11"
+            }
+        ], 
+        "operationType": {
+            "representation": "U = x + y  ", 
+            "id": "0"
+        }, 
+        "unknown": {
+            "position": "0", 
+            "lower": "101", 
+            "upper": "198"
+        }, 
+        "goodGuyTypes": [
+            4
+        ], 
+        "badGuyTypes": [
+            4
+        ], 
+        "bench": {
+            "possibleValues": [
+                "0", 
+                "1", 
+                "2", 
+                "3", 
+                "4", 
+                "5", 
+                "6", 
+                "7", 
+                "8", 
+                "9"
+            ], 
+            "isInfinite": true, 
+            "startNumber": "10"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": false, 
+            "variationGoodPercent": "20"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "6", 
+                    "7", 
+                    "8", 
+                    "9"
+                ], 
+                "unit": "2"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "TWOPO21", 
+        "grade": "2", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "5", 
+        "members": [
+            {
+                "upper": "9\u00a2", 
+                "lower": "1\u00a2"
+            }, 
+            {
+                "upper": "90\u00a2", 
+                "lower": "10\u00a2"
+            }
+        ], 
+        "operationType": {
+            "representation": "U = x + y  ", 
+            "id": "0"
+        }, 
+        "unknown": {
+            "position": "0", 
+            "lower": "11\u00a2", 
+            "upper": "99\u00a2"
+        }, 
+        "goodGuyTypes": [
+            0, 
+            2
+        ], 
+        "badGuyTypes": [
+            4
+        ], 
+        "bench": {
+            "possibleValues": [], 
+            "isInfinite": true, 
+            "startNumber": "2"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": false, 
+            "variationGoodPercent": "0"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "11"
+                ], 
+                "unit": "2"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "TWOPO22", 
+        "grade": "2", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "5", 
+        "members": [
+            {
+                "upper": "9\u00a2", 
+                "lower": "1\u00a2"
+            }, 
+            {
+                "upper": "90\u00a2", 
+                "lower": "10\u00a2"
+            }, 
+            {
+                "upper": "100\u00a2", 
+                "lower": "100\u00a2"
+            }
+        ], 
+        "operationType": {
+            "representation": "U = x + y  ", 
+            "id": "0"
+        }, 
+        "unknown": {
+            "position": "0", 
+            "lower": "111\u00a2", 
+            "upper": "199\u00a2"
+        }, 
+        "goodGuyTypes": [
+            0, 
+            2, 
+            3
+        ], 
+        "badGuyTypes": [
+            4
+        ], 
+        "bench": {
+            "possibleValues": [], 
+            "isInfinite": false, 
+            "startNumber": "9"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": false, 
+            "variationGoodPercent": "0"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "11"
+                ], 
+                "unit": "2"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "TWOPO23", 
+        "grade": "2", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "3", 
+        "members": [
+            {
+                "upper": "95", 
+                "lower": "5"
+            }, 
+            {
+                "upper": "95", 
+                "lower": "5"
+            }
+        ], 
+        "operationType": {
+            "representation": "U = x + y  ", 
+            "id": "0"
+        }, 
+        "unknown": {
+            "position": "0", 
+            "lower": "10", 
+            "upper": "100"
+        }, 
+        "goodGuyTypes": [
+            1, 
+            2
+        ], 
+        "badGuyTypes": [
+            1, 
+            2
+        ], 
+        "bench": {
+            "possibleValues": [], 
+            "isInfinite": true, 
+            "startNumber": "2"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": false, 
+            "variationGoodPercent": "0"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "12"
+                ], 
+                "unit": "2"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "TWOPO24", 
+        "grade": "2", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "5", 
+        "members": [
+            {
+                "upper": "4\u00a2", 
+                "lower": "1\u00a2"
+            }, 
+            {
+                "upper": "95\u00a2", 
+                "lower": "5\u00a2"
+            }
+        ], 
+        "operationType": {
+            "representation": "U = x + y  ", 
+            "id": "0"
+        }, 
+        "unknown": {
+            "position": "0", 
+            "lower": "6\u00a2", 
+            "upper": "99\u00a2"
+        }, 
+        "goodGuyTypes": [
+            0, 
+            1
+        ], 
+        "badGuyTypes": [
+            4
+        ], 
+        "bench": {
+            "possibleValues": [], 
+            "isInfinite": true, 
+            "startNumber": "2"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": false, 
+            "variationGoodPercent": "0"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "12"
+                ], 
+                "unit": "2"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "TWOPO25", 
+        "grade": "2", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "5", 
+        "members": [
+            {
+                "upper": "4\u00a2", 
+                "lower": "1\u00a2"
+            }, 
+            {
+                "upper": "95\u00a2", 
+                "lower": "5\u00a2"
+            }, 
+            {
+                "upper": "90\u00a2", 
+                "lower": "10\u00a2"
+            }
+        ], 
+        "operationType": {
+            "representation": "U = x + y  ", 
+            "id": "0"
+        }, 
+        "unknown": {
+            "position": "0", 
+            "lower": "16\u00a2", 
+            "upper": "100\u00a2"
+        }, 
+        "goodGuyTypes": [
+            0, 
+            1, 
+            2
+        ], 
+        "badGuyTypes": [
+            4
+        ], 
+        "bench": {
+            "possibleValues": [], 
+            "isInfinite": true, 
+            "startNumber": "3"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": false, 
+            "variationGoodPercent": "0"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "12"
+                ], 
+                "unit": "2"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "TWOPO26", 
+        "grade": "2", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "5", 
+        "members": [
+            {
+                "upper": "99", 
+                "lower": "1"
+            }, 
+            {
+                "upper": "99", 
+                "lower": "1"
+            }
+        ], 
+        "operationType": {
+            "representation": "U = x + y  ", 
+            "id": "0"
+        }, 
+        "unknown": {
+            "position": "0", 
+            "lower": "2", 
+            "upper": "100"
+        }, 
+        "goodGuyTypes": [
+            4
+        ], 
+        "badGuyTypes": [
+            4
+        ], 
+        "bench": {
+            "possibleValues": [
+                "0", 
+                "1", 
+                "2", 
+                "3", 
+                "4", 
+                "5", 
+                "6", 
+                "7", 
+                "8", 
+                "9"
+            ], 
+            "isInfinite": true, 
+            "startNumber": "10"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": false, 
+            "variationGoodPercent": "30"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "13"
+                ], 
+                "unit": "2"
+            }, 
+            {
+                "lessons": [
+                    "14"
+                ], 
+                "unit": "4"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "TWOPO27", 
+        "grade": "2", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "5", 
+        "members": [
+            {
+                "upper": "49", 
+                "lower": "11"
+            }, 
+            {
+                "upper": "49", 
+                "lower": "11"
+            }, 
+            {
+                "upper": "49", 
+                "lower": "11"
+            }
+        ], 
+        "operationType": {
+            "representation": "U = x + y  ", 
+            "id": "0"
+        }, 
+        "unknown": {
+            "position": "0", 
+            "lower": "33", 
+            "upper": "147"
+        }, 
+        "goodGuyTypes": [
+            4
+        ], 
+        "badGuyTypes": [
+            4
+        ], 
+        "bench": {
+            "possibleValues": [
+                "0", 
+                "1", 
+                "2", 
+                "3", 
+                "4", 
+                "5", 
+                "6", 
+                "7", 
+                "8", 
+                "9"
+            ], 
+            "isInfinite": true, 
+            "startNumber": "10"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": false, 
+            "variationGoodPercent": "30"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "14"
+                ], 
+                "unit": "2"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "TWOPO28", 
+        "grade": "2", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "5", 
+        "members": [
+            {
+                "upper": "49", 
+                "lower": "11"
+            }, 
+            {
+                "upper": "49", 
+                "lower": "11"
+            }, 
+            {
+                "upper": "49", 
+                "lower": "11"
+            }, 
+            {
+                "upper": "49", 
+                "lower": "11"
+            }
+        ], 
+        "operationType": {
+            "representation": "U = x + y  ", 
+            "id": "0"
+        }, 
+        "unknown": {
+            "position": "0", 
+            "lower": "44", 
+            "upper": "196"
+        }, 
+        "goodGuyTypes": [
+            4
+        ], 
+        "badGuyTypes": [
+            4
+        ], 
+        "bench": {
+            "possibleValues": [
+                "0", 
+                "1", 
+                "2", 
+                "3", 
+                "4", 
+                "5", 
+                "6", 
+                "7", 
+                "8", 
+                "9"
+            ], 
+            "isInfinite": true, 
+            "startNumber": "10"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": false, 
+            "variationGoodPercent": "30"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "14"
+                ], 
+                "unit": "2"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "TWOPO29", 
+        "grade": "2", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "5", 
+        "members": [
+            {
+                "upper": "4\u00a2", 
+                "lower": "1\u00a2"
+            }, 
+            {
+                "upper": "95\u00a2", 
+                "lower": "5\u00a2"
+            }, 
+            {
+                "upper": "90\u00a2", 
+                "lower": "10\u00a2"
+            }, 
+            {
+                "upper": "900\u00a2", 
+                "lower": "100\u00a2"
+            }
+        ], 
+        "operationType": {
+            "representation": "U = x + y  ", 
+            "id": "0"
+        }, 
+        "unknown": {
+            "position": "0", 
+            "lower": "116\u00a2", 
+            "upper": "999\u00a2"
+        }, 
+        "goodGuyTypes": [
+            0, 
+            1, 
+            2, 
+            3
+        ], 
+        "badGuyTypes": [
+            0, 
+            1, 
+            2, 
+            3
+        ], 
+        "bench": {
+            "possibleValues": [], 
+            "isInfinite": true, 
+            "startNumber": "4"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": true, 
+            "variationGoodPercent": "0"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "2"
+                ], 
+                "unit": "4"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "TWOPO30", 
+        "grade": "2", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "5", 
+        "members": [
+            {
+                "upper": "100", 
+                "lower": "11"
+            }, 
+            {
+                "upper": "99", 
+                "lower": "1"
+            }
+        ], 
+        "operationType": {
+            "representation": "U = x - y", 
+            "id": "2"
+        }, 
+        "unknown": {
+            "position": "0", 
+            "lower": "1", 
+            "upper": "99"
+        }, 
+        "goodGuyTypes": [
+            4
+        ], 
+        "badGuyTypes": [
+            4
+        ], 
+        "bench": {
+            "possibleValues": [
+                "0", 
+                "1", 
+                "2", 
+                "3", 
+                "4", 
+                "5", 
+                "6", 
+                "7", 
+                "8", 
+                "9"
+            ], 
+            "isInfinite": true, 
+            "startNumber": "10"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": true, 
+            "variationGoodPercent": "30"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "3"
+                ], 
+                "unit": "4"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "TWOPO31", 
+        "grade": "2", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "5", 
+        "members": [
+            {
+                "upper": "98", 
+                "lower": "20"
+            }, 
+            {
+                "upper": "98", 
+                "lower": "11"
+            }
+        ], 
+        "operationType": {
+            "representation": "U = x - y", 
+            "id": "2"
+        }, 
+        "unknown": {
+            "position": "0", 
+            "lower": "9", 
+            "upper": "79"
+        }, 
+        "goodGuyTypes": [
+            4
+        ], 
+        "badGuyTypes": [
+            4
+        ], 
+        "bench": {
+            "possibleValues": [
+                "0", 
+                "1", 
+                "2", 
+                "3", 
+                "4", 
+                "5", 
+                "6", 
+                "7", 
+                "8", 
+                "9"
+            ], 
+            "isInfinite": true, 
+            "startNumber": "10"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": true, 
+            "variationGoodPercent": "30"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "5", 
+                    "6"
+                ], 
+                "unit": "4"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "TWOPO32", 
+        "grade": "2", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "5", 
+        "members": [
+            {
+                "upper": "200", 
+                "lower": "200"
+            }, 
+            {
+                "upper": "99", 
+                "lower": "10"
+            }
+        ], 
+        "operationType": {
+            "representation": "U = x - y", 
+            "id": "2"
+        }, 
+        "unknown": {
+            "position": "0", 
+            "lower": "101", 
+            "upper": "190"
+        }, 
+        "goodGuyTypes": [
+            4
+        ], 
+        "badGuyTypes": [
+            4
+        ], 
+        "bench": {
+            "possibleValues": [
+                "0", 
+                "1", 
+                "2", 
+                "3", 
+                "4", 
+                "5", 
+                "6", 
+                "7", 
+                "8", 
+                "9"
+            ], 
+            "isInfinite": true, 
+            "startNumber": "10"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": true, 
+            "variationGoodPercent": "30"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "7"
+                ], 
+                "unit": "4"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "TWOPO33", 
+        "grade": "2", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "5", 
+        "members": [
+            {
+                "upper": "999", 
+                "lower": "111"
+            }, 
+            {
+                "upper": "99", 
+                "lower": "10"
+            }
+        ], 
+        "operationType": {
+            "representation": "U = x - y", 
+            "id": "2"
+        }, 
+        "unknown": {
+            "position": "0", 
+            "lower": "12", 
+            "upper": "989"
+        }, 
+        "goodGuyTypes": [
+            4
+        ], 
+        "badGuyTypes": [
+            4
+        ], 
+        "bench": {
+            "possibleValues": [
+                "0", 
+                "1", 
+                "2", 
+                "3", 
+                "4", 
+                "5", 
+                "6", 
+                "7", 
+                "8", 
+                "9"
+            ], 
+            "isInfinite": true, 
+            "startNumber": "10"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": true, 
+            "variationGoodPercent": "30"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "8"
+                ], 
+                "unit": "4"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "TWOPO34", 
+        "grade": "2", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "5", 
+        "members": [
+            {
+                "upper": "990", 
+                "lower": "100"
+            }, 
+            {
+                "upper": "99", 
+                "lower": "11"
+            }
+        ], 
+        "operationType": {
+            "representation": "U = x - y", 
+            "id": "2"
+        }, 
+        "unknown": {
+            "position": "0", 
+            "lower": "1", 
+            "upper": "979"
+        }, 
+        "goodGuyTypes": [
+            4
+        ], 
+        "badGuyTypes": [
+            4
+        ], 
+        "bench": {
+            "possibleValues": [
+                "0", 
+                "1", 
+                "2", 
+                "3", 
+                "4", 
+                "5", 
+                "6", 
+                "7", 
+                "8", 
+                "9"
+            ], 
+            "isInfinite": true, 
+            "startNumber": "10"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": true, 
+            "variationGoodPercent": "30"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "9"
+                ], 
+                "unit": "4"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "TWOPO35", 
+        "grade": "2", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "5", 
+        "members": [
+            {
+                "upper": "199\u00a2", 
+                "lower": "101\u00a2"
+            }, 
+            {
+                "upper": "99\u00a2", 
+                "lower": "1\u00a2"
+            }
+        ], 
+        "operationType": {
+            "representation": "U = x - y", 
+            "id": "2"
+        }, 
+        "unknown": {
+            "position": "0", 
+            "lower": "2\u00a2", 
+            "upper": "198\u00a2"
+        }, 
+        "goodGuyTypes": [
+            4
+        ], 
+        "badGuyTypes": [
+            4
+        ], 
+        "bench": {
+            "possibleValues": [
+                "0", 
+                "1", 
+                "2", 
+                "3", 
+                "4", 
+                "5", 
+                "6", 
+                "7", 
+                "8", 
+                "9"
+            ], 
+            "isInfinite": true, 
+            "startNumber": "10"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": true, 
+            "variationGoodPercent": "30"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "10"
+                ], 
+                "unit": "4"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "TWOPO36", 
+        "grade": "2", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "5", 
+        "members": [
+            {
+                "upper": "$1.99", 
+                "lower": "$1.01"
+            }, 
+            {
+                "upper": "$0.99", 
+                "lower": "$0.01"
+            }
+        ], 
+        "operationType": {
+            "representation": "x = U + y or  x = y + U", 
+            "id": "1"
+        }, 
+        "unknown": {
+            "position": "0", 
+            "lower": "$0.02", 
+            "upper": "$1.98"
+        }, 
+        "goodGuyTypes": [
+            4
+        ], 
+        "badGuyTypes": [
+            4
+        ], 
+        "bench": {
+            "possibleValues": [
+                "0", 
+                "1", 
+                "2", 
+                "3", 
+                "4", 
+                "5", 
+                "6", 
+                "7", 
+                "8", 
+                "9"
+            ], 
+            "isInfinite": true, 
+            "startNumber": "10"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": true, 
+            "variationGoodPercent": "30"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "10"
+                ], 
+                "unit": "4"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "TWOPO37", 
+        "grade": "2", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "5", 
+        "members": [
+            {
+                "upper": "k", 
+                "lower": "k"
+            }, 
+            {
+                "upper": "(k-1)", 
+                "lower": "1"
+            }
+        ], 
+        "operationType": {
+            "representation": "x = U + y or  x = y + U", 
+            "id": "1"
+        }, 
+        "unknown": {
+            "position": "2", 
+            "lower": "1", 
+            "upper": "998"
+        }, 
+        "goodGuyTypes": [
+            4
+        ], 
+        "badGuyTypes": [
+            4
+        ], 
+        "bench": {
+            "possibleValues": [
+                "0", 
+                "1", 
+                "2", 
+                "3", 
+                "4", 
+                "5", 
+                "6", 
+                "7", 
+                "8", 
+                "9"
+            ], 
+            "isInfinite": true, 
+            "startNumber": "10"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": true, 
+            "variationGoodPercent": "40"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "13"
+                ], 
+                "unit": "4"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "TWOPO38", 
+        "grade": "2", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "3", 
+        "members": [
+            {
+                "upper": "99", 
+                "lower": "1"
+            }, 
+            {
+                "upper": "100", 
+                "lower": "2"
+            }
+        ], 
+        "operationType": {
+            "representation": "x = U + y or  x = y + U", 
+            "id": "1"
+        }, 
+        "unknown": {
+            "position": "2", 
+            "lower": "1", 
+            "upper": "99"
+        }, 
+        "goodGuyTypes": [
+            4
+        ], 
+        "badGuyTypes": [
+            4
+        ], 
+        "bench": {
+            "possibleValues": [
+                "0", 
+                "1", 
+                "2", 
+                "3", 
+                "4", 
+                "5", 
+                "6", 
+                "7", 
+                "8", 
+                "9"
+            ], 
+            "isInfinite": true, 
+            "startNumber": "10"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": true, 
+            "variationGoodPercent": "40"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "16", 
+                    "17"
+                ], 
+                "unit": "4"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "TWOPO39", 
+        "grade": "2", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "5", 
+        "members": [
+            {
+                "upper": "89", 
+                "lower": "1"
+            }, 
+            {
+                "upper": "98", 
+                "lower": "10"
+            }
+        ], 
+        "operationType": {
+            "representation": "x = U - y", 
+            "id": "3"
+        }, 
+        "unknown": {
+            "position": "1", 
+            "lower": "11", 
+            "upper": "99"
+        }, 
+        "goodGuyTypes": [
+            4
+        ], 
+        "badGuyTypes": [
+            4
+        ], 
+        "bench": {
+            "possibleValues": [
+                "0", 
+                "1", 
+                "2", 
+                "3", 
+                "4", 
+                "5", 
+                "6", 
+                "7", 
+                "8", 
+                "9"
+            ], 
+            "isInfinite": true, 
+            "startNumber": "10"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": true, 
+            "variationGoodPercent": "40"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "18"
+                ], 
+                "unit": "4"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "TWOPO40", 
+        "grade": "2", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "5", 
+        "members": [
+            {
+                "upper": "147", 
+                "lower": "30"
+            }, 
+            {
+                "upper": "49", 
+                "lower": "10"
+            }, 
+            {
+                "upper": "49", 
+                "lower": "10"
+            }
+        ], 
+        "operationType": {
+            "representation": "x = U + y or  x = y + U", 
+            "id": "1"
+        }, 
+        "unknown": {
+            "position": "-1", 
+            "lower": "10", 
+            "upper": "49"
+        }, 
+        "goodGuyTypes": [
+            4
+        ], 
+        "badGuyTypes": [
+            4
+        ], 
+        "bench": {
+            "possibleValues": [
+                "0", 
+                "1", 
+                "2", 
+                "3", 
+                "4", 
+                "5", 
+                "6", 
+                "7", 
+                "8", 
+                "9"
+            ], 
+            "isInfinite": true, 
+            "startNumber": "10"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": true, 
+            "variationGoodPercent": "40"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "21"
+                ], 
+                "unit": "4"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "TWOPO41", 
+        "grade": "2", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "5", 
+        "members": [
+            {
+                "upper": "$49", 
+                "lower": "$10"
+            }, 
+            {
+                "upper": "$49", 
+                "lower": "$10"
+            }, 
+            {
+                "upper": "$49", 
+                "lower": "$10"
+            }
+        ], 
+        "operationType": {
+            "representation": "U = x + y  ", 
+            "id": "0"
+        }, 
+        "unknown": {
+            "position": "0", 
+            "lower": "$30", 
+            "upper": "$147"
+        }, 
+        "goodGuyTypes": [
+            4
+        ], 
+        "badGuyTypes": [
+            4
+        ], 
+        "bench": {
+            "possibleValues": [
+                "0", 
+                "1", 
+                "2", 
+                "3", 
+                "4", 
+                "5", 
+                "6", 
+                "7", 
+                "8", 
+                "9"
+            ], 
+            "isInfinite": true, 
+            "startNumber": "10"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": true, 
+            "variationGoodPercent": "40"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "22"
+                ], 
+                "unit": "4"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "TWOPO42", 
+        "grade": "2", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "3", 
+        "members": [
+            {
+                "upper": "$147", 
+                "lower": "$30"
+            }, 
+            {
+                "upper": "$49", 
+                "lower": "$10"
+            }, 
+            {
+                "upper": "$49", 
+                "lower": "$10"
+            }
+        ], 
+        "operationType": {
+            "representation": "x = U + y or  x = y + U", 
+            "id": "1"
+        }, 
+        "unknown": {
+            "position": "-1", 
+            "lower": "$10", 
+            "upper": "$49"
+        }, 
+        "goodGuyTypes": [
+            4
+        ], 
+        "badGuyTypes": [
+            4
+        ], 
+        "bench": {
+            "possibleValues": [
+                "0", 
+                "1", 
+                "2", 
+                "3", 
+                "4", 
+                "5", 
+                "6", 
+                "7", 
+                "8", 
+                "9"
+            ], 
+            "isInfinite": true, 
+            "startNumber": "10"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": true, 
+            "variationGoodPercent": "40"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "22"
+                ], 
+                "unit": "4"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "TWOPO43", 
+        "grade": "2", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "5", 
+        "members": [
+            {
+                "upper": "55", 
+                "lower": "5"
+            }, 
+            {
+                "upper": "55", 
+                "lower": "5"
+            }
+        ], 
+        "operationType": {
+            "representation": "U = x + y  ", 
+            "id": "0"
+        }, 
+        "unknown": {
+            "position": "0", 
+            "lower": "10", 
+            "upper": "60"
+        }, 
+        "goodGuyTypes": [
+            1
+        ], 
+        "badGuyTypes": [
+            1
+        ], 
+        "bench": {
+            "possibleValues": [], 
+            "isInfinite": true, 
+            "startNumber": "1"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": true, 
+            "variationGoodPercent": "0"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "2"
+                ], 
+                "unit": "5"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "TWOPO44", 
+        "grade": "2", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "3", 
+        "members": [
+            {
+                "upper": "900", 
+                "lower": "100"
+            }, 
+            {
+                "upper": "900", 
+                "lower": "100"
+            }
+        ], 
+        "operationType": {
+            "representation": "U = x + y  ", 
+            "id": "0"
+        }, 
+        "unknown": {
+            "position": "0", 
+            "lower": "200", 
+            "upper": "1000"
+        }, 
+        "goodGuyTypes": [
+            3
+        ], 
+        "badGuyTypes": [
+            3
+        ], 
+        "bench": {
+            "possibleValues": [], 
+            "isInfinite": true, 
+            "startNumber": "1"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": true, 
+            "variationGoodPercent": "0"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "1"
+                ], 
+                "unit": "6"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "TWOPO45", 
+        "grade": "2", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "5", 
+        "members": [
+            {
+                "upper": "(9*A)", 
+                "lower": "(1*A)"
+            }, 
+            {
+                "upper": "(9*B)", 
+                "lower": "(1*B)"
+            }, 
+            {
+                "upper": "(9*C)", 
+                "lower": "(1*C)"
+            }
+        ], 
+        "operationType": {
+            "representation": "U = x + y  ", 
+            "id": "0"
+        }, 
+        "unknown": {
+            "position": "0", 
+            "lower": "111", 
+            "upper": "999"
+        }, 
+        "goodGuyTypes": [
+            0, 
+            2, 
+            3
+        ], 
+        "badGuyTypes": [
+            0, 
+            2, 
+            3
+        ], 
+        "bench": {
+            "possibleValues": [], 
+            "isInfinite": true, 
+            "startNumber": "3"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": true, 
+            "variationGoodPercent": "0"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "2"
+                ], 
+                "unit": "6"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "TWOPO46", 
+        "grade": "2", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "5", 
+        "members": [
+            {
+                "upper": "(9*A)", 
+                "lower": "(1*A)"
+            }, 
+            {
+                "upper": "(9*B)", 
+                "lower": "(1*B)"
+            }, 
+            {
+                "upper": "(9*C)", 
+                "lower": "(1*C)"
+            }
+        ], 
+        "operationType": {
+            "representation": "U = x + y  ", 
+            "id": "0"
+        }, 
+        "unknown": {
+            "position": "0", 
+            "lower": "111", 
+            "upper": "999"
+        }, 
+        "goodGuyTypes": [
+            0, 
+            2, 
+            3
+        ], 
+        "badGuyTypes": [
+            0, 
+            2, 
+            3
+        ], 
+        "bench": {
+            "possibleValues": [], 
+            "isInfinite": true, 
+            "startNumber": "3"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": true, 
+            "variationGoodPercent": "0"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "2"
+                ], 
+                "unit": "6"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "TWOPO47", 
+        "grade": "2", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "5", 
+        "members": [
+            {
+                "upper": "990", 
+                "lower": "100"
+            }, 
+            {
+                "upper": "A", 
+                "lower": "A"
+            }
+        ], 
+        "operationType": {
+            "representation": "U = x + y  ", 
+            "id": "0"
+        }, 
+        "unknown": {
+            "position": "0", 
+            "lower": "101", 
+            "upper": "1000"
+        }, 
+        "goodGuyTypes": [
+            4
+        ], 
+        "badGuyTypes": [
+            4
+        ], 
+        "bench": {
+            "possibleValues": [
+                "0", 
+                "1", 
+                "2", 
+                "3", 
+                "4", 
+                "5", 
+                "6", 
+                "7", 
+                "8", 
+                "9"
+            ], 
+            "isInfinite": true, 
+            "startNumber": "10"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": true, 
+            "variationGoodPercent": "50"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "4"
+                ], 
+                "unit": "6"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "TWOPO48", 
+        "grade": "2", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "5", 
+        "members": [
+            {
+                "upper": "(9*A)", 
+                "lower": "(1*A)"
+            }, 
+            {
+                "upper": "(9*B)", 
+                "lower": "(1*B)"
+            }
+        ], 
+        "operationType": {
+            "representation": "U = x + y  ", 
+            "id": "0"
+        }, 
+        "unknown": {
+            "position": "0", 
+            "lower": "101", 
+            "upper": "990"
+        }, 
+        "goodGuyTypes": [
+            4
+        ], 
+        "badGuyTypes": [
+            4
+        ], 
+        "bench": {
+            "possibleValues": [
+                "0", 
+                "1", 
+                "2", 
+                "3", 
+                "4", 
+                "5", 
+                "6", 
+                "7", 
+                "8", 
+                "9"
+            ], 
+            "isInfinite": true, 
+            "startNumber": "10"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": true, 
+            "variationGoodPercent": "50"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "5"
+                ], 
+                "unit": "6"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "TWOPO49", 
+        "grade": "2", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "5", 
+        "members": [
+            {
+                "upper": "(9*A)", 
+                "lower": "(1*A)"
+            }, 
+            {
+                "upper": "99", 
+                "lower": "10"
+            }
+        ], 
+        "operationType": {
+            "representation": "U = x + y  ", 
+            "id": "0"
+        }, 
+        "unknown": {
+            "position": "0", 
+            "lower": "110", 
+            "upper": "999"
+        }, 
+        "goodGuyTypes": [
+            4
+        ], 
+        "badGuyTypes": [
+            4
+        ], 
+        "bench": {
+            "possibleValues": [
+                "0", 
+                "1", 
+                "2", 
+                "3", 
+                "4", 
+                "5", 
+                "6", 
+                "7", 
+                "8", 
+                "9"
+            ], 
+            "isInfinite": true, 
+            "startNumber": "10"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": true, 
+            "variationGoodPercent": "50"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "5"
+                ], 
+                "unit": "6"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "TWOPO50", 
+        "grade": "2", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "5", 
+        "members": [
+            {
+                "upper": "(9*A)", 
+                "lower": "(1*A)"
+            }, 
+            {
+                "upper": "899", 
+                "lower": "111"
+            }
+        ], 
+        "operationType": {
+            "representation": "U = x + y  ", 
+            "id": "0"
+        }, 
+        "unknown": {
+            "position": "0", 
+            "lower": "211", 
+            "upper": "999"
+        }, 
+        "goodGuyTypes": [
+            4
+        ], 
+        "badGuyTypes": [
+            4
+        ], 
+        "bench": {
+            "possibleValues": [
+                "0", 
+                "1", 
+                "2", 
+                "3", 
+                "4", 
+                "5", 
+                "6", 
+                "7", 
+                "8", 
+                "9"
+            ], 
+            "isInfinite": true, 
+            "startNumber": "10"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": true, 
+            "variationGoodPercent": "50"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "5"
+                ], 
+                "unit": "6"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "TWOPO51", 
+        "grade": "2", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "5", 
+        "members": [
+            {
+                "upper": "988", 
+                "lower": "100"
+            }, 
+            {
+                "upper": "99", 
+                "lower": "11"
+            }
+        ], 
+        "operationType": {
+            "representation": "U = x + y  ", 
+            "id": "0"
+        }, 
+        "unknown": {
+            "position": "0", 
+            "lower": "111", 
+            "upper": "999"
+        }, 
+        "goodGuyTypes": [
+            4
+        ], 
+        "badGuyTypes": [
+            4
+        ], 
+        "bench": {
+            "possibleValues": [
+                "0", 
+                "1", 
+                "2", 
+                "3", 
+                "4", 
+                "5", 
+                "6", 
+                "7", 
+                "8", 
+                "9"
+            ], 
+            "isInfinite": true, 
+            "startNumber": "10"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": true, 
+            "variationGoodPercent": "50"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "6"
+                ], 
+                "unit": "6"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "TWOPO52", 
+        "grade": "2", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "5", 
+        "members": [
+            {
+                "upper": "899", 
+                "lower": "100"
+            }, 
+            {
+                "upper": "899", 
+                "lower": "100"
+            }
+        ], 
+        "operationType": {
+            "representation": "U = x + y  ", 
+            "id": "0"
+        }, 
+        "unknown": {
+            "position": "0", 
+            "lower": "200", 
+            "upper": "999"
+        }, 
+        "goodGuyTypes": [
+            4
+        ], 
+        "badGuyTypes": [
+            4
+        ], 
+        "bench": {
+            "possibleValues": [
+                "0", 
+                "1", 
+                "2", 
+                "3", 
+                "4", 
+                "5", 
+                "6", 
+                "7", 
+                "8", 
+                "9"
+            ], 
+            "isInfinite": true, 
+            "startNumber": "10"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": true, 
+            "variationGoodPercent": "50"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "6", 
+                    "7"
+                ], 
+                "unit": "6"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "TWOPO53", 
+        "grade": "2", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "5", 
+        "members": [
+            {
+                "upper": "999", 
+                "lower": "200"
+            }, 
+            {
+                "upper": "899", 
+                "lower": "100"
+            }
+        ], 
+        "operationType": {
+            "representation": "U = x + y  ", 
+            "id": "0"
+        }, 
+        "unknown": {
+            "position": "2", 
+            "lower": "100", 
+            "upper": "899"
+        }, 
+        "goodGuyTypes": [
+            4
+        ], 
+        "badGuyTypes": [
+            4
+        ], 
+        "bench": {
+            "possibleValues": [
+                "0", 
+                "1", 
+                "2", 
+                "3", 
+                "4", 
+                "5", 
+                "6", 
+                "7", 
+                "8", 
+                "9"
+            ], 
+            "isInfinite": true, 
+            "startNumber": "10"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": true, 
+            "variationGoodPercent": "60"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "8"
+                ], 
+                "unit": "6"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "TWOPO54", 
+        "grade": "2", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "5", 
+        "members": [
+            {
+                "upper": "(9*A)", 
+                "lower": "(1*A)"
+            }, 
+            {
+                "upper": "899", 
+                "lower": "100"
+            }
+        ], 
+        "operationType": {
+            "representation": "U = x - y", 
+            "id": "2"
+        }, 
+        "unknown": {
+            "position": "0", 
+            "lower": "1", 
+            "upper": "800"
+        }, 
+        "goodGuyTypes": [
+            4
+        ], 
+        "badGuyTypes": [
+            4
+        ], 
+        "bench": {
+            "possibleValues": [
+                "0", 
+                "1", 
+                "2", 
+                "3", 
+                "4", 
+                "5", 
+                "6", 
+                "7", 
+                "8", 
+                "9"
+            ], 
+            "isInfinite": true, 
+            "startNumber": "10"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": true, 
+            "variationGoodPercent": "60"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "9"
+                ], 
+                "unit": "6"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "TWOPO55", 
+        "grade": "2", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "5", 
+        "members": [
+            {
+                "upper": "1000", 
+                "lower": "1000"
+            }, 
+            {
+                "upper": "999", 
+                "lower": "100"
+            }
+        ], 
+        "operationType": {
+            "representation": "U = x - y", 
+            "id": "2"
+        }, 
+        "unknown": {
+            "position": "0", 
+            "lower": "1", 
+            "upper": "900"
+        }, 
+        "goodGuyTypes": [
+            4
+        ], 
+        "badGuyTypes": [
+            4
+        ], 
+        "bench": {
+            "possibleValues": [
+                "0", 
+                "1", 
+                "2", 
+                "3", 
+                "4", 
+                "5", 
+                "6", 
+                "7", 
+                "8", 
+                "9"
+            ], 
+            "isInfinite": true, 
+            "startNumber": "10"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": true, 
+            "variationGoodPercent": "60"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "9"
+                ], 
+                "unit": "6"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "TWOPO56", 
+        "grade": "2", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "5", 
+        "members": [
+            {
+                "upper": "990", 
+                "lower": "101"
+            }, 
+            {
+                "upper": "998", 
+                "lower": "100"
+            }
+        ], 
+        "operationType": {
+            "representation": "U = x - y", 
+            "id": "2"
+        }, 
+        "unknown": {
+            "position": "0", 
+            "lower": "1", 
+            "upper": "890"
+        }, 
+        "goodGuyTypes": [
+            4
+        ], 
+        "badGuyTypes": [
+            4
+        ], 
+        "bench": {
+            "possibleValues": [
+                "0", 
+                "1", 
+                "2", 
+                "3", 
+                "4", 
+                "5", 
+                "6", 
+                "7", 
+                "8", 
+                "9"
+            ], 
+            "isInfinite": true, 
+            "startNumber": "10"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": true, 
+            "variationGoodPercent": "60"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "10"
+                ], 
+                "unit": "6"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "TWOPO57", 
+        "grade": "2", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "5", 
+        "members": [
+            {
+                "upper": "999", 
+                "lower": "101"
+            }, 
+            {
+                "upper": "998", 
+                "lower": "100"
+            }
+        ], 
+        "operationType": {
+            "representation": "U = x - y", 
+            "id": "2"
+        }, 
+        "unknown": {
+            "position": "0", 
+            "lower": "1", 
+            "upper": "899"
+        }, 
+        "goodGuyTypes": [
+            4
+        ], 
+        "badGuyTypes": [
+            4
+        ], 
+        "bench": {
+            "possibleValues": [
+                "0", 
+                "1", 
+                "2", 
+                "3", 
+                "4", 
+                "5", 
+                "6", 
+                "7", 
+                "8", 
+                "9"
+            ], 
+            "isInfinite": true, 
+            "startNumber": "10"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": true, 
+            "variationGoodPercent": "60"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "11", 
+                    "12"
+                ], 
+                "unit": "6"
+            }
+        ], 
+        "comment": ""
+    }, 
+    {
+        "ID": "TWOPO58", 
+        "grade": "2", 
+        "parentID": "", 
+        "gameplayType": "", 
+        "repetition": "5", 
+        "members": [
+            {
+                "upper": "99", 
+                "lower": "10"
+            }, 
+            {
+                "upper": "99", 
+                "lower": "10"
+            }, 
+            {
+                "upper": "99", 
+                "lower": "10"
+            }, 
+            {
+                "upper": "99", 
+                "lower": "10"
+            }
+        ], 
+        "operationType": {
+            "representation": "U = x + y  ", 
+            "id": "0"
+        }, 
+        "unknown": {
+            "position": "0", 
+            "lower": "40", 
+            "upper": "396"
+        }, 
+        "goodGuyTypes": [
+            4
+        ], 
+        "badGuyTypes": [
+            4
+        ], 
+        "bench": {
+            "possibleValues": [
+                "0", 
+                "1", 
+                "2", 
+                "3", 
+                "4", 
+                "5", 
+                "6", 
+                "7", 
+                "8", 
+                "9"
+            ], 
+            "isInfinite": true, 
+            "startNumber": "10"
+        }, 
+        "money": "", 
+        "timedParameters": {}, 
+        "variationParameters": {
+            "variationBad": true, 
+            "variationGoodPercent": "60"
+        }, 
+        "tutorial": {
+            "T4": {}, 
+            "T5": {}, 
+            "T2": {}, 
+            "T3": {}, 
+            "T1": {}
+        }, 
+        "subjects": [
+            {
+                "lessons": [
+                    "4"
+                ], 
+                "unit": "7"
+            }
+        ], 
+        "comment": ""
+    }
+]

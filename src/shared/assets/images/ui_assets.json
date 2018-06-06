@@ -1,0 +1,171 @@
+﻿{"frames": {
+
+"btn_again":
+{
+	"frame": {"x":312,"y":747,"w":240,"h":256},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":240,"h":256},
+	"sourceSize": {"w":240,"h":256}
+},
+"btn_again_press":
+{
+	"frame": {"x":260,"y":1013,"w":240,"h":240},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":240,"h":240},
+	"sourceSize": {"w":240,"h":240}
+},
+"btn_cancel":
+{
+	"frame": {"x":750,"y":10,"w":240,"h":256},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":240,"h":256},
+	"sourceSize": {"w":240,"h":256}
+},
+"btn_cancel_press":
+{
+	"frame": {"x":10,"y":1024,"w":240,"h":240},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":240,"h":240},
+	"sourceSize": {"w":240,"h":240}
+},
+"btn_confirm":
+{
+	"frame": {"x":10,"y":758,"w":240,"h":256},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":240,"h":256},
+	"sourceSize": {"w":240,"h":256}
+},
+"btn_confirm_press":
+{
+	"frame": {"x":510,"y":1236,"w":240,"h":240},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":240,"h":240},
+	"sourceSize": {"w":240,"h":240}
+},
+"btn_home":
+{
+	"frame": {"x":812,"y":986,"w":170,"h":181},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":170,"h":181},
+	"sourceSize": {"w":170,"h":181}
+},
+"btn_home_press":
+{
+	"frame": {"x":857,"y":720,"w":140,"h":140},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":140},
+	"sourceSize": {"w":140,"h":140}
+},
+"btn_next":
+{
+	"frame": {"x":607,"y":720,"w":240,"h":256},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":240,"h":256},
+	"sourceSize": {"w":240,"h":256}
+},
+"btn_next_press":
+{
+	"frame": {"x":562,"y":986,"w":240,"h":240},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":240,"h":240},
+	"sourceSize": {"w":240,"h":240}
+},
+"btn_play":
+{
+	"frame": {"x":10,"y":435,"w":292,"h":313},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":292,"h":313},
+	"sourceSize": {"w":292,"h":313}
+},
+"btn_play_press":
+{
+	"frame": {"x":607,"y":435,"w":275,"h":275},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":275,"h":275},
+	"sourceSize": {"w":275,"h":275}
+},
+"btn_sound_OFF":
+{
+	"frame": {"x":366,"y":1263,"w":130,"h":138},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":130,"h":138},
+	"sourceSize": {"w":130,"h":138}
+},
+"btn_sound_ON":
+{
+	"frame": {"x":760,"y":1355,"w":130,"h":138},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":130,"h":138},
+	"sourceSize": {"w":130,"h":138}
+},
+"btn_sound_press":
+{
+	"frame": {"x":892,"y":426,"w":105,"h":105},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":105,"h":105},
+	"sourceSize": {"w":105,"h":105}
+},
+"checkMark":
+{
+	"frame": {"x":812,"y":1177,"w":168,"h":168},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":168,"h":168},
+	"sourceSize": {"w":168,"h":168}
+},
+"checkMark_Slot":
+{
+	"frame": {"x":750,"y":276,"w":140,"h":140},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":140},
+	"sourceSize": {"w":140,"h":140}
+},
+"ribbon":
+{
+	"frame": {"x":10,"y":10,"w":730,"h":415},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":730,"h":415},
+	"sourceSize": {"w":730,"h":415}
+},
+"star_bar":
+{
+	"frame": {"x":10,"y":1274,"w":346,"h":165},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":346,"h":165},
+	"sourceSize": {"w":346,"h":165}
+},
+"victory_gradesK":
+{
+	"frame": {"x":312,"y":435,"w":285,"h":302},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":285,"h":302},
+	"sourceSize": {"w":285,"h":302}
+}},
+"meta": {
+	"app": "Adobe Animate",
+	"version": "15.2.1.95",
+	"image": "UI_assets.png",
+	"format": "RGBA8888",
+	"size": {"w":1024,"h":2048},
+	"scale": "1"
+}
+}

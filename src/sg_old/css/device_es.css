@@ -1,0 +1,16 @@
+.warning-screen {
+    display: none;
+	width: 100%;
+    height: 100%;
+	position: absolute;
+    background-image: url(../shared/assets/images/portrait_screen_es.png);
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+    z-index: 1000;
+}
+
+@media only screen and (orientation:portrait){
+	.warning-screen {
+		display: block;
+	}
+}

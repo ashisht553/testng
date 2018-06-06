@@ -1,0 +1,1028 @@
+[
+    {
+        "id": "gk00",
+        "parentId": "",
+        "comment": "x = y + u -> large spec",
+        "repeatation": "1",
+        "members": [
+            [
+                3,
+                7
+            ],
+            [
+                2,
+                4
+            ]
+        ],
+        "unknown": [
+            2,
+            4
+        ],
+        "operation": {
+            "gameType": "object",
+            "operationType" : "addition",            
+            "factors": [
+                [
+                    0
+                ],
+                [
+                    1
+                ]
+            ]
+        },
+        "goodGuyType": 0,
+        "badGuyType": 0,
+        "bench": {
+            "possibleValues": [],
+            "isInfinite": false,
+            "startNumber": ""
+        },
+        "money": ""
+    },
+    {
+        "id": "gk01",
+        "parentId": "",
+        "comment": "x = y + u -> small spec",
+        "repeatation": "1",
+        "members": [
+            [
+                14,
+                28
+            ],
+            [
+                6,
+                9
+            ]
+        ],
+        "unknown": [
+            15,
+            25
+        ],
+        "operation": {
+           "gameType": "object",
+           "operationType" : "addition",
+            "factors": [
+                [
+                    0
+                ],
+                [
+                    1
+                ]
+            ]
+        },
+        "goodGuyType": 1,
+        "badGuyType": 1,
+        "bench": {
+            "possibleValues": [
+                5,
+                10
+            ],
+            "isInfinite": false,
+            "startNumber": "6"
+        },
+        "money": ""
+    },
+    {
+        "id": "gk02",
+        "parentId": "",
+        "comment": "x = y + u -> with shirt",
+        "repeatation": "1",
+        "members": [
+            [
+                14,
+                28
+            ],
+            [
+                21,
+                41
+            ]
+        ],
+        "unknown": [
+            15,
+            25
+        ],
+        "operation": {
+            "gameType": "object",
+            "operationType" : "addition",
+            "factors": [
+                [
+                    0
+                ],
+                [
+                    1
+                ]
+            ]
+        },
+        "goodGuyType": 1,
+        "badGuyType": 1,
+        "bench": {
+            "possibleValues": [
+                5,
+                10
+            ],
+            "isInfinite": false,
+            "startNumber": "6"
+        },
+        "money": ""
+    },
+    {
+        "id": "gk03",
+        "parentId": "",
+        "comment": "x = y + u -> mix spec",
+        "repeatation": "1",
+        "members": [
+            [
+                14,
+                28
+            ],
+            [
+                2,
+                4
+            ]
+        ],
+        "unknown": [
+            15,
+            25
+        ],
+        "operation": {
+            "gameType": "object",
+            "operationType" : "addition",
+            "factors": [
+                [
+                    0
+                ],
+                [
+                    1
+                ]
+            ]
+        },
+        "goodGuyType": 2,
+        "badGuyType": 1,
+        "bench": {
+            "possibleValues": [
+                5,
+                10
+            ],
+            "isInfinite": false,
+            "startNumber": "6"
+        },
+        "money": ""
+    },
+    {
+        "id": "gk04",
+        "parentId": "",
+        "comment": "x + y + z + w = u -> Have value on shirt always",
+        "repeatation": "1",
+        "members": [
+            [
+                2,
+                4
+            ],
+            [
+                2,
+                4
+            ],
+            [
+                1,
+                3
+            ],
+            [
+                2,
+                5
+            ]
+        ],
+        "unknown": [
+            15,
+            25
+        ],
+        "operation": {
+            "gameType": "object",
+            "operationType" : "addition",
+            "factors": [
+                [
+                    0,
+                    1,
+                    2,
+                    3
+                ],
+                []
+            ]
+        },
+        "goodGuyType": 2,
+        "badGuyType": 1,
+        "bench": {
+            "possibleValues": [
+                5,
+                10
+            ],
+            "isInfinite": false,
+            "startNumber": "6"
+        },
+        "money": ""
+    },
+    {
+        "id": "gk05",
+        "parentId": "",
+        "comment": "x + y = z + w + u ->  Have value on shirt always",
+        "repeatation": "1",
+        "members": [
+            [
+                1,
+                10
+            ],
+            [
+                1,
+                10
+            ],
+            [
+                2,
+                7
+            ],
+            [
+                3,
+                5
+            ]
+        ],
+        "unknown": [
+            15,
+            25
+        ],
+        "operation": {
+            "gameType": "object",
+            "operationType" : "addition",
+            "factors": [
+                [
+                    0,
+                    1
+                ],
+                [
+                    2,
+                    3
+                ]
+            ]
+        },
+        "goodGuyType": 0,
+        "badGuyType": 0,
+        "bench": {
+            "possibleValues": [
+                5,
+                10
+            ],
+            "isInfinite": false,
+            "startNumber": "6"
+        },
+        "money": ""
+    },
+    {
+        "id": "gk06",
+        "parentId": "",
+        "comment": "x = u ->  Have mixed spec",
+        "repeatation": "1",
+        "members": [
+            [
+                10,
+                35,
+                {
+                    "divided": 5
+                }
+            ]
+        ],
+        "unknown": [
+            15,
+            25
+        ],
+        "operation": {
+            "gameType": "object",
+            "operationType" : "addition",
+            "factors": [
+                [
+                    0
+                ],
+                []
+            ]
+        },
+        "goodGuyType": 2,
+        "badGuyType": 1,
+        "bench": {
+            "possibleValues": [
+                5,
+                10
+            ],
+            "isInfinite": true,
+            "startNumber": ""
+        },
+        "money": ""
+    },
+    {
+        "id": "gk07",
+        "parentId": "",
+        "comment": "x = y + u ->  Have mixed spec",
+        "repeatation": "1",
+        "members": [
+            [
+                20,
+                27
+            ],
+            [
+                2,
+                7
+            ]
+        ],
+        "unknown": [
+            15,
+            25,
+            {
+                "divided": 5
+            }
+        ],
+        "operation": {
+            "gameType": "object",
+            "operationType" : "addition",
+            "factors": [
+                [
+                    0
+                ],
+                [
+                    1
+                ]
+            ]
+        },
+        "goodGuyType": 2,
+        "badGuyType": 1,
+        "bench": {
+            "possibleValues": [
+                5,
+                10
+            ],
+            "isInfinite": true,
+            "startNumber": ""
+        },
+        "money": ""
+    },
+    {
+        "id": "gk08",
+        "parentId": "",
+        "comment": "x = y + u ->  Have small specs only",
+        "repeatation": "1",
+        "members": [
+            [
+                20,
+                27
+            ],
+            [
+                12,
+                17
+            ]
+        ],
+        "unknown": [
+            15,
+            25,
+            {
+                "divided": 5
+            }
+        ],
+        "operation": {
+            "gameType": "object",
+            "operationType" : "addition",
+            "factors": [
+                [
+                    0
+                ],
+                [
+                    1
+                ]
+            ]
+        },
+        "goodGuyType": 2,
+        "badGuyType": 2,
+        "bench": {
+            "possibleValues": [
+                5,
+                10
+            ],
+            "isInfinite": true,
+            "startNumber": ""
+        },
+        "money": ""
+    },
+    {
+        "id": "gk11",
+        "parentId": "",
+        "comment": "x = u -> mixed spec*",
+        "repeatation": "1",
+        "members": [
+            [
+                10,
+                35,
+                {
+                    "divided": 5
+                }
+            ]
+        ],
+        "unknown": [
+            15,
+            25
+        ],
+        "operation": {
+            "gameType": "object",
+            "operationType" : "addition",
+            "factors": [
+                [
+                    0
+                ],
+                []
+            ]
+        },
+        "goodGuyType": 2,
+        "badGuyType": 1,
+        "bench": {
+            "possibleValues": [
+                5,
+                10
+            ],
+            "isInfinite": true,
+            "startNumber": ""
+        },
+        "money": ""
+    },
+    {
+        "id": "gk12",
+        "parentId": "",
+        "comment": "x + y = u -> both big specs*",
+        "repeatation": "1",
+        "members": [
+            [
+                1,
+                10
+            ],
+            [
+                1,
+                10
+            ]
+        ],
+        "unknown": [
+            2,
+            20
+        ],
+        "operation": {
+            "gameType": "object",
+            "operationType" : "addition",
+            "factors": [
+                [
+                    0,
+                    1
+                ],
+                []
+            ]
+        },
+        "goodGuyType": 0,
+        "badGuyType": 0,
+        "bench": {
+            "possibleValues": [],
+            "isInfinite": true,
+            "startNumber": ""
+        },
+        "money": ""
+    },
+    {
+        "id": "gk13",
+        "parentId": "",
+        "comment": "x + y = u -> both small specs*",
+        "repeatation": "1",
+        "members": [
+            [
+                1,
+                10
+            ],
+            [
+                1,
+                10
+            ]
+        ],
+        "unknown": [
+            2,
+            20
+        ],
+        "operation": {
+            "gameType": "object",
+            "operationType" : "addition",
+            "factors": [
+                [
+                    0,
+                    1
+                ],
+                []
+            ]
+        },
+        "goodGuyType": 2,
+        "badGuyType": 2,
+        "bench": {
+            "possibleValues": [
+                1,
+                5,
+                10
+            ],
+            "isInfinite": true,
+            "startNumber": ""
+        },
+        "money": ""
+    },
+    {
+        "id": "gk14",
+        "parentId": "",
+        "comment": "x + y = u -> both with value and shirt*",
+        "repeatation": "1",
+        "members": [
+            [
+                10,
+                30
+            ],
+            [
+                10,
+                30
+            ]
+        ],
+        "unknown": [
+            20,
+            60
+        ],
+        "operation": {
+            "gameType": "object",
+            "operationType" : "addition",
+            "factors": [
+                [
+                    0,
+                    1
+                ],
+                []
+            ]
+        },
+        "goodGuyType": 1,
+        "badGuyType": 1,
+        "bench": {
+            "possibleValues": [],
+            "isInfinite": true,
+            "startNumber": ""
+        },
+        "money": ""
+    },
+    {
+        "id": "gk15",
+        "parentId": "",
+        "comment": "x + y + z = u -> both with big specs",
+        "repeatation": "1",
+        "members": [
+            [
+                1,
+                5
+            ],
+            [
+                1,
+                5
+            ],
+            [
+                1,
+                5
+            ]
+        ],
+        "unknown": [
+            3,
+            15
+        ],
+        "operation": {
+            "gameType": "object",
+            "operationType" : "addition",
+            "factors": [
+                [
+                    0,
+                    1,
+                    2
+                ],
+                []
+            ]
+        },
+        "goodGuyType": 0,
+        "badGuyType": 0,
+        "bench": {
+            "possibleValues": [],
+            "isInfinite": true,
+            "startNumber": ""
+        },
+        "money": ""
+    },
+    {
+        "id": "gk16",
+        "parentId": "",
+        "comment": "x + y + z = u -> both with shirt value*",
+        "repeatation": "1",
+        "members": [
+            [
+                11,
+                25
+            ],
+            [
+                11,
+                25
+            ],
+            [
+                11,
+                35
+            ]
+        ],
+        "unknown": [
+            33,
+            85
+        ],
+        "operation": {
+            "gameType": "object",
+            "operationType" : "addition",
+            "factors": [
+                [
+                    0,
+                    1,
+                    2
+                ],
+                []
+            ]
+        },
+        "goodGuyType": 1,
+        "badGuyType": 1,
+        "bench": {
+            "possibleValues": [],
+            "isInfinite": true,
+            "startNumber": ""
+        },
+        "money": ""
+    },
+    {
+        "id": "gk17",
+        "parentId": "",
+        "comment": "x + y + z + w = u -> both with big specs*",
+        "repeatation": "1",
+        "members": [
+            [
+                1,
+                5
+            ],
+            [
+                1,
+                5
+            ],
+            [
+                1,
+                5
+            ],
+            [
+                1,
+                5
+            ]
+        ],
+        "unknown": [
+            7,
+            15
+        ],
+        "operation": {
+            "gameType": "object",
+            "operationType" : "addition",
+            "factors": [
+                [
+                    0,
+                    1,
+                    2,
+                    3
+                ],
+                []
+            ]
+        },
+        "goodGuyType": 0,
+        "badGuyType": 0,
+        "bench": {
+            "possibleValues": [],
+            "isInfinite": true,
+            "startNumber": ""
+        },
+        "money": ""
+    },
+    {
+        "id": "gk18",
+        "parentId": "",
+        "comment": "x + y + z + w = u -> all with shirt value*",
+        "repeatation": "1",
+        "members": [
+            [
+                11,
+                25
+            ],
+            [
+                11,
+                25
+            ],
+            [
+                11,
+                35
+            ],
+            [
+                11,
+                35
+            ]
+        ],
+        "unknown": [
+            27,
+            45
+        ],
+        "operation": {
+            "gameType": "object",
+            "operationType" : "addition",
+            "factors": [
+                [
+                    0,
+                    1,
+                    2,
+                    3
+                ],
+                []
+            ]
+        },
+        "goodGuyType": 1,
+        "badGuyType": 1,
+        "bench": {
+            "possibleValues": [],
+            "isInfinite": true,
+            "startNumber": ""
+        },
+        "money": ""
+    },
+    {
+        "id": "gk19",
+        "parentId": "",
+        "comment": "x = y + u -> both with big specs*",
+        "repeatation": "1",
+        "members": [
+            [
+                4,
+                8
+            ],
+            [
+                1,
+                5
+            ]
+        ],
+        "unknown": [
+            3,
+            6
+        ],
+        "operation": {
+            "gameType": "object",
+            "operationType" : "addition",
+            "factors": [
+                [
+                    0
+                ],
+                [
+                    1
+                ]
+            ]
+        },
+        "goodGuyType": 0,
+        "badGuyType": 0,
+        "bench": {
+            "possibleValues": [],
+            "isInfinite": true,
+            "startNumber": ""
+        },
+        "money": ""
+    },
+    {
+        "id": "gk20",
+        "parentId": "",
+        "comment": "x = y + u -> both with small specs*",
+        "repeatation": "1",
+        "members": [
+            [
+                14,
+                28
+               
+            ],
+            [
+                4,
+                15
+            ]
+        ],
+        "unknown": [
+            10,
+            16 
+        ],
+        "operation": {
+            "gameType": "object",
+            "operationType" : "addition",
+            "factors": [
+                [
+                    0
+                ],
+                [
+                    1
+                ]
+            ]
+        },
+        "goodGuyType": 2,
+        "badGuyType": 2,
+        "bench": {
+            "possibleValues": [
+                1,
+                5,
+                10
+            ],
+            "isInfinite": true,
+            "startNumber": ""
+        },
+        "money": ""
+    },
+    {
+        "id": "gk21",
+        "parentId": "",
+        "comment": "x = y + u -> both with shirt value*",
+        "repeatation": "1",
+        "members": [
+            [
+                14,
+                28
+            ],
+            [
+                4,
+                15
+            ]
+        ],
+        "unknown": [
+            10,
+            16
+        ],
+        "operation": {
+            "gameType": "object",
+            "operationType" : "addition",
+            "factors": [
+                [
+                    0
+                ],
+                [
+                    1
+                ]
+            ]
+        },
+        "goodGuyType": 1,
+        "badGuyType": 1,
+        "bench": {
+            "possibleValues": [],
+            "isInfinite": true,
+            "startNumber": ""
+        },
+        "money": ""
+    },
+    {
+        "id": "gk22",
+        "parentId": "",
+        "comment": "x = y + u -> with mixed specs*",
+        "repeatation": "1",
+        "members": [
+            [
+                14,
+                28
+            ],
+            [
+                4,
+                15
+            ]
+        ],
+        "unknown": [
+            10,
+            16
+        ],
+        "operation": {
+            "gameType": "object",
+            "operationType" : "addition",
+            "factors": [
+                [
+                    0
+                ],
+                [
+                    1
+                ]
+            ]
+        },
+        "goodGuyType": 2,
+        "badGuyType": 1,
+        "bench": {
+            "possibleValues": [
+                1,
+                5,
+                10
+            ],
+            "isInfinite": true,
+            "startNumber": ""
+        },
+        "money": ""
+    },
+    {
+        "id": "gk23",
+        "parentId": "",
+        "comment": "x = y + z + u -> all with shirt value",
+        "repeatation": "1",
+        "members": [
+            [
+                24,
+                48
+            ],
+            [
+                4,
+                15
+            ],
+            [
+                4,
+                15
+            ]
+        ],
+        "unknown": [
+            10,
+            16
+        ],
+        "operation": {
+            "gameType": "object",
+            "operationType" : "addition",
+            "factors": [
+                [
+                    0
+                ],
+                [
+                    1,
+                    2
+                ]
+            ]
+        },
+        "goodGuyType": 1,
+        "badGuyType": 1,
+        "bench": {
+            "possibleValues": [
+                1,
+                5,
+                10
+            ],
+            "isInfinite": true,
+            "startNumber": ""
+        },
+        "money": ""
+    },
+    {
+        "id": "gk24",
+        "parentId": "",
+        "comment": "x = y + z + w + u -> all with shirt value*",
+        "repeatation": "1",
+        "members": [
+            [
+                34,
+                58
+            ],
+            [
+                4,
+                15
+            ],
+            [
+                4,
+                15
+            ],
+            [
+                4,
+                15
+            ]
+        ],
+        "unknown": [
+            10,
+            16
+        ],
+        "operation": {
+            "gameType": "object",
+            "operationType" : "addition",
+            "factors": [
+                [
+                    0
+                ],
+                [
+                    1,
+                    2,
+                    3
+                ]
+            ]
+        },
+        "goodGuyType": 1,
+        "badGuyType": 1,
+        "bench": {
+            "possibleValues": [
+                1,
+                5,
+                10
+            ],
+            "isInfinite": true,
+            "startNumber": ""
+        },
+        
+        "money": ""
+    }
+]

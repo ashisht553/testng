@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <base href="">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>
+    <%= APP_TITLE %>
+  </title>
+  <meta name="description" content="">
+  <meta name="viewport" content="minimal-ui, width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <!--<meta name="viewport" content="width=device-width, height=device-height,  initial-scale=1">-->
+  <link rel='stylesheet' href='css/main.css' />
+  <!--script type="text/javascript" src="./phaser-swipe.js"></script-->
+  <!-- inject:css -->
+  <!-- endinject -->
+  <script src="../shared/engine/libs/cas/queue-min.js"></script>
+  <script src="annotations-service.js"></script>
+  <script src="../shared/engine/libs/cas/custom-cas.js"></script>
+</head>
+
+<body>
+  <div class="warning-screen"></div>
+  <app-main>Loading...</app-main>
+
+  <script>
+    // Fixes undefined module function in SystemJS bundle
+    function module() { }
+  </script>
+
+  <!-- shims:js -->
+  <!-- endinject -->
+
+  <% if (ENV === 'dev') { %>
+    <script>
+      System.config(<%=
+        JSON.stringify(SYSTEM_CONFIG, null, 2)
+        %>)
+    </script>
+    <% } %>
+
+      <!-- libs:js -->
+      <!-- endinject -->
+
+      <!-- inject:js -->
+      <!-- endinject -->
+
+      <% if (ENV === 'dev') { %>
+        <script>
+          System.import('<%= BOOTSTRAP_MODULE %>')
+            .catch(function (e) {
+              console.error(e,
+                'Report this error at https://github.com/mgechev/angular2-seed/issues');
+            });
+        </script>
+        <% } %>
+
+
+</body>
+
+</html>

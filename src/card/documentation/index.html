@@ -1,0 +1,900 @@
+<!doctype html>
+<html class="default no-js">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>MX 2018 Card Game</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+<header>
+	<div class="tsd-page-toolbar">
+		<div class="container">
+			<div class="table-wrap">
+				<div class="table-cell" id="tsd-search" data-index="assets/js/search.js" data-base=".">
+					<div class="field">
+						<label for="tsd-search-field" class="tsd-widget search no-caption">Search</label>
+						<input id="tsd-search-field" type="text" />
+					</div>
+					<ul class="results">
+						<li class="state loading">Preparing search index...</li>
+						<li class="state failure">The search index is not available</li>
+					</ul>
+					<a href="index.html" class="title">MX 2018 Card Game</a>
+				</div>
+				<div class="table-cell" id="tsd-widgets">
+					<div id="tsd-filter">
+						<a href="#" class="tsd-widget options no-caption" data-toggle="options">Options</a>
+						<div class="tsd-filter-group">
+							<div class="tsd-select" id="tsd-filter-visibility">
+								<span class="tsd-select-label">All</span>
+								<ul class="tsd-select-list">
+									<li data-value="public">Public</li>
+									<li data-value="protected">Public/Protected</li>
+									<li data-value="private" class="selected">All</li>
+								</ul>
+							</div>
+							<input type="checkbox" id="tsd-filter-inherited" checked />
+							<label class="tsd-widget" for="tsd-filter-inherited">Inherited</label>
+							<input type="checkbox" id="tsd-filter-externals" checked />
+							<label class="tsd-widget" for="tsd-filter-externals">Externals</label>
+							<input type="checkbox" id="tsd-filter-only-exported" />
+							<label class="tsd-widget" for="tsd-filter-only-exported">Only exported</label>
+						</div>
+					</div>
+					<a href="#" class="tsd-widget menu no-caption" data-toggle="menu">Menu</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="tsd-page-title">
+		<div class="container">
+			<ul class="tsd-breadcrumb">
+				<li>
+					<a href="globals.html">Globals</a>
+				</li>
+			</ul>
+			<h1> MX 2018 Card Game</h1>
+		</div>
+	</div>
+</header>
+<div class="container container-main">
+	<div class="row">
+		<div class="col-8 col-content">
+			<div class="tsd-panel tsd-typography">
+				<h1 id="introduction">Introduction</h1>
+				<p><a href="https://angular.io/styleguide"><img src="https://mgechev.github.io/angular2-style-guide/images/badge.svg" alt="Angular 2 Style Guide"></a>
+					<a href="https://travis-ci.org/mgechev/angular2-seed"><img src="https://travis-ci.org/mgechev/angular2-seed.svg?branch=master" alt="Build Status"></a>
+					<a href="https://ci.appveyor.com/project/mgechev/angular2-seed"><img src="https://ci.appveyor.com/api/projects/status/github/mgechev/angular2-seed?svg=true" alt="Build Status"></a>
+					<a href="https://gitter.im/mgechev/angular2-seed?utm_source=badge&amp;utm_medium=badge&amp;utm_campaign=pr-badge&amp;utm_content=badge"><img src="https://badges.gitter.im/Join%20Chat.svg" alt="Join the chat at https://gitter.im/mgechev/angular2-seed"></a>
+					<a href="http://opensource.org/licenses/MIT"><img src="http://img.shields.io/badge/license-MIT-brightgreen.svg" alt="MIT license"></a>
+					<a href="https://david-dm.org/mgechev/angular2-seed"><img src="https://david-dm.org/mgechev/angular2-seed.svg" alt="Dependency Status"></a>
+				<a href="https://david-dm.org/mgechev/angular2-seed#info=devDependencies"><img src="https://david-dm.org/mgechev/angular2-seed/dev-status.svg" alt="devDependency Status"></a></p>
+				<p>Provides fast, reliable and extensible starter for the development of Angular 2 projects.</p>
+				<p><code>angular2-seed</code> provides the following features:</p>
+				<ul>
+					<li>Allows you to painlessly update the seed tasks of your already existing project.</li>
+					<li>Out of the box ServiceWorkers and AppCache support thanks to the integration with <a href="https://github.com/angular/mobile-toolkit">angular/mobile-toolkit</a>.</li>
+					<li>Ready to go, statically typed build system using gulp for working with TypeScript.</li>
+					<li>Production and development builds.</li>
+					<li>Sample unit tests with Jasmine and Karma including code coverage via <a href="https://gotwarlost.github.io/istanbul/">istanbul</a>.</li>
+					<li>End-to-end tests with Protractor.</li>
+					<li>Development server with Livereload.</li>
+					<li>Following the <a href="https://angular.io/styleguide">best practices</a>.</li>
+					<li>Manager of your type definitions using <a href="https://github.com/typings/typings">typings</a>.</li>
+					<li>Has autoprefixer and css-lint support.</li>
+				</ul>
+				<h1 id="how-to-start">How to start</h1>
+				<p><strong>Note</strong> that this seed project requires node v4.x.x or higher and npm 2.14.7.</p>
+				<p><strong>Here is how to <a href="https://github.com/mgechev/angular2-seed/wiki/Speed-up-the-build-on-Windows">speed-up the build on Windows</a></strong>.</p>
+				<p>In order to start the seed use:</p>
+				<pre><code class="lang-bash">git <span class="hljs-built_in">clone</span> --depth 1 https://github.com/mgechev/angular2-seed.git
+<span class="hljs-built_in">cd</span> angular2-seed
+<span class="hljs-comment"># install the project's dependencies</span>
+npm install
+<span class="hljs-comment"># watches your files and uses livereload by default</span>
+npm start
+<span class="hljs-comment"># api document for the app</span>
+<span class="hljs-comment"># npm run build.docs</span>
+
+<span class="hljs-comment"># dev build</span>
+npm run build.dev
+<span class="hljs-comment"># prod build</span>
+npm run build.prod
+</code></pre>
+				<p><em>Does not rely on any global dependencies.</em></p>
+				<h1 id="table-of-content">Table of Content</h1>
+				<ul>
+					<li><a href="#introduction">Introduction</a></li>
+					<li><a href="#how-to-start">How to start</a></li>
+					<li><a href="#table-of-content">Table of Content</a></li>
+					<li><a href="#configuration">Configuration</a></li>
+					<li><a href="#environment-configuration">Environment Configuration</a></li>
+					<li><a href="#tools-documentation">Tools documentation</a></li>
+					<li><a href="#how-to-extend">How to extend?</a></li>
+					<li><a href="#running-tests">Running tests</a></li>
+					<li><a href="#progressive-web-apps">Progressive Web Apps</a></li>
+					<li><a href="#contributing">Contributing</a></li>
+					<li><a href="#advanced-seed-option">Advanced Seed Option</a></li>
+					<li><a href="#examples">Examples</a></li>
+					<li><a href="#directory-structure">Directory Structure</a></li>
+					<li><a href="#contributors">Contributors</a><ul>
+							<li><a href="#wiki-contributors">Wiki Contributors</a></li>
+						</ul>
+					</li>
+					<li><a href="#change-log">Change Log</a></li>
+					<li><a href="#license">License</a></li>
+				</ul>
+				<h1 id="configuration">Configuration</h1>
+				<p>Default application server configuration</p>
+				<pre><code class="lang-js"><span class="hljs-keyword">var</span> PORT             = <span class="hljs-number">5555</span>;
+<span class="hljs-keyword">var</span> LIVE_RELOAD_PORT = <span class="hljs-number">4002</span>;
+<span class="hljs-keyword">var</span> DOCS_PORT        = <span class="hljs-number">4003</span>;
+<span class="hljs-keyword">var</span> APP_BASE         = <span class="hljs-string">'/'</span>;
+</code></pre>
+				<p>Configure at runtime</p>
+				<pre><code class="lang-bash">npm start -- --port 8080 --reload-port 4000 --base /my-app/
+</code></pre>
+				<h2 id="environment-configuration">Environment configuration</h2>
+				<p>If you have different environments and you need to configure them to use different end points, settings, etc. you can use the <code>./tools/env/config.json</code> file. The keys in the file are the different environments.</p>
+				<p>The can be specified by using:</p>
+				<pre><code class="lang-bash">npm start -- --config-env ENV_NAME
+</code></pre>
+				<p>Currently the <code>ENV_NAME</code>s are <code>dev</code>, <code>prod</code>, <code>staging</code>, but you can simply add different key-value pairs to the <code>config.json</code> file in order to alter extra such environments.</p>
+				<h1 id="tools-documentation">Tools documentation</h1>
+				<p>A documentation of the provided tools can be found in <a href="tools/README.md">tools/README.md</a>.</p>
+				<h1 id="how-to-extend-">How to extend?</h1>
+				<p>Visit the <a href="https://github.com/mgechev/angular2-seed/wiki">Wiki page</a> of the project.</p>
+				<h1 id="running-tests">Running tests</h1>
+				<pre><code class="lang-bash">npm <span class="hljs-built_in">test</span>
+
+<span class="hljs-comment"># Debug - In two different shell windows</span>
+npm run build.test.watch      <span class="hljs-comment"># 1st window</span>
+npm run karma.start           <span class="hljs-comment"># 2nd window</span>
+
+<span class="hljs-comment"># code coverage (istanbul)</span>
+<span class="hljs-comment"># auto-generated at the end of `npm test`</span>
+<span class="hljs-comment"># view coverage report:</span>
+npm run serve.coverage
+
+<span class="hljs-comment"># e2e (aka. end-to-end, integration) - In three different shell windows</span>
+<span class="hljs-comment"># Make sure you don't have a global instance of Protractor</span>
+
+<span class="hljs-comment"># npm run webdriver-update &lt;- You will need to run this the first time</span>
+npm run webdriver-start
+npm run serve.e2e
+npm run e2e
+
+<span class="hljs-comment"># e2e live mode - Protractor interactive mode</span>
+<span class="hljs-comment"># Instead of last command above, you can use:</span>
+npm run e2e.live
+</code></pre>
+				<p>You can learn more about <a href="https://github.com/angular/protractor/blob/master/docs/debugging.md#testing-out-protractor-interactively">Protractor Interactive Mode here</a></p>
+				<!-- # Progressive Web Apps
+
+`angular2-seed` supports progressive web apps with [angular/mobile-toolkit](https://github.com/angular/mobile-toolkit).
+
+The seed can generate a file `manifest.appcache` which lists all files included in a project's output, along with SHA1 hashes of all file contents. This file can be used directly as an AppCache manifest (for now, `index.html` must be manually edited to set this up).
+
+The manifest is also annotated for use with `angular2-service-worker`. Some manual operations are currently required to enable this usage. The package must be installed, and `worker.js` manually copied into the project src directory:
+
+```bash
+cp node_modules/angular2-service-worker/dist/worker.js src/client
+```
+
+In order to generate the manifest file run:
+
+```bash
+# ENV can be both prod or dev
+npm run generate.manifest -- --env ENV
+```
+
+Then, the commented snippet in `main.ts` must be uncommented to register the worker script as a service worker. -->
+				<h1 id="contributing">Contributing</h1>
+				<p>Please see the <a href="https://github.com/mgechev/angular2-seed/blob/master/.github/CONTRIBUTING.md">CONTRIBUTING</a> file for guidelines.</p>
+				<h1 id="advanced-seed-option">Advanced Seed Option</h1>
+				<p>An <a href="https://github.com/NathanWalker/angular2-seed-advanced">advanced option to this seed exists here</a> which mirrors the latest changes here but adds core support for:</p>
+				<ul>
+					<li><a href="https://github.com/ngrx/store">ngrx/store</a> RxJS powered state management, inspired by <strong>Redux</strong></li>
+					<li><a href="https://github.com/ocombe/ng2-translate">ng2-translate</a> for i18n <ul>
+							<li>Usage is optional but on by default</li>
+							<li>Up to you and your team how you want to utilize it. It can be easily removed if not needed. </li>
+						</ul>
+					</li>
+					<li><a href="https://github.com/angulartics/angulartics2">angulartics2</a> Vendor-agnostic analytics for Angular2 applications.<ul>
+							<li>Out of box support for <a href="https://segment.com/">Segment</a><ul>
+									<li>When using the seed, be sure to change your <code>write_key</code> <a href="https://github.com/NathanWalker/angular2-seed-advanced/blob/master/src/client/index.html#L24">here</a></li>
+								</ul>
+							</li>
+							<li>Can be changed to any vendor, <a href="https://github.com/angulartics/angulartics2#supported-providers">learn more here</a></li>
+						</ul>
+					</li>
+					<li><a href="https://lodash.com/">lodash</a> Helps reduce blocks of code down to single lines and enhances readability</li>
+					<li><a href="https://www.nativescript.org/">NativeScript</a> cross platform mobile (w/ native UI) apps. <a href="#nativescript-app">Setup instructions here</a>.</li>
+					<li><a href="http://electron.atom.io/">Electron</a> cross platform desktop apps (Mac, Windows and Linux). <a href="#electron-app">Setup instructions here</a>.</li>
+				</ul>
+				<p>You may use it to learn how to extend this seed for your own use cases or use the advanced seed if your project needs those features.</p>
+				<h1 id="examples">Examples</h1>
+				<p>Forks of this project demonstrate how to extend and integrate with other libraries:</p>
+				<ul>
+					<li><a href="https://github.com/archfirst/angular2-seed-sass">https://github.com/archfirst/angular2-seed-sass</a> - integration with <a href="http://sass-lang.com/">Sass</a></li>
+					<li><a href="https://github.com/DeviantJS/angular2-seed-postcss">https://github.com/DeviantJS/angular2-seed-postcss</a> - Extending PostCSS with precss / cssnext for Sass-like features.</li>
+					<li><a href="https://github.com/DeviantJS/angular2-seed-material2">https://github.com/DeviantJS/angular2-seed-material2</a> - integration with <a href="https://github.com/angular/material2">Angular2-Material</a></li>
+					<li><a href="https://github.com/AngularShowcase/angular2-sample-app">https://github.com/AngularShowcase/angular2-sample-app</a> - sample Angular 2 application</li>
+					<li><a href="https://github.com/AngularShowcase/ng2-bootstrap-sbadmin">https://github.com/AngularShowcase/ng2-bootstrap-sbadmin</a> - ng2-bootstrap-sbadmin</li>
+					<li><a href="https://github.com/AngularShowcase/angular2-seed-ng2-highcharts">https://github.com/AngularShowcase/angular2-seed-ng2-highcharts</a> - Simple application including a <a href="http://www.highcharts.com">Highcharts</a> graph.</li>
+					<li><a href="https://github.com/tarlepp/angular-sailsjs-boilerplate-frontend-angular2">https://github.com/tarlepp/angular-sailsjs-boilerplate-frontend-angular2</a> - Example application for <a href="http://sailsjs.org/">Sails.js</a> integration.</li>
+					<li><a href="https://github.com/ludohenin/ng2-wp-blog">https://github.com/ludohenin/ng2-wp-blog</a> - Angular 2 application using Wordpress <a href="http://v2.wp-api.org">JSON-API</a> backend.</li>
+					<li><a href="https://github.com/AngularShowcase/angular2-seed-example-mashup">https://github.com/AngularShowcase/angular2-seed-example-mashup</a> - Angular 2 application demonstrating the use of <a href="http://redux.js.org/">Redux</a>, <a href="https://github.com/mbostock/d3">D3</a>, <a href="https://github.com/socketio">socket io</a>, <a href="https://developers.google.com/chart/">Google Charts</a>, and <a href="https://github.com/Reactive-Extensions/RxJS">RxJs</a></li>
+				</ul>
+				<h1 id="directory-structure">Directory Structure</h1>
+				<pre><code>.
+├── LICENSE
+├── README<span class="hljs-selector-class">.md</span>
+├── gulpfile<span class="hljs-selector-class">.ts</span>                &lt;- configuration of the gulp tasks
+├── karma<span class="hljs-selector-class">.conf</span><span class="hljs-selector-class">.js</span>              &lt;- configuration of the test runner
+├── package<span class="hljs-selector-class">.json</span>               &lt;- dependencies of the project
+├── protractor<span class="hljs-selector-class">.conf</span><span class="hljs-selector-class">.js</span>         &lt;- e2e tests configuration
+├── src                        &lt;- source <span class="hljs-selector-tag">code</span> of the application
+│   └── client
+│       ├── app
+│       │   ├── +about
+│       │   │   ├── about<span class="hljs-selector-class">.component</span><span class="hljs-selector-class">.css</span>
+│       │   │   ├── about<span class="hljs-selector-class">.component</span><span class="hljs-selector-class">.e2e-spec</span><span class="hljs-selector-class">.ts</span>
+│       │   │   ├── about<span class="hljs-selector-class">.component</span><span class="hljs-selector-class">.html</span>
+│       │   │   ├── about<span class="hljs-selector-class">.component</span><span class="hljs-selector-class">.spec</span><span class="hljs-selector-class">.ts</span>
+│       │   │   ├── about<span class="hljs-selector-class">.component</span><span class="hljs-selector-class">.ts</span>
+│       │   │   └── index<span class="hljs-selector-class">.ts</span>
+│       │   ├── +home
+│       │   │   ├── home<span class="hljs-selector-class">.component</span><span class="hljs-selector-class">.css</span>
+│       │   │   ├── home<span class="hljs-selector-class">.component</span><span class="hljs-selector-class">.e2e-spec</span><span class="hljs-selector-class">.ts</span>
+│       │   │   ├── home<span class="hljs-selector-class">.component</span><span class="hljs-selector-class">.html</span>
+│       │   │   ├── home<span class="hljs-selector-class">.component</span><span class="hljs-selector-class">.spec</span><span class="hljs-selector-class">.ts</span>
+│       │   │   ├── home<span class="hljs-selector-class">.component</span><span class="hljs-selector-class">.ts</span>
+│       │   │   └── index<span class="hljs-selector-class">.ts</span>
+│       │   ├── app<span class="hljs-selector-class">.component</span><span class="hljs-selector-class">.e2e-spec</span><span class="hljs-selector-class">.ts</span>
+│       │   ├── app<span class="hljs-selector-class">.component</span><span class="hljs-selector-class">.html</span>
+│       │   ├── app<span class="hljs-selector-class">.component</span><span class="hljs-selector-class">.spec</span><span class="hljs-selector-class">.ts</span>
+│       │   ├── app<span class="hljs-selector-class">.component</span><span class="hljs-selector-class">.ts</span>
+│       │   ├── hot_loader_main<span class="hljs-selector-class">.ts</span>
+│       │   ├── main<span class="hljs-selector-class">.ts</span>
+│       │   └── shared
+│       │       ├── index<span class="hljs-selector-class">.ts</span>
+│       │       ├── name-list
+│       │       │   ├── index<span class="hljs-selector-class">.ts</span>
+│       │       │   ├── name-list<span class="hljs-selector-class">.service</span><span class="hljs-selector-class">.spec</span><span class="hljs-selector-class">.ts</span>
+│       │       │   └── name-list<span class="hljs-selector-class">.service</span><span class="hljs-selector-class">.ts</span>
+│       │       ├── navbar
+│       │       │   ├── index<span class="hljs-selector-class">.ts</span>
+│       │       │   ├── navbar<span class="hljs-selector-class">.component</span><span class="hljs-selector-class">.css</span>
+│       │       │   ├── navbar<span class="hljs-selector-class">.component</span><span class="hljs-selector-class">.html</span>
+│       │       │   └── navbar<span class="hljs-selector-class">.component</span><span class="hljs-selector-class">.ts</span>
+│       │       └── toolbar
+│       │           ├── index<span class="hljs-selector-class">.ts</span>
+│       │           ├── toolbar<span class="hljs-selector-class">.component</span><span class="hljs-selector-class">.css</span>
+│       │           ├── toolbar<span class="hljs-selector-class">.component</span><span class="hljs-selector-class">.html</span>
+│       │           └── toolbar<span class="hljs-selector-class">.component</span><span class="hljs-selector-class">.ts</span>
+│       ├── assets
+│       │   └── svg
+│       │       └── more<span class="hljs-selector-class">.svg</span>
+│       ├── css
+│       │   └── main<span class="hljs-selector-class">.css</span>
+│       ├── index<span class="hljs-selector-class">.html</span>
+│       ├── tsconfig<span class="hljs-selector-class">.json</span>
+│       └── typings<span class="hljs-selector-class">.d</span><span class="hljs-selector-class">.ts</span>
+├── test-main<span class="hljs-selector-class">.js</span>               &lt;- testing configuration
+├── tools
+│   ├── README<span class="hljs-selector-class">.md</span>              &lt;- build documentation
+│   ├── config
+│   │   ├── project<span class="hljs-selector-class">.config</span><span class="hljs-selector-class">.ts</span>  &lt;- configuration of the specific project
+│   │   ├── seed<span class="hljs-selector-class">.config</span><span class="hljs-selector-class">.interfaces</span><span class="hljs-selector-class">.ts</span>
+│   │   └── seed<span class="hljs-selector-class">.config</span><span class="hljs-selector-class">.ts</span>     &lt;- generic configuration of the seed project
+│   ├── config<span class="hljs-selector-class">.ts</span>              &lt;- exported configuration (merge both seed<span class="hljs-selector-class">.config</span> and project<span class="hljs-selector-class">.config</span>, project<span class="hljs-selector-class">.config</span> overrides seed.config)
+│   ├── debug<span class="hljs-selector-class">.ts</span>
+│   ├── manual_typings
+│   │   ├── project            &lt;- manual ambient typings <span class="hljs-keyword">for</span> the project
+│   │   │   └── sample<span class="hljs-selector-class">.package</span><span class="hljs-selector-class">.d</span><span class="hljs-selector-class">.ts</span>
+│   │   └── seed               &lt;- seed manual ambient typings
+│   │       ├── angular2-hot-loader<span class="hljs-selector-class">.d</span><span class="hljs-selector-class">.ts</span>
+│   │       ├── autoprefixer<span class="hljs-selector-class">.d</span><span class="hljs-selector-class">.ts</span>
+│   │       ├── colorguard<span class="hljs-selector-class">.d</span><span class="hljs-selector-class">.ts</span>
+│   │       ├── connect-livereload<span class="hljs-selector-class">.d</span><span class="hljs-selector-class">.ts</span>
+│   │       ├── cssnano<span class="hljs-selector-class">.d</span><span class="hljs-selector-class">.ts</span>
+│   │       ├── doiuse<span class="hljs-selector-class">.d</span><span class="hljs-selector-class">.ts</span>
+│   │       ├── express-history-api-fallback<span class="hljs-selector-class">.d</span><span class="hljs-selector-class">.ts</span>
+│   │       ├── istream<span class="hljs-selector-class">.d</span><span class="hljs-selector-class">.ts</span>
+│   │       ├── karma<span class="hljs-selector-class">.d</span><span class="hljs-selector-class">.ts</span>
+│   │       ├── merge-stream<span class="hljs-selector-class">.d</span><span class="hljs-selector-class">.ts</span>
+│   │       ├── open<span class="hljs-selector-class">.d</span><span class="hljs-selector-class">.ts</span>
+│   │       ├── postcss-reporter<span class="hljs-selector-class">.d</span><span class="hljs-selector-class">.ts</span>
+│   │       ├── slash<span class="hljs-selector-class">.d</span><span class="hljs-selector-class">.ts</span>
+│   │       ├── stylelint<span class="hljs-selector-class">.d</span><span class="hljs-selector-class">.ts</span>
+│   │       ├── systemjs-builder<span class="hljs-selector-class">.d</span><span class="hljs-selector-class">.ts</span>
+│   │       ├── tildify<span class="hljs-selector-class">.d</span><span class="hljs-selector-class">.ts</span>
+│   │       ├── tiny-lr<span class="hljs-selector-class">.d</span><span class="hljs-selector-class">.ts</span>
+│   │       └── walk<span class="hljs-selector-class">.d</span><span class="hljs-selector-class">.ts</span>
+│   ├── tasks                  &lt;- gulp tasks
+│   │   ├── project            &lt;- project specific gulp tasks
+│   │   │   └── sample<span class="hljs-selector-class">.task</span><span class="hljs-selector-class">.ts</span>
+│   │   └── seed               &lt;- seed generic gulp tasks. They can be overriden by the project specific gulp tasks
+│   │       ├── build<span class="hljs-selector-class">.assets</span><span class="hljs-selector-class">.dev</span><span class="hljs-selector-class">.ts</span>
+│   │       ├── build<span class="hljs-selector-class">.assets</span><span class="hljs-selector-class">.prod</span><span class="hljs-selector-class">.ts</span>
+│   │       ├── build<span class="hljs-selector-class">.bundles</span><span class="hljs-selector-class">.app</span><span class="hljs-selector-class">.ts</span>
+│   │       ├── build<span class="hljs-selector-class">.bundles</span><span class="hljs-selector-class">.ts</span>
+│   │       ├── build<span class="hljs-selector-class">.docs</span><span class="hljs-selector-class">.ts</span>
+│   │       ├── build<span class="hljs-selector-class">.html_css</span><span class="hljs-selector-class">.ts</span>
+│   │       ├── build<span class="hljs-selector-class">.index</span><span class="hljs-selector-class">.dev</span><span class="hljs-selector-class">.ts</span>
+│   │       ├── build<span class="hljs-selector-class">.index</span><span class="hljs-selector-class">.prod</span><span class="hljs-selector-class">.ts</span>
+│   │       ├── build<span class="hljs-selector-class">.js</span><span class="hljs-selector-class">.dev</span><span class="hljs-selector-class">.ts</span>
+│   │       ├── build<span class="hljs-selector-class">.js</span><span class="hljs-selector-class">.e2e</span><span class="hljs-selector-class">.ts</span>
+│   │       ├── build<span class="hljs-selector-class">.js</span><span class="hljs-selector-class">.prod</span><span class="hljs-selector-class">.ts</span>
+│   │       ├── build<span class="hljs-selector-class">.js</span><span class="hljs-selector-class">.test</span><span class="hljs-selector-class">.ts</span>
+│   │       ├── build<span class="hljs-selector-class">.js</span><span class="hljs-selector-class">.tools</span><span class="hljs-selector-class">.ts</span>
+│   │       ├── check<span class="hljs-selector-class">.versions</span><span class="hljs-selector-class">.ts</span>
+│   │       ├── clean<span class="hljs-selector-class">.all</span><span class="hljs-selector-class">.ts</span>
+│   │       ├── clean<span class="hljs-selector-class">.dev</span><span class="hljs-selector-class">.ts</span>
+│   │       ├── clean<span class="hljs-selector-class">.prod</span><span class="hljs-selector-class">.ts</span>
+│   │       ├── clean<span class="hljs-selector-class">.tools</span><span class="hljs-selector-class">.ts</span>
+│   │       ├── copy<span class="hljs-selector-class">.js</span><span class="hljs-selector-class">.prod</span><span class="hljs-selector-class">.ts</span>
+│   │       ├── css-lint<span class="hljs-selector-class">.ts</span>
+│   │       ├── e2e<span class="hljs-selector-class">.ts</span>
+│   │       ├── generate<span class="hljs-selector-class">.manifest</span><span class="hljs-selector-class">.ts</span>
+│   │       ├── karma<span class="hljs-selector-class">.start</span><span class="hljs-selector-class">.ts</span>
+│   │       ├── serve<span class="hljs-selector-class">.coverage</span><span class="hljs-selector-class">.ts</span>
+│   │       ├── serve<span class="hljs-selector-class">.docs</span><span class="hljs-selector-class">.ts</span>
+│   │       ├── server<span class="hljs-selector-class">.prod</span><span class="hljs-selector-class">.ts</span>
+│   │       ├── server<span class="hljs-selector-class">.start</span><span class="hljs-selector-class">.ts</span>
+│   │       ├── tslint<span class="hljs-selector-class">.ts</span>
+│   │       ├── watch<span class="hljs-selector-class">.dev</span><span class="hljs-selector-class">.ts</span>
+│   │       ├── watch<span class="hljs-selector-class">.e2e</span><span class="hljs-selector-class">.ts</span>
+│   │       ├── watch<span class="hljs-selector-class">.test</span><span class="hljs-selector-class">.ts</span>
+│   │       └── webdriver<span class="hljs-selector-class">.ts</span>
+│   ├── utils                  &lt;- build utils
+│   │   ├── project            &lt;- project specific gulp utils
+│   │   │   └── sample_util<span class="hljs-selector-class">.ts</span>
+│   │   ├── project<span class="hljs-selector-class">.utils</span><span class="hljs-selector-class">.ts</span>
+│   │   ├── seed               &lt;- seed specific gulp utils
+│   │   │   ├── clean<span class="hljs-selector-class">.ts</span>
+│   │   │   ├── code_change_tools<span class="hljs-selector-class">.ts</span>
+│   │   │   ├── server<span class="hljs-selector-class">.ts</span>
+│   │   │   ├── tasks_tools<span class="hljs-selector-class">.ts</span>
+│   │   │   ├── template_locals<span class="hljs-selector-class">.ts</span>
+│   │   │   ├── tsproject<span class="hljs-selector-class">.ts</span>
+│   │   │   └── watch<span class="hljs-selector-class">.ts</span>
+│   │   └── seed<span class="hljs-selector-class">.utils</span><span class="hljs-selector-class">.ts</span>
+│   └── utils<span class="hljs-selector-class">.ts</span>
+├── tsconfig<span class="hljs-selector-class">.json</span>              &lt;- configuration of the typescript project (ts-node, which runs the tasks defined <span class="hljs-keyword">in</span> gulpfile.ts)
+├── tslint<span class="hljs-selector-class">.json</span>                &lt;- tslint configuration
+├── typings                    &lt;- typings directory. Contains all the external typing definitions defined with typings
+├── typings<span class="hljs-selector-class">.json</span>
+└── appveyor.yml
+</code></pre><h1 id="contributors">Contributors</h1>
+				<table>
+					<thead>
+						<tr>
+							<th style="text-align:center"><a href="https://github.com/mgechev"><img alt="mgechev" src="https://avatars.githubusercontent.com/u/455023?v=3&s=117" width="117"></a></th>
+							<th style="text-align:center"><a href="https://github.com/ludohenin"><img alt="ludohenin" src="https://avatars.githubusercontent.com/u/1011516?v=3&s=117" width="117"></a></th>
+							<th style="text-align:center"><a href="https://github.com/d3viant0ne"><img alt="d3viant0ne" src="https://avatars.githubusercontent.com/u/8420490?v=3&s=117" width="117"></a></th>
+							<th style="text-align:center"><a href="https://github.com/Shyam-Chen"><img alt="Shyam-Chen" src="https://avatars.githubusercontent.com/u/13535256?v=3&s=117" width="117"></a></th>
+							<th style="text-align:center"><a href="https://github.com/tarlepp"><img alt="tarlepp" src="https://avatars.githubusercontent.com/u/595561?v=3&s=117" width="117"></a></th>
+							<th style="text-align:center"><a href="https://github.com/NathanWalker"><img alt="NathanWalker" src="https://avatars.githubusercontent.com/u/457187?v=3&s=117" width="117"></a></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td style="text-align:center"><a href="https://github.com/mgechev">mgechev</a></td>
+							<td style="text-align:center"><a href="https://github.com/ludohenin">ludohenin</a></td>
+							<td style="text-align:center"><a href="https://github.com/d3viant0ne">d3viant0ne</a></td>
+							<td style="text-align:center"><a href="https://github.com/Shyam-Chen">Shyam-Chen</a></td>
+							<td style="text-align:center"><a href="https://github.com/tarlepp">tarlepp</a></td>
+							<td style="text-align:center"><a href="https://github.com/NathanWalker">NathanWalker</a></td>
+							<td></td>
+						</tr>
+					</tbody>
+				</table>
+				<table>
+					<thead>
+						<tr>
+							<th style="text-align:center"><a href="https://github.com/TheDonDope"><img alt="TheDonDope" src="https://avatars.githubusercontent.com/u/1188033?v=3&s=117" width="117"></a></th>
+							<th style="text-align:center"><a href="https://github.com/nareshbhatia"><img alt="nareshbhatia" src="https://avatars.githubusercontent.com/u/1220198?v=3&s=117" width="117"></a></th>
+							<th style="text-align:center"><a href="https://github.com/hank-ehly"><img alt="hank-ehly" src="https://avatars.githubusercontent.com/u/11639738?v=3&s=117" width="117"></a></th>
+							<th style="text-align:center"><a href="https://github.com/kiuka"><img alt="kiuka" src="https://avatars.githubusercontent.com/u/11283191?v=3&s=117" width="117"></a></th>
+							<th style="text-align:center"><a href="https://github.com/jesperronn"><img alt="jesperronn" src="https://avatars.githubusercontent.com/u/6267?v=3&s=117" width="117"></a></th>
+							<th style="text-align:center"><a href="https://github.com/aboeglin"><img alt="aboeglin" src="https://avatars.githubusercontent.com/u/8297302?v=3&s=117" width="117"></a></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td style="text-align:center"><a href="https://github.com/TheDonDope">TheDonDope</a></td>
+							<td style="text-align:center"><a href="https://github.com/nareshbhatia">nareshbhatia</a></td>
+							<td style="text-align:center"><a href="https://github.com/hank-ehly">hank-ehly</a></td>
+							<td style="text-align:center"><a href="https://github.com/kiuka">kiuka</a></td>
+							<td style="text-align:center"><a href="https://github.com/jesperronn">jesperronn</a></td>
+							<td style="text-align:center"><a href="https://github.com/aboeglin">aboeglin</a></td>
+							<td></td>
+						</tr>
+					</tbody>
+				</table>
+				<table>
+					<thead>
+						<tr>
+							<th style="text-align:center"><a href="https://github.com/vyakymenko"><img alt="vyakymenko" src="https://avatars.githubusercontent.com/u/7300673?v=3&s=117" width="117"></a></th>
+							<th style="text-align:center"><a href="https://github.com/gkalpak"><img alt="gkalpak" src="https://avatars.githubusercontent.com/u/8604205?v=3&s=117" width="117"></a></th>
+							<th style="text-align:center"><a href="https://github.com/ryzy"><img alt="ryzy" src="https://avatars.githubusercontent.com/u/994940?v=3&s=117" width="117"></a></th>
+							<th style="text-align:center"><a href="https://github.com/pgrzeszczak"><img alt="pgrzeszczak" src="https://avatars.githubusercontent.com/u/3300099?v=3&s=117" width="117"></a></th>
+							<th style="text-align:center"><a href="https://github.com/natarajanmca11"><img alt="natarajanmca11" src="https://avatars.githubusercontent.com/u/9244766?v=3&s=117" width="117"></a></th>
+							<th style="text-align:center"><a href="https://github.com/njs50"><img alt="njs50" src="https://avatars.githubusercontent.com/u/55112?v=3&s=117" width="117"></a></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td style="text-align:center"><a href="https://github.com/vyakymenko">vyakymenko</a></td>
+							<td style="text-align:center"><a href="https://github.com/gkalpak">gkalpak</a></td>
+							<td style="text-align:center"><a href="https://github.com/ryzy">ryzy</a></td>
+							<td style="text-align:center"><a href="https://github.com/pgrzeszczak">pgrzeszczak</a></td>
+							<td style="text-align:center"><a href="https://github.com/natarajanmca11">natarajanmca11</a></td>
+							<td style="text-align:center"><a href="https://github.com/njs50">njs50</a></td>
+							<td></td>
+						</tr>
+					</tbody>
+				</table>
+				<table>
+					<thead>
+						<tr>
+							<th style="text-align:center"><a href="https://github.com/jerryorta-dev"><img alt="jerryorta-dev" src="https://avatars.githubusercontent.com/u/341155?v=3&s=117" width="117"></a></th>
+							<th style="text-align:center"><a href="https://github.com/JohnCashmore"><img alt="JohnCashmore" src="https://avatars.githubusercontent.com/u/2050794?v=3&s=117" width="117"></a></th>
+							<th style="text-align:center"><a href="https://github.com/JakePartusch"><img alt="JakePartusch" src="https://avatars.githubusercontent.com/u/6424140?v=3&s=117" width="117"></a></th>
+							<th style="text-align:center"><a href="https://github.com/ouq77"><img alt="ouq77" src="https://avatars.githubusercontent.com/u/1796191?v=3&s=117" width="117"></a></th>
+							<th style="text-align:center"><a href="https://github.com/LuxDie"><img alt="LuxDie" src="https://avatars.githubusercontent.com/u/12536671?v=3&s=117" width="117"></a></th>
+							<th style="text-align:center"><a href="https://github.com/domfarolino"><img alt="domfarolino" src="https://avatars.githubusercontent.com/u/9669289?v=3&s=117" width="117"></a></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td style="text-align:center"><a href="https://github.com/jerryorta-dev">jerryorta-dev</a></td>
+							<td style="text-align:center"><a href="https://github.com/JohnCashmore">JohnCashmore</a></td>
+							<td style="text-align:center"><a href="https://github.com/JakePartusch">JakePartusch</a></td>
+							<td style="text-align:center"><a href="https://github.com/ouq77">ouq77</a></td>
+							<td style="text-align:center"><a href="https://github.com/LuxDie">LuxDie</a></td>
+							<td style="text-align:center"><a href="https://github.com/domfarolino">domfarolino</a></td>
+							<td></td>
+						</tr>
+					</tbody>
+				</table>
+				<table>
+					<thead>
+						<tr>
+							<th style="text-align:center"><a href="https://github.com/eppsilon"><img alt="eppsilon" src="https://avatars.githubusercontent.com/u/5643?v=3&s=117" width="117"></a></th>
+							<th style="text-align:center"><a href="https://github.com/juristr"><img alt="juristr" src="https://avatars.githubusercontent.com/u/542458?v=3&s=117" width="117"></a></th>
+							<th style="text-align:center"><a href="https://github.com/e-oz"><img alt="e-oz" src="https://avatars.githubusercontent.com/u/526352?v=3&s=117" width="117"></a></th>
+							<th style="text-align:center"><a href="https://github.com/larsthorup"><img alt="larsthorup" src="https://avatars.githubusercontent.com/u/1202959?v=3&s=117" width="117"></a></th>
+							<th style="text-align:center"><a href="https://github.com/tsm91"><img alt="tsm91" src="https://avatars.githubusercontent.com/u/4459551?v=3&s=117" width="117"></a></th>
+							<th style="text-align:center"><a href="https://github.com/devanp92"><img alt="devanp92" src="https://avatars.githubusercontent.com/u/4533277?v=3&s=117" width="117"></a></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td style="text-align:center"><a href="https://github.com/eppsilon">eppsilon</a></td>
+							<td style="text-align:center"><a href="https://github.com/juristr">juristr</a></td>
+							<td style="text-align:center"><a href="https://github.com/e-oz">e-oz</a></td>
+							<td style="text-align:center"><a href="https://github.com/larsthorup">larsthorup</a></td>
+							<td style="text-align:center"><a href="https://github.com/tsm91">tsm91</a></td>
+							<td style="text-align:center"><a href="https://github.com/devanp92">devanp92</a></td>
+							<td></td>
+						</tr>
+					</tbody>
+				</table>
+				<table>
+					<thead>
+						<tr>
+							<th style="text-align:center"><a href="https://github.com/hAWKdv"><img alt="hAWKdv" src="https://avatars.githubusercontent.com/u/4449497?v=3&s=117" width="117"></a></th>
+							<th style="text-align:center"><a href="https://github.com/JayKan"><img alt="JayKan" src="https://avatars.githubusercontent.com/u/1400300?v=3&s=117" width="117"></a></th>
+							<th style="text-align:center"><a href="https://github.com/c-ice"><img alt="c-ice" src="https://avatars.githubusercontent.com/u/347238?v=3&s=117" width="117"></a></th>
+							<th style="text-align:center"><a href="https://github.com/markharding"><img alt="markharding" src="https://avatars.githubusercontent.com/u/851436?v=3&s=117" width="117"></a></th>
+							<th style="text-align:center"><a href="https://github.com/gotenxds"><img alt="gotenxds" src="https://avatars.githubusercontent.com/u/3519520?v=3&s=117" width="117"></a></th>
+							<th style="text-align:center"><a href="https://github.com/ojacquemart"><img alt="ojacquemart" src="https://avatars.githubusercontent.com/u/1189345?v=3&s=117" width="117"></a></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td style="text-align:center"><a href="https://github.com/hAWKdv">hAWKdv</a></td>
+							<td style="text-align:center"><a href="https://github.com/JayKan">JayKan</a></td>
+							<td style="text-align:center"><a href="https://github.com/c-ice">c-ice</a></td>
+							<td style="text-align:center"><a href="https://github.com/markharding">markharding</a></td>
+							<td style="text-align:center"><a href="https://github.com/gotenxds">gotenxds</a></td>
+							<td style="text-align:center"><a href="https://github.com/ojacquemart">ojacquemart</a></td>
+							<td></td>
+						</tr>
+					</tbody>
+				</table>
+				<table>
+					<thead>
+						<tr>
+							<th style="text-align:center"><a href="https://github.com/evanplaice"><img alt="evanplaice" src="https://avatars.githubusercontent.com/u/303159?v=3&s=117" width="117"></a></th>
+							<th style="text-align:center"><a href="https://github.com/TuiKiken"><img alt="TuiKiken" src="https://avatars.githubusercontent.com/u/959821?v=3&s=117" width="117"></a></th>
+							<th style="text-align:center"><a href="https://github.com/turbohappy"><img alt="turbohappy" src="https://avatars.githubusercontent.com/u/437299?v=3&s=117" width="117"></a></th>
+							<th style="text-align:center"><a href="https://github.com/troyanskiy"><img alt="troyanskiy" src="https://avatars.githubusercontent.com/u/1538862?v=3&s=117" width="117"></a></th>
+							<th style="text-align:center"><a href="https://github.com/ip512"><img alt="ip512" src="https://avatars.githubusercontent.com/u/1699735?v=3&s=117" width="117"></a></th>
+							<th style="text-align:center"><a href="https://github.com/Green-Cat"><img alt="Green-Cat" src="https://avatars.githubusercontent.com/u/3328823?v=3&s=117" width="117"></a></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td style="text-align:center"><a href="https://github.com/evanplaice">evanplaice</a></td>
+							<td style="text-align:center"><a href="https://github.com/TuiKiken">TuiKiken</a></td>
+							<td style="text-align:center"><a href="https://github.com/turbohappy">turbohappy</a></td>
+							<td style="text-align:center"><a href="https://github.com/troyanskiy">troyanskiy</a></td>
+							<td style="text-align:center"><a href="https://github.com/ip512">ip512</a></td>
+							<td style="text-align:center"><a href="https://github.com/Green-Cat">Green-Cat</a></td>
+							<td></td>
+						</tr>
+					</tbody>
+				</table>
+				<table>
+					<thead>
+						<tr>
+							<th style="text-align:center"><a href="https://github.com/Yonet"><img alt="Yonet" src="https://avatars.githubusercontent.com/u/3523671?v=3&s=117" width="117"></a></th>
+							<th style="text-align:center"><a href="https://github.com/Nightapes"><img alt="Nightapes" src="https://avatars.githubusercontent.com/u/15911153?v=3&s=117" width="117"></a></th>
+							<th style="text-align:center"><a href="https://github.com/nulldev07"><img alt="nulldev07" src="https://avatars.githubusercontent.com/u/2115712?v=3&s=117" width="117"></a></th>
+							<th style="text-align:center"><a href="https://github.com/yassirh"><img alt="yassirh" src="https://avatars.githubusercontent.com/u/4649139?v=3&s=117" width="117"></a></th>
+							<th style="text-align:center"><a href="https://github.com/taguan"><img alt="taguan" src="https://avatars.githubusercontent.com/u/1026937?v=3&s=117" width="117"></a></th>
+							<th style="text-align:center"><a href="https://github.com/sonicparke"><img alt="sonicparke" src="https://avatars.githubusercontent.com/u/1139721?v=3&s=117" width="117"></a></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td style="text-align:center"><a href="https://github.com/Yonet">Yonet</a></td>
+							<td style="text-align:center"><a href="https://github.com/Nightapes">Nightapes</a></td>
+							<td style="text-align:center"><a href="https://github.com/nulldev07">nulldev07</a></td>
+							<td style="text-align:center"><a href="https://github.com/yassirh">yassirh</a></td>
+							<td style="text-align:center"><a href="https://github.com/taguan">taguan</a></td>
+							<td style="text-align:center"><a href="https://github.com/sonicparke">sonicparke</a></td>
+							<td></td>
+						</tr>
+					</tbody>
+				</table>
+				<table>
+					<thead>
+						<tr>
+							<th style="text-align:center"><a href="https://github.com/brendanbenson"><img alt="brendanbenson" src="https://avatars.githubusercontent.com/u/866866?v=3&s=117" width="117"></a></th>
+							<th style="text-align:center"><a href="https://github.com/brian428"><img alt="brian428" src="https://avatars.githubusercontent.com/u/140338?v=3&s=117" width="117"></a></th>
+							<th style="text-align:center"><a href="https://github.com/briantopping"><img alt="briantopping" src="https://avatars.githubusercontent.com/u/158115?v=3&s=117" width="117"></a></th>
+							<th style="text-align:center"><a href="https://github.com/ckapilla"><img alt="ckapilla" src="https://avatars.githubusercontent.com/u/451875?v=3&s=117" width="117"></a></th>
+							<th style="text-align:center"><a href="https://github.com/cadriel"><img alt="cadriel" src="https://avatars.githubusercontent.com/u/205520?v=3&s=117" width="117"></a></th>
+							<th style="text-align:center"><a href="https://github.com/dszymczuk"><img alt="dszymczuk" src="https://avatars.githubusercontent.com/u/539352?v=3&s=117" width="117"></a></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td style="text-align:center"><a href="https://github.com/brendanbenson">brendanbenson</a></td>
+							<td style="text-align:center"><a href="https://github.com/brian428">brian428</a></td>
+							<td style="text-align:center"><a href="https://github.com/briantopping">briantopping</a></td>
+							<td style="text-align:center"><a href="https://github.com/ckapilla">ckapilla</a></td>
+							<td style="text-align:center"><a href="https://github.com/cadriel">cadriel</a></td>
+							<td style="text-align:center"><a href="https://github.com/dszymczuk">dszymczuk</a></td>
+							<td></td>
+						</tr>
+					</tbody>
+				</table>
+				<table>
+					<thead>
+						<tr>
+							<th style="text-align:center"><a href="https://github.com/dstockhammer"><img alt="dstockhammer" src="https://avatars.githubusercontent.com/u/1156637?v=3&s=117" width="117"></a></th>
+							<th style="text-align:center"><a href="https://github.com/dwido"><img alt="dwido" src="https://avatars.githubusercontent.com/u/154235?v=3&s=117" width="117"></a></th>
+							<th style="text-align:center"><a href="https://github.com/totev"><img alt="totev" src="https://avatars.githubusercontent.com/u/4454638?v=3&s=117" width="117"></a></th>
+							<th style="text-align:center"><a href="https://github.com/nosachamos"><img alt="nosachamos" src="https://avatars.githubusercontent.com/u/1261686?v=3&s=117" width="117"></a></th>
+							<th style="text-align:center"><a href="https://github.com/sfabriece"><img alt="sfabriece" src="https://avatars.githubusercontent.com/u/3108592?v=3&s=117" width="117"></a></th>
+							<th style="text-align:center"><a href="https://github.com/koodikindral"><img alt="koodikindral" src="https://avatars.githubusercontent.com/u/6285484?v=3&s=117" width="117"></a></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td style="text-align:center"><a href="https://github.com/dstockhammer">dstockhammer</a></td>
+							<td style="text-align:center"><a href="https://github.com/dwido">dwido</a></td>
+							<td style="text-align:center"><a href="https://github.com/totev">totev</a></td>
+							<td style="text-align:center"><a href="https://github.com/nosachamos">nosachamos</a></td>
+							<td style="text-align:center"><a href="https://github.com/sfabriece">sfabriece</a></td>
+							<td style="text-align:center"><a href="https://github.com/koodikindral">koodikindral</a></td>
+							<td></td>
+						</tr>
+					</tbody>
+				</table>
+				<table>
+					<thead>
+						<tr>
+							<th style="text-align:center"><a href="https://github.com/allenhwkim"><img alt="allenhwkim" src="https://avatars.githubusercontent.com/u/1437734?v=3&s=117" width="117"></a></th>
+							<th style="text-align:center"><a href="https://github.com/alexweber"><img alt="alexweber" src="https://avatars.githubusercontent.com/u/14409?v=3&s=117" width="117"></a></th>
+							<th style="text-align:center"><a href="https://github.com/hpinsley"><img alt="hpinsley" src="https://avatars.githubusercontent.com/u/750098?v=3&s=117" width="117"></a></th>
+							<th style="text-align:center"><a href="https://github.com/jeffbcross"><img alt="jeffbcross" src="https://avatars.githubusercontent.com/u/463703?v=3&s=117" width="117"></a></th>
+							<th style="text-align:center"><a href="https://github.com/johnjelinek"><img alt="johnjelinek" src="https://avatars.githubusercontent.com/u/873610?v=3&s=117" width="117"></a></th>
+							<th style="text-align:center"><a href="https://github.com/justindujardin"><img alt="justindujardin" src="https://avatars.githubusercontent.com/u/101493?v=3&s=117" width="117"></a></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td style="text-align:center"><a href="https://github.com/allenhwkim">allenhwkim</a></td>
+							<td style="text-align:center"><a href="https://github.com/alexweber">alexweber</a></td>
+							<td style="text-align:center"><a href="https://github.com/hpinsley">hpinsley</a></td>
+							<td style="text-align:center"><a href="https://github.com/jeffbcross">jeffbcross</a></td>
+							<td style="text-align:center"><a href="https://github.com/johnjelinek">johnjelinek</a></td>
+							<td style="text-align:center"><a href="https://github.com/justindujardin">justindujardin</a></td>
+							<td></td>
+						</tr>
+					</tbody>
+				</table>
+				<table>
+					<thead>
+						<tr>
+							<th style="text-align:center"><a href="https://github.com/lihaibh"><img alt="lihaibh" src="https://avatars.githubusercontent.com/u/4681233?v=3&s=117" width="117"></a></th>
+							<th style="text-align:center"><a href="https://github.com/Brooooooklyn"><img alt="Brooooooklyn" src="https://avatars.githubusercontent.com/u/3468483?v=3&s=117" width="117"></a></th>
+							<th style="text-align:center"><a href="https://github.com/tandu"><img alt="tandu" src="https://avatars.githubusercontent.com/u/273313?v=3&s=117" width="117"></a></th>
+							<th style="text-align:center"><a href="https://github.com/inkidotcom"><img alt="inkidotcom" src="https://avatars.githubusercontent.com/u/100466?v=3&s=117" width="117"></a></th>
+							<th style="text-align:center"><a href="https://github.com/daixtrose"><img alt="daixtrose" src="https://avatars.githubusercontent.com/u/5588692?v=3&s=117" width="117"></a></th>
+							<th style="text-align:center"><a href="https://github.com/mjwwit"><img alt="mjwwit" src="https://avatars.githubusercontent.com/u/4455124?v=3&s=117" width="117"></a></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td style="text-align:center"><a href="https://github.com/lihaibh">lihaibh</a></td>
+							<td style="text-align:center"><a href="https://github.com/Brooooooklyn">Brooooooklyn</a></td>
+							<td style="text-align:center"><a href="https://github.com/tandu">tandu</a></td>
+							<td style="text-align:center"><a href="https://github.com/inkidotcom">inkidotcom</a></td>
+							<td style="text-align:center"><a href="https://github.com/daixtrose">daixtrose</a></td>
+							<td style="text-align:center"><a href="https://github.com/mjwwit">mjwwit</a></td>
+							<td></td>
+						</tr>
+					</tbody>
+				</table>
+				<table>
+					<thead>
+						<tr>
+							<th style="text-align:center"><a href="https://github.com/ocombe"><img alt="ocombe" src="https://avatars.githubusercontent.com/u/265378?v=3&s=117" width="117"></a></th>
+							<th style="text-align:center"><a href="https://github.com/gdi2290"><img alt="gdi2290" src="https://avatars.githubusercontent.com/u/1016365?v=3&s=117" width="117"></a></th>
+							<th style="text-align:center"><a href="https://github.com/typekpb"><img alt="typekpb" src="https://avatars.githubusercontent.com/u/499820?v=3&s=117" width="117"></a></th>
+							<th style="text-align:center"><a href="https://github.com/philipooo"><img alt="philipooo" src="https://avatars.githubusercontent.com/u/1702399?v=3&s=117" width="117"></a></th>
+							<th style="text-align:center"><a href="https://github.com/redian"><img alt="redian" src="https://avatars.githubusercontent.com/u/816941?v=3&s=117" width="117"></a></th>
+							<th style="text-align:center"><a href="https://github.com/Bigous"><img alt="Bigous" src="https://avatars.githubusercontent.com/u/6886560?v=3&s=117" width="117"></a></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td style="text-align:center"><a href="https://github.com/ocombe">ocombe</a></td>
+							<td style="text-align:center"><a href="https://github.com/gdi2290">gdi2290</a></td>
+							<td style="text-align:center"><a href="https://github.com/typekpb">typekpb</a></td>
+							<td style="text-align:center"><a href="https://github.com/philipooo">philipooo</a></td>
+							<td style="text-align:center"><a href="https://github.com/redian">redian</a></td>
+							<td style="text-align:center"><a href="https://github.com/Bigous">Bigous</a></td>
+							<td></td>
+						</tr>
+					</tbody>
+				</table>
+				<table>
+					<thead>
+						<tr>
+							<th style="text-align:center"><a href="https://github.com/robbatt"><img alt="robbatt" src="https://avatars.githubusercontent.com/u/1379424?v=3&s=117" width="117"></a></th>
+							<th style="text-align:center"><a href="https://github.com/robertpenner"><img alt="robertpenner" src="https://avatars.githubusercontent.com/u/79827?v=3&s=117" width="117"></a></th>
+							<th style="text-align:center"><a href="https://github.com/sclausen"><img alt="sclausen" src="https://avatars.githubusercontent.com/u/916076?v=3&s=117" width="117"></a></th>
+							<th style="text-align:center"><a href="https://github.com/heavymery"><img alt="heavymery" src="https://avatars.githubusercontent.com/u/3417123?v=3&s=117" width="117"></a></th>
+							<th style="text-align:center"><a href="https://github.com/tapas4java"><img alt="tapas4java" src="https://avatars.githubusercontent.com/u/2254963?v=3&s=117" width="117"></a></th>
+							<th style="text-align:center"><a href="https://github.com/vincentpalita"><img alt="vincentpalita" src="https://avatars.githubusercontent.com/u/2738822?v=3&s=117" width="117"></a></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td style="text-align:center"><a href="https://github.com/robbatt">robbatt</a></td>
+							<td style="text-align:center"><a href="https://github.com/robertpenner">robertpenner</a></td>
+							<td style="text-align:center"><a href="https://github.com/sclausen">sclausen</a></td>
+							<td style="text-align:center"><a href="https://github.com/heavymery">heavymery</a></td>
+							<td style="text-align:center"><a href="https://github.com/tapas4java">tapas4java</a></td>
+							<td style="text-align:center"><a href="https://github.com/vincentpalita">vincentpalita</a></td>
+							<td></td>
+						</tr>
+					</tbody>
+				</table>
+				<table>
+					<thead>
+						<tr>
+							<th style="text-align:center"><a href="https://github.com/Yalrafih"><img alt="Yalrafih" src="https://avatars.githubusercontent.com/u/7460011?v=3&s=117" width="117"></a></th>
+							<th style="text-align:center"><a href="https://github.com/blackheart01"><img alt="blackheart01" src="https://avatars.githubusercontent.com/u/1414277?v=3&s=117" width="117"></a></th>
+							<th style="text-align:center"><a href="https://github.com/butterfieldcons"><img alt="butterfieldcons" src="https://avatars.githubusercontent.com/u/12204784?v=3&s=117" width="117"></a></th>
+							<th style="text-align:center"><a href="https://github.com/jgolla"><img alt="jgolla" src="https://avatars.githubusercontent.com/u/1542447?v=3&s=117" width="117"></a></th>
+							<th style="text-align:center"><a href="https://github.com/ultrasonicsoft"><img alt="ultrasonicsoft" src="https://avatars.githubusercontent.com/u/4145169?v=3&s=117" width="117"></a></th>
+							<th style="text-align:center"><a href="https://github.com/amaltsev"><img alt="amaltsev" src="https://avatars.githubusercontent.com/u/2480962?v=3&s=117" width="117"></a></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td style="text-align:center"><a href="https://github.com/Yalrafih">Yalrafih</a></td>
+							<td style="text-align:center"><a href="https://github.com/blackheart01">blackheart01</a></td>
+							<td style="text-align:center"><a href="https://github.com/butterfieldcons">butterfieldcons</a></td>
+							<td style="text-align:center"><a href="https://github.com/jgolla">jgolla</a></td>
+							<td style="text-align:center"><a href="https://github.com/ultrasonicsoft">ultrasonicsoft</a></td>
+							<td style="text-align:center"><a href="https://github.com/amaltsev">amaltsev</a></td>
+							<td></td>
+						</tr>
+					</tbody>
+				</table>
+				<h2 id="wiki-contributors">Wiki Contributors</h2>
+				<p>Here are all the awesome guys who are helping to make the project&#39;s wiki even better!</p>
+				<pre><code><span class="hljs-number">37</span>  Minko Gechev
+<span class="hljs-number">22</span>  Clayton K. N. Passos
+<span class="hljs-number">15</span>  Shyam-Chen
+<span class="hljs-number">14</span>  Vincent van Proosdij
+ <span class="hljs-number">8</span>  Christian Dobert
+ <span class="hljs-number">8</span>  Robert van Kints
+ <span class="hljs-number">8</span>  matthew harwood
+ <span class="hljs-number">6</span>  Ludovic HENIN
+ <span class="hljs-number">5</span>  Attila Egyed
+ <span class="hljs-number">3</span>  Stefan Schüller
+ <span class="hljs-number">3</span>  Patrick Hillert
+ <span class="hljs-number">3</span>  Ezequiel Cicala
+ <span class="hljs-number">2</span>  Nathan Walker
+ <span class="hljs-number">2</span>  Yannick Koehler
+ <span class="hljs-number">2</span>  Giovanni Candido da Silva
+ <span class="hljs-number">2</span>  Simon Hampton
+ <span class="hljs-number">2</span>  Cy Klassen
+ <span class="hljs-number">2</span>  Joshua Wiens
+ <span class="hljs-number">2</span>  Drake Wilson
+ <span class="hljs-number">2</span>  Dinsitro
+ <span class="hljs-number">1</span>  zcsongor
+ <span class="hljs-number">1</span>  BouncingBit
+ <span class="hljs-number">1</span>  Brian Kotek
+ <span class="hljs-number">1</span>  Chris Kapilla
+ <span class="hljs-number">1</span>  Dang Tung
+ <span class="hljs-number">1</span>  Eddie Sun
+ <span class="hljs-number">1</span>  Enrico Secondulfo
+ <span class="hljs-number">1</span>  Eugene Serkin
+ <span class="hljs-number">1</span>  Ishara Samantha
+ <span class="hljs-number">1</span>  Myrmex
+ <span class="hljs-number">1</span>  Pol Stafford
+ <span class="hljs-number">1</span>  Raphael Schmitt
+ <span class="hljs-number">1</span>  Sebastian Fuss
+ <span class="hljs-number">1</span>  Sebastien de Salvador
+ <span class="hljs-number">1</span>  The Ult
+ <span class="hljs-number">1</span>  graham
+ <span class="hljs-number">1</span>  kiuka
+ <span class="hljs-number">1</span>  Ankit Kamboj
+</code></pre><h1 id="change-log">Change Log</h1>
+				<p>You can follow the <a href="https://github.com/angular/angular/blob/master/CHANGELOG.md">Angular 2 change log here</a>.</p>
+				<h1 id="license">License</h1>
+				<p>MIT</p>
+			</div>
+		</div>
+		<div class="col-4 col-menu menu-sticky-wrap menu-highlight">
+			<nav class="tsd-navigation primary">
+				<ul>
+					<li class="globals  ">
+						<a href="globals.html"><em>Globals</em></a>
+					</li>
+					<li class="label tsd-is-external">
+						<span>Internals</span>
+					</li>
+					<li class=" tsd-kind-external-module">
+						<a href="modules/_card_app_app_component_.html">"card/app/app.component"</a>
+					</li>
+					<li class=" tsd-kind-external-module">
+						<a href="modules/_card_app_app_component_spec_.html">"card/app/app.component.spec"</a>
+					</li>
+					<li class=" tsd-kind-external-module">
+						<a href="modules/_card_app_component_commonui_commonui_component_.html">"card/app/component/commonui/commonui.component"</a>
+					</li>
+					<li class=" tsd-kind-external-module">
+						<a href="modules/_card_app_component_game_game_component_.html">"card/app/component/game/game.component"</a>
+					</li>
+					<li class=" tsd-kind-external-module">
+						<a href="modules/_card_app_component_game_goalanimation_.html">"card/app/component/game/goal<wbr>Animation"</a>
+					</li>
+					<li class=" tsd-kind-external-module">
+						<a href="modules/_card_app_engine_game_engine_.html">"card/app/engine/game.engine"</a>
+					</li>
+					<li class=" tsd-kind-external-module">
+						<a href="modules/_card_app_engine_game_engine_base_.html">"card/app/engine/game.engine.base"</a>
+					</li>
+					<li class=" tsd-kind-external-module">
+						<a href="modules/_card_app_main_.html">"card/app/main"</a>
+					</li>
+					<li class=" tsd-kind-external-module">
+						<a href="modules/_card_app_spec_game_engine_spec_.html">"card/app/spec/game.engine.spec"</a>
+					</li>
+					<li class=" tsd-kind-external-module">
+						<a href="modules/_card_app_states_game_state_.html">"card/app/states/game.state"</a>
+					</li>
+					<li class="label tsd-is-external">
+						<span>Externals</span>
+					</li>
+					<li class=" tsd-kind-external-module tsd-is-external">
+						<a href="modules/_shared_engine_annotation_service_.html">"shared/engine/annotation.service"</a>
+					</li>
+					<li class=" tsd-kind-external-module tsd-is-external">
+						<a href="modules/_shared_engine_dpo_.html">"shared/engine/dpo"</a>
+					</li>
+					<li class=" tsd-kind-external-module tsd-is-external">
+						<a href="modules/_shared_engine_dynamicmenu_engine_.html">"shared/engine/dynamicmenu.engine"</a>
+					</li>
+					<li class=" tsd-kind-external-module tsd-is-external">
+						<a href="modules/_shared_engine_game_user_data_.html">"shared/engine/game.user.data"</a>
+					</li>
+					<li class=" tsd-kind-external-module tsd-is-external">
+						<a href="modules/_shared_engine_game_user_data_service_.html">"shared/engine/game.user.data.service"</a>
+					</li>
+					<li class=" tsd-kind-external-module tsd-is-external">
+						<a href="modules/_shared_states_dynamic_menu_.html">"shared/states/dynamic.menu"</a>
+					</li>
+				</ul>
+			</nav>
+			<nav class="tsd-navigation secondary menu-sticky">
+				<ul class="before-current">
+				</ul>
+			</nav>
+		</div>
+	</div>
+</div>
+<footer class="with-border-bottom">
+	<div class="container">
+		<h2>Legend</h2>
+		<div class="tsd-legend-group">
+			<ul class="tsd-legend">
+				<li class="tsd-kind-module"><span class="tsd-kind-icon">Module</span></li>
+				<li class="tsd-kind-object-literal"><span class="tsd-kind-icon">Object literal</span></li>
+				<li class="tsd-kind-variable"><span class="tsd-kind-icon">Variable</span></li>
+				<li class="tsd-kind-function"><span class="tsd-kind-icon">Function</span></li>
+				<li class="tsd-kind-function tsd-has-type-parameter"><span class="tsd-kind-icon">Function with type parameter</span></li>
+				<li class="tsd-kind-index-signature"><span class="tsd-kind-icon">Index signature</span></li>
+				<li class="tsd-kind-type-alias"><span class="tsd-kind-icon">Type alias</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-enum"><span class="tsd-kind-icon">Enumeration</span></li>
+				<li class="tsd-kind-enum-member"><span class="tsd-kind-icon">Enumeration member</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-enum"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-enum"><span class="tsd-kind-icon">Method</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-interface"><span class="tsd-kind-icon">Interface</span></li>
+				<li class="tsd-kind-interface tsd-has-type-parameter"><span class="tsd-kind-icon">Interface with type parameter</span></li>
+				<li class="tsd-kind-constructor tsd-parent-kind-interface"><span class="tsd-kind-icon">Constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-interface"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-interface"><span class="tsd-kind-icon">Method</span></li>
+				<li class="tsd-kind-index-signature tsd-parent-kind-interface"><span class="tsd-kind-icon">Index signature</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-class"><span class="tsd-kind-icon">Class</span></li>
+				<li class="tsd-kind-class tsd-has-type-parameter"><span class="tsd-kind-icon">Class with type parameter</span></li>
+				<li class="tsd-kind-constructor tsd-parent-kind-class"><span class="tsd-kind-icon">Constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-class"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class"><span class="tsd-kind-icon">Method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class"><span class="tsd-kind-icon">Accessor</span></li>
+				<li class="tsd-kind-index-signature tsd-parent-kind-class"><span class="tsd-kind-icon">Index signature</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-constructor tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><span class="tsd-kind-icon">Static property</span></li>
+				<li class="tsd-kind-call-signature tsd-parent-kind-class tsd-is-static"><span class="tsd-kind-icon">Static method</span></li>
+			</ul>
+		</div>
+	</div>
+</footer>
+<div class="container tsd-generator">
+	<p>Generated using <a href="http://typedoc.org/" target="_blank">TypeDoc</a></p>
+</div>
+<div class="overlay"></div>
+<script src="assets/js/main.js"></script>
+<script>if (location.protocol == 'file:') document.write('<script src="assets/js/search.js"><' + '/script>');</script>
+</body>
+</html>

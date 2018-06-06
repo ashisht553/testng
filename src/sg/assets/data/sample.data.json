@@ -1,0 +1,47 @@
+{
+    "gameName":"SG",
+    "isbn":"games_9781328668219_",
+    "GameGuid":"SG-3210047300",
+    "grade":"g7",
+    "gradeLabel":"Grade 7",
+    "testMode":true,
+    "levelData": [
+      {
+            "id":"FM-G6-01",
+            "parentId":"",
+            "title":"Division by 1 Digit",
+            "lessons":["3.1"],
+            "gridSize": 3,
+            "sliderType": "Ratio",
+            "equationType": "partialSums",
+            "var0": [3, 4, 5],
+            "var1": null,
+            "var2": null,
+            "var3": null,
+             "frequency":
+               {
+                     "goodGuys":0.3,
+                     "badGuys":0.4,
+                     "comboTiles":0.3
+                },
+            "slider": {
+              "height": "D(var0)",
+              "total": 12,
+              "min": 2,
+              "max": 10,
+              "interval": 2
+            },
+            "grid": {
+              "values": ["D(2 * var0)", "D(4 * var0)", "D(6 * var0)", "D(8 * var0)", "D(10 * var0)"]
+            },
+            "scoring": {
+                     "starThreshold": 4,
+                     "loseThreshold": 5
+             },
+            "tutorial": {
+                     "T1": null
+            },
+            "comment":"basic gameplay tutorial"
+        }
+    ]
+}

@@ -1,0 +1,489 @@
+[
+    {
+        "ID": "TS00",
+        "grade": "0",
+        "parentID": "",
+        "gameplayType": "0",
+        "repetition": "1",
+        "members": [
+            {
+                "upper": "1",
+                "lower": "0"
+            },
+            {
+                "upper": "1",
+                "lower": "0"
+            }
+        ],
+        "operationType": {
+            "representation": "U = x + y",
+            "id": "0"
+        },
+        "unknown": {
+            "position": "0",
+            "lower": "1",
+            "upper": "1"
+        },
+        "goodGuyTypes": [
+            0
+        ],
+        "badGuyTypes": [
+            0
+        ],
+        "bench": {
+            "possibleValues": [],
+            "isInfinite": false,
+            "startNumber": "6"
+        },
+        "money": "",
+        "timedParameters": {},
+        "variationParameters": {
+            "variationBad": false,
+            "variationGoodPercent": "0"
+        },
+        "tutorial": {
+            "T4": {},
+            "T5": {},
+            "T2": {
+                "source": "bench_guy",
+                "type": "1",
+                "target": "area_good",
+                "movement": "drag"
+            },
+            "T3": {
+                "source": "referee",
+                "type": "1",
+                "target": "referee",
+                "movement": "tap"
+            },
+            "T1": {}
+        },
+        "subjects": [
+            {
+                "lessons": [
+                    "N/A"
+                ],
+                "unit": "N/A"
+            }
+        ],
+        "comment": ""
+    },
+    {
+        "ID": "TS01",
+        "grade": "0",
+        "parentID": "TS00",
+        "gameplayType": "0",
+        "repetition": "3",
+        "members": [
+            {
+                "upper": "6",
+                "lower": "1"
+            },
+            {
+                "upper": "6",
+                "lower": "1"
+            }
+        ],
+        "operationType": {
+            "representation": "U = x + y",
+            "id": "0"
+        },
+        "unknown": {
+            "position": "0",
+            "lower": "2",
+            "upper": "10"
+        },
+        "goodGuyTypes": [
+            0
+        ],
+        "badGuyTypes": [
+            0
+        ],
+        "bench": {
+            "possibleValues": [],
+            "isInfinite": false,
+            "startNumber": "10"
+        },
+        "money": "",
+        "timedParameters": {},
+        "variationParameters": {
+            "variationBad": false,
+            "variationGoodPercent": "0"
+        },
+        "tutorial": {
+            "T4": {},
+            "T5": {},
+            "T2": {},
+            "T3": {},
+            "T1": {}
+        },
+        "subjects": [
+            {
+                "lessons": [
+                    "12"
+                ],
+                "unit": "1"
+            }
+        ],
+        "comment": ""
+    },
+    {
+        "ID": "TS02",
+        "grade": "0",
+        "parentID": "TS01",
+        "gameplayType": "0",
+        "repetition": "3",
+        "members": [
+            {
+                "upper": "6",
+                "lower": "1"
+            }, 
+            {
+                "upper": "6",
+                "lower": "1"
+            }
+        ],
+        "operationType": {
+            "representation": "U = x + y",
+            "id": "0"
+        },
+        "unknown": {
+            "position": "0",
+            "lower": "6",
+            "upper": "7"
+        },
+        "goodGuyTypes": [
+            0
+        ],
+        "badGuyTypes": [
+            0
+        ],
+        "bench": {
+            "possibleValues": [],
+            "isInfinite": false,
+            "startNumber": "7"
+        },
+        "money": "",
+        "timedParameters": {},
+        "variationParameters": {
+            "variationBad": false,
+            "variationGoodPercent": "0"
+        },
+        "tutorial": {
+            "T4": {},
+            "T5": {},
+            "T2": {},
+            "T3": {},
+            "T1": {}
+        },
+        "subjects": [
+            {
+                "lessons": [
+                    "1"
+                ],
+                "unit": "2"
+            }
+        ],
+        "comment": ""
+    },
+    {
+        "ID": "TS03",
+        "grade": "0",
+        "parentID": "TS02",
+        "gameplayType": "0",
+        "repetition": "3",
+        "members": [
+            {
+                "upper": "6",
+                "lower": "1"
+            },
+            {
+                "upper": "6",
+                "lower": "1"
+            }
+        ],
+        "operationType": {
+            "representation": "U = x + y",
+            "id": "0"
+        },
+        "unknown": {
+            "position": "0",
+            "lower": "2",
+            "upper": "7"
+        },
+        "goodGuyTypes": [
+            0
+        ],
+        "badGuyTypes": [
+            0
+        ],
+        "bench": {
+            "possibleValues": [],
+            "isInfinite": false,
+            "startNumber": "7"
+        },
+        "money": "",
+        "timedParameters": {},
+        "variationParameters": {
+            "variationBad": false,
+            "variationGoodPercent": "0"
+        },
+        "tutorial": {
+            "T4": {},
+            "T5": {},
+            "T2": {},
+            "T3": {},
+            "T1": {}
+        },
+        "subjects": [
+            {
+                "lessons": [
+                    "1"
+                ],
+                "unit": "2"
+            }
+        ],
+        "comment": "ensure that (member1 - member2) requires regrouping"
+    },
+    {
+        "ID": "TS04",
+        "grade": "2",
+        "parentID": "",
+        "gameplayType": "1",
+        "repetition": "3",
+        "members": [
+            {
+                "upper": "199",
+                "lower": "111"
+            },
+            {
+                "upper": "99",
+                "lower": "22"
+            }
+        ],
+        "operationType": {
+            "representation": "U = x - y",
+            "id": "2"
+        },
+        "unknown": {
+            "position": "0",
+            "lower": "12",
+            "upper": "177"
+        },
+        "goodGuyTypes": [
+            4
+        ],
+        "badGuyTypes": [
+            4
+        ],
+        "bench": {
+            "possibleValues": [],
+            "isInfinite": true,
+            "startNumber": "0, 1, 2, 3, 4, 5, 6, 7, 8, 9"
+        },
+        "money": "",
+        "timedParameters": {},
+        "variationParameters": {
+            "variationBad": false,
+            "variationGoodPercent": "0"
+        },
+        "tutorial": {
+            "T4": {},
+            "T5": {},
+            "T2": {
+                "source": "bad_guy_hundreds",
+                "type": "1",
+                "target": "bad_guy_hundreds",
+                "movement": "tap"
+            },
+            "T3": {},
+            "T1": {}
+        },
+        "subjects": [
+            {
+                "lessons": [
+                    "8"
+                ],
+                "unit": "4"
+            }
+        ],
+        "comment": "ensure that (member1 - member2) requires regrouping"
+    },
+    {
+        "ID": "TS05",
+        "grade": "2",
+        "parentID": "TS04",
+        "gameplayType": "1",
+        "repetition": "3",
+        "members": [
+            {
+                "upper": "190",
+                "lower": "101"
+            },
+            {
+                "upper": "99",
+                "lower": "11"
+            }
+        ],
+        "operationType": {
+            "representation": "U = x - y",
+            "id": "2"
+        },
+        "unknown": {
+            "position": "0",
+            "lower": "2",
+            "upper": "179"
+        },
+        "goodGuyTypes": [
+            4
+        ],
+        "badGuyTypes": [
+            4
+        ],
+        "bench": {
+            "possibleValues": [],
+            "isInfinite": true,
+            "startNumber": "0, 1, 2, 3, 4, 5, 6, 7, 8, 9"
+        },
+        "money": "",
+        "timedParameters": {},
+        "variationParameters": {
+            "variationBad": false,
+            "variationGoodPercent": "0"
+        },
+        "tutorial": {
+            "T4": {},
+            "T5": {},
+            "T2": {},
+            "T3": {},
+            "T1": {}
+        },
+        "subjects": [
+            {
+                "lessons": [
+                    "9"
+                ],
+                "unit": "4"
+            }
+        ],
+        "comment": "ensure that (member1 - member2) requires regrouping AND ensure that member1 has a zero in the ones place or the tens place"
+    },
+    {
+        "ID": "TS06",
+        "grade": "2",
+        "parentID": "TS05",
+        "gameplayType": "1",
+        "repetition": "3",
+        "members": [
+            {
+                "upper": "190",
+                "lower": "101"
+            },
+            {
+                "upper": "99",
+                "lower": "11"
+            }
+        ],
+        "operationType": {
+            "representation": "U = x - y",
+            "id": "2"
+        },
+        "unknown": {
+            "position": "0",
+            "lower": "2",
+            "upper": "179"
+        },
+        "goodGuyTypes": [
+            4
+        ],
+        "badGuyTypes": [
+            4
+        ],
+        "bench": {
+            "possibleValues": [],
+            "isInfinite": true,
+            "startNumber": "0, 1, 2, 3, 4, 5, 6, 7, 8, 9"
+        },
+        "money": "cent",
+        "timedParameters": {},
+        "variationParameters": {
+            "variationBad": false,
+            "variationGoodPercent": "0"
+        },
+        "tutorial": {
+            "T4": {},
+            "T5": {},
+            "T2": {},
+            "T3": {},
+            "T1": {}
+        },
+        "subjects": [
+            {
+                "lessons": [
+                    "10"
+                ],
+                "unit": "4"
+            }
+        ],
+        "comment": "ensure that (member1 - member2) requires regrouping AND ensure that member1 has a zero in the ones place or the tens place"
+    },
+    {
+        "ID": "TS07",
+        "grade": "2",
+        "parentID": "TS06",
+        "gameplayType": "1",
+        "repetition": "3",
+        "members": [
+            {
+                "upper": "1.99",
+                "lower": "1.01"
+            },
+            {
+                "upper": "0.99",
+                "lower": "0.11"
+            }
+        ],
+        "operationType": {
+            "representation": "U = x - y",
+            "id": "2"
+        },
+        "unknown": {
+            "position": "0",
+            "lower": "0.02",
+            "upper": "1.88"
+        },
+        "goodGuyTypes": [
+            5
+        ],
+        "badGuyTypes": [
+            5
+        ],
+        "bench": {
+            "possibleValues": [],
+            "isInfinite": true,
+            "startNumber": "0, 1, 2, 3, 4, 5, 6, 7, 8, 9"
+        },
+        "money": "dollar",
+        "timedParameters": {},
+        "variationParameters": {
+            "variationBad": false,
+            "variationGoodPercent": "0"
+        },
+        "tutorial": {
+            "T4": {},
+            "T5": {},
+            "T2": {},
+            "T3": {},
+            "T1": {}
+        },
+        "subjects": [
+            {
+                "lessons": [
+                    "10"
+                ],
+                "unit": "4"
+            }
+        ],
+        "comment": ""
+    }
+]

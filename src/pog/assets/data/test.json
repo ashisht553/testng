@@ -1,0 +1,53 @@
+[
+    /*x = y + u -> large spec**/
+    {
+            "id" : "gk00",
+            "parentId": "",
+            "repeatation" : "1",
+            "members": [
+                [3, 7],
+                [2, 4]
+            ],
+            "unknown" : [2, 4],
+            "operation" : {
+                "type" : "addition",
+                "factors": [
+                    [0],
+                    [1]
+                ]
+            },
+            "goodGuyTypes": 0,
+            "badGuyTypes":  0,
+            "bench": {
+                "possibleValues": [],
+                "isInfinite": false,
+                "startNumber": "6"
+            },
+            "money": ""
+    },
+    {
+            "id" : "gk01",
+            "parentId": "",
+            "repeatation" : "1",
+            "members": [
+                [14, 28],
+                [2, 4]
+            ],
+            "unknown" : [15, 25],
+            "operation" : {
+                "type" : "addition",
+                "orientation" : "v",
+                "factors": [
+                    [0],
+                    [1]
+                ]
+            },
+            "goodGuyTypes": 2,
+            "badGuyTypes":  1,
+            "bench": {
+                "possibleValues": [5, 10],
+                "isInfinite": false,
+                "startNumber": "6"
+            },
+            "money": ""
+}]

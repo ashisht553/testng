@@ -1,0 +1,171 @@
+﻿{"frames": {
+
+"gg10_win_anim0000":
+{
+	"frame": {"x":10,"y":10,"w":125,"h":1240},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":116,"w":157,"h":1356},
+	"sourceSize": {"w":157,"h":1356}
+},
+"gg10_win_anim0001":
+{
+	"frame": {"x":145,"y":10,"w":143,"h":1193},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":163,"w":157,"h":1356},
+	"sourceSize": {"w":157,"h":1356}
+},
+"gg10_win_anim0002":
+{
+	"frame": {"x":298,"y":10,"w":153,"h":1165},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":191,"w":157,"h":1356},
+	"sourceSize": {"w":157,"h":1356}
+},
+"gg10_win_anim0003":
+{
+	"frame": {"x":461,"y":10,"w":157,"h":1155},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":201,"w":157,"h":1356},
+	"sourceSize": {"w":157,"h":1356}
+},
+"gg10_win_anim0004":
+{
+	"frame": {"x":10,"y":10,"w":125,"h":1240},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":116,"w":157,"h":1356},
+	"sourceSize": {"w":157,"h":1356}
+},
+"gg10_win_anim0005":
+{
+	"frame": {"x":10,"y":10,"w":125,"h":1240},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":74,"w":157,"h":1356},
+	"sourceSize": {"w":157,"h":1356}
+},
+"gg10_win_anim0006":
+{
+	"frame": {"x":10,"y":10,"w":125,"h":1240},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":42,"w":157,"h":1356},
+	"sourceSize": {"w":157,"h":1356}
+},
+"gg10_win_anim0007":
+{
+	"frame": {"x":10,"y":10,"w":125,"h":1240},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":19,"w":157,"h":1356},
+	"sourceSize": {"w":157,"h":1356}
+},
+"gg10_win_anim0008":
+{
+	"frame": {"x":10,"y":10,"w":125,"h":1240},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":5,"w":157,"h":1356},
+	"sourceSize": {"w":157,"h":1356}
+},
+"gg10_win_anim0009":
+{
+	"frame": {"x":628,"y":10,"w":125,"h":1240},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":0,"w":157,"h":1356},
+	"sourceSize": {"w":157,"h":1356}
+},
+"gg10_win_anim0010":
+{
+	"frame": {"x":10,"y":10,"w":125,"h":1240},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":5,"w":157,"h":1356},
+	"sourceSize": {"w":157,"h":1356}
+},
+"gg10_win_anim0011":
+{
+	"frame": {"x":10,"y":10,"w":125,"h":1240},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":19,"w":157,"h":1356},
+	"sourceSize": {"w":157,"h":1356}
+},
+"gg10_win_anim0012":
+{
+	"frame": {"x":10,"y":10,"w":125,"h":1240},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":42,"w":157,"h":1356},
+	"sourceSize": {"w":157,"h":1356}
+},
+"gg10_win_anim0013":
+{
+	"frame": {"x":10,"y":10,"w":125,"h":1240},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":74,"w":157,"h":1356},
+	"sourceSize": {"w":157,"h":1356}
+},
+"gg10_win_anim0014":
+{
+	"frame": {"x":10,"y":10,"w":125,"h":1240},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":116,"w":157,"h":1356},
+	"sourceSize": {"w":157,"h":1356}
+},
+"gg10_win_anim0015":
+{
+	"frame": {"x":461,"y":10,"w":157,"h":1155},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":201,"w":157,"h":1356},
+	"sourceSize": {"w":157,"h":1356}
+},
+"gg10_win_anim0016":
+{
+	"frame": {"x":763,"y":10,"w":143,"h":1193},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":163,"w":157,"h":1356},
+	"sourceSize": {"w":157,"h":1356}
+},
+"gg10_win_anim0017":
+{
+	"frame": {"x":916,"y":10,"w":133,"h":1219},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":137,"w":157,"h":1356},
+	"sourceSize": {"w":157,"h":1356}
+},
+"gg10_win_anim0018":
+{
+	"frame": {"x":1059,"y":10,"w":127,"h":1235},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":121,"w":157,"h":1356},
+	"sourceSize": {"w":157,"h":1356}
+},
+"gg10_win_anim0019":
+{
+	"frame": {"x":10,"y":10,"w":125,"h":1240},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":116,"w":157,"h":1356},
+	"sourceSize": {"w":157,"h":1356}
+}},
+"meta": {
+	"app": "Adobe Animate",
+	"version": "15.2.1.95",
+	"image": "Object_gg10win.png",
+	"format": "RGBA8888",
+	"size": {"w":2048,"h":2048},
+	"scale": "1"
+}
+}

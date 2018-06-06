@@ -1,0 +1,43 @@
+{"frames": {
+
+"mud1":
+{
+	"frame": {"x":10,"y":10,"w":153,"h":29},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":153,"h":29},
+	"sourceSize": {"w":153,"h":29}
+},
+"mud10":
+{
+	"frame": {"x":173,"y":10,"w":1352,"h":81},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1352,"h":81},
+	"sourceSize": {"w":1352,"h":81}
+},
+"mudsplash":
+{
+	"frame": {"x":10,"y":101,"w":1240,"h":340},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1240,"h":340},
+	"sourceSize": {"w":1240,"h":340}
+},
+"mudsplash1":
+{
+	"frame": {"x":1260,"y":101,"w":124,"h":69},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":124,"h":69},
+	"sourceSize": {"w":124,"h":69}
+}},
+"meta": {
+	"app": "Adobe Animate",
+	"version": "15.2.1.95",
+	"image": "Object_mud.png",
+	"format": "RGBA8888",
+	"size": {"w":2048,"h":2048},
+	"scale": "1"
+}
+}

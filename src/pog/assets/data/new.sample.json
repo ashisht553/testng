@@ -1,0 +1,236 @@
+[
+    {
+        "grade" : "gk",
+        "data" : [
+            //x = y + u
+             {
+                "id" : "0",
+                "parentId": "",
+                "repeatation" : "1",
+                "members": [
+                    [14, 28],
+                    [2, 4]
+                ],
+                "unknown" : [15, 25],
+                "operation" : {
+                    "type" : "addition",
+                    "orientation" : "v",
+                    "factors": [
+                        [0],
+                        [1]
+                    ]
+                },
+                "goodGuyTypes": 2,
+                "badGuyTypes":  1,
+                "bench": {
+                    "possibleValues": [5, 10],
+                    "isInfinite": false,
+                    "startNumber": "6"
+                },
+                "money": ""
+            },
+
+            //x + y = u
+            {
+                "id" : "0",
+                "parentId": "",
+                "repeatation" : "1",
+                "members": [
+                    [0, 1],
+                    [0, 1]
+                ],
+                "unknown" : [1, 1],
+                "operation" : {
+                    "type" : "addition",
+                    "orientation" : "v",
+                    "factors": [
+                        [0, 1],
+                        []
+                    ]
+                },
+                "goodGuyTypes": 0,
+                "badGuyTypes":  6,
+                "bench": {
+                    "possibleValues": [],
+                    "isInfinite": false,
+                    "startNumber": "6"
+                },
+                "money": ""
+            },
+            //x + y = u
+            {
+                "id" : "1",
+                "parentId" : "0",
+                "members": [
+                    [1, 6],
+                    [1, 6]
+                ],
+                "unknown" : [2, 10],
+                "operation" :{
+                    "type" : "addition",
+                    "orientation" : "v",
+                    "factors": [
+                        [0, 1],
+                        []
+                    ]
+                },
+                "goodGuyTypes": [
+                    0
+                ],
+                "badGuyTypes": [
+                    0
+                ],
+                "bench": {
+                    "possibleValues": [],
+                    "isInfinite": false,
+                    "startNumber": "6"
+                },
+                "money": "",               
+                "tutorial": {
+                    "T1": true,
+                    "T2": true,
+                    "T3": false,
+                    "T4": false,
+                    "T5": false
+                }
+            },
+            // x + y + z = u
+            {
+                "id" : "1",
+                "parentId" : "0",
+                "members": [
+                    [5, 7],
+                    [6, 10],
+                    [6, 16],
+                ],
+                "unknown" : [20, 35],
+                "operation" :{
+                    "type" : "addition",
+                    "orientation" : "v",
+                    "factors": [
+                        [0, 1, 2],
+                        []
+                    ]
+                },
+                "goodGuyTypes": [
+                    0
+                ],
+                "badGuyTypes": [
+                    0
+                ],
+                "bench": {
+                    "possibleValues": [],
+                    "isInfinite": false,
+                    "startNumber": "6"
+                },
+                "money": ""
+            },
+            // x + y = z + u
+            {
+                "id" : "1",
+                "parentId": "",
+                "repeatation" : "1",
+                "members": [
+                    [5, 7],
+                    [6, 10],
+                    [6, 16],
+                ],
+                "unknown" : [8, 10],
+                "operation" :{
+                    "type" : "addition",
+                    "orientation" : "v",
+                    "factors": [
+                        [0, 1],
+                        [2]
+                    ]
+                },
+                "goodGuyTypes": [
+                    1
+                ],
+                "badGuyTypes": [
+                    7
+                ],
+                "bench": {
+                    "possibleValues": [],
+                    "isInfinite": false,
+                    "startNumber": "6"
+                },
+                "money": "",               
+                "tutorial": {
+                    "T1": false,
+                    "T2": true,
+                    "T3": false,
+                    "T4": false,
+                    "T5": false
+                }
+            },
+             // x + y + z + w = u
+            {
+                "id" : "1",
+                "parentId": "",
+                "repeatation" : "1",
+                "members": [
+                    {
+                        "upper": "5",
+                        "lower": "10"
+                    },
+                    {
+                        "upper": "6",
+                        "lower": "14"
+                    },
+                    {
+                        "upper": "15",
+                        "lower": "20"
+                    },
+                    {
+                        "upper": "25",
+                        "lower": "30"
+                    }
+                ],
+                "unknown" : {
+                        "upper": "60",
+                        "lower": "75"
+                    },
+                "operation" :{
+                    "type" : "addition",
+                    "orientation" : "v",
+                    "factors": [
+                        [0, 1, 2, 3],
+                        []
+                    ]
+                },
+                "goodGuyTypes": [
+                    0
+                ],
+                "badGuyTypes": [
+                    0
+                ],
+                "bench": {
+                    "possibleValues": [],
+                    "isInfinite": false,
+                    "startNumber": "6"
+                },
+                "money": "",               
+                "tutorial": {
+                    "T1": false,
+                    "T2": true,
+                    "T3": false,
+                    "T4": false,
+                    "T5": false
+                }
+            }
+        ]
+    },
+    {
+        "grade" : "g2",
+        "data" : [
+            
+        ]
+    },
+    {
+        "grade" : "g6",
+        "data" : [
+            
+        ]
+    }
+]

@@ -1,0 +1,39 @@
+<font>
+  <info face="font" size="72" bold="0" italic="0" charset="" unicode="" stretchH="100" smooth="1" aa="1" padding="2,2,2,2" spacing="0,0" outline="0"/>
+  <common lineHeight="88" base="62" scaleW="94" scaleH="493" pages="1" packed="0"/>
+  <pages>
+    <page id="0" file="font.png"/>
+  </pages>
+  <chars count="14">
+    <char id="49" x="2" y="2" width="24" height="57" xoffset="0" yoffset="5" xadvance="27" page="0" chnl="15"/>
+    <char id="50" x="2" y="61" width="33" height="58" xoffset="2" yoffset="4" xadvance="36" page="0" chnl="15"/>
+    <char id="51" x="2" y="121" width="34" height="60" xoffset="2" yoffset="4" xadvance="38" page="0" chnl="15"/>
+    <char id="52" x="28" y="2" width="35" height="57" xoffset="0" yoffset="5" xadvance="36" page="0" chnl="15"/>
+    <char id="53" x="37" y="61" width="34" height="58" xoffset="2" yoffset="5" xadvance="39" page="0" chnl="15"/>
+    <char id="54" x="2" y="183" width="34" height="59" xoffset="3" yoffset="4" xadvance="39" page="0" chnl="15"/>
+    <char id="55" x="65" y="2" width="27" height="57" xoffset="0" yoffset="5" xadvance="28" page="0" chnl="15"/>
+    <char id="56" x="2" y="244" width="34" height="59" xoffset="2" yoffset="4" xadvance="38" page="0" chnl="15"/>
+    <char id="57" x="2" y="305" width="34" height="59" xoffset="3" yoffset="4" xadvance="39" page="0" chnl="15"/>
+    <char id="48" x="2" y="366" width="34" height="59" xoffset="3" yoffset="4" xadvance="39" page="0" chnl="15"/>
+    <char id="46" x="2" y="427" width="11" height="12" xoffset="1" yoffset="50" xadvance="13" page="0" chnl="15"/>
+    <char id="38" x="2" y="441" width="40" height="50" xoffset="1" yoffset="13" xadvance="41" page="0" chnl="15"/>
+    <char id="36" x="38" y="121" width="36" height="68" xoffset="2" yoffset="0" xadvance="39" page="0" chnl="15"/>
+    <char id="162" x="38" y="191" width="34" height="61" xoffset="2" yoffset="5" xadvance="37" page="0" chnl="15"/>
+    <char id="32" x="0" y="0" width="0" height="0" xoffset="2" yoffset="5" xadvance="13" page="0" chnl="15"/>
+  </chars>
+  <kernings count="13">
+    <kerning first="50" second="52" amount="-1"/>
+    <kerning first="51" second="55" amount="-1"/>
+    <kerning first="52" second="49" amount="-2"/>
+    <kerning first="52" second="55" amount="-1"/>
+    <kerning first="53" second="49" amount="-2"/>
+    <kerning first="53" second="50" amount="-1"/>
+    <kerning first="53" second="55" amount="-2"/>
+    <kerning first="54" second="50" amount="-1"/>
+    <kerning first="54" second="55" amount="-1"/>
+    <kerning first="55" second="49" amount="2"/>
+    <kerning first="55" second="51" amount="1"/>
+    <kerning first="55" second="52" amount="-1"/>
+    <kerning first="55" second="55" amount="1"/>
+  </kernings>
+</font>

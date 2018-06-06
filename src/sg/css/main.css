@@ -1,0 +1,50 @@
+body{
+	margin:0px;
+	padding:0px;
+	
+}
+/*
+#content{	 
+	margin: 0 auto;
+	vertical-align: middle
+}
+
+#header{
+	width:100%;
+	height:75px;
+	background:blue;
+}
+
+#main-panel{
+	width:100%;
+	height:593px;
+	background:lightgrey;
+}
+
+#main-panel #menu{
+	width:100px;
+	height:100%;
+	display: inline-block;
+	background:yellow;
+	clear:both;
+}
+
+#main-panel #main-menu{
+	width:910px;
+	height:100%;
+	display: inline-block;
+	background:pink;
+	clear:both;
+}
+
+#main-menu #game-block{
+	left:0;
+	top:0;
+	position:absolute;
+}
+
+#footer{
+	width:100%;
+	height:100px;
+	background:purple;
+}*/

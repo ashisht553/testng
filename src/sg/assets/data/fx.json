@@ -1,0 +1,59 @@
+﻿{"frames": {
+
+"FX0000":
+{
+	"frame": {"x":10,"y":10,"w":74,"h":844},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":75,"y":0,"w":221,"h":844},
+	"sourceSize": {"w":221,"h":844}
+},
+"FX0001":
+{
+	"frame": {"x":94,"y":10,"w":126,"h":844},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":50,"y":0,"w":221,"h":844},
+	"sourceSize": {"w":221,"h":844}
+},
+"FX0002":
+{
+	"frame": {"x":230,"y":10,"w":167,"h":844},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":30,"y":0,"w":221,"h":844},
+	"sourceSize": {"w":221,"h":844}
+},
+"FX0003":
+{
+	"frame": {"x":407,"y":10,"w":196,"h":844},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":0,"w":221,"h":844},
+	"sourceSize": {"w":221,"h":844}
+},
+"FX0004":
+{
+	"frame": {"x":613,"y":10,"w":213,"h":844},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":0,"w":221,"h":844},
+	"sourceSize": {"w":221,"h":844}
+},
+"FX0005":
+{
+	"frame": {"x":10,"y":864,"w":219,"h":844},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":221,"h":844},
+	"sourceSize": {"w":221,"h":844}
+}},
+"meta": {
+	"app": "Adobe Animate",
+	"version": "15.2.1.95",
+	"image": "FX.png",
+	"format": "RGBA8888",
+	"size": {"w":1024,"h":2048},
+	"scale": "1"
+}
+}

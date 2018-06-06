@@ -1,0 +1,154 @@
+{
+"global":{
+	"points":{
+    "successfulPair":10,
+    "comboTile":20,
+    "clearBadGuy":20,
+    "getGoodGuy":20,
+    "earnStar":50
+	},
+	"3x3grid":{
+	"goodGuysMaxNumber":4,
+	"badGuysMaxNumber":4,
+	"comboTileMaxNumber":2
+	},
+	"4x4grid":{
+	"goodGuysMaxNumber":4,
+	"badGuysMaxNumber":4,
+	"comboTileMaxNumber":2
+	}
+},
+"gradek":{
+   "points":{
+    "successfulPair":10,
+    "comboTile":20,
+    "clearBadGuy":20,
+    "getGoodGuy":20,
+    "earnStar":50
+	},
+	"3x3grid":{
+	"goodGuysMaxNumber":4,
+	"badGuysMaxNumber":4,
+	"comboTileMaxNumber":2
+	},
+	"4x4grid":{
+	"goodGuysMaxNumber":4,
+	"badGuysMaxNumber":4,
+	"comboTileMaxNumber":2
+	}
+},
+"grade1":{
+   "points":{
+    "successfulPair":10,
+    "comboTile":20,
+    "clearBadGuy":20,
+    "getGoodGuy":20,
+    "earnStar":50
+	},
+	"3x3grid":{
+	"goodGuysMaxNumber":4,
+	"badGuysMaxNumber":4,
+	"comboTileMaxNumber":2
+	},
+	"4x4grid":{
+	"goodGuysMaxNumber":4,
+	"badGuysMaxNumber":4,
+	"comboTileMaxNumber":2
+	}
+},
+"grade2":{
+   "points":{
+    "successfulPair":10,
+    "comboTile":20,
+    "clearBadGuy":20,
+    "getGoodGuy":20,
+    "earnStar":50
+	},
+	"3x3grid":{
+	"goodGuysMaxNumber":4,
+	"badGuysMaxNumber":4,
+	"comboTileMaxNumber":2
+	},
+	"4x4grid":{
+	"goodGuysMaxNumber":4,
+	"badGuysMaxNumber":4,
+	"comboTileMaxNumber":2
+	}
+},
+"grade3":{
+   "points":{
+    "successfulPair":10,
+    "comboTile":20,
+    "clearBadGuy":20,
+    "getGoodGuy":20,
+    "earnStar":50
+	},
+	"3x3grid":{
+	"goodGuysMaxNumber":2,
+	"badGuysMaxNumber":1,
+	"comboTileMaxNumber":2
+	},
+	"4x4grid":{
+	"goodGuysMaxNumber":3,
+	"badGuysMaxNumber":1,
+	"comboTileMaxNumber":2
+	}
+},
+"grade4":{
+   "points":{
+    "successfulPair":10,
+    "comboTile":20,
+    "clearBadGuy":20,
+    "getGoodGuy":20,
+    "earnStar":50
+	},
+	"3x3grid":{
+	"goodGuysMaxNumber":2,
+	"badGuysMaxNumber":1,
+	"comboTileMaxNumber":2
+	},
+	"4x4grid":{
+	"goodGuysMaxNumber":3,
+	"badGuysMaxNumber":2,
+	"comboTileMaxNumber":2
+	}
+},
+"grade5":{
+  "points":{
+    "successfulPair":10,
+    "comboTile":20,
+    "clearBadGuy":20,
+    "getGoodGuy":20,
+    "earnStar":50
+	},
+	"3x3grid":{
+	"goodGuysMaxNumber":3,
+	"badGuysMaxNumber":2,
+	"comboTileMaxNumber":2
+	},
+	"4x4grid":{
+	"goodGuysMaxNumber":4,
+	"badGuysMaxNumber":2,
+	"comboTileMaxNumber":2
+	}
+},
+"grade6":{
+  "points":{
+    "successfulPair":10,
+    "comboTile":20,
+    "clearBadGuy":20,
+    "getGoodGuy":20,
+    "earnStar":50
+	},
+	"3x3grid":{
+	"goodGuysMaxNumber":4,
+	"badGuysMaxNumber":2,
+	"comboTileMaxNumber":2
+	},
+	"4x4grid":{
+	"goodGuysMaxNumber":4,
+	"badGuysMaxNumber":2,
+	"comboTileMaxNumber":2
+	}
+}
+}

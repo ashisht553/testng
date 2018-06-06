@@ -1,0 +1,43 @@
+﻿{"frames": {
+
+"bar_part10000":
+{
+	"frame": {"x":10,"y":10,"w":48,"h":48},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":48,"h":48},
+	"sourceSize": {"w":48,"h":48}
+},
+"bar_part20000":
+{
+	"frame": {"x":68,"y":10,"w":48,"h":48},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":48,"h":48},
+	"sourceSize": {"w":48,"h":48}
+},
+"slider_part10000":
+{
+	"frame": {"x":10,"y":68,"w":75,"h":43},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":75,"h":43},
+	"sourceSize": {"w":75,"h":43}
+},
+"slider_part20000":
+{
+	"frame": {"x":10,"y":121,"w":75,"h":29},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":75,"h":29},
+	"sourceSize": {"w":75,"h":29}
+}},
+"meta": {
+	"app": "Adobe Animate",
+	"version": "15.2.1.95",
+	"image": "slider_bar_compo.png",
+	"format": "RGBA8888",
+	"size": {"w":128,"h":256},
+	"scale": "1"
+}
+}

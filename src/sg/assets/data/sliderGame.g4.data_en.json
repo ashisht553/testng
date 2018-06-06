@@ -1,0 +1,893 @@
+{
+    "gameName":"SG",
+    "isbn":"NR-4-9781328886675",
+    "GameGuid":"3210029200",
+    "grade":"g4",
+    "gradeLabel":"Grade 4",
+    "testMode":true,
+    "levelData":
+[
+        {
+            "id":"SG-G4-01",
+            "parentId":"",
+            "title":"Tutorial Level 1",
+            "lessons":null,
+            "gridSize":3,
+            "sliderType":"Ratio",
+            "equationType":null,
+            "var0":null,
+            "var1":null,
+            "var2":null,
+            "var3":null,
+             "frequency":
+               {
+                     "goodGuys":0.5,
+                     "badGuys":0,
+                     "comboTiles":0
+                },
+             "slider":
+               {
+                 "height":null,
+                 "total":"D(4)",
+                 "min":"D(1)",
+                 "max":"D(1)",
+                 "interval":null
+                },
+             "grid":
+               {
+                   "values":["D(1)", "D(3)"]
+              },
+             "scoring":
+               {
+                 "starThreshold":1,
+                 "loseThreshold":2
+               },
+             "tutorial":
+               {
+                     "T1":"GoodGuy_Tutorial.mp4"
+               },
+            "keywords":"tutorial",
+            "meaningfulDescription":"students learn how to beat a level of the game"
+        },
+        {
+            "id":"SG-G4-02",
+            "parentId":"SG-G4-01",
+            "title":"Tutorial Level 2",
+            "lessons":null,
+            "gridSize":3,
+            "sliderType":"Ratio",
+            "equationType":null,
+            "var0":null,
+            "var1":null,
+            "var2":null,
+            "var3":null,
+             "frequency":
+               {
+                     "goodGuys":0.5,
+                     "badGuys":0,
+                     "comboTiles":0
+                },
+             "slider":
+               {
+                 "height":null,
+                 "total":"D(4)",
+                 "min":"D(1)",
+                 "max":"D(3)",
+                 "interval":"D(1)"
+                },
+             "grid":
+               {
+                   "values":["D(1)", "D(2)", "D(3)"]
+              },
+             "scoring":
+               {
+                 "starThreshold":1,
+                 "loseThreshold":3
+               },
+             "tutorial":
+               {
+                     "T1":"Slider_Tutorial.mp4"
+               },
+            "keywords":"tutorial",
+            "meaningfulDescription":"students learn how to use the slider mechanic of the game"
+        },
+        {
+            "id":"SG-G4-03",
+            "parentId":"SG-G4-02",
+            "title":"Tutorial Level 3",
+            "lessons":null,
+            "gridSize":3,
+            "sliderType":"Ratio",
+            "equationType":null,
+            "var0":null,
+            "var1":null,
+            "var2":null,
+            "var3":null,
+             "frequency":
+               {
+                     "goodGuys":0.35,
+                     "badGuys":0.25,
+                     "comboTiles":0
+                },
+             "slider":
+               {
+                 "height":null,
+                 "total":"D(4)",
+                 "min":"D(1)",
+                 "max":"D(3)",
+                 "interval":"D(1)"
+                },
+             "grid":
+               {
+                   "values":["D(1)", "D(2)", "D(3)"]
+              },
+             "scoring":
+               {
+                 "starThreshold":1,
+                 "loseThreshold":1
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "keywords":"tutorial",
+            "meaningfulDescription":"students learn how to lose a level of the game"
+        },
+        {
+            "id":"SG-G4-04",
+            "parentId":"SG-G4-03",
+            "title":"Product of Ones",
+            "lessons":["2-1"],
+            "gridSize":3,
+            "sliderType":"AreaModel",
+            "equationType":"twoEquationsArea",
+            "var0":[4,5],
+            "var1":null,
+            "var2":null,
+            "var3":null,
+             "frequency":
+               {
+                     "goodGuys":0.3,
+                     "badGuys":0.1,
+                     "comboTiles":0
+                },
+             "slider":
+               {
+                 "height":"D(2)",
+                 "total":"D(var0)",
+                 "min":"D(0)",
+                 "max":"D(4)",
+                 "interval":"D(1)"
+                },
+             "grid":
+               {
+                   "values":["D(0)", "D(2)", "D(4)", "D(6)", "D(8)", "D(10)"]
+              },
+             "scoring":
+               {
+                 "starThreshold":1,
+                 "loseThreshold":5
+               },
+             "tutorial":
+               {
+                     "T1":"AreaModel_Tutorial.mp4"
+               },
+            "keywords":"product, product of ones, multiplication, multiplication facts, multiplication table, fluency, times tables, area model",
+            "meaningfulDescription":"students multiply two one-digit numbers"
+        },
+        {
+            "id":"SG-G4-05",
+            "parentId":"SG-G4-04",
+            "title":"Arrays of Tens",
+            "lessons":["2-1"],
+            "gridSize":3,
+            "sliderType":"AreaModel",
+            "equationType":"placeValue",
+            "var0":[5,6,7,8,9],
+            "var1":null,
+            "var2":null,
+            "var3":null,
+             "frequency":
+               {
+                     "goodGuys":0.3,
+                     "badGuys":0.1,
+                     "comboTiles":0.3
+                },
+             "slider":
+               {
+                 "height":"D(var0)",
+                 "total":"D(40)",
+                 "min":"D(0)",
+                 "max":"D(40)",
+                 "interval":"D(10)"
+                },
+             "grid":
+               {
+                   "values":null
+              },
+             "scoring":
+               {
+                 "starThreshold":2,
+                 "loseThreshold":5
+               },
+             "tutorial":
+               {
+                     "T1":"BonusTiles_Tutorial.mp4"
+               },
+            "keywords":"arrays of tens, multiples of ten, area model, multiples of 10, 10s count-bys, distributive property, shift patterns, multiplication, tutorial",
+            "meaningfulDescription":"students multiple one-digit numbers by multiples of 10"
+        },
+        {
+            "id":"SG-G4-06",
+            "parentId":"SG-G4-05",
+            "title":"Product of Tens",
+            "lessons":["2-3"],
+            "gridSize":3,
+            "sliderType":"AreaModel",
+            "equationType":"distributiveProp",
+            "var0":[30,40,50],
+            "var1":null,
+            "var2":null,
+            "var3":null,
+             "frequency":
+               {
+                     "goodGuys":0.35,
+                     "badGuys":0.1,
+                     "comboTiles":0.3
+                },
+             "slider":
+               {
+                 "height":"D(var0)",
+                 "total":"D(100)",
+                 "min":"D(30)",
+                 "max":"D(70)",
+                 "interval":"D(10)"
+                },
+             "grid":
+               {
+                   "values":null
+              },
+             "scoring":
+               {
+                 "starThreshold":2,
+                 "loseThreshold":5
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "keywords":"product of tens, multiply by 10s, multiples of 10, shift patterns, 10s count-bys, distributive property, area model, multiplication",
+            "meaningfulDescription":"students multiply two multiples of 10"
+        },
+        {
+            "id":"SG-G4-07",
+            "parentId":"SG-G4-06",
+            "title":"Mental Multiplication 1",
+            "lessons":["2-3"],
+            "gridSize":4,
+            "sliderType":"AreaModel",
+            "equationType":"distributiveProp",
+            "var0":[8,9],
+            "var1":[21,22,23,24,25,26],
+            "var2":null,
+            "var3":null,
+             "frequency":
+               {
+                     "goodGuys":0.35,
+                     "badGuys":0.1,
+                     "comboTiles":0.35
+                },
+             "slider":
+               {
+                 "height":"D(var0)",
+                 "total":"D(var1)",
+                 "min":"D(0)",
+                 "max":"D(20)",
+                 "interval":"D(10)"
+                },
+             "grid":
+               {
+                   "values":null
+              },
+             "scoring":
+               {
+                 "starThreshold":2,
+                 "loseThreshold":5
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "keywords":"multiplication, multiplication modeling, distributive property, place value, multiples of 10, area model",
+            "meaningfulDescription":"students multiply one-digit numbers by two-digit numbers"
+        },
+        {
+            "id":"SG-G4-08",
+            "parentId":"SG-G4-07",
+            "title":"Mental Multiplication 2",
+            "lessons":["2-3"],
+            "gridSize":4,
+            "sliderType":"AreaModel",
+            "equationType":"distributiveProp",
+            "var0":null,
+            "var1":null,
+            "var2":null,
+            "var3":null,
+             "frequency":
+               {
+                     "goodGuys":0.4,
+                     "badGuys":0.15,
+                     "comboTiles":0.3
+                },
+             "slider":
+               {
+                 "height":"D(10)",
+                 "total":"D(20)",
+                 "min":"D(8)",
+                 "max":"D(12)",
+                 "interval":"D(1)"
+                },
+             "grid":
+               {
+                   "values":["D(80)", "D(90)", "D(100)", "D(110)", "D(120)"]
+              },
+             "scoring":
+               {
+                 "starThreshold":2,
+                 "loseThreshold":4
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "keywords":"multiplication, multiplication modeling, distributive property, multiply by 10, 10s count-bys, multiples of 10, area model, two-digit multiplication, two-digit by two-digit multiplication",
+            "meaningfulDescription":"students use an area model to multiply one- and two-digit numbers by 10"
+        },
+        {
+            "id":"SG-G4-09",
+            "parentId":"SG-G4-08",
+            "title":"Fractions Greater Than One",
+            "lessons":["6-4"],
+            "gridSize":4,
+            "sliderType":"Ratio",
+            "equationType":"twoEquationsRatio",
+            "var0":null,
+            "var1":null,
+            "var2":null,
+            "var3":null,
+             "frequency":
+               {
+                     "goodGuys":0.4,
+                     "badGuys":0.15,
+                     "comboTiles":0.25
+                },
+             "slider":
+               {
+                 "height":null,
+                 "total":"D(3)",
+                 "min":"F(1, 2)",
+                 "max":"F(2, 1, 2)",
+                 "interval":"F(1, 2)"
+                },
+             "grid":
+               {
+                   "values":["F(1, 2)", "D(1)", "F(3, 2)", "D(2)", "F(5, 2)"]
+              },
+             "scoring":
+               {
+                 "starThreshold":2,
+                 "loseThreshold":4
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "keywords":"fractions, mixed number, equivalent fractions, improper fractions, fractions greater than one, rewriting fractions",
+            "meaningfulDescription":"students express mixed numbers as fractions greater than one"
+        },
+        {
+            "id":"SG-G4-10",
+            "parentId":"SG-G4-09",
+            "title":"Add Mixed Numbers",
+            "lessons":["6-5"],
+            "gridSize":4,
+            "sliderType":"Ratio",
+            "equationType":"ratioSum",
+            "var0":null,
+            "var1":null,
+            "var2":null,
+            "var3":null,
+             "frequency":
+               {
+                     "goodGuys":0.4,
+                     "badGuys":0.2,
+                     "comboTiles":0.25
+                },
+             "slider":
+               {
+                 "height":null,
+                 "total":"D(3)",
+                 "min":"D(1)",
+                 "max":"D(2)",
+                 "interval":"F(1, 3)"
+                },
+             "grid":
+               {
+                   "values":["D(1)", "F(4, 3)", "F(5, 3)", "D(2)"]
+              },
+             "scoring":
+               {
+                 "starThreshold":2,
+                 "loseThreshold":4
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "keywords":"mixed numbers, add mixed numbers, fractions, equivalent fractions, improper fractions, fractions greater than one, rewriting mixed numbers, rewriting fractions",
+            "meaningfulDescription":"students add mixed numbers that have a common sum"
+        },
+        {
+            "id":"SG-G4-11",
+            "parentId":"SG-G4-10",
+            "title":"Equivalent Fractions",
+            "lessons":["7-4"],
+            "gridSize":4,
+            "sliderType":"Ratio",
+            "equationType":"twoEquationsRatio",
+            "var0":null,
+            "var1":null,
+            "var2":null,
+            "var3":null,
+             "frequency":
+               {
+                     "goodGuys":0.4,
+                     "badGuys":0.2,
+                     "comboTiles":0.25
+                },
+             "slider":
+               {
+                 "height":null,
+                 "total":"D(1)",
+                 "min":"F(1, 5)",
+                 "max":"F(4, 5)",
+                 "interval":"F(1, 5)"
+                },
+             "grid":
+               {
+                   "values":["F(2, 10)", "F(4, 10)", "F(6, 10)", "F(8, 10)"]
+              },
+             "scoring":
+               {
+                 "starThreshold":2,
+                 "loseThreshold":4
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "keywords":"equivalent fractions, rewriting fractions, tenths, fifths, fractions, fractions less than one, simplifying fractions, reducing fractions",
+            "meaningfulDescription":"students express fifths less than one in equivalent forms"
+        },
+        {
+            "id":"SG-G4-11-01",
+            "parentId":"SG-G4-11",
+            "title":"Equivalent Fractions with Fiftieths",
+            "lessons":["7-4"],
+            "gridSize":4,
+            "sliderType":"Ratio",
+            "equationType":"twoEquationsRatio",
+            "var0":null,
+            "var1":null,
+            "var2":null,
+            "var3":null,
+             "frequency":
+               {
+                     "goodGuys":0.4,
+                     "badGuys":0.2,
+                     "comboTiles":0.25
+                },
+             "slider":
+               {
+                 "height":null,
+                 "total":"D(1)",
+                 "min":"F(1, 5)",
+                 "max":"F(4, 5)",
+                 "interval":"F(1, 5)"
+                },
+             "grid":
+               {
+                   "values":["F(10, 50)", "F(20, 50)", "F(30, 50)", "F(40, 50)"]
+              },
+             "scoring":
+               {
+                 "starThreshold":2,
+                 "loseThreshold":4
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "keywords":"equivalent fractions, rewriting fractions, fifths, fiftieths, fractions, fractions less than one, simplifying fractions, reducing fractions",
+            "meaningfulDescription":"students express fifths less than one in equivalent forms"
+        },
+        {
+            "id":"SG-G4-11-02",
+            "parentId":"SG-G4-11-01",
+            "title":"Simplify Fractions",
+            "lessons":["7-5"],
+            "gridSize":4,
+            "sliderType":"Ratio",
+            "equationType":"twoEquationsRatio",
+            "var0":null,
+            "var1":null,
+            "var2":null,
+            "var3":null,
+             "frequency":
+               {
+                     "goodGuys":0.4,
+                     "badGuys":0.2,
+                     "comboTiles":0.3
+                },
+             "slider":
+               {
+                 "height":null,
+                 "total":"D(1)",
+                 "min":"D(0)",
+                 "max":"D(1)",
+                 "interval":"F(3, 12)"
+                },
+             "grid":
+               {
+                   "values":["D(0)", "D(1)", "F(1, 4)", "F(2, 4)", "F(3, 4)"]
+              },
+             "scoring":
+               {
+                 "starThreshold":3,
+                 "loseThreshold":4
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "keywords":"equivalent fractions, rewriting fractions, fourths, twelfths, fractions, fractions less than one, simplifying fractions, reducing fractions",
+            "meaningfulDescription":"students express twelfths less than one in equivalent fourths"
+        },
+        {
+            "id":"SG-G4-11-03",
+            "parentId":"SG-G4-11-02",
+            "title":"Equivalent Fractions with Eighths",
+            "lessons":["7-5"],
+            "gridSize":4,
+            "sliderType":"Ratio",
+            "equationType":"twoEquationsRatio",
+            "var0":null,
+            "var1":null,
+            "var2":null,
+            "var3":null,
+             "frequency":
+               {
+                     "goodGuys":0.4,
+                     "badGuys":0.2,
+                     "comboTiles":0.3
+                },
+             "slider":
+               {
+                 "height":null,
+                 "total":"D(1)",
+                 "min":"D(0)",
+                 "max":"D(1)",
+                 "interval":"F(3, 12)"
+                },
+             "grid":
+               {
+                   "values":["D(0)", "F(1, 2)", "D(1)", "F(2, 8)", "F(4, 8)", "F(6, 8)"]
+              },
+             "scoring":
+               {
+                 "starThreshold":3,
+                 "loseThreshold":4
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "keywords":"equivalent fractions, rewriting fractions, halves, fourths, eighths, twelfths, fractions, fractions less than one, simplifying fractions, reducing fractions",
+            "meaningfulDescription":"students express twelfths less than one in equivalent halves and eighths"
+        },
+        {
+            "id":"SG-G4-12",
+            "parentId":"SG-G4-11-03",
+            "title":"Equivalent Fractions and Decimals",
+            "lessons":["7-8"],
+            "gridSize":4,
+            "sliderType":"Ratio",
+            "equationType":"twoEquationsRatio",
+            "var0":null,
+            "var1":null,
+            "var2":null,
+            "var3":null,
+             "frequency":
+               {
+                     "goodGuys":0.4,
+                     "badGuys":0.2,
+                     "comboTiles":0.3
+                },
+             "slider":
+               {
+                 "height":null,
+                 "total":"D(1)",
+                 "min":"F(2, 10)",
+                 "max":"F(8, 10)",
+                 "interval":"F(2, 10)"
+                },
+             "grid":
+               {
+                   "values":["D(0.2)", "D(0.4)", "D(0.6)", "D(0.8)"]
+              },
+             "scoring":
+               {
+                 "starThreshold":3,
+                 "loseThreshold":4
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "keywords":"equivalent fractions, rewriting fractions, tenths, fractions, fractions less than one, simplifying fractions, reducing fractions, decimals as fractions, fractions as decimals, decimals",
+            "meaningfulDescription":"students express tenths fractions as decimals"
+        },
+        {
+            "id":"SG-G4-13",
+            "parentId":"SG-G4-12",
+            "title":"Decimals as Fractions",
+            "lessons":["7-8"],
+            "gridSize":4,
+            "sliderType":"Ratio",
+            "equationType":"twoEquationsRatio",
+            "var0":null,
+            "var1":null,
+            "var2":null,
+            "var3":null,
+             "frequency":
+               {
+                     "goodGuys":0.4,
+                     "badGuys":0.2,
+                     "comboTiles":0.3
+                },
+             "slider":
+               {
+                 "height":null,
+                 "total":"D(1)",
+                 "min":"D(0.2)",
+                 "max":"D(0.8)",
+                 "interval":"D(0.2)"
+                },
+             "grid":
+               {
+                   "values":["F(2, 10)", "F(4, 10)", "F(6, 10)", "F(8, 10)"]
+              },
+             "scoring":
+               {
+                 "starThreshold":3,
+                 "loseThreshold":4
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "keywords":"equivalent fractions, rewriting fractions, tenths, fractions, fractions less than one, simplifying fractions, reducing fractions, decimals as fractions, fractions as decimals, decimals",
+            "meaningfulDescription":"students express decimal tenths as fraction fifths"
+        },
+        {
+            "id":"SG-G4-13-01",
+            "parentId":"SG-G4-13",
+            "title":"Decimals as Fifths",
+            "lessons":["7-8"],
+            "gridSize":4,
+            "sliderType":"Ratio",
+            "equationType":"twoEquationsRatio",
+            "var0":null,
+            "var1":null,
+            "var2":null,
+            "var3":null,
+             "frequency":
+               {
+                     "goodGuys":0.4,
+                     "badGuys":0.2,
+                     "comboTiles":0.3
+                },
+             "slider":
+               {
+                 "height":null,
+                 "total":"D(1)",
+                 "min":"D(0.2)",
+                 "max":"D(0.8)",
+                 "interval":"D(0.2)"
+                },
+             "grid":
+               {
+                   "values":["F(1, 5)", "F(2, 5)", "F(3, 5)", "F(4, 5)"]
+              },
+             "scoring":
+               {
+                 "starThreshold":3,
+                 "loseThreshold":4
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "keywords":"equivalent fractions, rewriting fractions, fifths, fractions, fractions less than one, simplifying fractions, reducing fractions, decimals as fractions, fractions as decimals, decimals",
+            "meaningfulDescription":"students express decimal tenths as fraction tenths"
+        },
+        {
+            "id":"SG-G4-14",
+            "parentId":"SG-G4-13-01",
+            "title":"Hundredths",
+            "lessons":["7-8"],
+            "gridSize":4,
+            "sliderType":"Ratio",
+            "equationType":"twoEquationsRatio",
+            "var0":null,
+            "var1":null,
+            "var2":null,
+            "var3":null,
+             "frequency":
+               {
+                     "goodGuys":0.4,
+                     "badGuys":0.2,
+                     "comboTiles":0.3
+                },
+             "slider":
+               {
+                 "height":null,
+                 "total":"D(1)",
+                 "min":"D(0.2)",
+                 "max":"D(0.8)",
+                 "interval":"D(0.2)"
+                },
+             "grid":
+               {
+                   "values":["F(20, 100)", "F(40, 100)", "F(60, 100)", "F(80, 100)"]
+              },
+             "scoring":
+               {
+                 "starThreshold":3,
+                 "loseThreshold":4
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "keywords":"equivalent fractions, rewriting fractions, hundredths, fractions, fractions less than one, simplifying fractions, reducing fractions, decimals as fractions, fractions as decimals, decimals",
+            "meaningfulDescription":"students express decimal tenths as fraction hundredths"
+        },
+        {
+            "id":"SG-G4-14-01",
+            "parentId":"SG-G4-14",
+            "title":"Halves and Fourths",
+            "lessons":["7-8"],
+            "gridSize":4,
+            "sliderType":"Ratio",
+            "equationType":"twoEquationsRatio",
+            "var0":null,
+            "var1":null,
+            "var2":null,
+            "var3":null,
+             "frequency":
+               {
+                     "goodGuys":0.4,
+                     "badGuys":0.2,
+                     "comboTiles":0.3
+                },
+             "slider":
+               {
+                 "height":null,
+                 "total":"D(1)",
+                 "min":"D(0)",
+                 "max":"D(1)",
+                 "interval":"F(1, 4)"
+                },
+             "grid":
+               {
+                   "values":["D(0)", "D(1)", "F(25, 100)", "F(50, 100)", "F(75, 100)"]
+              },
+             "scoring":
+               {
+                 "starThreshold":3,
+                 "loseThreshold":3
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "keywords":"equivalent fractions, rewriting fractions, halves, fourths, hundredths, fractions less than one, simplifying fractions, reducing fractions, quarter",
+            "meaningfulDescription":"students express fourths less than one as hundredths"
+        },
+        {
+            "id":"SG-G4-16",
+            "parentId":"SG-G4-14-01",
+            "title":"Halves and Fourths as Decimals",
+            "lessons":["7-8"],
+            "gridSize":4,
+            "sliderType":"Ratio",
+            "equationType":"twoEquationsRatio",
+            "var0":null,
+            "var1":null,
+            "var2":null,
+            "var3":null,
+             "frequency":
+               {
+                     "goodGuys":0.4,
+                     "badGuys":0.2,
+                     "comboTiles":0.3
+                },
+             "slider":
+               {
+                 "height":null,
+                 "total":"D(1)",
+                 "min":"D(0)",
+                 "max":"D(1)",
+                 "interval":"F(1, 4)"
+                },
+             "grid":
+               {
+                   "values":["D(0)", "D(0.25)", "D(0.5)", "D(0.75)", "D(1)"]
+              },
+             "scoring":
+               {
+                 "starThreshold":3,
+                 "loseThreshold":3
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "keywords":"halves, fourths, hundredths, fractions less than one, decimals, decimals as fractions, fractions as decimals, quarter",
+            "meaningfulDescription":"students express fourths less than one as decimals"
+        },
+        {
+            "id":"SG-G4-17",
+            "parentId":"SG-G4-16",
+            "title":"Extending Fraction Multiplication",
+            "lessons":null,
+            "gridSize":4,
+            "sliderType":"AreaModel",
+            "equationType":"twoEquationsArea",
+            "var0":null,
+            "var1":null,
+            "var2":null,
+            "var3":null,
+             "frequency":
+               {
+                     "goodGuys":0.4,
+                     "badGuys":0.2,
+                     "comboTiles":0.25
+                },
+             "slider":
+               {
+                 "height":"D(2)",
+                 "total":"D(3)",
+                 "min":"F(1, 2)",
+                 "max":"F(2, 1, 2)",
+                 "interval":"F(1, 2)"
+                },
+             "grid":
+               {
+                   "values":["D(1)", "D(2)", "D(3)", "D(4)", "D(5)"]
+              },
+             "scoring":
+               {
+                 "starThreshold":3,
+                 "loseThreshold":4
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "keywords":"mixed numbers, fractions, multiply, multiplication, multiply by 2, multiply fractions, multiply a fraction by a whole number, whole number solutions",
+            "meaningfulDescription":"students multiply fractions and mixed numbers by 2"
+        }
+    ]
+}

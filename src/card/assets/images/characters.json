@@ -1,0 +1,107 @@
+﻿{"frames": {
+
+"bg_happy0000":
+{
+	"frame": {"x":10,"y":10,"w":129,"h":124},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":129,"h":124},
+	"sourceSize": {"w":129,"h":124}
+},
+"bg_idle0000":
+{
+	"frame": {"x":149,"y":10,"w":129,"h":124},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":129,"h":124},
+	"sourceSize": {"w":129,"h":124}
+},
+"bg_sad0000":
+{
+	"frame": {"x":288,"y":10,"w":129,"h":124},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":129,"h":124},
+	"sourceSize": {"w":129,"h":124}
+},
+"gg1_happy0000":
+{
+	"frame": {"x":10,"y":144,"w":129,"h":124},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":129,"h":124},
+	"sourceSize": {"w":129,"h":124}
+},
+"gg1_idle0000":
+{
+	"frame": {"x":149,"y":144,"w":129,"h":124},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":129,"h":124},
+	"sourceSize": {"w":129,"h":124}
+},
+"gg1_sad0000":
+{
+	"frame": {"x":288,"y":144,"w":129,"h":124},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":129,"h":124},
+	"sourceSize": {"w":129,"h":124}
+},
+"gg2_happy0000":
+{
+	"frame": {"x":10,"y":278,"w":129,"h":154},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":129,"h":154},
+	"sourceSize": {"w":129,"h":154}
+},
+"gg2_idle0000":
+{
+	"frame": {"x":149,"y":278,"w":129,"h":153},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":129,"h":153},
+	"sourceSize": {"w":129,"h":153}
+},
+"gg2_sad0000":
+{
+	"frame": {"x":288,"y":278,"w":129,"h":154},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":129,"h":154},
+	"sourceSize": {"w":129,"h":154}
+},
+"gg3_happy0000":
+{
+	"frame": {"x":10,"y":442,"w":133,"h":151},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":133,"h":151},
+	"sourceSize": {"w":133,"h":151}
+},
+"gg3_idle0000":
+{
+	"frame": {"x":153,"y":442,"w":133,"h":151},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":133,"h":151},
+	"sourceSize": {"w":133,"h":151}
+},
+"gg3_sad0000":
+{
+	"frame": {"x":296,"y":442,"w":133,"h":151},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":133,"h":151},
+	"sourceSize": {"w":133,"h":151}
+}},
+"meta": {
+	"app": "Adobe Animate",
+	"version": "15.2.1.95",
+	"image": "characters.png",
+	"format": "RGBA8888",
+	"size": {"w":512,"h":1024},
+	"scale": "1"
+}
+}

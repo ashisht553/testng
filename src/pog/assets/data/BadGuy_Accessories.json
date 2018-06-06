@@ -1,0 +1,51 @@
+﻿{"frames": {
+
+"hair_purple0000":
+{
+	"frame": {"x":2,"y":2,"w":90,"h":87},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":90,"h":87},
+	"sourceSize": {"w":90,"h":87}
+},
+"hat_headphone0000":
+{
+	"frame": {"x":2,"y":91,"w":91,"h":87},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":91,"h":87},
+	"sourceSize": {"w":91,"h":87}
+},
+"hat_pilot0000":
+{
+	"frame": {"x":2,"y":180,"w":90,"h":87},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":90,"h":87},
+	"sourceSize": {"w":90,"h":87}
+},
+"hat_pirate0000":
+{
+	"frame": {"x":2,"y":269,"w":90,"h":87},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":90,"h":87},
+	"sourceSize": {"w":90,"h":87}
+},
+"hat_top0000":
+{
+	"frame": {"x":2,"y":358,"w":90,"h":87},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":90,"h":87},
+	"sourceSize": {"w":90,"h":87}
+}},
+"meta": {
+	"app": "Adobe Animate",
+	"version": "16.2.0.24",
+	"image": "BadGuy_Accessories.png",
+	"format": "RGBA8888",
+	"size": {"w":128,"h":512},
+	"scale": "1"
+}
+}

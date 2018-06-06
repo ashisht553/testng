@@ -1,0 +1,1393 @@
+{
+    "gameName":"CG",
+    "isbn":"RN-4-9781328524409",
+    "GameGuid":"4410265266",
+    "grade":"g4",
+    "gradeLabel":"Grado 4",
+    "testMode":true,
+    "levelData":
+[
+        {
+            "id":"CG-G4-01",
+            "parentId":"",
+            "title":"Tutorial Nivel 1",
+            "lessons":["1-2"],
+            "shotClockStart":"3",
+            "negativeAllowed":"no",
+            "goalFraction":null,
+            "cardsFraction":null,
+            "gameplayFraction":"decimal",
+            "variableCards":
+               {
+                     "numOfCards":"1",
+                     "startValues":["D(0)"],
+                     "variations":{
+                         "var0" : null,
+                         "var1" : null,
+                         "var2" : null,
+                         "var3" : null
+                    },
+                     "goal":{
+                         "values" : null
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["D(1)", "D(2)", "D(3)", "D(4)", "D(5)", "D(6)", "D(7)", "D(8)", "D(9)", "D(10)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : null,
+                            "symbol" : null,
+                            "operation" : null
+                        },
+                        {
+                            "values" : null,
+                            "symbol" : null,
+                            "operation" : null
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[1,2,2],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":"T1_basket_animation.mp4"
+               },
+            "comment":null
+        },
+        {
+            "id":"CG-G4-02",
+            "parentId":"CG-G4-01",
+            "title":"Tutorial Nivel 2",
+            "lessons":["1-2"],
+            "shotClockStart":"5",
+            "negativeAllowed":"no",
+            "goalFraction":null,
+            "cardsFraction":null,
+            "gameplayFraction":"decimal",
+            "variableCards":
+               {
+                     "numOfCards":"2",
+                     "startValues":["D(0)"],
+                     "variations":{
+                         "var0" : null,
+                         "var1" : null,
+                         "var2" : null,
+                         "var3" : null
+                    },
+                     "goal":{
+                         "values" : null
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["D(1)", "D(2)", "D(3)", "D(4)", "D(5)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["D(1)", "D(2)", "D(3)", "D(4)", "D(5)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : null,
+                            "symbol" : null,
+                            "operation" : null
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[2,4,4],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":"T2_basket_animation.mp4"
+               },
+            "comment":null
+        },
+        {
+            "id":"CG-G4-03",
+            "parentId":"CG-G4-02",
+            "title":"Valor posicional a las centenas",
+            "lessons":["1-2"],
+            "shotClockStart":"10",
+            "negativeAllowed":"no",
+            "goalFraction":null,
+            "cardsFraction":null,
+            "gameplayFraction":"decimal",
+            "variableCards":
+               {
+                     "numOfCards":"4",
+                     "startValues":["D(0)"],
+                     "variations":{
+                         "var0" : null,
+                         "var1" : null,
+                         "var2" : null,
+                         "var3" : null
+                    },
+                     "goal":{
+                         "values" : null
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["D(100)", "D(200)", "D(300)", "D(400)", "D(500)", "D(600)", "D(700)", "D(800)", "D(900)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["D(10)", "D(20)", "D(30)", "D(40)", "D(50)", "D(60)", "D(70)", "D(80)", "D(90)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["D(1)", "D(2)", "D(3)", "D(4)", "D(5)", "D(6)", "D(7)", "D(8)", "D(9)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["D(1)", "D(2)", "D(3)", "D(4)", "D(5)", "D(6)", "D(7)", "D(8)", "D(9)", "D(10)", "D(20)", "D(30)", "D(40)", "D(50)", "D(60)", "D(70)", "D(80)", "D(90)", "D(100)", "D(200)", "D(300)", "D(400)", "D(500)", "D(600)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[3,7,7],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "comment":null
+        },
+        {
+            "id":"CG-G4-04",
+            "parentId":"CG-G4-03",
+            "title":"Valor posicional a los millares",
+            "lessons":["1-4"],
+            "shotClockStart":"10",
+            "negativeAllowed":"no",
+            "goalFraction":null,
+            "cardsFraction":null,
+            "gameplayFraction":"decimal",
+            "variableCards":
+               {
+                     "numOfCards":"4",
+                     "startValues":["D(0)"],
+                     "variations":{
+                         "var0" : null,
+                         "var1" : null,
+                         "var2" : null,
+                         "var3" : null
+                    },
+                     "goal":{
+                         "values" : null
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["D(1000)", "D(2000)", "D(3000)", "D(4000)", "D(5000)", "D(6000)", "D(7000)", "D(8000)", "D(9000)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["D(10)", "D(20)", "D(30)", "D(40)", "D(50)", "D(60)", "D(70)", "D(80)", "D(90)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["D(1)", "D(2)", "D(3)", "D(4)", "D(5)", "D(6)", "D(7)", "D(8)", "D(9)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["D(100)", "D(200)", "D(300)", "D(400)", "D(500)", "D(600)", "D(700)", "D(800)", "D(900)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[3,7,7],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "comment":null
+        },
+        {
+            "id":"CG-G4-05",
+            "parentId":"CG-G4-04",
+            "title":"Restar de millares",
+            "lessons":["1-9"],
+            "shotClockStart":"10",
+            "negativeAllowed":"no",
+            "goalFraction":null,
+            "cardsFraction":null,
+            "gameplayFraction":"decimal",
+            "variableCards":
+               {
+                     "numOfCards":"4",
+                     "startValues":["D(5000)", "D(6000)", "D(7000)", "D(8000)", "D(9000)"],
+                     "variations":{
+                         "var0" : null,
+                         "var1" : null,
+                         "var2" : null,
+                         "var3" : null
+                    },
+                     "goal":{
+                         "values" : null
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["D(1000)", "D(2000)", "D(3000)", "D(4000)"],
+                            "symbol" : "-",
+                            "operation" : "-"
+                        },
+                        {
+                            "values" : ["D(100)", "D(200)", "D(300)", "D(400)", "D(500)", "D(600)", "D(700)", "D(800)", "D(900)"],
+                            "symbol" : "-",
+                            "operation" : "-"
+                        },
+                        {
+                            "values" : ["D(10)", "D(20)", "D(30)", "D(40)", "D(50)", "D(60)", "D(70)", "D(80)", "D(90)"],
+                            "symbol" : "-",
+                            "operation" : "-"
+                        },
+                        {
+                            "values" : ["D(10)", "D(20)", "D(30)", "D(40)", "D(50)", "D(60)", "D(70)", "D(80)", "D(90)", "D(100)", "D(200)", "D(300)", "D(400)", "D(500)", "D(600)", "D(700)", "D(800)", "D(900)", "D(1000)", "D(2000)", "D(3000)"],
+                            "symbol" : "-",
+                            "operation" : "-"
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[7,7,7],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "comment":null
+        },
+        {
+            "id":"CG-G4-06",
+            "parentId":"CG-G4-05",
+            "title":"Factorizar decenas",
+            "lessons":["2-1"],
+            "shotClockStart":"10",
+            "negativeAllowed":"no",
+            "goalFraction":null,
+            "cardsFraction":null,
+            "gameplayFraction":"decimal",
+            "variableCards":
+               {
+                     "numOfCards":"4",
+                     "startValues":["D(10)", "D(20)", "D(30)"],
+                     "variations":{
+                         "var0" : null,
+                         "var1" : null,
+                         "var2" : null,
+                         "var3" : null
+                    },
+                     "goal":{
+                         "values" : null
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["D(10)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["D(10)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["D(2)", "D(3)", "D(4)", "D(5)", "D(6)", "D(7)", "D(8)", "D(9)"],
+                            "symbol" : "\\times",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["D(2)", "D(3)", "D(4)", "D(5)", "D(6)", "D(7)", "D(8)", "D(9)"],
+                            "symbol" : "\\times",
+                            "operation" : "*"
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[7,7,7],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "comment":null
+        },
+        {
+            "id":"CG-G4-07",
+            "parentId":"CG-G4-06",
+            "title":"Multiplicación con decenas",
+            "lessons":["2-2, 2-3"],
+            "shotClockStart":"10",
+            "negativeAllowed":"no",
+            "goalFraction":null,
+            "cardsFraction":null,
+            "gameplayFraction":"decimal",
+            "variableCards":
+               {
+                     "numOfCards":"4",
+                     "startValues":["D(1)"],
+                     "variations":{
+                         "var0" : null,
+                         "var1" : null,
+                         "var2" : null,
+                         "var3" : null
+                    },
+                     "goal":{
+                         "values" : null
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["D(10)"],
+                            "symbol" : "\\times",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["D(10)"],
+                            "symbol" : "\\times",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["D(2)", "D(3)", "D(4)", "D(5)", "D(6)", "D(7)", "D(8)", "D(9)"],
+                            "symbol" : "\\times",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["D(2)", "D(3)", "D(4)", "D(5)", "D(6)", "D(7)", "D(8)", "D(9)"],
+                            "symbol" : "\\times",
+                            "operation" : "*"
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[7,7,7],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "comment":null
+        },
+        {
+            "id":"CG-G4-08",
+            "parentId":"CG-G4-07",
+            "title":"Multiplicación mental",
+            "lessons":["2-3"],
+            "shotClockStart":"10",
+            "negativeAllowed":"no",
+            "goalFraction":null,
+            "cardsFraction":null,
+            "gameplayFraction":"decimal",
+            "variableCards":
+               {
+                     "numOfCards":"4",
+                     "startValues":["D(2)", "D(3)", "D(4)", "D(5)", "D(6)", "D(7)", "D(8)", "D(9)"],
+                     "variations":{
+                         "var0" : null,
+                         "var1" : null,
+                         "var2" : null,
+                         "var3" : null
+                    },
+                     "goal":{
+                         "values" : null
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["D(10)"],
+                            "symbol" : "\\times",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["D(10)"],
+                            "symbol" : "\\times",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["D(2)", "D(3)", "D(4)", "D(5)", "D(6)", "D(7)", "D(8)", "D(9)"],
+                            "symbol" : "\\times",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["D(2)", "D(3)", "D(4)", "D(5)", "D(6)", "D(7)", "D(8)", "D(9)"],
+                            "symbol" : "\\times",
+                            "operation" : "*"
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[7,7,7],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "comment":null
+        },
+        {
+            "id":"CG-G4-09",
+            "parentId":"CG-G4-08",
+            "title":"Multiplicación de 1 dígito por 3 dígitos",
+            "lessons":["2-10"],
+            "shotClockStart":"9",
+            "negativeAllowed":"no",
+            "goalFraction":null,
+            "cardsFraction":null,
+            "gameplayFraction":"decimal",
+            "variableCards":
+               {
+                     "numOfCards":"4",
+                     "startValues":["D(1)"],
+                     "variations":{
+                         "var0" : null,
+                         "var1" : null,
+                         "var2" : null,
+                         "var3" : null
+                    },
+                     "goal":{
+                         "values" : null
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["D(2)", "D(3)", "D(4)", "D(5)", "D(6)", "D(7)", "D(8)", "D(9)"],
+                            "symbol" : "\\times",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["D(2)", "D(3)", "D(4)", "D(5)", "D(6)", "D(7)", "D(8)", "D(9)"],
+                            "symbol" : "\\times",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["D(100)"],
+                            "symbol" : "\\times",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["D(2)", "D(3)", "D(4)", "D(5)", "D(6)", "D(7)", "D(8)", "D(9)"],
+                            "symbol" : "\\times",
+                            "operation" : "*"
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[3,6,6],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "comment":null
+        },
+        {
+            "id":"CG-G4-10",
+            "parentId":"CG-G4-09",
+            "title":"Dividir con ceros y residuos",
+            "lessons":["3-1"],
+            "shotClockStart":"9",
+            "negativeAllowed":"no",
+            "goalFraction":null,
+            "cardsFraction":null,
+            "gameplayFraction":"simplified",
+            "variableCards":
+               {
+                     "numOfCards":"4",
+                     "startValues":["D(1200)", "D(1600)", "D(1800)", "D(2400)", "D(2700)", "D(3200)", "D(3600)", "D(4800)", "D(6400)"],
+                     "variations":{
+                         "var0" : null,
+                         "var1" : null,
+                         "var2" : null,
+                         "var3" : null
+                    },
+                     "goal":{
+                         "values" : ["D(2)", "D(3)"]
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["D(10)", "D(20)", "D(30)", "D(40)"],
+                            "symbol" : "\\div",
+                            "operation" : "/"
+                        },
+                        {
+                            "values" : ["D(10)", "D(20)", "D(30)", "D(40)"],
+                            "symbol" : "\\div",
+                            "operation" : "/"
+                        },
+                        {
+                            "values" : ["D(1)"],
+                            "symbol" : "-",
+                            "operation" : "-"
+                        },
+                        {
+                            "values" : ["D(10)", "D(20)", "D(30)", "D(40)", "D(50)", "D(60)", "D(70)", "D(80)", "D(90)"],
+                            "symbol" : "\\div",
+                            "operation" : "/"
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[3,6,6],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "comment":null
+        },
+        {
+            "id":"CG-G4-11",
+            "parentId":"CG-G4-10",
+            "title":"Residuos y multiplicación ",
+            "lessons":["3-1, 3-9"],
+            "shotClockStart":"9",
+            "negativeAllowed":"no",
+            "goalFraction":null,
+            "cardsFraction":null,
+            "gameplayFraction":"decimal",
+            "variableCards":
+               {
+                     "numOfCards":"4",
+                     "startValues":["D(1)"],
+                     "variations":{
+                         "var0" : null,
+                         "var1" : null,
+                         "var2" : null,
+                         "var3" : null
+                    },
+                     "goal":{
+                         "values" : null
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["D(1)", "D(2)", "D(3)", "D(4)", "D(5)", "D(6)", "D(7)", "D(8)", "D(9)"],
+                            "symbol" : "\\times",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["D(1)", "D(2)", "D(3)", "D(4)", "D(5)", "D(6)", "D(7)", "D(8)", "D(9)"],
+                            "symbol" : "\\times",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["D(1)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["D(1)", "D(2)", "D(3)", "D(4)", "D(5)", "D(6)", "D(7)", "D(8)", "D(9)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[3,6,6],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "comment":null
+        },
+        {
+            "id":"CG-G4-12",
+            "parentId":"CG-G4-11",
+            "title":"Ceros y residuos",
+            "lessons":["3-1, 3-9"],
+            "shotClockStart":"9",
+            "negativeAllowed":"no",
+            "goalFraction":null,
+            "cardsFraction":null,
+            "gameplayFraction":"decimal",
+            "variableCards":
+               {
+                     "numOfCards":"4",
+                     "startValues":["D(1)"],
+                     "variations":{
+                         "var0" : null,
+                         "var1" : null,
+                         "var2" : null,
+                         "var3" : null
+                    },
+                     "goal":{
+                         "values" : null
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["D(10)", "D(20)", "D(30)", "D(40)", "D(50)", "D(60)", "D(70)", "D(80)", "D(90)"],
+                            "symbol" : "\\times",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["D(10)", "D(20)", "D(30)", "D(40)", "D(50)", "D(60)", "D(70)", "D(80)", "D(90)"],
+                            "symbol" : "\\times",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["D(1)", "D(2)", "D(3)", "D(4)", "D(5)", "D(6)", "D(7)", "D(8)", "D(9)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["D(1)", "D(2)", "D(3)", "D(4)", "D(5)", "D(6)", "D(7)", "D(8)", "D(9)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[3,6,6],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "comment":null
+        },
+        {
+            "id":"CG-G4-13",
+            "parentId":"CG-G4-12",
+            "title":"Residuos y división",
+            "lessons":["3-1, 3-9"],
+            "shotClockStart":"9",
+            "negativeAllowed":"no",
+            "goalFraction":null,
+            "cardsFraction":null,
+            "gameplayFraction":"simplified",
+            "variableCards":
+               {
+                     "numOfCards":"4",
+                     "startValues":["D(var0*var1*var2+1)"],
+                     "variations":{
+                         "var0" : [2, 3, 4, 5, 6, 8],
+                         "var1" : [2, 3, 4, 5],
+                         "var2" : [2,3],
+                         "var3" : null
+                    },
+                     "goal":{
+                         "values" : ["D(2)", "D(3)"]
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["D(1)"],
+                            "symbol" : "-",
+                            "operation" : "-"
+                        },
+                        {
+                            "values" : ["D(var1)"],
+                            "symbol" : "\\div",
+                            "operation" : "/"
+                        },
+                        {
+                            "values" : ["D(var0)"],
+                            "symbol" : "\\div",
+                            "operation" : "/"
+                        },
+                        {
+                            "values" : ["D(2)", "D(3)", "D(4)", "D(5)", "D(6)", "D(7)", "D(8)", "D(9)"],
+                            "symbol" : "-",
+                            "operation" : "-"
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[3,6,6],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "comment":null
+        },
+        {
+            "id":"CG-G4-14",
+            "parentId":"CG-G4-13",
+            "title":"Practicar multiplicación y división ",
+            "lessons":["3-2"],
+            "shotClockStart":"9",
+            "negativeAllowed":"no",
+            "goalFraction":null,
+            "cardsFraction":null,
+            "gameplayFraction":"simplified",
+            "variableCards":
+               {
+                     "numOfCards":"4",
+                     "startValues":["D(4)", "D(5)", "D(6)", "D(7)", "D(8)", "D(9)"],
+                     "variations":{
+                         "var0" : null,
+                         "var1" : null,
+                         "var2" : null,
+                         "var3" : null
+                    },
+                     "goal":{
+                         "values" : ["D(2)", "D(3)", "D(4)", "D(5)", "D(6)", "D(7)", "D(8)", "D(9)", "D(12)", "D(15)", "D(18)", "D(21)", "D(24)", "D(27)", "D(16)", "D(20)", "D(28)", "D(32)", "D(36)", "D(25)", "D(30)", "D(35)", "D(40)", "D(45)", "D(42)", "D(48)", "D(54)", "D(49)", "D(56)", "D(63)", "D(64)", "D(72)", "D(81)"]
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["D(1)"],
+                            "symbol" : "-",
+                            "operation" : "-"
+                        },
+                        {
+                            "values" : ["D(1)", "D(2)"],
+                            "symbol" : "-",
+                            "operation" : "-"
+                        },
+                        {
+                            "values" : ["D(2)", "D(3)", "D(4)", "D(5)", "D(6)", "D(7)", "D(8)", "D(9)"],
+                            "symbol" : "\\times",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["D(2)", "D(3)", "D(4)", "D(5)", "D(6)", "D(7)", "D(8)", "D(9)"],
+                            "symbol" : "\\div",
+                            "operation" : "/"
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[6,6,6],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "comment":null
+        },
+        {
+            "id":"CG-G4-15",
+            "parentId":"CG-G4-14",
+            "title":"Practicar división ",
+            "lessons":["3-3, 3-4, 3-5, 3-6, 4-10"],
+            "shotClockStart":"9",
+            "negativeAllowed":"no",
+            "goalFraction":null,
+            "cardsFraction":null,
+            "gameplayFraction":"simplified",
+            "variableCards":
+               {
+                     "numOfCards":"4",
+                     "startValues":["D(var0*var1*var2)"],
+                     "variations":{
+                         "var0" : [2, 3, 4, 5],
+                         "var1" : [2, 3, 4, 5, 6],
+                         "var2" : [5, 10, 15, 20],
+                         "var3" : null
+                    },
+                     "goal":{
+                         "values" : ["D(var0+1)", "D(var0+2)", "D(var0+3)", "D(var0+4)", "D(var0+5)"]
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["D(var0)"],
+                            "symbol" : "\\div",
+                            "operation" : "/"
+                        },
+                        {
+                            "values" : ["D(var1)"],
+                            "symbol" : "\\div",
+                            "operation" : "/"
+                        },
+                        {
+                            "values" : ["D(1)", "D(2)", "D(3)", "D(4)", "D(5)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["D(2)", "D(3)", "D(4)", "D(5)", "D(6)", "D(7)", "D(8)", "D(9)"],
+                            "symbol" : "\\div",
+                            "operation" : "/"
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[6,6,6],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "comment":null
+        },
+        {
+            "id":"CG-G4-16",
+            "parentId":"CG-G4-15",
+            "title":"Patrones numéricos",
+            "lessons":["4-11"],
+            "shotClockStart":"9",
+            "negativeAllowed":"no",
+            "goalFraction":null,
+            "cardsFraction":null,
+            "gameplayFraction":"decimal",
+            "variableCards":
+               {
+                     "numOfCards":"4",
+                     "startValues":["D(0)"],
+                     "variations":{
+                         "var0" : [5, 6, 7, 8, 9],
+                         "var1" : [1, 2, 3, 4],
+                         "var2" : null,
+                         "var3" : null
+                    },
+                     "goal":{
+                         "values" : ["D(2*var0+var1)"]
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["D(var0)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["D(var0)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["D(var1)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["D(var0)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[6,6,6],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "comment":null
+        },
+        {
+            "id":"CG-G4-17",
+            "parentId":"CG-G4-16",
+            "title":"Fracciones que suman hasta uno",
+            "lessons":["6-2"],
+            "shotClockStart":"9",
+            "negativeAllowed":"no",
+            "goalFraction":"simplified",
+            "cardsFraction":"unsimplified",
+            "gameplayFraction":"unsimplified",
+            "variableCards":
+               {
+                     "numOfCards":"4",
+                     "startValues":["F(1,var0)", "F(2,var0)"],
+                     "variations":{
+                         "var0" : [6, 7, 8, 9],
+                         "var1" : null,
+                         "var2" : null,
+                         "var3" : null
+                    },
+                     "goal":{
+                         "values" : ["D(1)"]
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["F(1,var0)", "F(2,var0)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["F(2,var0)", "F(3,var0)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["F(2,var0)", "F(3,var0)", "F(4,var0)", "F(5,var0)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["F(1,var0)", "F(2,var0)", "F(3,var0)", "F(4,var0)", "F(5,var0)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[6,6,6],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "comment":null
+        },
+        {
+            "id":"CG-G4-18",
+            "parentId":"CG-G4-17",
+            "title":"Sumar y restar fracciones con denominadores comunes",
+            "lessons":["6-3"],
+            "shotClockStart":"8",
+            "negativeAllowed":"no",
+            "goalFraction":"unsimplified",
+            "cardsFraction":"unsimplified",
+            "gameplayFraction":"unsimplified",
+            "variableCards":
+               {
+                     "numOfCards":"4",
+                     "startValues":["F(1,var0)", "F(2,var0)", "F(3,var0)", "F(4,var0)", "F(5,var0)"],
+                     "variations":{
+                         "var0" : [6, 7, 8, 9],
+                         "var1" : null,
+                         "var2" : null,
+                         "var3" : null
+                    },
+                     "goal":{
+                         "values" : ["F(1,var0)", "F(2,var0)", "F(3,var0)", "F(4,var0)", "F(5,var0)"]
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["F(1,var0)", "F(2,var0)", "F(3,var0)", "F(4,var0)", "F(5,var0)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["F(1,var0)", "F(2,var0)", "F(3,var0)", "F(4,var0)"],
+                            "symbol" : "-",
+                            "operation" : "-"
+                        },
+                        {
+                            "values" : ["F(1,var0)", "F(2,var0)", "F(3,var0)", "F(4,var0)"],
+                            "symbol" : "-",
+                            "operation" : "-"
+                        },
+                        {
+                            "values" : ["F(1,var0)", "F(2,var0)", "F(3,var0)", "F(4,var0)", "F(5,var0)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[4,5,5],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "comment":null
+        },
+        {
+            "id":"CG-G4-19",
+            "parentId":"CG-G4-18",
+            "title":"Crear fracciones mayores que 1",
+            "lessons":["6-4"],
+            "shotClockStart":"8",
+            "negativeAllowed":"no",
+            "goalFraction":"unsimplified",
+            "cardsFraction":"unsimplified",
+            "gameplayFraction":"unsimplified",
+            "variableCards":
+               {
+                     "numOfCards":"4",
+                     "startValues":["F(1,var0)", "F(2,var0)", "F(3,var0)"],
+                     "variations":{
+                         "var0" : [4, 5, 6, 7],
+                         "var1" : null,
+                         "var2" : null,
+                         "var3" : null
+                    },
+                     "goal":{
+                         "values" : ["F(8,var0)", "F(9,var0)"]
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["F(1,var0)", "F(2,var0)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["F(1,var0)", "F(2,var0)", "F(3,var0)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["F(2,var0)", "F(3,var0)", "F(4,var0)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["F(1,var0)", "F(2,var0)", "F(3,var0)", "F(4,var0)", "F(5,var0)", "F(6,var0)", "F(7,var0)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[4,5,5],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "comment":null
+        },
+        {
+            "id":"CG-G4-20",
+            "parentId":"CG-G4-19",
+            "title":"Sumar y restar números mixtos con denominadores comunes",
+            "lessons":["6-5, 6-6"],
+            "shotClockStart":"8",
+            "negativeAllowed":"no",
+            "goalFraction":"unsimplified",
+            "cardsFraction":"unsimplified",
+            "gameplayFraction":"simplified",
+            "variableCards":
+               {
+                     "numOfCards":"4",
+                     "startValues":["D(1)", "D(2)", "D(3)", "D(4)"],
+                     "variations":{
+                         "var0" : [5, 6, 7, 8, 9],
+                         "var1" : [1, 2, 3],
+                         "var2" : null,
+                         "var3" : null
+                    },
+                     "goal":{
+                         "values" : ["F(2,1+var1,var0)", "F(3,1+var1,var0)", "F(4,1+var1,var0)", "F(5,1+var1,var0)", "F(6,1+var1,var0)", "F(7,1+var1,var0)", "F(8,1+var1,var0)", "F(9,1+var1,var0)"]
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["D(1)", "D(2)", "D(3)", "D(4)", "D(5)", "D(6)", "D(7)", "D(8)", "D(9)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["F(1,var0)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["F(var1,var0)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["D(1)", "D(2)", "D(3)", "D(4)", "D(5)", "D(6)", "D(7)", "D(8)", "D(9)"],
+                            "symbol" : "-",
+                            "operation" : "-"
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[4,5,5],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "comment":null
+        },
+        {
+            "id":"CG-G4-21",
+            "parentId":"CG-G4-20",
+            "title":"Multiplicar una fracción por un número entero ",
+            "lessons":["6-7, 6-8"],
+            "shotClockStart":"8",
+            "negativeAllowed":"no",
+            "goalFraction":"unsimplified",
+            "cardsFraction":"unsimplified",
+            "gameplayFraction":"unsimplified",
+            "variableCards":
+               {
+                     "numOfCards":"4",
+                     "startValues":["F(1,var0)", "F(2,var0)"],
+                     "variations":{
+                         "var0" : [5, 6, 7, 8, 9],
+                         "var1" : null,
+                         "var2" : null,
+                         "var3" : null
+                    },
+                     "goal":{
+                         "values" : null
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["D(2)", "D(3)", "D(4)", "D(5)"],
+                            "symbol" : "\\times",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["D(2)", "D(3)", "D(4)", "D(5)"],
+                            "symbol" : "\\times",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["F(1,var0)", "F(2,var0)", "F(3,var0)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["F(1,var0)", "F(2,var0)", "F(3,var0)", "F(4,var0)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[4,5,5],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "comment":null
+        },
+        {
+            "id":"CG-G4-22",
+            "parentId":"CG-G4-21",
+            "title":"Fracciones equivalentes y decimales",
+            "lessons":["7-8"],
+            "shotClockStart":"8",
+            "negativeAllowed":"no",
+            "goalFraction":"unsimplified",
+            "cardsFraction":"unsimplified",
+            "gameplayFraction":"unsimplified",
+            "variableCards":
+               {
+                     "numOfCards":"4",
+                     "startValues":["D(0)"],
+                     "variations":{
+                         "var0" : null,
+                         "var1" : null,
+                         "var2" : null,
+                         "var3" : null
+                    },
+                     "goal":{
+                         "values" : ["F(10,100)", "F(20,100)", "F(30,100)", "F(40,100)", "F(50,100)", "F(60,100)", "F(70,100)", "F(80,100)"]
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["F(5,100)", "F(15,100)", "F(25,100)", "F(35,100)", "F(45,100)", "F(55,100)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["D(0.05)", "D(0.15)", "D(0.25)", "D(0.35)", "D(0.45)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["F(10,100)", "F(20,100)", "F(30,100)", "F(40,100)", "F(50,100)"],
+                            "symbol" : "-",
+                            "operation" : "-"
+                        },
+                        {
+                            "values" : ["D(0.05)", "D(0.15)", "D(0.25)", "D(0.35)", "D(0.45)"],
+                            "symbol" : "-",
+                            "operation" : "-"
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[4,5,5],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "comment":null
+        },
+        {
+            "id":"CG-G4-23",
+            "parentId":"CG-G4-22",
+            "title":"Décimos y centésimos",
+            "lessons":["7-9, 7-10"],
+            "shotClockStart":"8",
+            "negativeAllowed":"no",
+            "goalFraction":"unsimplified",
+            "cardsFraction":null,
+            "gameplayFraction":"decimal",
+            "variableCards":
+               {
+                     "numOfCards":"4",
+                     "startValues":["D(0)"],
+                     "variations":{
+                         "var0" : null,
+                         "var1" : null,
+                         "var2" : null,
+                         "var3" : null
+                    },
+                     "goal":{
+                         "values" : ["F(5,100)", "F(15,100)", "F(25,100)", "F(35,100)", "F(45,100)", "F(55,100)", "F(65,100)", "F(75,100)"]
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["D(0.05)", "D(0.15)", "D(0.25)", "D(0.35)", "D(0.45)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["D(0.4)", "D(0.5)", "D(0.6)", "D(0.7)", "D(0.8)", "D(0.9)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["D(0.1)", "D(0.2)", "D(0.3)", "D(0.4)"],
+                            "symbol" : "-",
+                            "operation" : "-"
+                        },
+                        {
+                            "values" : ["D(0.1)", "D(0.2)", "D(0.3)", "D(0.4)"],
+                            "symbol" : "-",
+                            "operation" : "-"
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[5,5,5],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "comment":null
+        },
+        {
+            "id":"CG-G4-24",
+            "parentId":"CG-G4-23",
+            "title":"Decimales en forma desarrollada",
+            "lessons":["7-11"],
+            "shotClockStart":"8",
+            "negativeAllowed":"no",
+            "goalFraction":null,
+            "cardsFraction":null,
+            "gameplayFraction":"decimal",
+            "variableCards":
+               {
+                     "numOfCards":"4",
+                     "startValues":["D(0)"],
+                     "variations":{
+                         "var0" : null,
+                         "var1" : null,
+                         "var2" : null,
+                         "var3" : null
+                    },
+                     "goal":{
+                         "values" : null
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["D(10)", "D(20)", "D(30)", "D(40)", "D(50)", "D(60)", "D(70)", "D(80)", "D(90)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["D(1)", "D(2)", "D(3)", "D(4)", "D(5)", "D(6)", "D(7)", "D(8)", "D(9)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["D(0.1)", "D(0.2)", "D(0.3)", "D(0.4)", "D(0.5)", "D(0.6)", "D(0.7)", "D(0.8)", "D(0.9)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["D(0.1)", "D(0.2)", "D(0.3)", "D(0.4)", "D(0.5)", "D(0.6)", "D(0.7)", "D(0.8)", "D(0.9)", "D(1)", "D(2)", "D(3)", "D(4)", "D(5)", "D(6)", "D(7)", "D(8)", "D(9)", "D(10)", "D(20)", "D(30)", "D(40)", "D(50)", "D(60)", "D(70)", "D(80)", "D(90)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[5,5,5],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "comment":null
+        }
+    ]
+}

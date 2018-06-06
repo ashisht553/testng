@@ -1,0 +1,43 @@
+﻿{"frames": {
+
+"10000":
+{
+	"frame": {"x":491,"y":90,"w":55,"h":271},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":55,"h":271},
+	"sourceSize": {"w":55,"h":271}
+},
+"20000":
+{
+	"frame": {"x":233,"y":100,"w":183,"h":277},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":183,"h":277},
+	"sourceSize": {"w":183,"h":277}
+},
+"30000":
+{
+	"frame": {"x":42,"y":100,"w":189,"h":281},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":189,"h":281},
+	"sourceSize": {"w":189,"h":281}
+},
+"go!0000":
+{
+	"frame": {"x":44,"y":376,"w":937,"h":285},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":937,"h":285},
+	"sourceSize": {"w":937,"h":285}
+}},
+"meta": {
+	"app": "Adobe Animate",
+	"version": "15.2.1.95",
+	"image": "countdown_es.png",
+	"format": "RGBA8888",
+	"size": {"w":1024,"h":1024},
+	"scale": "1"
+}
+}

@@ -1,0 +1,1 @@
+PLease use Object_GG1.png and Object_GG1.json in "Objects" folder

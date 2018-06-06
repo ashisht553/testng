@@ -1,0 +1,1980 @@
+{
+    "gameName":"CG",
+    "isbn":"CG2-1491210650077",
+    "GameGuid":"CG5-3294432455",
+    "grade":"g5",
+    "gradeLabel":"Grade 5",
+    "testMode":true,
+    "levelData":
+[
+        {
+            "id":"CG-G5-01",
+            "parentId":"",
+            "title":"Tutorial Level 1",
+            "lessons":null,
+            "shotClockStart":"10",
+            "variableCards":
+               {
+                     "numOfCards":"1",
+                     "startValues":["D(0)"],
+                     "variations":{
+                         "var0" : null,
+                         "var1" : null,
+                         "var2" : null,
+                         "var3" : null
+                    },
+                     "goal":{
+                         "fractionType" : null,
+                         "values" : null
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["D(1)", "D(2)", "D(3)", "D(4)", "D(5)", "D(6)", "D(7)", "D(8)", "D(9)", "D(10)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : null,
+                            "symbol" : null,
+                            "operation" : null
+                        },
+                        {
+                            "values" : null,
+                            "symbol" : null,
+                            "operation" : null
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[3,7,7],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":"T1_basket_animation.mp4"
+               },
+            "comment":null
+        },
+        {
+            "id":"CG-G5-02",
+            "parentId":"CG-G5-01",
+            "title":"Tutorial Level 2",
+            "lessons":null,
+            "shotClockStart":"10",
+            "variableCards":
+               {
+                     "numOfCards":"2",
+                     "startValues":["D(0)"],
+                     "variations":{
+                         "var0" : null,
+                         "var1" : null,
+                         "var2" : null,
+                         "var3" : null
+                    },
+                     "goal":{
+                         "fractionType" : null,
+                         "values" : null
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["D(1)", "D(2)", "D(3)", "D(4)", "D(5)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["D(1)", "D(2)", "D(3)", "D(4)", "D(5)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : null,
+                            "symbol" : null,
+                            "operation" : null
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[3,7,7],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":"T2_basket_animation.mp4"
+               },
+            "comment":null
+        },{
+            "id":"CG-G5-03",
+            "parentId":"CG-G5-02",
+            "title":"Add Like Mixed Numbers",
+            "lessons":["1.6"],
+            "shotClockStart":"10",
+            "variableCards":
+               {
+                     "numOfCards":"4",
+                     "startValues":["D(0)"],
+                     "variations":{
+                         "var0" : [1, 2, 3, 4, 5],
+                         "var1" : [1, 2, 3, 4, 5],
+                         "var2" : [1, 2, 3],
+                         "var3" : [1, 2, 3, 4, 5]
+                    },
+                     "goal":{
+                         "fractionType" : "simplified",
+                         "values" : null
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["F(var0,1,3)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["F(var1,1,3)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["D(var2)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["F(var3,1,3)", "F(var3,2,3)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[3,7,7],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "comment":null
+        },
+        {
+            "id":"CG-G5-04",
+            "parentId":"CG-G5-03",
+            "title":"Subtract Like Mixed Numbers",
+            "lessons":["1.6"],
+            "shotClockStart":"10",
+            "variableCards":
+               {
+                     "numOfCards":"4",
+                     "startValues":["D(8)", "D(9)", "D(10)"],
+                     "variations":{
+                         "var0" : [1, 2, 3, 4, 5],
+                         "var1" : [1, 2, 3, 4, 5],
+                         "var2" : [1, 2, 3],
+                         "var3" : [1, 2, 3, 4, 5]
+                    },
+                     "goal":{
+                         "fractionType" : null,
+                         "values" : ["D(0)", "D(1)", "D(2)", "D(3)", "D(4)", "D(5)"]
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["F(var0,1,3)"],
+                            "symbol" : "-",
+                            "operation" : "-"
+                        },
+                        {
+                            "values" : ["F(var1,2,3)"],
+                            "symbol" : "-",
+                            "operation" : "-"
+                        },
+                        {
+                            "values" : ["D(var2)"],
+                            "symbol" : "-",
+                            "operation" : "-"
+                        },
+                        {
+                            "values" : ["F(var3,1,3)", "F(var3,2,3)"],
+                            "symbol" : "-",
+                            "operation" : "-"
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[3,7,7],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "comment":null
+        },
+        {
+            "id":"CG-G5-05",
+            "parentId":"CG-G5-04",
+            "title":"Add and Subtract Like Mixed Numbers",
+            "lessons":["1.6"],
+            "shotClockStart":"10",
+            "variableCards":
+               {
+                     "numOfCards":"4",
+                     "startValues":["D(0)"],
+                     "variations":{
+                         "var0" : [1, 2, 3, 4],
+                         "var1" : [1, 2, 3, 4],
+                         "var2" : [1, 2, 3, 4, 5],
+                         "var3" : null
+                    },
+                     "goal":{
+                         "fractionType" : null,
+                         "values" : ["D(0)"]
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["F(var0,1,3)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["F(var1,1,3)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["D(var0+var1+1)"],
+                            "symbol" : "-",
+                            "operation" : "-"
+                        },
+                        {
+                            "values" : ["F(var2,1,3)", "F(var2,2,3)"],
+                            "symbol" : "-",
+                            "operation" : "-"
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[3,7,7],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "comment":null
+        },
+        {
+            "id":"CG-G5-06",
+            "parentId":"CG-G5-05",
+            "title":"Add Unlike Mixed Numbers",
+            "lessons":["1.7"],
+            "shotClockStart":"10",
+            "variableCards":
+               {
+                     "numOfCards":"4",
+                     "startValues":["D(0)"],
+                     "variations":{
+                         "var0" : [1, 2, 3, 4],
+                         "var1" : [1, 2, 3, 4],
+                         "var2" : [2, 3, 4, 5],
+                         "var3" : [1, 2, 3, 4, 5]
+                    },
+                     "goal":{
+                         "fractionType" : "simplified",
+                         "values" : null
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["F(var0,1,2)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["F(var1,var2,2*var2)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["D(1)", "D(2)", "D(3)", "D(4)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["F(var3,1,2)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[3,7,7],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "comment":null
+        },
+        {
+            "id":"CG-G5-07",
+            "parentId":"CG-G5-06",
+            "title":"Subtract Unlike Mixed Numbers",
+            "lessons":["1.8"],
+            "shotClockStart":"10",
+            "variableCards":
+               {
+                     "numOfCards":"4",
+                     "startValues":["D(8)", "D(9)", "D(10)"],
+                     "variations":{
+                         "var0" : [1, 2, 3, 4],
+                         "var1" : [1, 2, 3, 4],
+                         "var2" : [2, 3, 4, 5],
+                         "var3" : [1, 2, 3, 4, 5]
+                    },
+                     "goal":{
+                         "fractionType" : null,
+                         "values" : ["D(0)", "D(1)", "D(2)", "D(3)", "D(4)", "D(5)"]
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["F(var0,1,2)"],
+                            "symbol" : "-",
+                            "operation" : "-"
+                        },
+                        {
+                            "values" : ["F(var1,var2,2*var2)"],
+                            "symbol" : "-",
+                            "operation" : "-"
+                        },
+                        {
+                            "values" : ["D(1)", "D(2)", "D(3)", "D(4)"],
+                            "symbol" : "-",
+                            "operation" : "-"
+                        },
+                        {
+                            "values" : ["F(var3,1,2)"],
+                            "symbol" : "-",
+                            "operation" : "-"
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[3,7,7],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "comment":null
+        },
+        {
+            "id":"CG-G5-08",
+            "parentId":"CG-G5-07",
+            "title":"Add and Subtract Unlike Mixed Numbers",
+            "lessons":["1.9"],
+            "shotClockStart":"10",
+            "variableCards":
+               {
+                     "numOfCards":"4",
+                     "startValues":["D(0)"],
+                     "variations":{
+                         "var0" : [1, 2, 3, 4],
+                         "var1" : [1, 2, 3, 4],
+                         "var2" : [1, 2, 3, 4],
+                         "var3" : [2, 3, 4, 5]
+                    },
+                     "goal":{
+                         "fractionType" : null,
+                         "values" : null
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["F(var0,1,2)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["D(var1)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["F(var2,var3,2*var3)"],
+                            "symbol" : "-",
+                            "operation" : "-"
+                        },
+                        {
+                            "values" : ["D(1)", "D(2)", "D(3)", "D(4)"],
+                            "symbol" : "-",
+                            "operation" : "-"
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[3,7,7],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "comment":null
+        },
+        {
+            "id":"CG-G5-09",
+            "parentId":"CG-G5-08",
+            "title":"Relate Fractions and Decimals",
+            "lessons":["2.1"],
+            "shotClockStart":"10",
+            "variableCards":
+               {
+                     "numOfCards":"4",
+                     "startValues":["D(0)"],
+                     "variations":{
+                         "var0" : [1, 2, 3, 4, 5],
+                         "var1" : [1, 2, 3, 4],
+                         "var2" : [1, 2, 3, 4, 5, 6, 7, 8, 9],
+                         "var3" : null
+                    },
+                     "goal":{
+                         "fractionType" : null,
+                         "values" : ["D(1)"]
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["D(0.1*var0)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["F(var1,10)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["F(10-var0-var1,10)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["D(0.1*var2)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[3,7,7],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "comment":null
+        },
+        {
+            "id":"CG-G5-10",
+            "parentId":"CG-G5-09",
+            "title":"Tens to Tenths",
+            "lessons":["2.2"],
+            "shotClockStart":"10",
+            "variableCards":
+               {
+                     "numOfCards":"4",
+                     "startValues":["D(0)"],
+                     "variations":{
+                         "var0" : null,
+                         "var1" : null,
+                         "var2" : null,
+                         "var3" : null
+                    },
+                     "goal":{
+                         "fractionType" : null,
+                         "values" : null
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["D(10)", "D(20)", "D(30)", "D(40)", "D(50)", "D(60)", "D(70)", "D(80)", "D(90)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["D(1)", "D(2)", "D(3)", "D(4)", "D(5)", "D(6)", "D(7)", "D(8)", "D(9)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["D(0.1)", "D(0.2)", "D(0.3)", "D(0.4)", "D(0.5)", "D(0.6)", "D(0.7)", "D(0.8)", "D(0.9)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["D(0.1)", "D(0.2)", "D(0.3)", "D(0.4)", "D(0.5)", "D(0.6)", "D(0.7)", "D(0.8)", "D(0.9)", "D(1)", "D(2)", "D(3)", "D(4)", "D(5)", "D(6)", "D(7)", "D(8)", "D(9)", "D(10)", "D(20)", "D(30)", "D(40)", "D(50)", "D(60)", "D(70)", "D(80)", "D(90)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[3,7,7],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "comment":null
+        },
+        {
+            "id":"CG-G5-11",
+            "parentId":"CG-G5-10",
+            "title":"Tenths to Thousandths",
+            "lessons":["2.2"],
+            "shotClockStart":"10",
+            "variableCards":
+               {
+                     "numOfCards":"4",
+                     "startValues":["D(0)"],
+                     "variations":{
+                         "var0" : [1, 2, 3, 4, 5, 6, 7, 8, 9],
+                         "var1" : [1, 2, 3, 4, 5, 6, 7, 8, 9],
+                         "var2" : [1, 2, 3, 4, 5, 6, 7, 8, 9],
+                         "var3" : [1, 2, 3, 4, 5, 6, 7, 8, 9]
+                    },
+                     "goal":{
+                         "fractionType" : null,
+                         "values" : null
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["D(0.1*var0)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["D(0.01*var1)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["D(0.01*var2)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["D(0.1*var3)", "D(0.01*var3)", "D(0.01*var3)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[3,7,7],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "comment":null
+        },
+        {
+            "id":"CG-G5-12",
+            "parentId":"CG-G5-11",
+            "title":"Add and Subtract Tenths",
+            "lessons":["2.4"],
+            "shotClockStart":"10",
+            "variableCards":
+               {
+                     "numOfCards":"4",
+                     "startValues":["D(0)"],
+                     "variations":{
+                         "var0" : [2, 3, 4, 5, 6, 7, 8],
+                         "var1" : [2, 3, 4, 5, 6, 7, 8],
+                         "var2" : [1, 2, 3, 4, 5, 6],
+                         "var3" : [1, 2, 3, 4, 5, 6, 7, 8, 9]
+                    },
+                     "goal":{
+                         "fractionType" : null,
+                         "values" : ["D(0.1)", "D(0.2)", "D(0.3)", "D(0.4)", "D(0.5)", "D(0.6)", "D(0.7)", "D(0.8)", "D(0.9)"]
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["D(var0/10)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["D(var1/10)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["D(var2/10)"],
+                            "symbol" : "-",
+                            "operation" : "-"
+                        },
+                        {
+                            "values" : ["D(var3/10)"],
+                            "symbol" : "-",
+                            "operation" : "-"
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[3,7,7],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "comment":null
+        },
+        {
+            "id":"CG-G5-13",
+            "parentId":"CG-G5-12",
+            "title":"Add and Subtract Decimals",
+            "lessons":["2.4, 2.5"],
+            "shotClockStart":"10",
+            "variableCards":
+               {
+                     "numOfCards":"4",
+                     "startValues":["D(0)", "D(1)", "D(2)", "D(3)", "D(4)"],
+                     "variations":{
+                         "var0" : null,
+                         "var1" : null,
+                         "var2" : null,
+                         "var3" : null
+                    },
+                     "goal":{
+                         "fractionType" : null,
+                         "values" : null
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["D(0.5)", "D(1.5)", "D(2.5)", "D(3.5)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["D(1)", "D(2)", "D(3)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["D(0.5)", "D(1.5)", "D(2.5)"],
+                            "symbol" : "-",
+                            "operation" : "-"
+                        },
+                        {
+                            "values" : ["D(1)", "D(2)", "D(3)", "D(4)", "D(5)"],
+                            "symbol" : "-",
+                            "operation" : "-"
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[3,7,7],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "comment":null
+        },
+        {
+            "id":"CG-G5-14",
+            "parentId":"CG-G5-13",
+            "title":"Add Whole Numbers and Decimals",
+            "lessons":["2.5"],
+            "shotClockStart":"10",
+            "variableCards":
+               {
+                     "numOfCards":"4",
+                     "startValues":["D(0)"],
+                     "variations":{
+                         "var0" : [10, 20, 30, 40, 50],
+                         "var1" : [5, 10, 15, 20, 25, 30, 35, 40],
+                         "var2" : [5, 10, 15, 20, 25],
+                         "var3" : [5, 10, 15, 20, 25, 30]
+                    },
+                     "goal":{
+                         "fractionType" : null,
+                         "values" : null
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["D(var0+var1/100)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["D(var2/100)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["D(var3/100)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["D(var0+5/100)", "D(var0+10/100)", "D(var0+15/100)", "D(var0+20/100)", "D(var0+25/100)", "D(var0+30/100)", "D(var0+35/100)", "D(var0+40/100)", "D(var0+45/100)", "D(var0+50/100)", "D(var0+55/100)", "D(var0+60/100)", "D(var0+65/100)", "D(var0+70/100)", "D(var0+75/100)", "D(var0+80/100)", "D(var0+85/100)", "D(var0+90/100)", "D(var0+95/100)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[3,7,7],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "comment":null
+        },
+        {
+            "id":"CG-G5-15",
+            "parentId":"CG-G5-14",
+            "title":"Regrouping and Reordering",
+            "lessons":["2.5, 2.7"],
+            "shotClockStart":"10",
+            "variableCards":
+               {
+                     "numOfCards":"4",
+                     "startValues":["D(0)"],
+                     "variations":{
+                         "var0" : [0.25, 0.5, 0.75],
+                         "var1" : [0.01, 0.02, 0.03, 0.04, 0.05],
+                         "var2" : null,
+                         "var3" : null
+                    },
+                     "goal":{
+                         "fractionType" : null,
+                         "values" : null
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["D(2+var0)", "D(3+var0)", "D(4+var0)", "D(5+var0)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["D(3-var0)", "D(4-var0)", "D(5-var0)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["D(1+var1)", "D(2+var1)", "D(3+var1)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["D(2-var1)", "D(3-var1)", "D(4-var1)", "D(5-var1)", "D(6-var1)", "D(7-var1)", "D(8-var1)", "D(9-var1)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[3,7,7],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "comment":null
+        },
+        {
+            "id":"CG-G5-16",
+            "parentId":"CG-G5-15",
+            "title":"Subtract Whole and Decimal Numbers",
+            "lessons":["2.6"],
+            "shotClockStart":"10",
+            "variableCards":
+               {
+                     "numOfCards":"4",
+                     "startValues":["D(1+var1+var2)"],
+                     "variations":{
+                         "var0" : [0.05, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4, 0.45, 0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95],
+                         "var1" : [10, 11, 12, 13, 14, 15],
+                         "var2" : [1, 2, 3, 4],
+                         "var3" : null
+                    },
+                     "goal":{
+                         "fractionType" : null,
+                         "values" : ["D(0)"]
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["D(var1+var0)"],
+                            "symbol" : "-",
+                            "operation" : "-"
+                        },
+                        {
+                            "values" : ["D(1-var0)"],
+                            "symbol" : "-",
+                            "operation" : "-"
+                        },
+                        {
+                            "values" : ["D(var2)"],
+                            "symbol" : "-",
+                            "operation" : "-"
+                        },
+                        {
+                            "values" : ["D(var1+5/100)", "D(var1+10/100)", "D(var1+15/100)", "D(var1+20/100)", "D(var1+25/100)", "D(var1+30/100)", "D(var1+35/100)", "D(var1+40/100)", "D(var1+45/100)", "D(var1+50/100)", "D(var1+55/100)", "D(var1+60/100)", "D(var1+65/100)", "D(var1+70/100)", "D(var1+75/100)", "D(var1+80/100)", "D(var1+85/100)", "D(var1+90/100)", "D(var1+95/100)"],
+                            "symbol" : "-",
+                            "operation" : "-"
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[3,7,7],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "comment":null
+        },
+        {
+            "id":"CG-G5-17",
+            "parentId":"CG-G5-16",
+            "title":"Multiply Whole Numbers by Unit Fractions",
+            "lessons":["3.1"],
+            "shotClockStart":"10",
+            "variableCards":
+               {
+                     "numOfCards":"4",
+                     "startValues":["D(1)"],
+                     "variations":{
+                         "var0" : [2, 3, 4, 5],
+                         "var1" : [2, 3, 4],
+                         "var2" : [2, 3, 4, 5, 6],
+                         "var3" : [2, 3, 4, 5, 6, 7]
+                    },
+                     "goal":{
+                         "fractionType" : "simplified",
+                         "values" : null
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["D(var0*var1)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["D(var2)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["F(1,var0)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["F(1,var3)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[3,7,7],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "comment":null
+        },
+        {
+            "id":"CG-G5-18",
+            "parentId":"CG-G5-17",
+            "title":"Multiply Unit Fractions by Whole Numbers",
+            "lessons":["3.1"],
+            "shotClockStart":"10",
+            "variableCards":
+               {
+                     "numOfCards":"4",
+                     "startValues":["F(1,var0)"],
+                     "variations":{
+                         "var0" : [2, 3, 4, 5],
+                         "var1" : [2, 3, 4],
+                         "var2" : [2, 3, 4, 5, 6, 7],
+                         "var3" : null
+                    },
+                     "goal":{
+                         "fractionType" : null,
+                         "values" : null
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["D(var1*var0)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["D(var2)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["D(2)", "D(3)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["D(2)", "D(3)", "D(4)", "D(5)", "D(6)", "D(7)", "D(8)", "D(9)", "D(10)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[3,7,7],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "comment":null
+        },
+        {
+            "id":"CG-G5-19",
+            "parentId":"CG-G5-18",
+            "title":"Multiply by Non-Unit Fractions",
+            "lessons":["3.2"],
+            "shotClockStart":"10",
+            "variableCards":
+               {
+                     "numOfCards":"4",
+                     "startValues":["F(2,var0)"],
+                     "variations":{
+                         "var0" : [2, 3, 4],
+                         "var1" : [3, 4, 5],
+                         "var2" : [2, 3, 4, 5],
+                         "var3" : null
+                    },
+                     "goal":{
+                         "fractionType" : "simplified",
+                         "values" : null
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["D(var0*var1)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["F(1,var0)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["D(var2)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["D(2)", "D(3)", "D(4)", "D(5)", "D(6)", "D(7)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[3,7,7],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "comment":null
+        },
+        {
+            "id":"CG-G5-20",
+            "parentId":"CG-G5-19",
+            "title":"Multiply with Fractional Solutions",
+            "lessons":["3.3, 3.4"],
+            "shotClockStart":"10",
+            "variableCards":
+               {
+                     "numOfCards":"4",
+                     "startValues":["D(1)"],
+                     "variations":{
+                         "var0" : [2, 3, 4, 5],
+                         "var1" : [2, 3, 5, 7],
+                         "var2" : [2, 3],
+                         "var3" : [4, 5]
+                    },
+                     "goal":{
+                         "fractionType" : "unsimplified",
+                         "values" : null
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["D(var0)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["F(1,var1)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["F(var2,var3)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["D(2)", "D(3)", "D(4)", "D(5)", "D(6)", "D(7)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[3,7,7],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "comment":null
+        },
+        {
+            "id":"CG-G5-21",
+            "parentId":"CG-G5-20",
+            "title":"Multiply a Fraction by a Fraction",
+            "lessons":["3.4"],
+            "shotClockStart":"10",
+            "variableCards":
+               {
+                     "numOfCards":"4",
+                     "startValues":["D(1)"],
+                     "variations":{
+                         "var0" : null,
+                         "var1" : null,
+                         "var2" : null,
+                         "var3" : null
+                    },
+                     "goal":{
+                         "fractionType" : null,
+                         "values" : null
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["F(1,2)", "F(1,3)"],
+                            "symbol" : "\\times",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["F(1,4)", "F(1,5)"],
+                            "symbol" : "\\times",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["F(1,2)", "F(1,3)", "F(1,4)", "F(1,5)"],
+                            "symbol" : "\\times",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["F(1,2)", "F(1,5)", "F(1,10)"],
+                            "symbol" : "\\times",
+                            "operation" : "*"
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[3,7,7],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "comment":null
+        },
+        {
+            "id":"CG-G5-22",
+            "parentId":"CG-G5-21",
+            "title":"Multiplication with Mixed Numbers",
+            "lessons":["3.6"],
+            "shotClockStart":"10",
+            "variableCards":
+               {
+                     "numOfCards":"4",
+                     "startValues":["D(0)"],
+                     "variations":{
+                         "var0" : [2, 3, 4, 5, 6],
+                         "var1" : null,
+                         "var2" : null,
+                         "var3" : null
+                    },
+                     "goal":{
+                         "fractionType" : "simplified",
+                         "values" : null
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["D(var0)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["F(1,2)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["D(2)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["F(1,2)", "F(1,var0)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[3,7,7],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "comment":null
+        },
+        {
+            "id":"CG-G5-23",
+            "parentId":"CG-G5-22",
+            "title":"Practice with Fraction Operations",
+            "lessons":["3.7, 3.13"],
+            "shotClockStart":"10",
+            "variableCards":
+               {
+                     "numOfCards":"4",
+                     "startValues":["D(0)", "D(1)", "D(2)"],
+                     "variations":{
+                         "var0" : [1, 2, 3, 4],
+                         "var1" : [1, 2, 3, 4],
+                         "var2" : [1, 2, 3],
+                         "var3" : null
+                    },
+                     "goal":{
+                         "fractionType" : "simplified",
+                         "values" : ["D(1)", "D(2)", "D(3)", "D(4)", "D(5)"]
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["F(var0,1,2)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["F(var1,1,2)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["F(1,2)", "F(1,3)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["F(1,2)", "F(var0,1,2)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[3,7,7],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "comment":null
+        },
+        {
+            "id":"CG-G5-24",
+            "parentId":"CG-G5-23",
+            "title":"Division as Multiplication",
+            "lessons":["3.10"],
+            "shotClockStart":"10",
+            "variableCards":
+               {
+                     "numOfCards":"4",
+                     "startValues":["D(var0)"],
+                     "variations":{
+                         "var0" : [2, 3, 4, 5, 6, 7],
+                         "var1" : [2, 3, 4, 5, 6],
+                         "var2" : [1, 2, 3, 4],
+                         "var3" : [2, 3, 4, 5, 6, 7, 8, 9]
+                    },
+                     "goal":{
+                         "fractionType" : null,
+                         "values" : null
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["D(10)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["F(1,var1*var2)"],
+                            "symbol" : "\\div",
+                            "operation" : "/"
+                        },
+                        {
+                            "values" : ["D(var0*var1)"],
+                            "symbol" : "\\div",
+                            "operation" : "/"
+                        },
+                        {
+                            "values" : ["D(var3)"],
+                            "symbol" : "\\div",
+                            "operation" : "/"
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[3,7,7],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "comment":null
+        },
+        {
+            "id":"CG-G5-25",
+            "parentId":"CG-G5-24",
+            "title":"All Operations with Fractions",
+            "lessons":["3.13"],
+            "shotClockStart":"10",
+            "variableCards":
+               {
+                     "numOfCards":"4",
+                     "startValues":["D(var0)"],
+                     "variations":{
+                         "var0" : [0, 1, 2, 3, 4],
+                         "var1" : [1, 2, 3, 4, 5],
+                         "var2" : [2, 3, 4, 5, 6],
+                         "var3" : [2, 3, 4, 5, 6, 7, 8, 9, 10]
+                    },
+                     "goal":{
+                         "fractionType" : "simplified",
+                         "values" : null
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["F(var1,1,2)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["F(1,2)"],
+                            "symbol" : "-",
+                            "operation" : "-"
+                        },
+                        {
+                            "values" : ["F(1,var2)"],
+                            "symbol" : "\\div",
+                            "operation" : "/"
+                        },
+                        {
+                            "values" : ["F(1,var3)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[3,7,7],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "comment":null
+        },
+        {
+            "id":"CG-G5-26",
+            "parentId":"CG-G5-25",
+            "title":"Shift Patterns in Multiplication",
+            "lessons":["4.1"],
+            "shotClockStart":"10",
+            "variableCards":
+               {
+                     "numOfCards":"4",
+                     "startValues":["D(1)"],
+                     "variations":{
+                         "var0" : [1, 2, 3],
+                         "var1" : [1, 2, 3],
+                         "var2" : [1, 2, 3],
+                         "var3" : null
+                    },
+                     "goal":{
+                         "fractionType" : null,
+                         "values" : null
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["D(10*var0)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["D(10*var1)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["D(100*var2)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["D(100*var0)", "D(100*var1)", "D(10*var2)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[3,7,7],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "comment":null
+        },
+        {
+            "id":"CG-G5-27",
+            "parentId":"CG-G5-26",
+            "title":"Patterns with Fives and Zeros",
+            "lessons":["4.2, 4.5"],
+            "shotClockStart":"10",
+            "variableCards":
+               {
+                     "numOfCards":"4",
+                     "startValues":["D(1)"],
+                     "variations":{
+                         "var0" : [2, 3, 4, 5, 6, 7, 8, 9],
+                         "var1" : null,
+                         "var2" : null,
+                         "var3" : null
+                    },
+                     "goal":{
+                         "fractionType" : null,
+                         "values" : null
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["D(5)"],
+                            "symbol" : "\\times",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["D(10)"],
+                            "symbol" : "\\times",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["D(var0*10)"],
+                            "symbol" : "\\times",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["D(50)", "D(100)", "D(var0)", "D(var0*100)"],
+                            "symbol" : "\\times",
+                            "operation" : "*"
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[3,7,7],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "comment":null
+        },
+        {
+            "id":"CG-G5-28",
+            "parentId":"CG-G5-27",
+            "title":"Multiply Decimals by Whole Numbers",
+            "lessons":["4.6"],
+            "shotClockStart":"10",
+            "variableCards":
+               {
+                     "numOfCards":"4",
+                     "startValues":["D(1)"],
+                     "variations":{
+                         "var0" : [2, 3, 4, 5, 6, 7, 8, 9],
+                         "var1" : [2, 3, 4, 5, 6, 7, 8, 9],
+                         "var2" : [2, 3, 4, 5, 6, 7, 8, 9],
+                         "var3" : null
+                    },
+                     "goal":{
+                         "fractionType" : null,
+                         "values" : null
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["D(10)"],
+                            "symbol" : "\\times",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["D(10*var0)"],
+                            "symbol" : "\\times",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["D(0.1*var1)"],
+                            "symbol" : "\\times",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["D(0.1*var2)"],
+                            "symbol" : "\\times",
+                            "operation" : "*"
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[3,7,7],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "comment":null
+        },
+        {
+            "id":"CG-G5-29",
+            "parentId":"CG-G5-28",
+            "title":"Multiply by Decimals",
+            "lessons":["4.7"],
+            "shotClockStart":"10",
+            "variableCards":
+               {
+                     "numOfCards":"4",
+                     "startValues":["D(1)", "D(2)", "D(3)", "D(4)"],
+                     "variations":{
+                         "var0" : [3, 4, 5],
+                         "var1" : [1, 10],
+                         "var2" : null,
+                         "var3" : null
+                    },
+                     "goal":{
+                         "fractionType" : null,
+                         "values" : null
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["D(2)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["D(var0)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["D(0.01*var1)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["D(0.11-0.01*var1)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[3,7,7],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "comment":null
+        },
+        {
+            "id":"CG-G5-30",
+            "parentId":"CG-G5-29",
+            "title":"Shift Patterns and Powers of Ten",
+            "lessons":["4.9"],
+            "shotClockStart":"10",
+            "variableCards":
+               {
+                     "numOfCards":"4",
+                     "startValues":["D(1)"],
+                     "variations":{
+                         "var0" : [2, 3, 4, 5, 6, 7, 8, 9],
+                         "var1" : [2, 3, 4, 5, 6, 7, 8, 9],
+                         "var2" : null,
+                         "var3" : null
+                    },
+                     "goal":{
+                         "fractionType" : null,
+                         "values" : null
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["D(var0)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["D(0.1*var1)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["D(10)", "D(100)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["D(0.1)", "D(0.01)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[3,7,7],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "comment":null
+        },
+        {
+            "id":"CG-G5-31",
+            "parentId":"CG-G5-30",
+            "title":"Divide Whole Numbers by One Digit",
+            "lessons":["5.1"],
+            "shotClockStart":"10",
+            "variableCards":
+               {
+                     "numOfCards":"4",
+                     "startValues":["D(1)"],
+                     "variations":{
+                         "var0" : [2, 3, 6, 8, 9],
+                         "var1" : [2, 3, 6, 8, 9],
+                         "var2" : [2, 3, 5, 6, 8, 9],
+                         "var3" : null
+                    },
+                     "goal":{
+                         "fractionType" : null,
+                         "values" : ["D(100)", "D(200)", "D(300)", "D(400)", "D(450)", "D(600)", "D(800)", "D(900)", "D(1200)", "D(1600)", "D(1800)", "D(2400)", "D(2700)", "D(3600)"]
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["D(10*var0)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["D(10*var1)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["D(var2)"],
+                            "symbol" : "\\div",
+                            "operation" : "/"
+                        },
+                        {
+                            "values" : ["D(2)", "D(3)", "D(4)", "D(5)", "D(6)", "D(7)", "D(8)", "D(9)", "D(10)"],
+                            "symbol" : "\\div",
+                            "operation" : "/"
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[3,7,7],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "comment":null
+        },
+        {
+            "id":"CG-G5-32",
+            "parentId":"CG-G5-31",
+            "title":"Divide Decimal Numbers by Whole Numbers",
+            "lessons":["5.6"],
+            "shotClockStart":"10",
+            "variableCards":
+               {
+                     "numOfCards":"4",
+                     "startValues":["D(1)"],
+                     "variations":{
+                         "var0" : [2, 3, 4, 5, 6, 7, 8, 9],
+                         "var1" : [2, 3, 4, 5, 6, 7, 8, 9],
+                         "var2" : null,
+                         "var3" : null
+                    },
+                     "goal":{
+                         "fractionType" : null,
+                         "values" : null
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["D(var0)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["D(10*var1)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["D(10)"],
+                            "symbol" : "\\div",
+                            "operation" : "/"
+                        },
+                        {
+                            "values" : ["D(100)"],
+                            "symbol" : "\\div",
+                            "operation" : "/"
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[3,7,7],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "comment":null
+        },
+        {
+            "id":"CG-G5-33",
+            "parentId":"CG-G5-32",
+            "title":"Divide Whole Numbers by Decimal Numbers",
+            "lessons":["5.7"],
+            "shotClockStart":"10",
+            "variableCards":
+               {
+                     "numOfCards":"4",
+                     "startValues":["D(1)"],
+                     "variations":{
+                         "var0" : [2, 3, 4, 5],
+                         "var1" : [6, 9, 10],
+                         "var2" : [0.2, 0.3],
+                         "var3" : null
+                    },
+                     "goal":{
+                         "fractionType" : null,
+                         "values" : ["D(40)", "D(60)", "D(80)", "D(90)", "D(100)", "D(120)", "D(150)", "D(180)", "D(200)", "D(250)"]
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["D(var0)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["D(var1)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["D(var2)"],
+                            "symbol" : "\\div",
+                            "operation" : "/"
+                        },
+                        {
+                            "values" : ["D(0.1)", "D(0.2)", "D(0.3)", "D(0.4)", "D(0.5)", "D(0.6)", "D(0.7)", "D(0.8)", "D(0.9)"],
+                            "symbol" : "\\div",
+                            "operation" : "/"
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[3,7,7],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "comment":null
+        },
+        {
+            "id":"CG-G5-34",
+            "parentId":"CG-G5-33",
+            "title":"Divide with Two Decimal Numbers",
+            "lessons":["5.8, 5.9"],
+            "shotClockStart":"10",
+            "variableCards":
+               {
+                     "numOfCards":"4",
+                     "startValues":["D(1)"],
+                     "variations":{
+                         "var0" : null,
+                         "var1" : null,
+                         "var2" : null,
+                         "var3" : null
+                    },
+                     "goal":{
+                         "fractionType" : null,
+                         "values" : ["D(20)", "D(25)", "D(30)", "D(40)", "D(60)", "D(75)", "D(80)", "D(90)", "D(100)", "D(120)", "D(150)"]
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["D(3)", "D(6)", "D(9)", "D(12)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["D(0.2)", "D(0.3)"],
+                            "symbol" : "\\div",
+                            "operation" : "/"
+                        },
+                        {
+                            "values" : ["D(0.4)", "D(0.5)"],
+                            "symbol" : "\\div",
+                            "operation" : "/"
+                        },
+                        {
+                            "values" : ["D(2)", "D(3)", "D(4)", "D(5)", "D(6)", "D(8)", "D(9)", "D(10)", "D(11)", "D(12)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[3,7,7],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "comment":null
+        },
+        {
+            "id":"CG-G5-35",
+            "parentId":"CG-G5-34",
+            "title":"Decimal and Whole Number Multiplication and Division",
+            "lessons":["5.10"],
+            "shotClockStart":"10",
+            "variableCards":
+               {
+                     "numOfCards":"4",
+                     "startValues":["D(1)"],
+                     "variations":{
+                         "var0" : [40, 50, 60, 100],
+                         "var1" : [0.1, 0.2, 0.3, 0.4, 0.5],
+                         "var2" : [0.1, 0.2, 0.3, 0.4],
+                         "var3" : null
+                    },
+                     "goal":{
+                         "fractionType" : null,
+                         "values" : ["D(40)", "D(50)", "D(60)", "D(80)", "D(100)", "D(120)", "D(150)", "D(160)", "D(180)", "D(200)", "D(240)", "D(250)", "D(300)", "D(320)", "D(360)", "D(400)", "D(480)", "D(500)", "D(600)", "D(800)"]
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["D(var0)"],
+                            "symbol" : "\\times",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["D(var1)"],
+                            "symbol" : "\\times",
+                            "operation" : "*"
+                        },
+                        {
+                            "values" : ["D(var2)"],
+                            "symbol" : "\\div",
+                            "operation" : "/"
+                        },
+                        {
+                            "values" : ["D(2)", "D(3)", "D(4)", "D(5)", "D(6)", "D(8)", "D(9)", "D(10)", "D(11)", "D(12)"],
+                            "symbol" : "\\div",
+                            "operation" : "/"
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[3,7,7],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "comment":null
+        },
+        {
+            "id":"CG-G5-36",
+            "parentId":"CG-G5-35",
+            "title":"Prime and Composite Numbers",
+            "lessons":["7.4"],
+            "shotClockStart":"10",
+            "variableCards":
+               {
+                     "numOfCards":"4",
+                     "startValues":["D(0)"],
+                     "variations":{
+                         "var0" : [7, 11, 13, 17, 23, 29, 31],
+                         "var1" : null,
+                         "var2" : null,
+                         "var3" : null
+                    },
+                     "goal":{
+                         "fractionType" : null,
+                         "values" : ["D(4)", "D(6)", "D(7)", "D(8)", "D(9)", "D(10)", "D(12)", "D(15)", "D(16)"]
+                    },
+                     "cards" : 
+                      [
+                        {
+                            "values" : ["D(var0)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["D(1)"],
+                            "symbol" : "+",
+                            "operation" : "+"
+                        },
+                        {
+                            "values" : ["D(2)", "D(3)"],
+                            "symbol" : "\\div",
+                            "operation" : "/"
+                        },
+                        {
+                            "values" : ["D(2)", "D(3)", "D(4)", "D(5)", "D(6)"],
+                            "symbol" : "\\cdot",
+                            "operation" : "*"
+                        }
+                      ]
+              },
+             "scoring":
+               {
+                     "starthresholds":[3,7,7],
+                     "points":100
+               },
+             "tutorial":
+               {
+                     "T1":null
+               },
+            "comment":null
+        }
+    ]
+}

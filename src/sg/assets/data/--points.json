@@ -1,0 +1,58 @@
+{
+"global":{
+    "successfulPair":10,
+    "comboTile":20,
+    "clearBadGuy":20,
+    "getGoodGuy":20,
+    "earnStar":50
+},
+"gradek":{
+    "successfulPair":10,
+    "comboTile":20,
+    "clearBadGuy":20,
+    "getGoodGuy":20,
+    "earnStar":50
+},
+"grade1":{
+    "successfulPair":10,
+    "comboTile":20,
+    "clearBadGuy":20,
+    "getGoodGuy":20,
+    "earnStar":50
+},
+"grade2":{
+    "successfulPair":10,
+    "comboTile":20,
+    "clearBadGuy":20,
+    "getGoodGuy":20,
+    "earnStar":50
+},
+"grade3":{
+    "successfulPair":10,
+    "comboTile":20,
+    "clearBadGuy":20,
+    "getGoodGuy":20,
+    "earnStar":50
+},
+"grade4":{
+    "successfulPair":10,
+    "comboTile":20,
+    "clearBadGuy":20,
+    "getGoodGuy":20,
+    "earnStar":50
+},
+"grade5":{
+    "successfulPair":10,
+    "comboTile":20,
+    "clearBadGuy":20,
+    "getGoodGuy":20,
+    "earnStar":50
+},
+"grade6":{
+    "successfulPair":10,
+    "comboTile":20,
+    "clearBadGuy":20,
+    "getGoodGuy":20,
+    "earnStar":50
+}
+}

@@ -1,0 +1,35 @@
+﻿{"frames": {
+
+"GGIdle":
+{
+	"frame": {"x":10,"y":10,"w":129,"h":124},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":129,"h":124},
+	"sourceSize": {"w":129,"h":124}
+},
+"GGHappy":
+{
+	"frame": {"x":10,"y":144,"w":129,"h":124},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":129,"h":124},
+	"sourceSize": {"w":129,"h":124}
+},
+"GGSad":
+{
+	"frame": {"x":10,"y":278,"w":129,"h":124},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":129,"h":124},
+	"sourceSize": {"w":129,"h":124}
+}},
+"meta": {
+	"app": "Adobe Animate",
+	"version": "15.2.1.95",
+	"image": "Object_GG1.png",
+	"format": "RGBA8888",
+	"size": {"w":256,"h":512},
+	"scale": "1"
+}
+}

@@ -1,0 +1,1717 @@
+[
+    {
+        "ID": "EX01",
+        "grade": "2",
+        "parentID": "",
+        "gameplayType": "0",
+        "repetition": "3",
+        "members": [
+            {
+                "upper": 5,
+                "lower": 1,
+                "divisibleBy": 1
+            },
+            {
+                "upper": 5,
+                "lower": 1,
+                "divisibleBy": 1
+            }
+        ],
+        "operationType": {
+            "representation": "U = x + y",
+            "id": "0"
+        },
+        "unknown": {
+            "position": "0",
+            "lower": "3",
+            "upper": "8",
+            "divisibleBy": 1
+        },
+        "goodGuyTypes": [
+            0
+        ],
+        "badGuyTypes": [
+            0
+        ],
+        "bench": {
+            "possibleValues": [],
+            "isInfinite": false,
+            "startNumber": "8"
+        },
+        "money": "",
+        "timedParameters": {},
+        "variationParameters": {
+            "variationBad": false,
+            "variationGoodPercent": "0"
+        },
+        "tutorial": {
+            "T4": {},
+            "T5": {},
+            "T2": {},
+            "T3": {},
+            "T1": {}
+        },
+        "subjects": [
+            {
+                "lessons": [
+                    "N/A"
+                ],
+                "unit": "N/A"
+            }
+        ],
+        "comment": ""
+    },
+    {
+        "ID": "EX02",
+        "grade": "2",
+        "parentID": "EX01",
+        "gameplayType": "0",
+        "repetition": 3,
+        "members": [
+            {
+                "upper": 3,
+                "lower": 1,
+                "divisibleBy": 1
+            },
+            {
+                "upper": 3,
+                "lower": 1,
+                "divisibleBy": 1
+            },
+            {
+                "upper": 3,
+                "lower": 1,
+                "divisibleBy": 1
+            }
+        ],
+        "operationType": {
+            "representation": "U = x + y",
+            "id": 0
+        },
+        "unknown": {
+            "position": 0,
+            "lower": 3,
+            "upper": 7,
+            "divisibleBy": 1
+        },
+        "goodGuyTypes": [
+            0
+        ],
+        "badGuyTypes": [
+            0
+        ],
+        "bench": {
+            "possibleValues": [],
+            "isInfinite": false,
+            "startNumber": 10
+        },
+        "money": "",
+        "timedParameters": {},
+        "variationParameters": {
+            "variationBad": false,
+            "variationGoodPercent": "0"
+        },
+        "tutorial": {
+            "T4": {},
+            "T5": {},
+            "T2": {},
+            "T3": {},
+            "T1": {}
+        },
+        "subjects": [
+            {
+                "lessons": [
+                    "N/A"
+                ],
+                "unit": "N/A"
+            }
+        ],
+        "comment": "Sprint 7"
+    },
+    {
+        "ID": "EX03",
+        "grade": "2",
+        "parentID": "EX02",
+        "gameplayType": "0",
+        "repetition": 3,
+        "members": [
+            {
+                "upper": 3,
+                "lower": 1,
+                "divisibleBy": 1
+            },
+            {
+                "upper": 3,
+                "lower": 1,
+                "divisibleBy": 1
+            },
+            {
+                "upper": 3,
+                "lower": 1,
+                "divisibleBy": 1
+            },
+            {
+                "upper": 3,
+                "lower": 1,
+                "divisibleBy": 1
+            }
+        ],
+        "operationType": {
+            "representation": "U = x + y",
+            "id": 0
+        },
+        "unknown": {
+            "position": 0,
+            "lower": 4,
+            "upper": 14,
+            "divisibleBy": 1
+        },
+        "goodGuyTypes": [
+            0
+        ],
+        "badGuyTypes": [
+            0
+        ],
+        "bench": {
+            "possibleValues": [],
+            "isInfinite": false,
+            "startNumber": 10
+        },
+        "money": "",
+        "timedParameters": {},
+        "variationParameters": {
+            "variationBad": false,
+            "variationGoodPercent": "0"
+        },
+        "tutorial": {
+            "T4": {},
+            "T5": {},
+            "T2": {},
+            "T3": {},
+            "T1": {}
+        },
+        "subjects": [
+            {
+                "lessons": [
+                    "N/A"
+                ],
+                "unit": "N/A"
+            }
+        ],
+        "comment": ""
+    },
+    {
+        "ID": "EX04",
+        "grade": "2",
+        "parentID": "EX03",
+        "gameplayType": "0",
+        "repetition": 3,
+        "members": [
+            {
+                "upper": 8,
+                "lower": 1,
+                "divisibleBy": 1
+            },
+            {
+                "upper": 4,
+                "lower": 1,
+                "divisibleBy": 1
+            }
+        ],
+        "operationType": {
+            "representation": "x = y + U",
+            "id": 2
+        },
+        "unknown": {
+            "position": 2,
+            "lower": 3,
+            "upper": 4,
+            "divisibleBy": 1
+        },
+        "goodGuyTypes": [
+            0
+        ],
+        "badGuyTypes": [
+            0
+        ],
+        "bench": {
+            "possibleValues": [],
+            "isInfinite": false,
+            "startNumber": 10
+        },
+        "money": "",
+        "timedParameters": {},
+        "variationParameters": {
+            "variationBad": false,
+            "variationGoodPercent": "0"
+        },
+        "tutorial": {
+            "T4": {},
+            "T5": {},
+            "T2": {},
+            "T3": {},
+            "T1": {}
+        },
+        "subjects": [
+            {
+                "lessons": [
+                    "N/A"
+                ],
+                "unit": "N/A"
+            }
+        ],
+        "comment": "Sprint 7"
+    },
+    {
+        "ID": "EX05",
+        "grade": "2",
+        "parentID": "EX04",
+        "gameplayType": "0",
+        "repetition": 3,
+        "members": [
+            {
+                "upper": 3,
+                "lower": 1,
+                "divisibleBy": 1
+            },
+            {
+                "upper": 5,
+                "lower": 5,
+                "divisibleBy": 1
+            }
+        ],
+        "operationType": {
+            "representation": "U = x + y",
+            "id": 0
+        },
+        "unknown": {
+            "position": 0,
+            "lower": 6,
+            "upper": 8,
+            "divisibleBy": 1
+        },
+        "goodGuyTypes": [
+            0,1,2
+        ],
+        "badGuyTypes": [
+            0,1,2
+        ],
+        "bench": {
+            "possibleValues": [],
+            "isInfinite": false,
+            "startNumber": 10
+        },
+        "money": "",
+        "timedParameters": {},
+        "variationParameters": {
+            "variationBad": false,
+            "variationGoodPercent": "0"
+        },
+        "tutorial": {
+            "T4": {},
+            "T5": {},
+            "T2": {},
+            "T3": {},
+            "T1": {}
+        },
+        "subjects": [
+            {
+                "lessons": [
+                    "N/A"
+                ],
+                "unit": "N/A"
+            }
+        ],
+        "comment": ""
+    },
+    {
+        "ID": "EX06",
+        "grade": "2",
+        "parentID": "EX05",
+        "gameplayType": "0",
+        "repetition": 3,
+        "members": [
+            {
+                "upper": 15,
+                "lower": 6,
+                "divisibleBy": 1
+            },
+            {
+                "upper": 5,
+                "lower": 1,
+                "divisibleBy": 1
+            }
+        ],
+        "operationType": {
+            "representation": "x = y + U",
+            "id": 2
+        },
+        "unknown": {
+            "position": 2,
+            "lower": 5,
+            "upper": 10,
+            "divisibleBy": 5
+        },
+        "goodGuyTypes": [
+            0,1,2
+        ],
+        "badGuyTypes": [
+            0,1,2
+        ],
+        "bench": {
+            "possibleValues": [],
+            "isInfinite": false,
+            "startNumber": 10
+        },
+        "money": "",
+        "timedParameters": {},
+        "variationParameters": {
+            "variationBad": false,
+            "variationGoodPercent": "0"
+        },
+        "tutorial": {
+            "T4": {},
+            "T5": {},
+            "T2": {},
+            "T3": {},
+            "T1": {}
+        },
+        "subjects": [
+            {
+                "lessons": [
+                    "N/A"
+                ],
+                "unit": "N/A"
+            }
+        ],
+        "comment": "Sprint 7"
+    },
+    {
+        "ID": "EX07",
+        "grade": "2",
+        "parentID": "EX06",
+        "gameplayType": "0",
+        "repetition": 3,
+        "members": [
+            {
+                "upper": 40,
+                "lower": 10,
+                "divisibleBy": 10
+            }
+        ],
+        "operationType": {
+            "representation": "U = x + y",
+            "id": 0
+        },
+        "unknown": {
+            "position": 0,
+            "lower": 10,
+            "upper": 40,
+            "divisibleBy": 10
+        },
+        "goodGuyTypes": [
+            1,2
+        ],
+        "badGuyTypes": [
+            4
+        ],
+        "bench": {
+            "possibleValues": [],
+            "isInfinite": true,
+            "startNumber": 2
+        },
+        "money": "",
+        "timedParameters": {},
+        "variationParameters": {
+            "variationBad": false,
+            "variationGoodPercent": "0"
+        },
+        "tutorial": {
+            "T4": {},
+            "T5": {},
+            "T2": {},
+            "T3": {},
+            "T1": {}
+        },
+        "subjects": [
+            {
+                "lessons": [
+                    "N/A"
+                ],
+                "unit": "N/A"
+            }
+        ],
+        "comment": ""
+    },
+    {
+        "ID": "EX08",
+        "grade": "2",
+        "parentID": "EX07",
+        "gameplayType": "0",
+        "repetition": 3,
+        "members": [
+            {
+                "upper": 33,
+                "lower": 21,
+                "divisibleBy": 1
+            },
+            {
+                "upper": 9,
+                "lower": 1,
+                "divisibleBy": 1
+            },
+        ],
+        "operationType": {
+            "representation": "x = y + U",
+            "id": 2
+        },
+        "unknown": {
+            "position": 2,
+            "lower": 20,
+            "upper": 30,
+            "divisibleBy": 10
+        },
+        "goodGuyTypes": [
+            1,2
+        ],
+        "badGuyTypes": [
+            4
+        ],
+        "bench": {
+            "possibleValues": [],
+            "isInfinite": true,
+            "startNumber": 2
+        },
+        "money": "",
+        "timedParameters": {},
+        "variationParameters": {
+            "variationBad": false,
+            "variationGoodPercent": "0"
+        },
+        "tutorial": {
+            "T4": {},
+            "T5": {},
+            "T2": {},
+            "T3": {},
+            "T1": {}
+        },
+        "subjects": [
+            {
+                "lessons": [
+                    "N/A"
+                ],
+                "unit": "N/A"
+            }
+        ],
+        "comment": "Sprint 7"
+    },
+    {
+        "ID": "EX09",
+        "grade": "2",
+        "parentID": "EX08",
+        "gameplayType": "0",
+        "repetition": 3,
+        "members": [
+            {
+                "upper": 10,
+                "lower": 4,
+                "divisibleBy": 1
+            },
+            {
+                "upper": 8,
+                "lower": 3,
+                "divisibleBy": 1
+            },
+        ],
+        "operationType": {
+            "representation": "U = x + y",
+            "id": 0
+        },
+        "unknown": {
+            "position": 0,
+            "lower": 18,
+            "upper": 7,
+            "divisibleBy": 1
+        },
+        "goodGuyTypes": [
+            4
+        ],
+        "badGuyTypes": [
+            4
+        ],
+        "bench": {
+            "possibleValues": [],
+            "isInfinite": false,
+            "startNumber": 11
+        },
+        "money": "",
+        "timedParameters": {},
+        "variationParameters": {
+            "variationBad": false,
+            "variationGoodPercent": "0"
+        },
+        "tutorial": {
+            "T4": {},
+            "T5": {},
+            "T2": {},
+            "T3": {},
+            "T1": {}
+        },
+        "subjects": [
+            {
+                "lessons": [
+                    "N/A"
+                ],
+                "unit": "N/A"
+            }
+        ],
+        "comment": ""
+    },
+    {
+        "ID": "EX10",
+        "grade": "2",
+        "parentID": "EX09",
+        "gameplayType": "0",
+        "repetition": 3,
+        "members": [
+            {
+                "upper": 10,
+                "lower": 4,
+                "divisibleBy": 1
+            },
+            {
+                "upper": 8,
+                "lower": 3,
+                "divisibleBy": 1
+            },
+        ],
+        "operationType": {
+            "representation": "x = y + U",
+            "id": 2
+        },
+        "unknown": {
+            "position": 2,
+            "lower": 1,
+            "upper": 7,
+            "divisibleBy": 1
+        },
+        "goodGuyTypes": [
+            4
+        ],
+        "badGuyTypes": [
+            4
+        ],
+        "bench": {
+            "possibleValues": [],
+            "isInfinite": false,
+            "startNumber": 6
+        },
+        "money": "",
+        "timedParameters": {},
+        "variationParameters": {
+            "variationBad": false,
+            "variationGoodPercent": "0"
+        },
+        "tutorial": {
+            "T4": {},
+            "T5": {},
+            "T2": {},
+            "T3": {},
+            "T1": {}
+        },
+        "subjects": [
+            {
+                "lessons": [
+                    "N/A"
+                ],
+                "unit": "N/A"
+            }
+        ],
+        "comment": "Sprint 7"
+    },
+    {
+        "ID": "EX11",
+        "grade": "2",
+        "parentID": "EX10",
+        "gameplayType": "0",
+        "repetition": 3,
+        "members": [
+            {
+                "upper": 18,
+                "lower": 4,
+                "divisibleBy": 1
+            },
+            {
+                "upper": 8,
+                "lower": 2,
+                "divisibleBy": 1
+            },
+            {
+                "upper": 8,
+                "lower": 1,
+                "divisibleBy": 1
+            },
+        ],
+        "operationType": {
+            "representation": "x = y + U",
+            "id": 2
+        },
+        "unknown": {
+            "position": 3,
+            "lower": 1,
+            "upper": 8,
+            "divisibleBy": 1
+        },
+        "goodGuyTypes": [
+            4
+        ],
+        "badGuyTypes": [
+            4
+        ],
+        "bench": {
+            "possibleValues": [],
+            "isInfinite": false,
+            "startNumber": 7
+        },
+        "money": "",
+        "timedParameters": {},
+        "variationParameters": {
+            "variationBad": false,
+            "variationGoodPercent": "0"
+        },
+        "tutorial": {
+            "T4": {},
+            "T5": {},
+            "T2": {},
+            "T3": {},
+            "T1": {}
+        },
+        "subjects": [
+            {
+                "lessons": [
+                    "N/A"
+                ],
+                "unit": "N/A"
+            }
+        ],
+        "comment": "Sprint 7"
+    },
+    {
+        "ID": "EX12",
+        "grade": "2",
+        "parentID": "EX11",
+        "gameplayType": "0",
+        "repetition": 3,
+        "members": [
+            {
+                "upper": 32,
+                "lower": 4,
+                "divisibleBy": 1
+            },
+            {
+                "upper": 8,
+                "lower": 2,
+                "divisibleBy": 1
+            },
+            {
+                "upper": 8,
+                "lower": 1,
+                "divisibleBy": 1
+            },
+            {
+                "upper": 8,
+                "lower": 1,
+                "divisibleBy": 1
+            },
+        ],
+        "operationType": {
+            "representation": "x = y + U",
+            "id": 2
+        },
+        "unknown": {
+            "position": 4,
+            "lower": 1,
+            "upper": 8,
+            "divisibleBy": 1
+        },
+        "goodGuyTypes": [
+            4
+        ],
+        "badGuyTypes": [
+            4
+        ],
+        "bench": {
+            "possibleValues": [],
+            "isInfinite": false,
+            "startNumber": 7
+        },
+        "money": "",
+        "timedParameters": {},
+        "variationParameters": {
+            "variationBad": false,
+            "variationGoodPercent": "0"
+        },
+        "tutorial": {
+            "T4": {},
+            "T5": {},
+            "T2": {},
+            "T3": {},
+            "T1": {}
+        },
+        "subjects": [
+            {
+                "lessons": [
+                    "N/A"
+                ],
+                "unit": "N/A"
+            }
+        ],
+        "comment": "Sprint 7"
+    },
+    {
+        "ID": "EX13",
+        "grade": "2",
+        "parentID": "EX04",
+        "gameplayType": "1",
+        "repetition": 3,
+        "members": [
+            {
+                "upper": 199,
+                "lower": 111,
+                "divisibleBy": 1
+            },
+            {
+                "upper": 999,
+                "lower": 555,
+                "divisibleBy": 1
+            }
+        ],
+        "operationType": {
+            "representation": "U = x + y",
+            "id": 0
+        },
+        "unknown": {
+            "position": 0,
+            "lower": 399,
+            "upper": 999,
+            "divisibleBy": 1
+        },
+        "goodGuyTypes": [
+            4
+        ],
+        "badGuyTypes": [
+            4
+        ],
+        "bench": {
+            "possibleValues": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+            "isInfinite": true,
+            "startNumber": 10
+        },
+        "money": "",
+        "timedParameters": {},
+        "variationParameters": {
+            "variationBad": false,
+            "variationGoodPercent": "0"
+        },
+        "tutorial": {
+            "T4": {},
+            "T5": {},
+            "T2": {},
+            "T3": {},
+            "T1": {}
+        },
+        "subjects": [
+            {
+                "lessons": [
+                    "N/A"
+                ],
+                "unit": "N/A"
+            }
+        ],
+        "comment": ""
+    },
+    {
+        "ID": "EX14",
+        "grade": "2",
+        "parentID": "EX13",
+        "gameplayType": "1",
+        "repetition": 3,
+        "members": [
+            {
+                "upper": 199,
+                "lower": 111,
+                "divisibleBy": 1
+            },
+            {
+                "upper": 999,
+                "lower": 555,
+                "divisibleBy": 1
+            }
+        ],
+        "operationType": {
+            "representation": "U = x + y",
+            "id": 0
+        },
+        "unknown": {
+            "position": 0,
+            "lower": 399,
+            "upper": 1998,
+            "divisibleBy": 2
+        },
+        "goodGuyTypes": [
+            4
+        ],
+        "badGuyTypes": [
+            4
+        ],
+        "bench": {
+            "possibleValues": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+            "isInfinite": true,
+            "startNumber": 10
+        },
+        "money": "",
+        "timedParameters": {},
+        "variationParameters": {
+            "variationBad": false,
+            "variationGoodPercent": "0"
+        },
+        "tutorial": {
+            "T4": {},
+            "T5": {},
+            "T2": {},
+            "T3": {},
+            "T1": {}
+        },
+        "subjects": [
+            {
+                "lessons": [
+                    "N/A"
+                ],
+                "unit": "N/A"
+            }
+        ],
+        "comment": ""
+    },
+    {
+        "ID": "EX15",
+        "grade": "2",
+        "parentID": "EX14",
+        "gameplayType": "1",
+        "repetition": 3,
+        "members": [
+            {
+                "upper": 9.99,
+                "lower": 1.11,
+                "divisibleBy": 1
+            },
+            {
+                "upper": 9.99,
+                "lower": 2.11,
+                "divisibleBy": 1
+            }
+        ],
+        "operationType": {
+            "representation": "U = x + y",
+            "id": 0
+        },
+        "unknown": {
+            "position": 0,
+            "lower": 3.99,
+            "upper": 21.99,
+            "divisibleBy": 1
+        },
+        "goodGuyTypes": [
+            4
+        ],
+        "badGuyTypes": [
+            4
+        ],
+        "bench": {
+            "possibleValues": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+            "isInfinite": true,
+            "startNumber": 10
+        },
+        "money": "dollar",
+        "timedParameters": {},
+        "variationParameters": {
+            "variationBad": false,
+            "variationGoodPercent": "0"
+        },
+        "tutorial": {
+            "T4": {},
+            "T5": {},
+            "T2": {},
+            "T3": {},
+            "T1": {}
+        },
+        "subjects": [
+            {
+                "lessons": [
+                    "N/A"
+                ],
+                "unit": "N/A"
+            }
+        ],
+        "comment": ""
+    },
+    {
+        "ID": "EX16",
+        "grade": "2",
+        "parentID": "EX15",
+        "gameplayType": "1",
+        "repetition": 3,
+        "members": [
+            {
+                "upper": 999,
+                "lower": 111,
+                "divisibleBy": 1
+            },
+            {
+                "upper": 999,
+                "lower": 211,
+                "divisibleBy": 1
+            }
+        ],
+        "operationType": {
+            "representation": "U = x + y",
+            "id": 0
+        },
+        "unknown": {
+            "position": 0,
+            "lower": 1000,
+            "upper": 2000,
+            "divisibleBy": 1
+        },
+        "goodGuyTypes": [
+            4
+        ],
+        "badGuyTypes": [
+            4
+        ],
+        "bench": {
+            "possibleValues": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+            "isInfinite": true,
+            "startNumber": 10
+        },
+        "money": "dollar",
+        "timedParameters": {},
+        "variationParameters": {
+            "variationBad": false,
+            "variationGoodPercent": "0"
+        },
+        "tutorial": {
+            "T4": {},
+            "T5": {},
+            "T2": {},
+            "T3": {},
+            "T1": {}
+        },
+        "subjects": [
+            {
+                "lessons": [
+                    "N/A"
+                ],
+                "unit": "N/A"
+            }
+        ],
+        "comment": ""
+    },
+    {
+        "ID": "EX17",
+        "grade": "2",
+        "parentID": "EX16",
+        "gameplayType": "1",
+        "repetition": 3,
+        "members": [
+            {
+                "upper": 999,
+                "lower": 111,
+                "divisibleBy": 1
+            },
+            {
+                "upper": 999,
+                "lower": 211,
+                "divisibleBy": 1
+            }
+        ],
+        "operationType": {
+            "representation": "U = x + y",
+            "id": 0
+        },
+        "unknown": {
+            "position": 0,
+            "lower": 1000,
+            "upper": 2000,
+            "divisibleBy": 1
+        },
+        "goodGuyTypes": [
+            4
+        ],
+        "badGuyTypes": [
+            4
+        ],
+        "bench": {
+            "possibleValues": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+            "isInfinite": true,
+            "startNumber": 10
+        },
+        "money": "cent",
+        "timedParameters": {},
+        "variationParameters": {
+            "variationBad": false,
+            "variationGoodPercent": "0"
+        },
+        "tutorial": {
+            "T4": {},
+            "T5": {},
+            "T2": {},
+            "T3": {},
+            "T1": {}
+        },
+        "subjects": [
+            {
+                "lessons": [
+                    "N/A"
+                ],
+                "unit": "N/A"
+            }
+        ],
+        "comment": ""
+    },
+    {
+        "ID": "EX18",
+        "grade": "2",
+        "parentID": "EX17",
+        "gameplayType": "1",
+        "repetition": 3,
+        "members": [
+            {
+                "upper": 999,
+                "lower": 111,
+                "divisibleBy": 1
+            },
+            {
+                "upper": 999,
+                "lower": 211,
+                "divisibleBy": 1
+            }
+        ],
+        "operationType": {
+            "representation": "U = x + y",
+            "id": 0
+        },
+        "unknown": {
+            "position": 0,
+            "lower": 1000,
+            "upper": 2000,
+            "divisibleBy": 1
+        },
+        "goodGuyTypes": [
+            4
+        ],
+        "badGuyTypes": [
+            4
+        ],
+        "bench": {
+            "possibleValues": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+            "isInfinite": true,
+            "startNumber": 10
+        },
+        "money": "",
+        "timedParameters": {},
+        "variationParameters": {
+            "variationBad": false,
+            "variationGoodPercent": "0"
+        },
+        "tutorial": {
+            "T4": {},
+            "T5": {},
+            "T2": {},
+            "T3": {},
+            "T1": {}
+        },
+        "subjects": [
+            {
+                "lessons": [
+                    "N/A"
+                ],
+                "unit": "N/A"
+            }
+        ],
+        "comment": ""
+    },
+    {
+        "ID": "EX17",
+        "grade": "2",
+        "parentID": "EX16",
+        "gameplayType": "1",
+        "repetition": 3,
+        "members": [
+            {
+                "upper": 999,
+                "lower": 311,
+                "divisibleBy": 1
+            },
+            {
+                "upper": 999,
+                "lower": 211,
+                "divisibleBy": 1
+            },
+            {
+                "upper": 999,
+                "lower": 111,
+                "divisibleBy": 1
+            }
+        ],
+        "operationType": {
+            "representation": "U = x + y",
+            "id": 0
+        },
+        "unknown": {
+            "position": 0,
+            "lower": 1000,
+            "upper": 3000,
+            "divisibleBy": 1
+        },
+        "goodGuyTypes": [
+            4
+        ],
+        "badGuyTypes": [
+            4
+        ],
+        "bench": {
+            "possibleValues": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+            "isInfinite": true,
+            "startNumber": 10
+        },
+        "money": "",
+        "timedParameters": {},
+        "variationParameters": {
+            "variationBad": false,
+            "variationGoodPercent": "0"
+        },
+        "tutorial": {
+            "T4": {},
+            "T5": {},
+            "T2": {},
+            "T3": {},
+            "T1": {}
+        },
+        "subjects": [
+            {
+                "lessons": [
+                    "N/A"
+                ],
+                "unit": "N/A"
+            }
+        ],
+        "comment": ""
+    },
+    {
+        "ID": "EX18",
+        "grade": "2",
+        "parentID": "EX17",
+        "gameplayType": "1",
+        "repetition": 3,
+        "members": [
+            {
+                "upper": 999,
+                "lower": 411,
+                "divisibleBy": 1
+            },
+            {
+                "upper": 999,
+                "lower": 311,
+                "divisibleBy": 1
+            },
+            {
+                "upper": 999,
+                "lower": 211,
+                "divisibleBy": 1
+            },
+            {
+                "upper": 999,
+                "lower": 111,
+                "divisibleBy": 1
+            }
+        ],
+        "operationType": {
+            "representation": "U = x + y",
+            "id": 0
+        },
+        "unknown": {
+            "position": 0,
+            "lower": 1000,
+            "upper": 3000,
+            "divisibleBy": 1
+        },
+        "goodGuyTypes": [
+            4
+        ],
+        "badGuyTypes": [
+            4
+        ],
+        "bench": {
+            "possibleValues": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+            "isInfinite": true,
+            "startNumber": 10
+        },
+        "money": "",
+        "timedParameters": {},
+        "variationParameters": {
+            "variationBad": false,
+            "variationGoodPercent": "0"
+        },
+        "tutorial": {
+            "T4": {},
+            "T5": {},
+            "T2": {},
+            "T3": {},
+            "T1": {}
+        },
+        "subjects": [
+            {
+                "lessons": [
+                    "N/A"
+                ],
+                "unit": "N/A"
+            }
+        ],
+        "comment": ""
+    },
+    {
+        "ID": "EX19",
+        "grade": "2",
+        "parentID": "EX18",
+        "gameplayType": "1",
+        "repetition": 3,
+        "members": [
+            {
+                "upper": 999,
+                "lower": 411,
+                "divisibleBy": 1
+            },
+            {
+                "upper": 600,
+                "lower": 100,
+                "divisibleBy": 1
+            }
+        ],
+        "operationType": {
+            "representation": "U = x - y",
+            "id": 3
+        },
+        "unknown": {
+            "position": 0,
+            "lower": 390,
+            "upper": 899,
+            "divisibleBy": 1
+        },
+        "goodGuyTypes": [
+            4
+        ],
+        "badGuyTypes": [
+            4
+        ],
+        "bench": {
+            "possibleValues": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+            "isInfinite": true,
+            "startNumber": 10
+        },
+        "money": "",
+        "timedParameters": {},
+        "variationParameters": {
+            "variationBad": false,
+            "variationGoodPercent": "0"
+        },
+        "tutorial": {
+            "T4": {},
+            "T5": {},
+            "T2": {},
+            "T3": {},
+            "T1": {}
+        },
+        "subjects": [
+            {
+                "lessons": [
+                    "N/A"
+                ],
+                "unit": "N/A"
+            }
+        ],
+        "comment": ""
+    },
+    {
+        "ID": "EX20",
+        "grade": "2",
+        "parentID": "EX19",
+        "gameplayType": "1",
+        "repetition": 3,
+        "members": [
+            {
+                "upper": 1000,
+                "lower": 411,
+                "divisibleBy": 1
+            },
+            {
+                "upper": 999,
+                "lower": 100,
+                "divisibleBy": 1
+            }
+        ],
+        "operationType": {
+            "representation": "U = x - y",
+            "id": 3
+        },
+        "unknown": {
+            "position": 0,
+            "lower": 390,
+            "upper": 899,
+            "divisibleBy": 1
+        },
+        "goodGuyTypes": [
+            4
+        ],
+        "badGuyTypes": [
+            4
+        ],
+        "bench": {
+            "possibleValues": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+            "isInfinite": true,
+            "startNumber": 10
+        },
+        "money": "",
+        "timedParameters": {},
+        "variationParameters": {
+            "variationBad": false,
+            "variationGoodPercent": "0"
+        },
+        "tutorial": {
+            "T4": {},
+            "T5": {},
+            "T2": {},
+            "T3": {},
+            "T1": {}
+        },
+        "subjects": [
+            {
+                "lessons": [
+                    "N/A"
+                ],
+                "unit": "N/A"
+            }
+        ],
+        "comment": ""
+    },
+    {
+        "ID": "EX20",
+        "grade": "2",
+        "parentID": "EX19",
+        "gameplayType": "1",
+        "repetition": 3,
+        "members": [
+            {
+                "upper": 600,
+                "lower": 100,
+                "divisibleBy": 1
+            },
+            {
+                "upper": 800,
+                "lower": 100,
+                "divisibleBy": 1
+            }
+        ],
+        "operationType": {
+            "representation": "x = U - y",
+            "id": 4
+        },
+        "unknown": {
+            "position": 0,
+            "lower": 999,
+            "upper": 2000,
+            "divisibleBy": 1
+        },
+        "goodGuyTypes": [
+            4
+        ],
+        "badGuyTypes": [
+            4
+        ],
+        "bench": {
+            "possibleValues": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+            "isInfinite": true,
+            "startNumber": 10
+        },
+        "money": "",
+        "timedParameters": {},
+        "variationParameters": {
+            "variationBad": false,
+            "variationGoodPercent": "0"
+        },
+        "tutorial": {
+            "T4": {},
+            "T5": {},
+            "T2": {},
+            "T3": {},
+            "T1": {}
+        },
+        "subjects": [
+            {
+                "lessons": [
+                    "N/A"
+                ],
+                "unit": "N/A"
+            }
+        ],
+        "comment": ""
+    },
+    {
+        "ID": "EX21",
+        "grade": "2",
+        "parentID": "EX20",
+        "gameplayType": "1",
+        "repetition": 3,
+        "members": [
+            {
+                "upper": 3000,
+                "lower": 1000,
+                "divisibleBy": 1
+            },
+            {
+                "upper": 2000,
+                "lower": 100,
+                "divisibleBy": 1
+            }
+        ],
+        "operationType": {
+            "representation": "x = y - U",
+            "id": 5
+        },
+        "unknown": {
+            "position": 0,
+            "lower": 100,
+            "upper": 800,
+            "divisibleBy": 1
+        },
+        "goodGuyTypes": [
+            4
+        ],
+        "badGuyTypes": [
+            4
+        ],
+        "bench": {
+            "possibleValues": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+            "isInfinite": true,
+            "startNumber": 10
+        },
+        "money": "",
+        "timedParameters": {},
+        "variationParameters": {
+            "variationBad": false,
+            "variationGoodPercent": "0"
+        },
+        "tutorial": {
+            "T4": {},
+            "T5": {},
+            "T2": {},
+            "T3": {},
+            "T1": {}
+        },
+        "subjects": [
+            {
+                "lessons": [
+                    "N/A"
+                ],
+                "unit": "N/A"
+            }
+        ],
+        "comment": ""
+    },
+    {
+        "ID": "EX22",
+        "grade": "2",
+        "parentID": "EX21",
+        "gameplayType": "1",
+        "repetition": 3,
+        "members": [
+            {
+                "upper": 20.50,
+                "lower": 10.50,
+                "divisibleBy": 1
+            },
+            {
+                "upper": 9.50,
+                "lower": 1.00,
+                "divisibleBy": 1
+            }
+        ],
+        "operationType": {
+            "representation": "U = x - y",
+            "id": 3
+        },
+        "unknown": {
+            "position": 0,
+            "lower": 1.50,
+            "upper": 9.00,
+            "divisibleBy": 1
+        },
+        "goodGuyTypes": [
+            4
+        ],
+        "badGuyTypes": [
+            4
+        ],
+        "bench": {
+            "possibleValues": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+            "isInfinite": true,
+            "startNumber": 10
+        },
+        "money": "dollar",
+        "timedParameters": {},
+        "variationParameters": {
+            "variationBad": false,
+            "variationGoodPercent": "0"
+        },
+        "tutorial": {
+            "T4": {},
+            "T5": {},
+            "T2": {},
+            "T3": {},
+            "T1": {}
+        },
+        "subjects": [
+            {
+                "lessons": [
+                    "N/A"
+                ],
+                "unit": "N/A"
+            }
+        ],
+        "comment": ""
+    },
+    {
+        "ID": "EX23",
+        "grade": "2",
+        "parentID": "EX22",
+        "gameplayType": "1",
+        "repetition": 3,
+        "members": [
+            {
+                "upper": 3000,
+                "lower": 1000,
+                "divisibleBy": 10
+            },
+            {
+                "upper": 950,
+                "lower": 100,
+                "divisibleBy": 10
+            }
+        ],
+        "operationType": {
+            "representation": "U = x - y",
+            "id": 3
+        },
+        "unknown": {
+            "position": 0,
+            "lower": 150,
+            "upper": 900,
+            "divisibleBy": 10
+        },
+        "goodGuyTypes": [
+            4
+        ],
+        "badGuyTypes": [
+            4
+        ],
+        "bench": {
+            "possibleValues": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+            "isInfinite": true,
+            "startNumber": 10
+        },
+        "money": "dollar",
+        "timedParameters": {},
+        "variationParameters": {
+            "variationBad": false,
+            "variationGoodPercent": "0"
+        },
+        "tutorial": {
+            "T4": {},
+            "T5": {},
+            "T2": {},
+            "T3": {},
+            "T1": {}
+        },
+        "subjects": [
+            {
+                "lessons": [
+                    "N/A"
+                ],
+                "unit": "N/A"
+            }
+        ],
+        "comment": ""
+    },
+    {
+        "ID": "EX24",
+        "grade": "2",
+        "parentID": "EX23",
+        "gameplayType": "1",
+        "repetition": 3,
+        "members": [
+            {
+                "upper": 3000,
+                "lower": 1000,
+                "divisibleBy": 10
+            },
+            {
+                "upper": 950,
+                "lower": 100,
+                "divisibleBy": 10
+            }
+        ],
+        "operationType": {
+            "representation": "U = x - y",
+            "id": 3
+        },
+        "unknown": {
+            "position": 0,
+            "lower": 150,
+            "upper": 900,
+            "divisibleBy": 10
+        },
+        "goodGuyTypes": [
+            4
+        ],
+        "badGuyTypes": [
+            4
+        ],
+        "bench": {
+            "possibleValues": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+            "isInfinite": true,
+            "startNumber": 10
+        },
+        "money": "cent",
+        "timedParameters": {},
+        "variationParameters": {
+            "variationBad": false,
+            "variationGoodPercent": "0"
+        },
+        "tutorial": {
+            "T4": {},
+            "T5": {},
+            "T2": {},
+            "T3": {},
+            "T1": {}
+        },
+        "subjects": [
+            {
+                "lessons": [
+                    "N/A"
+                ],
+                "unit": "N/A"
+            }
+        ],
+        "comment": ""
+    },
+
+]

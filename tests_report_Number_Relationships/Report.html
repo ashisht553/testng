@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>Testing Report - Number Relationships</title>
+    <style type="text/css">html,body{font-family:Arial,sans-serif;font-size:1rem;margin:0;padding:0;}body{padding:10px 40px;}h1{margin-bottom:0;}h2{margin-top:0;margin-bottom:0;color:#999;}table{width:100%;margin-top:20px;margin-bottom:20px;table-layout:fixed;}tr.header{background:#ddd;font-weight:bold;border-bottom:none;}td{padding:7px;border-top:none;border-left:1px black solid;border-bottom:1px black solid;border-right:none;word-break:break-all;word-wrap:break-word;}tr.pass td{color:#003b07;background:#86e191;}tr.skip td{color:#7d3a00;background:#ffd24a;}tr.fail td{color:#5e0e00;background:#ff9c8a;}tr:first-child td{border-top:1px black solid;}td:last-child{border-right:1px black solid;}tr.overview{font-weight:bold;color:#777;}tr.overview td{padding-bottom:0px;border-bottom:none;}tr.system-out td{color:#777;}tr.system-errors td{color:#f00;}hr{height:2px;margin:30px 0;background:#000;border:none;}section{margin-top:40px;}h3{margin:6px 0;}.overview{color:#333;font-weight:bold;}.system-out{margin:0.4rem 0;}.system-errors{color:#a94442}.spec{padding:0.8rem;margin:0.3rem 0;}.spec--pass{color:#3c763d;background-color:#dff0d8;border:1px solid #d6e9c6;}.spec--skip{color:#8a6d3b;background-color:#fcf8e3;border:1px solid #faebcc;}.spec--fail{color:#a94442;background-color:#f2dede;border:1px solid #ebccd1;}.spec--group{color:#636363;background-color:#f0f0f0;border:1px solid #e6e6e6;margin:0;}.spec--group:not(:first-of-type){margin:20px 0 0 0;}.spec__title{display:inline;}.spec__suite{display:inline;}.spec__descrip{font-weight:normal;}.spec__status{float:right;}.spec__log{padding-left: 2.3rem;}.hidden{display:none;}body.compact .spec p{margin-top:0;margin-bottom:0.5rem;}body.compact .spec,body.compact tr,body.compact .overview,body.compact .system-out,body.compact .system-errors{font-size:0.85rem;}body.compact .spec{padding:0.3rem 0.5rem;}body.compact section{margin-top:30px;}</style>
+  </head>
+  <body class="compact">
+    <h1>Testing Report</h1>
+    <h2>Number Relationships</h2>
+    <table cellspacing="0" cellpadding="0" border="0">
+      <tr class="overview">
+        <td colspan="3" title="Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36">Browser: Chrome 66.0.3359 (Windows 8.1 0.0.0)</td>
+      </tr>
+      <tr class="overview">
+        <td colspan="3">Timestamp: 2018-5-31 17:27:41</td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          34 tests / 
+          0 errors / 
+          6 failures / 
+          0 skipped / 
+          runtime: 0.179s
+        </td>
+      </tr>
+      <tr class="header">
+        <td>Status</td>
+        <td>Spec</td>
+        <td>Suite / Results</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0.003s</td>
+        <td>Testing engine method replaceVariableValues</td>
+        <td>Test Slider Game state base</td>
+      </tr>
+      <tr class="fail">
+        <td>Failed</td>
+        <td>Testing engine method setJSONLevel</td>
+        <td>
+          Test Slider Game Engine
+          <br />ReferenceError: _ is not defined
+    at EngineBase.setFilteredGridValues (D:/WorkSpace_Game/HMHCLAS-376/dist/dev/app/engine/slider.engine.js:9:54975)
+    at EngineBase.initGameData (D:/WorkSpace_Game/HMHCLAS-376/dist/dev/app/engine/slider.engine.js:9:18135)
+    at EngineBase.setJSONLevel (D:/WorkSpace_Game/HMHCLAS-376/dist/dev/app/engine/slider.engine.js:9:16285)
+    at Object.eval (D:/WorkSpace_Game/HMHCLAS-376/dist/dev/app/engine/specs/sliderGame.engine.spec.js:45:20)
+
+        </td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0.004s</td>
+        <td>Testing engine method setGradePointsData</td>
+        <td>Test Slider Game Engine</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0.006s</td>
+        <td>Testing engine method getCloneJSON</td>
+        <td>Test Slider Game Engine</td>
+      </tr>
+      <tr class="fail">
+        <td>Failed</td>
+        <td>Testing engine method replaceVariableValues</td>
+        <td>
+          Test Slider Game Engine
+          <br />Expected 'var0 * 6' to equal '5 * 6'.
+    at Object.eval (D:/WorkSpace_Game/HMHCLAS-376/dist/dev/app/engine/specs/sliderGame.engine.spec.js:56:72)
+
+        </td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0.005s</td>
+        <td>Testing engine method isTestMode</td>
+        <td>Test Slider Game Engine</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0.006s</td>
+        <td>Testing engine method getTutorialVideo</td>
+        <td>Test Slider Game Engine</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0.005s</td>
+        <td>Testing engine method toNormal</td>
+        <td>Test Slider Game Engine</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0.004s</td>
+        <td>Testing engine method toMixed</td>
+        <td>Test Slider Game Engine</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0.004s</td>
+        <td>Testing engine method toFraction</td>
+        <td>Test Slider Game Engine</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0.006s</td>
+        <td>Testing engine method getMixedNumberFraction</td>
+        <td>Test Slider Game Engine</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0.005s</td>
+        <td>Testing engine method getSimpleFraction</td>
+        <td>Test Slider Game Engine</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0.005s</td>
+        <td>Testing engine method toMachineCodeString</td>
+        <td>Test Slider Game Engine</td>
+      </tr>
+      <tr class="fail">
+        <td>Failed</td>
+        <td>Testing engine method calculateLatexParam</td>
+        <td>
+          Test Slider Game Engine
+          <br />ReferenceError: algebra is not defined
+    at EngineBase.GlobalCardMethods.calculateLatexParam (D:/WorkSpace_Game/HMHCLAS-376/dist/dev/app/engine/slider.engine.js:9:12975)
+    at Object.eval (D:/WorkSpace_Game/HMHCLAS-376/dist/dev/app/engine/specs/sliderGame.engine.spec.js:83:37)
+
+        </td>
+      </tr>
+      <tr class="fail">
+        <td>Failed</td>
+        <td>Testing engine method getCardValueType</td>
+        <td>
+          Test Slider Game Engine
+          <br />ReferenceError: algebra is not defined
+    at EngineBase.GlobalCardMethods.calculateLatexParam (D:/WorkSpace_Game/HMHCLAS-376/dist/dev/app/engine/slider.engine.js:9:12975)
+    at EngineBase.GlobalCardMethods.getCardValueType (D:/WorkSpace_Game/HMHCLAS-376/dist/dev/app/engine/slider.engine.js:9:4478)
+    at Object.eval (D:/WorkSpace_Game/HMHCLAS-376/dist/dev/app/engine/specs/sliderGame.engine.spec.js:86:37)
+
+        </td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0.004s</td>
+        <td>Testing engine method isIntorDecimalCardValue</td>
+        <td>Test Slider Game Engine</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0.006s</td>
+        <td>Testing engine method isFractionCardValue</td>
+        <td>Test Slider Game Engine</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0.005s</td>
+        <td>Testing engine method isPercentageCardValue</td>
+        <td>Test Slider Game Engine</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0.005s</td>
+        <td>Testing engine method getOperationSymbol</td>
+        <td>Test Slider Game Engine</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0.007s</td>
+        <td>Testing engine method getLatexURL</td>
+        <td>Test Slider Game Engine</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0.005s</td>
+        <td>Testing engine method latexParamToURL</td>
+        <td>Test Slider Game Engine</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0.005s</td>
+        <td>Testing engine method setMaxGoodAndBadGuy</td>
+        <td>Test Slider Game Engine</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0.006s</td>
+        <td>Testing engine method hcf</td>
+        <td>Test Slider Game Engine</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0.004s</td>
+        <td>Testing engine method generateRandomNumber</td>
+        <td>Test Slider Game Engine</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0.006s</td>
+        <td>Testing engine method getStarThreshold</td>
+        <td>Test Slider Game Engine</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0.006s</td>
+        <td>Testing levelIndex should be numeric value</td>
+        <td>Test Slider Game Engine</td>
+      </tr>
+      <tr class="fail">
+        <td>Failed</td>
+        <td>Testing engine to verify game is over</td>
+        <td>
+          Test Slider Game Engine
+          <br />Expected undefined not to be undefined.
+    at Object.eval (D:/WorkSpace_Game/HMHCLAS-376/dist/dev/app/engine/specs/sliderGame.engine.spec.js:129:99)
+
+          <br />TypeError: Cannot read property 'completed' of undefined
+    at Object.eval (D:/WorkSpace_Game/HMHCLAS-376/dist/dev/app/engine/specs/sliderGame.engine.spec.js:130:94)
+
+        </td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0.005s</td>
+        <td>Testing engine method to verify User Level</td>
+        <td>Test Slider Game Engine</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0.006s</td>
+        <td>Testing engine to verify userIdentity is student</td>
+        <td>Test Slider Game Engine</td>
+      </tr>
+      <tr class="fail">
+        <td>Failed</td>
+        <td>Testing engine to verify userIdentity is teacher</td>
+        <td>
+          Test Slider Game Engine
+          <br />Expected 'student' to equal ''.
+    at Object.eval (D:/WorkSpace_Game/HMHCLAS-376/dist/dev/app/engine/specs/sliderGame.engine.spec.js:139:36)
+
+        </td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0.005s</td>
+        <td>Testing engine to verify intial level 1 for student should be unlock</td>
+        <td>Test Slider Game Engine</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0.006s</td>
+        <td>Testing engine to current level is unlock for student mode</td>
+        <td>Test Slider Game Engine</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0.005s</td>
+        <td>Testing engine to from initial level to level 3 all levels are unlock for student mode</td>
+        <td>Test Slider Game Engine</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0.006s</td>
+        <td>Testing engine to from level 2 next all are levels lock for student mode</td>
+        <td>Test Slider Game Engine</td>
+      </tr>
+      <tr class="system-out">
+        <td colspan="3"><strong>System output:</strong><br />Chrome 66.0.3359 (Windows 8.1 0.0.0) LOG: 'JSON ERROR... var0 is NULL for var0 * 6'
+</td>
+      </tr>
+    </table>
+    <hr/>
+  </body>
+</html>
