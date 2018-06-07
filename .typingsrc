@@ -1,0 +1,2 @@
+proxy=http://http://192.168.87.27:8080
+rejectUnauthorized=false
